@@ -9,4 +9,4 @@ Currently Added Fakemon:
 - Ivorice - Ghost/Ice - Evolves from Bowne with an Ice Stone!
 - Withereign - Ghost/Poison - Evolves from Bowne with a Netherite Ingot!
 
-Pumpkid - Grass - Spawns near pumpkins!
+- Pumpkid - Grass - Spawns near pumpkins!
