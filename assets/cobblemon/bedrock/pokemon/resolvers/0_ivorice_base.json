@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:ivorice",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:ivorice",
+     "model": "cobblemon:ivorice.geo",
+     "texture": "cobblemon:textures/pokemon/ivorice/ivorice.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/ivorice/ivorice_shiny.png"
+   }
+ ]
+}

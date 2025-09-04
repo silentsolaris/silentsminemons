@@ -1,0 +1,182 @@
+{
+  "implemented": true,
+  "name": "ivorice",
+  "nationalPokedexNumber": 203,
+  "primaryType": "ghost",
+  "secondaryType": "ice",
+  "abilities": [
+    "snowcloak",
+    "longreach",
+    "h:slushrush"
+  ],
+  "baseStats": {
+    "hp": 70,
+    "attack": 115,
+    "defence": 70,
+    "special_attack": 75,
+    "special_defence": 70,
+    "speed": 70
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": false,
+      "depth": "normal",
+      "light": "0-4",
+      "willSleepOnBed": false,
+      "times": "night"
+    },
+    "moving": {
+      "canLook": true,
+      "walk": {
+        "canWalk": true,
+        "avoidsLand": false
+      },
+      "swim": {
+        "swimSpeed": 0.3,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false
+      },
+      "fly": {
+        "canFly": false,
+        "flySpeedHorizontal": 0.3
+      },
+      "wanderChance": 1
+    }
+  },
+  "catchRate": 50,
+  "maleRatio": 0.5,
+  "shoulderMountable": false,
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_slow",
+  "eggCycles": 25,
+  "eggGroups": [
+    "amorphous",
+    "human_like"
+  ],
+  "drops": {
+    "amount": 1,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "1-5",
+        "percentage": 71
+      }
+    ]
+  },
+  "moves": [
+	"1:astonish",
+    "1:leer",
+	"1:bonerush",
+    "1:trickortreat",
+    "1:shadowsneak",
+    "1:nightshade",
+    "1:confuseray",
+    "1:willowisp",
+    "1:bonemerang",
+    "12:iceshard",
+    "18:snowscape",
+    "20:icefang",
+    "20:spikes",
+    "24:haze",
+    "24:shadowclaw",
+    "28:retaliate",
+    "28:meanlook",
+    "30:scaryface",
+    "30:bonerush",
+    "32:iciclespear",
+    "34:painsplit",
+    "36:curse",
+    "40:shadowbone",
+    "44:destinybond",
+    "46:iciclecrash",
+    "48:chillyreception",
+    "50:spiritshackle",
+    "52:auroraveil",
+    "56:triplearrows",
+    "tm:frostbreath",
+    "tm:snowscape",
+    "tm:iciclespear",
+    "tm:iciclecrash",
+    "tm:spikes",
+    "tm:toxicspikes",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:avalanche",
+    "tm:icywind",
+    "tm:blizzard",
+    "tm:knockoff",
+    "tm:icespinner",
+    "tm:crunch",
+    "tm:chillingwater",
+    "tm:switcheroo",
+	"egg:perishsong",
+    "egg:detect",
+    "egg:ancientpower",
+    "egg:skullbash",
+    "egg:suckerpunch",
+    "egg:disable",
+	"egg:falsesurrender",
+    "egg:spiritbreak",
+	"egg:knockoff",
+	"egg:beatup",
+	"egg:memento",
+    "tm:hex",
+    "tm:protect",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:terablast",
+    "tm:falseswipe",
+    "tm:skittersmack",
+    "tm:facade",
+    "tm:thief",
+    "tm:spikes",
+    "tm:rockslide",
+    "tm:taunt",
+    "tm:torment",
+    "tm:spite",
+    "tm:grudge",
+    "tm:workup",
+    "tm:rockpolish",
+    "tm:darkpulse",
+    "tm:shadowball",
+    "tm:haze",
+    "tm:substitute",
+    "tm:nastyplot",
+    "tm:rest",
+    "tm:sleeptalk",
+	"tm:knockoff",
+	"tm:suckerpunch",
+	"tm:shadowsneak",
+	"tm:retaliate",
+	"tm:willowisp",
+	"tm:curse",
+	"tm:shadowclaw",
+	"tm:scaryface",
+	"tm:nightshade"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "pokedex": [
+    "It is known to raid the nests of other pokemon during the winter.",
+    "Holiday stories depict this pokemon as an evil spirit that punishes naughty children."
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "baseFriendship": 50,
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "height": 4,
+  "weight": 40,
+  "evolutions": []
+}

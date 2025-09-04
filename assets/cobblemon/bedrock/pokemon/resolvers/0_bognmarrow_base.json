@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:bognmarrow",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:bognmarrow",
+     "model": "cobblemon:bognmarrow.geo",
+     "texture": "cobblemon:textures/pokemon/bognmarrow/bognmarrow.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/bognmarrow/bognmarrow_shiny.png"
+   }
+ ]
+}

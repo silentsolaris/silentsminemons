@@ -1,0 +1,21 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bowne-1",
+      "pokemon": "bowne",
+      "presets": [ "underground" ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-40",
+      "weight": 10.0,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": []
+      }
+    }
+  ]
+}

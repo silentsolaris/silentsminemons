@@ -1,0 +1,23 @@
+{
+   "enabled": true,
+   "neededInstalledMods": [],
+   "neededUninstalledMods": [],
+   "spawns": [
+       {
+           "id": "ivorice-1",
+           "pokemon": "ivorice",
+           "presets": [
+               "natural"
+           ],
+           "type": "pokemon",
+           "context": "grounded",
+           "bucket": "common",
+           "level": "36-50",
+           "weight": 9.0,
+           "condition": {
+               "canSeeSky": true,
+			"biomes": [ "#cobblemon:is_freezing" ]
+           }
+       }
+   ]
+}

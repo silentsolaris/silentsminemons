@@ -1,0 +1,19 @@
+{
+ "species": "cobblemon:bowne",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:bowne",
+     "model": "cobblemon:bowne.geo",
+     "texture": "cobblemon:textures/pokemon/bowne/bowne.png",
+     "layers": []
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/bowne/bowne_shiny.png"
+   }
+ ]
+}
