@@ -39,7 +39,7 @@
         "canFly": false,
         "flySpeedHorizontal": 0.3
       },
-      "wanderChance": 1
+      "wanderChance": 50
     }
   },
   "catchRate": 120,
@@ -171,21 +171,15 @@
       "requiredContext": ""
     },
     {
-      "id": "bowne_spinawilt",
-      "variant": "level_up",
-      "result": "spinawilt",
+      "id": "bowne_withereign",
+      "variant": "item_interact",
+      "result": "withereign",
       "consumeHeldItem": false,
       "learnableMoves": [
-        "bitterblade"
+        "barbbarrage"
       ],
-      "requirements": [
-        {
-          "variant": "world",
-          "identifier": "minecraft:the_nether",
-          "biomeCondition": null
-        }
-      ],
-      "requiredContext": ""
+      "requirements": [],
+      "requiredContext": "minecraft:netherite_ingot"
     },
     {
       "id": "bowne_ivorice",

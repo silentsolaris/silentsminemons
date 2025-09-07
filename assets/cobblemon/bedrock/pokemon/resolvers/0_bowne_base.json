@@ -7,13 +7,28 @@
      "poser": "cobblemon:bowne",
      "model": "cobblemon:bowne.geo",
      "texture": "cobblemon:textures/pokemon/bowne/bowne.png",
-     "layers": []
+     "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/bowne/bowne_emissive.png",
+              "translucent": true
+        }
+      ]
    },
    {
      "aspects": [
        "shiny"
      ],
-     "texture": "cobblemon:textures/pokemon/bowne/bowne_shiny.png"
+     "texture": "cobblemon:textures/pokemon/bowne/bowne_shiny.png",
+	 "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/bowne/bowne_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
    }
  ]
 }

@@ -9,13 +9,27 @@
       "presets": [ "underground" ],
       "type": "pokemon",
       "context": "grounded",
-      "bucket": "common",
+      "bucket": "uncommon",
       "level": "5-40",
       "weight": 10.0,
       "condition": {
         "canSeeSky": false,
-        "biomes": []
-      }
+        "biomes": ["#cobblemon:is_cave"]
+      } 
+    },
+	    {
+      "id": "bowne-2",
+      "pokemon": "bowne",
+      "presets": [ "underground" ],
+      "type": "pokemon",
+      "context": "grounded",
+      "bucket": "common",
+      "level": "5-40",
+      "weight": 12.0,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": ["#cobblemon:is_nether_soul_sand"]
+      } 
     }
   ]
 }

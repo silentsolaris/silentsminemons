@@ -40,7 +40,7 @@
         "canFly": false,
         "flySpeedHorizontal": 0.3
       },
-      "wanderChance": 1
+      "wanderChance": 70
     }
   },
   "catchRate": 50,

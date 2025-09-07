@@ -7,13 +7,28 @@
      "poser": "cobblemon:pumpkid",
      "model": "cobblemon:pumpkid.geo",
      "texture": "cobblemon:textures/pokemon/pumpkid/pumpkid.png",
-     "layers": []
+     "layers": [        
+	 {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/pumpkid/pumpkid_emissive.png",
+              "translucent": true
+        }
+		]
    },
    {
      "aspects": [
        "shiny"
      ],
-     "texture": "cobblemon:textures/pokemon/pumpkid/pumpkid_shiny.png"
+     "texture": "cobblemon:textures/pokemon/pumpkid/pumpkid_shiny.png",
+	 "layers": [        
+	 {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/pumpkid/pumpkid_shiny_emissive.png",
+              "translucent": true
+        }
+		]
    }
  ]
 }
