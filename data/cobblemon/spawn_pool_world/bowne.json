@@ -20,15 +20,14 @@
 	    {
       "id": "bowne-2",
       "pokemon": "bowne",
-      "presets": [ "underground" ],
+      "presets": ["natural"],
       "type": "pokemon",
       "context": "grounded",
       "bucket": "common",
       "level": "5-40",
-      "weight": 12.0,
+      "weight": 10.0,
       "condition": {
-        "canSeeSky": false,
-        "biomes": ["#cobblemon:is_nether_soul_sand"]
+        "biomes": ["#cobblemon:nether/is_soul_sand"]
       } 
     }
   ]

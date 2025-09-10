@@ -6,17 +6,14 @@
        {
            "id": "withereign-1",
            "pokemon": "withereign",
-           "presets": [
-               "natural"
-           ],
+           "presets": ["natural"],
            "type": "pokemon",
            "context": "grounded",
            "bucket": "ultra-rare",
            "level": "60-80",
            "weight": 9.0,
            "condition": {
-               "canSeeSky": false,
-			"biomes": [ "#cobblemon:is_nether_soul_sand" ]
+			"biomes": ["#cobblemon:nether/is_soul_sand"]
            }
        }
    ]
