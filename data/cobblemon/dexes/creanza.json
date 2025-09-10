@@ -1,0 +1,13 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:creanza",
+  "sortOrder": 12,
+  "entries": [
+  	"cobblemon:pumpkid",
+	
+    "cobblemon:bowne",
+    "cobblemon:bognmarrow",
+    "cobblemon:ivorice",
+	"cobblemon:withereign"
+  ]
+}
