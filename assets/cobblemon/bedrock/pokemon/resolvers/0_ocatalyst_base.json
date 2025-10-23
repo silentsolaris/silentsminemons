@@ -1,0 +1,34 @@
+{
+ "species": "cobblemon:ocatalyst",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:ocatalyst",
+     "model": "cobblemon:ocatalyst.geo",
+     "texture": "cobblemon:textures/pokemon/ocatalyst/ocatalyst.png",
+     "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/ocatalyst/ocatalyst_emissive.png",
+              "translucent": true
+        }
+      ]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/ocatalyst/ocatalyst_shiny.png",
+	 "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/ocatalyst/ocatalyst_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
+   }
+ ]
+}

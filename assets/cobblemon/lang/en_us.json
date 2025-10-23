@@ -10,6 +10,10 @@
  "cobblemon.species.pumpkid.desc1": "The stem on it's head absorbs sunlight, it is commonly seen sunbathing.",
  "cobblemon.species.pumpkid.desc2": "This pokémon is known to care for the crops of farmers, therefore it is welcomed onto fields.",
  
+  "cobblemon.species.gallagourd.name": "Gallagourd",
+ "cobblemon.species.gallagourd.desc1": "It's iron armor protects it's body from attacks. It has a rivalry with Pangoro due to their conflicting morality.",
+ "cobblemon.species.gallagourd.desc2": "This pokémon is known to team up with Palafin to protect Octillager colonies from Illamari raids.",
+ 
  "cobblemon.species.bognmarrow.name": "Bognmarrow",
  "cobblemon.species.bognmarrow.desc1": "Upon evolution, it's bow has fused into into the bottom of it's wrist. It fires elastic sludge at slow but powerful intervals.",
  "cobblemon.species.bognmarrow.desc2": "This pokemon lives in communities with other mushroom pokemon. It patrols around the perimeter firing upon any intruders.",
@@ -20,5 +24,9 @@
  
  "cobblemon.species.withereign.name": "Withereign",
  "cobblemon.species.withereign.desc1": "This sinister pokemon absorbs the souls of both it's enemies and allies to fuel it's power.",
- "cobblemon.species.withereign.desc2": "It's decaying touch is known to even corrode lead within minutes."
+ "cobblemon.species.withereign.desc2": "It's decaying touch is known to even corrode lead within minutes.",
+ 
+ "cobblemon.species.ocatalyst.name": "Ocatalyst",
+ "cobblemon.species.ocatalyst.desc1": "It uses the alchemical flask on it's tail to brew strange concoctions from berries.",
+ "cobblemon.species.ocatalyst.desc2": "This mischevious pokemon is known to silently aid Illamari raids in order to obtain Octillager ink."
 }

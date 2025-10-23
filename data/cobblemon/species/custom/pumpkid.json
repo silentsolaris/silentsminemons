@@ -73,9 +73,9 @@
     "20:leechseed",
     "24:seedbomb",
     "28:growth",
-    "30:gyroball",
     "34:amnesia",
     "38:solarblade",
+	"45:gyroball",
     "egg:superpower",
     "egg:wideguard",
     "egg:rollout",
@@ -85,6 +85,7 @@
     "egg:spicyextract",
     "egg:ingrain",
     "egg:strengthsap",
+	"tm:substitute",
     "tm:trailblaze",
     "tm:energyball",
     "tm:protect",
@@ -146,21 +147,16 @@
       "requiredContext": "cobblemon:ice_stone"
     },
     {
-      "id": "pumpkid_gourage",
-      "variant": "trade",
-      "result": "gourage",
-      "consumeHeldItem": true,
+      "id": "pumpkid_gallagourd",
+      "variant": "item_interact",
+      "result": "gallagourd",
+      "consumeHeldItem": false,
       "learnableMoves": [
-        "irondefense",
-        "ironhead"
+        "magnetbomb",
+        "irondefense"
       ],
-      "requirements": [
-        {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:metal_coat"
-        }
-      ],
-      "requiredContext": ""
+      "requirements": [],
+      "requiredContext": "minecraft:anvil"
     },
     {
       "id": "pumpkid_stoneward",
