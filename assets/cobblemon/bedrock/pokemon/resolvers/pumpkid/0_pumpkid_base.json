@@ -4,14 +4,14 @@
  "variations": [
    {
      "aspects": [],
-     "poser": "minemons:pumpkid",
-     "model": "minemons:pumpkid.geo",
-     "texture": "minemons:textures/pokemon/pumpkid/pumpkid.png",
+     "poser": "cobblemon:pumpkid",
+     "model": "cobblemon:pumpkid.geo",
+     "texture": "cobblemon:textures/pokemon/pumpkid/pumpkid.png",
      "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "minemons:textures/pokemon/pumpkid/pumpkid_emissive.png",
+              "texture": "cobblemon:textures/pokemon/pumpkid/pumpkid_emissive.png",
               "translucent": true
         }
       ]
@@ -20,12 +20,12 @@
      "aspects": [
        "shiny"
      ],
-     "texture": "minemons:textures/pokemon/pumpkid/pumpkid_shiny.png",
+     "texture": "cobblemon:textures/pokemon/pumpkid/pumpkid_shiny.png",
 	 "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "minemons:textures/pokemon/pumpkid/pumpkid_shiny_emissive.png",
+              "texture": "cobblemon:textures/pokemon/pumpkid/pumpkid_shiny_emissive.png",
               "translucent": true
         }
       ]

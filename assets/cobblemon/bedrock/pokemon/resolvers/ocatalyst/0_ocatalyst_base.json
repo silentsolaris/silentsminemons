@@ -4,14 +4,14 @@
  "variations": [
    {
      "aspects": [],
-     "poser": "minemons:ocatalyst",
-     "model": "minemons:ocatalyst.geo",
-     "texture": "minemons:textures/pokemon/ocatalyst/ocatalyst.png",
+     "poser": "cobblemon:ocatalyst",
+     "model": "cobblemon:ocatalyst.geo",
+     "texture": "cobblemon:textures/pokemon/ocatalyst/ocatalyst.png",
      "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "minemons:textures/pokemon/ocatalyst/ocatalyst_emissive.png",
+              "texture": "cobblemon:textures/pokemon/ocatalyst/ocatalyst_emissive.png",
               "translucent": true
         }
       ]
@@ -20,12 +20,12 @@
      "aspects": [
        "shiny"
      ],
-     "texture": "minemons:textures/pokemon/ocatalyst/ocatalyst_shiny.png",
+     "texture": "cobblemon:textures/pokemon/ocatalyst/ocatalyst_shiny.png",
 	 "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "minemons:textures/pokemon/ocatalyst/ocatalyst_shiny_emissive.png",
+              "texture": "cobblemon:textures/pokemon/ocatalyst/ocatalyst_shiny_emissive.png",
               "translucent": true
         }
       ]

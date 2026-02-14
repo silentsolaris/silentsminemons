@@ -4,15 +4,15 @@
  "variations": [
    {
      "aspects": [],
-     "poser": "minemons:nitkick",
-     "model": "minemons:nitkick.geo",
-     "texture": "minemons:textures/pokemon/nitkick/nitkick.png"
+     "poser": "cobblemon:nitkick",
+     "model": "cobblemon:nitkick.geo",
+     "texture": "cobblemon:textures/pokemon/nitkick/nitkick.png"
    },
    {
      "aspects": [
        "shiny"
      ],
-     "texture": "minemons:textures/pokemon/nitkick/nitkick_shiny.png"
+     "texture": "cobblemon:textures/pokemon/nitkick/nitkick_shiny.png"
    }
  ]
 }

@@ -4,14 +4,14 @@
  "variations": [
    {
      "aspects": [],
-     "poser": "minemons:ivorice",
-     "model": "minemons:ivorice.geo",
-     "texture": "minemons:textures/pokemon/ivorice/ivorice.png",
+     "poser": "cobblemon:ivorice",
+     "model": "cobblemon:ivorice.geo",
+     "texture": "cobblemon:textures/pokemon/ivorice/ivorice.png",
      "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "minemons:textures/pokemon/ivorice/ivorice_emissive.png",
+              "texture": "cobblemon:textures/pokemon/ivorice/ivorice_emissive.png",
               "translucent": true
         }
       ]
@@ -20,12 +20,12 @@
      "aspects": [
        "shiny"
      ],
-     "texture": "minemons:textures/pokemon/ivorice/ivorice_shiny.png",
+     "texture": "cobblemon:textures/pokemon/ivorice/ivorice_shiny.png",
 	 "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "minemons:textures/pokemon/ivorice/ivorice_shiny_emissive.png",
+              "texture": "cobblemon:textures/pokemon/ivorice/ivorice_shiny_emissive.png",
               "translucent": true
         }
       ]

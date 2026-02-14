@@ -4,14 +4,14 @@
  "variations": [
    {
      "aspects": [],
-     "poser": "minemons:withereign",
-     "model": "minemons:withereign.geo",
-     "texture": "minemons:textures/pokemon/withereign/withereign.png",
+     "poser": "cobblemon:withereign",
+     "model": "cobblemon:withereign.geo",
+     "texture": "cobblemon:textures/pokemon/withereign/withereign.png",
      "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "minemons:textures/pokemon/withereign/withereign_emissive.png",
+              "texture": "cobblemon:textures/pokemon/withereign/withereign_emissive.png",
               "translucent": true
         }
       ]
@@ -20,12 +20,12 @@
      "aspects": [
        "shiny"
      ],
-     "texture": "minemons:textures/pokemon/withereign/withereign_shiny.png",
+     "texture": "cobblemon:textures/pokemon/withereign/withereign_shiny.png",
 	 "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "minemons:textures/pokemon/withereign/withereign_shiny_emissive.png",
+              "texture": "cobblemon:textures/pokemon/withereign/withereign_shiny_emissive.png",
               "translucent": true
         }
       ]
