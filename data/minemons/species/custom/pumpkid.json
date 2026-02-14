@@ -1,0 +1,227 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2000,
+  "name": "pumpkid",
+  "primaryType": "grass",
+  "maleRatio": 0.7,
+  "height": 1.5,
+  "weight": 40,
+  "pokedex": [
+    "minemons.species.pumpkid.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "owntempo",
+    "anticipation",
+    "h:hospitality"
+  ],
+  "eggGroups": [
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 40,
+    "defence": 50,
+    "special_attack": 30,
+    "special_defence": 50,
+    "speed": 10
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 80,
+  "experienceGroup": "medium",
+  "catchRate": 80,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 0.8,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+		{
+          "pokemon": "steenee",
+          "tier": 1
+        },
+		{
+          "pokemon": "bounsweet",
+          "tier": 1
+        },
+		{
+          "pokemon": "cottonee",
+          "tier": 1
+        },
+		{
+          "pokemon": "whimsicott",
+          "tier": 1
+        },
+		{
+          "pokemon": "pumpkaboo",
+          "tier": 2
+        },
+		{
+          "pokemon": "gourgeist",
+          "tier": 2
+        },
+		{
+          "pokemon": "leavanny",
+          "tier": 2
+        },
+		{
+          "pokemon": "chesnaught",
+          "tier": 3
+        },
+		{
+          "pokemon": "gallagourd",
+          "tier": 4
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": false,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+	  {
+        "item": "minecraft:pumpkin",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:substitute",
+    "tm:sleeptalk",
+	"tm:facade",
+	"tm:terablast",
+    "legacy:attract",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:toxic",
+    "1:growl",
+    "1:tackle",
+    "1:leafage",
+    "6:razorleaf",
+    "8:afteryou",
+    "10:headbutt",
+    "14:charm",
+    "16:bulletseed",
+    "20:leechseed",
+    "24:seedbomb",
+    "28:growth",
+    "34:amnesia",
+    "38:solarblade",
+	"45:gyroball",
+	"50:grasswhistle",
+	"60:selfdestruct",
+    "egg:superpower",
+    "egg:wideguard",
+    "egg:rollout",
+    "egg:healingwish",
+    "egg:healpulse",
+    "egg:worryseed",
+    "egg:spicyextract",
+    "egg:ingrain",
+    "egg:strengthsap",
+	"tm:growl",
+    "tm:tackle",
+    "tm:leafage",
+    "tm:razorleaf",
+    "tm:afteryou",
+    "tm:headbutt",
+    "tm:charm",
+    "tm:bulletseed",
+    "tm:leechseed",
+    "tm:seedbomb",
+    "tm:growth",
+    "tm:amnesia",
+    "tm:solarblade",
+	"tm:gyroball",
+    "tm:trailblaze",
+    "tm:energyball",
+    "tm:leafstorm",
+    "tm:magicalleaf",
+    "tm:takedown",
+    "tm:faketears",
+    "tm:facade",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:bodyslam",
+    "tm:bodypress",
+    "tm:bulkup",
+    "tm:helpinghand",
+    "tm:grassyglide",
+    "tm:grassknot",
+    "tm:pounce",
+	"tm:firstimpression",
+	"tm:selfdestruct",
+	"tm:takedown",
+	"tm:doubleedge",
+	"tm:recycle",
+	"tm:grasswhistle",
+	"tm:ingrain",
+	"tm:aromatherapy",
+    "tm:foulplay"
+  ],
+ "evolutions": [
+	{
+      "id": "pumpkid_gallagourd",
+      "variant": "item_interact",
+      "result": "gallagourd",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "magnetbomb",
+        "irondefense"
+      ],
+      "requirements": [],
+      "requiredContext": "minecraft:anvil"
+
+	}
+  ],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}
