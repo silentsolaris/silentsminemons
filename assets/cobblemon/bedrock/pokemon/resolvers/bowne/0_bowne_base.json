@@ -4,14 +4,14 @@
  "variations": [
    {
      "aspects": [],
-     "poser": "minemons:bowne",
-     "model": "minemons:bowne.geo",
-     "texture": "minemons:textures/pokemon/bowne/bowne.png",
+     "poser": "cobblemon:bowne",
+     "model": "cobblemon:bowne.geo",
+     "texture": "cobblemon:textures/pokemon/bowne/bowne.png",
      "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "minemons:textures/pokemon/bowne/bowne_emissive.png",
+              "texture": "cobblemon:textures/pokemon/bowne/bowne_emissive.png",
               "translucent": true
         }
       ]
@@ -20,12 +20,12 @@
      "aspects": [
        "shiny"
      ],
-     "texture": "minemons:textures/pokemon/bowne/bowne_shiny.png",
+     "texture": "cobblemon:textures/pokemon/bowne/bowne_shiny.png",
 	 "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "minemons:textures/pokemon/bowne/bowne_shiny_emissive.png",
+              "texture": "cobblemon:textures/pokemon/bowne/bowne_shiny_emissive.png",
               "translucent": true
         }
       ]

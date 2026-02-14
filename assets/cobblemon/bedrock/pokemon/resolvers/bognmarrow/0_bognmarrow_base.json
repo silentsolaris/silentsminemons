@@ -4,14 +4,14 @@
  "variations": [
    {
      "aspects": [],
-     "poser": "minemons:bognmarrow",
-     "model": "minemons:bognmarrow.geo",
-     "texture": "minemons:textures/pokemon/bognmarrow/bognmarrow.png",
+     "poser": "cobblemon:bognmarrow",
+     "model": "cobblemon:bognmarrow.geo",
+     "texture": "cobblemon:textures/pokemon/bognmarrow/bognmarrow.png",
      "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "minemons:textures/pokemon/bognmarrow/bognmarrow_emissive.png",
+              "texture": "cobblemon:textures/pokemon/bognmarrow/bognmarrow_emissive.png",
               "translucent": true
         }
       ]
@@ -20,12 +20,12 @@
      "aspects": [
        "shiny"
      ],
-     "texture": "minemons:textures/pokemon/bognmarrow/bognmarrow_shiny.png",
+     "texture": "cobblemon:textures/pokemon/bognmarrow/bognmarrow_shiny.png",
 	 "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "minemons:textures/pokemon/bognmarrow/bognmarrow_shiny_emissive.png",
+              "texture": "cobblemon:textures/pokemon/bognmarrow/bognmarrow_shiny_emissive.png",
               "translucent": true
         }
       ]

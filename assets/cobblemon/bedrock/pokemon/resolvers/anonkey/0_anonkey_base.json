@@ -4,15 +4,15 @@
  "variations": [
    {
      "aspects": [],
-     "poser": "minemons:anonkey",
-     "model": "minemons:anonkey.geo",
-     "texture": "minemons:textures/pokemon/anonkey/anonkey.png"
+     "poser": "cobblemon:anonkey",
+     "model": "cobblemon:anonkey.geo",
+     "texture": "cobblemon:textures/pokemon/anonkey/anonkey.png"
    },
    {
      "aspects": [
        "shiny"
      ],
-     "texture": "minemons:textures/pokemon/anonkey/anonkey_shiny.png"
+     "texture": "cobblemon:textures/pokemon/anonkey/anonkey_shiny.png"
    }
  ]
 }

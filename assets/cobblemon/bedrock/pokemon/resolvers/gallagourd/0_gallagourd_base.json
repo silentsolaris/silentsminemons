@@ -4,14 +4,14 @@
  "variations": [
    {
      "aspects": [],
-     "poser": "minemons:gallagourd",
-     "model": "minemons:gallagourd.geo",
-     "texture": "minemons:textures/pokemon/gallagourd/gallagourd.png",
+     "poser": "cobblemon:gallagourd",
+     "model": "cobblemon:gallagourd.geo",
+     "texture": "cobblemon:textures/pokemon/gallagourd/gallagourd.png",
      "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "minemons:textures/pokemon/gallagourd/gallagourd_emissive.png",
+              "texture": "cobblemon:textures/pokemon/gallagourd/gallagourd_emissive.png",
               "translucent": true
         }
       ]
@@ -20,12 +20,12 @@
      "aspects": [
        "shiny"
      ],
-     "texture": "minemons:textures/pokemon/gallagourd/gallagourd_shiny.png",
+     "texture": "cobblemon:textures/pokemon/gallagourd/gallagourd_shiny.png",
 	 "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "minemons:textures/pokemon/gallagourd/gallagourd_shiny_emissive.png",
+              "texture": "cobblemon:textures/pokemon/gallagourd/gallagourd_shiny_emissive.png",
               "translucent": true
         }
       ]
