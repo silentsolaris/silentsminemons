@@ -1,0 +1,36 @@
+{
+ "portraitScale": 2,
+ "portraitTranslation": [ 0, 2, 0 ],
+ "profileScale": 0.60,
+ "profileTranslation": [ 0, 0.9, 0 ],
+  "animations": {
+   "faint": "q.bedrock_primary('templatemon', 'faint', q.curve('one'))",
+   "cry": "q.bedrock_stateful('templatemon', 'cry')",
+   "recoil": "q.bedrock_stateful('templatemon', 'recoil')",
+   "physical": "q.bedrock_primary('templatemon', 'physical', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('templatemon', 'special', q.curve('symmetrical_wide'))",
+   "status": "q.bedrock_primary('templatemon', 'status', q.curve('symmetrical_wide'))"
+ },
+ "poses": {
+   "standing": {
+     "poseName": "standing",
+     "transformTicks": 10,
+     "poseTypes": [
+       "STAND",
+       "NONE",
+       "PORTRAIT",
+       "PROFILE"
+     ],
+     "animations": [
+       "look",
+       "bedrock(bognmarrow, ground_idle)"
+     ]
+   },
+   "walking": {
+     "poseName": "walking",
+     "transformTicks": 10,
+     "poseTypes": [ "WALK" ],
+     "animations": [ "bedrock(bognmarrow, ground_walk)" ]
+		}
+	}
+}

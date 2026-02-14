@@ -1,0 +1,29 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "ivorice-1",
+            "pokemon": "ivorice",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "36-60",
+            "weight": 4,
+            "condition": {
+				"timeRange": "night",
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_cold"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                   "#cobblemon:is_deep_dark",
+				   "#cobblemon:is_ocean"
+                ]
+            }
+        }
+   ]
+}

@@ -1,0 +1,259 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2010,
+  "name": "bowne",
+  "primaryType": "ghost",
+  "maleRatio": 0.5,
+  "height": 6,
+  "weight": 25,
+  "pokedex": [
+    "minemons.species.bowne.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "keeneye",
+    "longreach",
+    "h:noguard"
+  ],
+  "eggGroups": [
+    "human_like",
+	"monster"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 25,
+    "special_attack": 25,
+    "special_defence": 50,
+    "speed": 38
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 51,
+  "experienceGroup": "slow",
+  "catchRate": 90,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "standingEyeHeight": 0.67,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.5,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.5
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "bowne",
+          "tier": 1
+        },
+		{
+          "pokemon": "ivorice",
+          "tier": 1
+        },
+        {
+          "pokemon": "bognmarrow",
+          "tier": 2
+        },
+		{
+          "pokemon": "withereign",
+          "tier": 3
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": false,
+      "willDefendOwner": true,
+      "willFlee": true
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "0-2"
+      },
+      {
+        "item": "minecraft:soul_soil",
+        "percentage": 2.5
+      },
+      {
+        "item": "cobblemon:kasib_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:substitute",
+    "tm:sleeptalk",
+	"tm:facade",
+	"tm:terablast",
+    "legacy:attract",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "legacy:toxic",
+    "1:astonish",
+    "1:leer",
+	"1:bonerush",
+    "4:trickortreat",
+    "8:shadowsneak",
+    "12:nightshade",
+    "12:confuseray",
+    "16:willowisp",
+    "20:bonemerang",
+    "24:shadowclaw",
+    "28:retaliate",
+	"28:scaryface",
+    "30:bonerush",
+    "34:painsplit",
+	"36:curse",
+    "44:destinybond",
+    "46:shadowbone",
+    "egg:perishsong",
+    "egg:detect",
+    "egg:ancientpower",
+    "egg:skullbash",
+    "egg:suckerpunch",
+    "egg:disable",
+	"egg:falsesurrender",
+    "egg:spiritbreak",
+	"egg:knockoff",
+	"egg:beatup",
+	"egg:memento",
+    "tm:hex",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:falseswipe",
+    "tm:skittersmack",
+    "tm:thief",
+    "tm:spikes",
+    "tm:rockslide",
+    "tm:taunt",
+    "tm:torment",
+    "tm:spite",
+    "tm:grudge",
+    "tm:workup",
+    "tm:rockpolish",
+    "tm:darkpulse",
+    "tm:shadowball",
+    "tm:haze",
+    "tm:nastyplot",
+	"tm:knockoff",
+	"tm:suckerpunch",
+	"tm:shadowsneak",
+	"tm:retaliate",
+	"tm:willowisp",
+	"tm:curse",
+	"tm:shadowclaw",
+	"tm:scaryface",
+	"tm:nightshade",
+    "special:celebrate"
+  ],
+ "evolutions": [
+ {
+      "id": "bowne_bognmarrow-1",
+      "variant": "level_up",
+      "result": "bognmarrow",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+	  "spore"
+	  ],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_mushroom"
+        },
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "requiredContext": ""
+    },
+	 {
+      "id": "bowne_bognmarrow-2",
+      "variant": "level_up",
+      "result": "bognmarrow",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+	  "spore"
+	  ],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_swamp"
+        },
+        {
+          "variant": "level",
+          "minLevel": 36
+        }
+      ],
+      "requiredContext": ""
+    },
+	{
+      "id": "bowne_ivorice",
+      "variant": "item_interact",
+      "result": "ivorice",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "iciclespear"
+      ],
+      "requirements": [],
+      "requiredContext": "minemons:ice_stone"
+
+	},
+	{
+      "id": "bowne_withereign",
+      "variant": "item_interact",
+      "result": "withereign",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "barbbarrage"
+      ],
+      "requirements": [],
+      "requiredContext": "minecraft:netherite_ingot"
+
+	}
+	],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}
