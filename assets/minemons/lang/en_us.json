@@ -1,28 +1,30 @@
 {
- "minemons.species.pumpkid.name": "Pumpkid",
- "minemons.species.pumpkid.desc": "This pokémon is known to care for the crops of farmers. It is commonly seen sunbathing.",
+ "cobblemon.ui.pokedex.region.creanza": "Creanza",
  
- "minemons.species.gallagourd.name": "Gallagourd",
- "minemons.species.gallagourd.desc": "This pokémon protects weaker pokemon from their predators. If it is ever separated from it's iron suit, it returns to being a pumpkid.",
+ "cobblemon.species.pumpkid.name": "Pumpkid",
+ "cobblemon.species.pumpkid.desc": "This pokémon is known to care for the crops of farmers. It is commonly seen sunbathing.",
  
- "minemons.species.nitkick.name": "Nitkick",
- "minemons.species.nitkick.desc": "It is a powerful pokemon, but it's stubbornness against following orders makes it an unpopular choice.",
+ "cobblemon.species.gallagourd.name": "Gallagourd",
+ "cobblemon.species.gallagourd.desc": "This pokémon protects weaker pokemon from their predators. If it is ever separated from it's iron suit, it returns to being a pumpkid.",
  
- "minemons.species.anonkey.name": "Anonkey",
- "minemons.species.anonkey.desc": "It destroys everything in it's path. There is no reason, it is chaos incarnate. One kick could send even a snorlax flying.",
+ "cobblemon.species.nitkick.name": "Nitkick",
+ "cobblemon.species.nitkick.desc": "It is a powerful pokemon, but it's stubbornness against following orders makes it an unpopular choice.",
  
- "minemons.species.bowne.name": "Bowne",
- "minemons.species.bowne.desc": "It carries a handcrafted bow of bone at all times. This pokémon is never seen without it.",
+ "cobblemon.species.anonkey.name": "Anonkey",
+ "cobblemon.species.anonkey.desc": "It destroys everything in it's path. There is no reason, it is chaos incarnate. One kick could send even a snorlax flying.",
  
- "minemons.species.bognmarrow.name": "Bognmarrow",
- "minemons.species.bognmarrow.desc": "It patrols it's territory with a platoon of fellow Bognmarrow. Whichever one has the bigger mushroom is the leader... allegedly.",
+ "cobblemon.species.bowne.name": "Bowne",
+ "cobblemon.species.bowne.desc": "It carries a handcrafted bow of bone at all times. This pokémon is never seen without it.",
  
- "minemons.species.ivorice.name": "Ivorice",
- "minemons.species.ivorice.desc": "While a solitary pokemon, it sometimes hunts with pokemon of similar cruelty, such as Weavile or Froslass.",
+ "cobblemon.species.bognmarrow.name": "Bognmarrow",
+ "cobblemon.species.bognmarrow.desc": "It patrols it's territory with a platoon of fellow Bognmarrow. Whichever one has the bigger mushroom is the leader... allegedly.",
  
- "minemons.species.withereign.name": "Withereign",
- "minemons.species.withereign.desc": "This sinister pokemon absorbs the souls of both it's enemies and allies to fuel it's power.",
+ "cobblemon.species.ivorice.name": "Ivorice",
+ "cobblemon.species.ivorice.desc": "While a solitary pokemon, it sometimes hunts with pokemon of similar cruelty, such as Weavile or Froslass.",
  
-  "minemons.species.ocatalyst.name": "Ocatalyst",
- "minemons.species.ocatalyst.desc": "It uses the alchemical flask on it's tail to brew strange concoctions from berries. It's surpisingly sanitary."
+ "cobblemon.species.withereign.name": "Withereign",
+ "cobblemon.species.withereign.desc": "This sinister pokemon absorbs the souls of both it's enemies and allies to fuel it's power.",
+ 
+ "cobblemon.species.ocatalyst.name": "Ocatalyst",
+ "cobblemon.species.ocatalyst.desc": "It uses the alchemical flask on it's tail to brew strange concoctions from berries. It's surpisingly sanitary."
 }
