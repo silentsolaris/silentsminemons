@@ -1,0 +1,16 @@
+
+{
+  "id": "cobblemon:bognmarrow",
+  "speciesId": "cobblemon:bognmarrow",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}
