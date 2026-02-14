@@ -172,7 +172,7 @@
 	  "height": 2,
 	  "weight": 30,
       "pokedex": [
-        "minemons.species.parropot-honeypot.desc"
+        "cobblemon.species.parropot-honeypot.desc"
       ],
 	  "abilities": [
       "hustle",
@@ -311,7 +311,7 @@
 	  "height": 2,
 	  "weight": 30,
       "pokedex": [
-        "minemons.species.parropot-flowerpot.desc"
+        "cobblemon.species.parropot-flowerpot.desc"
       ],
       "labels": [
         "minemons"
@@ -450,7 +450,7 @@
 	  "height": 2,
 	  "weight": 30,
       "pokedex": [
-        "minemons.species.parropot-candle.desc"
+        "cobblemon.species.parropot-candle.desc"
       ],
       "labels": [
         "minemons"

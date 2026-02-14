@@ -14,7 +14,15 @@
  "cobblemon.species.anonkey.desc": "It destroys everything in its path. There is no reason, it is chaos incarnate. One kick could send even a snorlax flying.",
 
  "cobblemon.species.parropot.name": "Parropot",
+ "cobblemon.ui.pokedex.info.form.parropot": "",
  "cobblemon.species.parropot.desc": "An ancient pokemon, it searches for objects to put in it's head. The reason is unknown.",
+ "cobblemon.ui.pokedex.info.form.parropot-honeypot": "Honey Pot",
+  "cobblemon.species.parropot-honeypot.desc": "An ancient pokemon, it searches for objects to put in it's head. The reason is unknown.",
+ "cobblemon.ui.pokedex.info.form.parropot-flowerpot": "Flower Pot",
+  "cobblemon.species.parropot-flowerpot.desc": "An ancient pokemon, it searches for objects to put in it's head. The reason is unknown.",
+ "cobblemon.ui.pokedex.info.form.parropot-candle": "Candle",
+  "cobblemon.species.parropot-candle.desc": "An ancient pokemon, it searches for objects to put in it's head. The reason is unknown.",
+
 
  "cobblemon.species.ocatalyst.name": "Ocatalyst",
  "cobblemon.species.ocatalyst.desc": "It uses the alchemical flask on its tail to brew strange concoctions from berries. Its surpisingly sanitary.",
