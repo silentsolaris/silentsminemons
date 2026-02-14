@@ -22,3 +22,8 @@ Currently Added Fakemon:
 - Withereign - Ghost/Poison - Evolves from Bowne with a Netherite Ingot
 
 - Inshell - Poison/Steel - Spawns in End Cities
+
+
+SPECIAL THANKS :
+
+Saucecoie for the coding help!

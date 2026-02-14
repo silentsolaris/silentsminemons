@@ -1,0 +1,18 @@
+{
+ "species": "cobblemon:siphosail",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:siphosail",
+     "model": "cobblemon:siphosail.geo",
+     "texture": "cobblemon:textures/pokemon/siphosail/siphosail.png"
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/siphosail/siphosail_shiny.png"
+   }
+ ]
+}
