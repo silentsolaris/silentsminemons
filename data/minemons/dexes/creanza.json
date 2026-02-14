@@ -1,16 +1,16 @@
 {
   "type": "cobblemon:simple_pokedex_def",
-  "id": "minemons:creanza",
+  "id": "cobblemon:creanza",
   "sortOrder": 7,
   "entries": [
-    "minemons:pumpkid",
-	"minemons:gallagourd",
-	"minemons:nitkick",
-	"minemons:anonkey",
-	"minemons:ocatalyst",
-	"minemons:bowne",
-	"minemons:bognmarrow",
-	"minemons:ivorice",
-	"minemons:withereign",
+    "cobblemon:pumpkid",
+	"cobblemon:gallagourd",
+	"cobblemon:nitkick",
+	"cobblemon:anonkey",
+	"cobblemon:ocatalyst",
+	"cobblemon:bowne",
+	"cobblemon:bognmarrow",
+	"cobblemon:ivorice",
+	"cobblemon:withereign"
   ]
 }
