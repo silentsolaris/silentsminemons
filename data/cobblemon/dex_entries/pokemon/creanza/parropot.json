@@ -1,0 +1,33 @@
+{
+  "id": "cobblemon:parropot",
+  "speciesId": "cobblemon:parropot",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Honeypot",
+      "unlockForms": [
+        "Honeypot"
+      ]
+    },
+    {
+      "displayForm": "Flowerpot",
+      "unlockForms": [
+        "Flowerpot"
+      ]
+    },
+    {
+      "displayForm": "Candle",
+      "unlockForms": [
+        "Candle"
+      ]
+    }
+  ],
+  "variations": []
+}

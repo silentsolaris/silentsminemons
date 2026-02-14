@@ -8,7 +8,7 @@
   "height": 3,
   "weight": 500,
   "pokedex": [
-    "minemons.species.inshell.desc"
+    "cobblemon.species.inshell.desc"
   ],
   "labels": [
     "minemons"

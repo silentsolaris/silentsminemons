@@ -1,42 +1,42 @@
 {
   "implemented": true,
-  "nationalPokedexNumber": 2011,
-  "name": "bognmarrow",
+  "nationalPokedexNumber": 2012,
+  "name": "ivorice",
   "primaryType": "ghost",
-  "secondaryType": "grass",
+  "secondaryType": "ice",
   "maleRatio": 0.5,
-  "height": 15,
-  "weight": 45,
+  "height": 13,
+  "weight": 38,
   "pokedex": [
-    "minemons.species.bognmarrow.desc"
+    "cobblemon.species.ivorice.desc"
   ],
   "labels": [
     "minemons"
   ],
   "aspects": [],
   "abilities": [
-    "effectspore",
+    "snowcloak",
     "longreach",
-    "h:watercompaction"
+    "h:slushrush"
   ],
   "eggGroups": [
     "human_like",
 	"monster"
   ],
   "baseStats": {
-    "hp": 80,
+    "hp": 70,
     "attack": 115,
     "defence": 70,
-    "special_attack": 60,
-    "special_defence": 120,
-    "speed": 35
+    "special_attack": 75,
+    "special_defence": 70,
+    "speed": 70
   },
   "evYield": {
     "hp": 0,
-    "attack": 1,
+    "attack": 2,
     "defence": 0,
     "special_attack": 0,
-    "special_defence": 1,
+    "special_defence": 0,
     "speed": 0
   },
   "baseExperienceYield": 168,
@@ -60,8 +60,8 @@
       "times": [
         "any"
       ],
-      "drowsyChance": 0.0333,
-      "rouseChance": 0.0042
+      "drowsyChance": 0.0155,
+      "rouseChance": 0.0084
     },
     "moving": {
       "walk": {
@@ -76,16 +76,20 @@
       "maxSize": "9",
       "toleratedLeaders": [
         {
-          "pokemon": "bognmarrow",
+          "pokemon": "ivorice",
+          "tier": 1
+        },
+		{
+          "pokemon": "glalie",
+          "tier": 1
+        },
+		{
+          "pokemon": "froslass",
+          "tier": 1
+        },
+		{
+          "pokemon": "weavile",
           "tier": 2
-        },
-		{
-          "pokemon": "toedscruel",
-          "tier": 1
-        },
-		{
-          "pokemon": "amoonguss",
-          "tier": 1
         }
 		]
     },
@@ -104,7 +108,7 @@
         "quantityRange": "2-5"
       },
       {
-        "item": "minecraft:mycelium",
+        "item": "minecraft:blue_ice",
         "percentage": 5.0
       }
     ]
@@ -122,7 +126,7 @@
     "legacy:round",
     "legacy:snore",
     "legacy:toxic",
-	 "1:astonish",
+	"1:astonish",
     "1:leer",
 	"1:bonerush",
     "1:trickortreat",
@@ -131,40 +135,42 @@
     "1:confuseray",
     "1:willowisp",
     "1:bonemerang",
-	"12:needlearm",
-    "18:synthesis",
-    "20:bulletseed",
-	"20:lockon",
-    "24:clearsmog",
+    "12:iceshard",
+    "18:snowscape",
+    "20:icefang",
+    "20:spikes",
+    "24:haze",
     "24:shadowclaw",
     "28:retaliate",
-	"28:ingrain",
-	"30:scaryface",
+    "28:meanlook",
+    "30:scaryface",
     "30:bonerush",
-	"32:seedbomb",
+    "32:iciclespear",
     "34:painsplit",
-	"36:curse",
+    "36:curse",
     "40:shadowbone",
-	"44:destinybond",
-	"46:woodhammer",
-    "48:strengthsap",
-	"50:spiritshackle",
-    "52:ragepowder",
+    "44:destinybond",
+    "46:iciclecrash",
+    "48:chillyreception",
+    "50:spiritshackle",
+    "52:auroraveil",
     "56:triplearrows",
-    "tm:gigadrain",
-    "tm:seedbomb",
-    "tm:bulletseed",
-    "tm:energyball",
-    "tm:drainpunch",
-    "tm:trailblaze",
-    "tm:woodhammer",
-    "tm:solarbeam",
-    "tm:solarblade",
-    "tm:leafblade",
-    "tm:pollenpuff",
+    "tm:frostbreath",
+    "tm:snowscape",
+    "tm:iciclespear",
+    "tm:iciclecrash",
+    "tm:spikes",
+    "tm:toxicspikes",
+    "tm:icebeam",
+    "tm:icepunch",
+    "tm:avalanche",
+    "tm:icywind",
+    "tm:blizzard",
     "tm:knockoff",
-    "tm:poisonjab",
-    "tm:sludgebomb",
+    "tm:icespinner",
+    "tm:crunch",
+    "tm:chillingwater",
+    "tm:switcheroo",
 	"egg:perishsong",
     "egg:detect",
     "egg:ancientpower",
@@ -182,6 +188,7 @@
     "tm:terablast",
     "tm:falseswipe",
     "tm:skittersmack",
+    "tm:facade",
     "tm:thief",
     "tm:spikes",
     "tm:rockslide",
@@ -203,8 +210,7 @@
 	"tm:curse",
 	"tm:shadowclaw",
 	"tm:scaryface",
-	"tm:nightshade",
-    "special:celebrate"
+	"tm:nightshade"
   ],
  "evolutions": [],
   "lightingData": {
