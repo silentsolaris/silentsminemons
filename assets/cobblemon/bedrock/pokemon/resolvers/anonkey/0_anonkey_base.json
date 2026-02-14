@@ -1,0 +1,18 @@
+{
+ "species": "minemons:anonkey",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "minemons:anonkey",
+     "model": "minemons:anonkey.geo",
+     "texture": "minemons:textures/pokemon/anonkey/anonkey.png"
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "minemons:textures/pokemon/anonkey/anonkey_shiny.png"
+   }
+ ]
+}

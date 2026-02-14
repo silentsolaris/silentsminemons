@@ -1,0 +1,39 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "bognmarrow-1",
+            "pokemon": "bognmarrow",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "36-60",
+            "weight": 4,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "timeRange": "night"
+                }
+            },
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_swamp",
+					"#cobblemon:is_mushroom"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                   "#cobblemon:is_deep_dark",
+                   "#cobblemon:is_hills",
+                   "#cobblemon:is_snowy_forest",
+                   "#cobblemon:is_snowy_taiga",
+                   "#cobblemon:is_taiga",
+				   "#cobblemon:is_desert"
+                ]
+            }
+        }
+   ]
+}
