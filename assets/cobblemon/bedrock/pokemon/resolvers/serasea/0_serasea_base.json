@@ -1,0 +1,34 @@
+{
+ "species": "cobblemon:serasea",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:serasea",
+     "model": "cobblemon:serasea.geo",
+     "texture": "cobblemon:textures/pokemon/serasea/serasea.png",
+     "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/serasea/serasea_emissive.png",
+              "translucent": true
+        }
+      ]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/serasea/serasea_shiny.png",
+	 "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/serasea/serasea_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
+   }
+ ]
+}

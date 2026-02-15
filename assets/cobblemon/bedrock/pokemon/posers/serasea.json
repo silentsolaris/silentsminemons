@@ -1,0 +1,71 @@
+{
+ "portraitScale": 1.66,
+ "portraitTranslation": [-0.3, 0.3, 0],
+ "profileScale": 0.78,
+ "profileTranslation": [0, 0.5, 0],
+ "animations": {
+   "faint": "q.bedrock_primary('serasea', 'faint', q.curve('one'))",
+   "cry": "q.bedrock_stateful('serasea', 'cry')",
+   "recoil": "q.bedrock_stateful('serasea', 'recoil')",
+   "physical": "q.bedrock_primary('serasea', 'physical', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('serasea', 'special', q.curve('symmetrical_wide'))",
+   "status": "q.bedrock_primary('serasea', 'status', q.curve('symmetrical_wide'))"
+ },
+ "poses": {
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('serasea', 'battle_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
+   },
+   "standing": {
+     "poseTypes": ["STAND", "NONE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('serasea', 'idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
+   },
+   "float": {
+      "poseTypes": ["PORTRAIT", "PROFILE", "FLOAT"],
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('serasea', 'water_faint', q.curve('one'))"
+      },
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('serasea', 'idle')"],
+     "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('serasea', 'water_faint', q.curve('one'))"
+      },
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('serasea', 'move')"],
+     "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
+    },
+    "surface-swim": {
+      "poseTypes": ["SWIM"],
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "animations": [
+        "q.bedrock('serasea', 'idle')"
+      ],
+     "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
+    },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('serasea', 'move')"
+     ],
+     "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
+   },
+   "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('serasea', 'sleep')"]
+   }
+ }
+}
