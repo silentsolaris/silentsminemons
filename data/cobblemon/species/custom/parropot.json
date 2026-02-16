@@ -581,6 +581,153 @@
         "lightLevel": 7,
         "liquidGlowMode": "LAND"
       }
+    },
+    {
+      "name": "Quill",
+      "primaryType": "rock",
+      "secondaryType": "flying",
+      "maleRatio": 0.5,
+	  "height": 2,
+	  "weight": 30,
+      "pokedex": [
+        "cobblemon.species.parropot-quill.desc"
+      ],
+      "labels": [
+        "minemons"
+      ],
+      "aspects": [
+        "parropot-quill"
+      ],
+	    "abilities": [
+    "hustle",
+	"klutz",
+	"h:windrider"
+  ],
+      "baseStats": {
+        "hp": 60,
+		"attack": 80,
+		"defence": 70,
+		"special_attack": 30,
+		"special_defence": 60,
+		"speed": 80
+      },
+      "baseExperienceYield": 80,
+      "moves": [
+    "tm:protect",
+    "tm:substitute",
+	  "tm:rest",
+    "tm:sleeptalk",
+	  "tm:facade",
+	  "tm:terablast",
+    "legacy:attract",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "tm:toxic",
+    "1:harden",
+    "1:tackle",
+    "1:smokescreen",
+    "3:peck",
+    "5:rockthrow",
+    "10:safeguard",
+    "13:featherdance",
+    "15:rocktomb",
+    "18:aerialace",
+    "20:stealthrock",
+    "20:worryseed",
+    "23:sandtomb",
+    "25:defog",
+    "30:dig",
+    "38:dualwingbeat",
+    "38:wideguard",
+    "35:rockslide",
+    "38:tailwind",
+    "40:drillpeck",
+    "45:rockpolish",
+    "48:wish",
+    "50:roost",
+    "55:stoneedge",
+    "58:bravebird",
+    "60:shellsmash",
+    "tm:harden",
+    "tm:tackle",
+    "tm:smokescreen",
+    "tm:peck",
+    "tm:rockthrow",
+    "tm:safeguard",
+    "tm:featherdance",
+    "tm:rocktomb",
+    "tm:aerialace",
+    "tm:stealthrock",
+    "tm:worryseed",
+    "tm:sandtomb",
+    "tm:tailwind",
+    "tm:dig",
+    "tm:dualwingbeat",
+    "tm:wideguard",
+    "tm:rockslide",
+    "tm:roost",
+    "tm:drillpeck",
+    "tm:rockpolish",
+    "tm:wish",
+    "tm:stoneedge",
+    "tm:bravebird",
+    "tm:shellsmash",
+    "tm:powergem",
+    "tm:mudshot",
+    "tm:rapidspin",
+    "tm:steelwing",
+    "tm:dualwingbeat",
+    "tm:tailwind",
+    "tm:roost",
+    "tm:spikes",
+    "tm:earthpower",
+    "tm:meteorbeam",
+    "tm:vacuumwave",
+    "tm:scorchingsands",
+    "tm:autotomize",
+    "tm:solarbeam",
+    "tm:willowisp",
+    "tm:flamewheel",
+    "tm:smokescreen",
+    "tm:airslash",
+    "tm:defog",
+    "tm:skyattack",
+    "tm:acrobatics",
+    "tm:pluck",
+    "tm:hurricane",
+    "special:celebrate"
+      ],
+      "evolutions": [],
+      "battleOnly": false,
+      "behaviour": {
+        "resting": {
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "moving": {
+          "swim": {
+            "avoidsWater": true,
+            "canSwimInLava": false
+          }
+        },
+        "combat": {
+          "willDefendOwner": true
+        },
+        "herd": {
+          "maxSize": "4"
+        },
+        "fireImmune": false
+      },
+      "lightingData": {
+        "lightLevel": 7,
+        "liquidGlowMode": "LAND"
+      }
     }
 ]
 }
