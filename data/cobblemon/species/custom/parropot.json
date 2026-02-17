@@ -97,6 +97,9 @@
   },
   "moves": [
     "tm:protect",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:helpinghand",
     "tm:substitute",
 	  "tm:rest",
     "tm:sleeptalk",
@@ -196,6 +199,9 @@
       "baseExperienceYield": 80,
       "moves": [
     "tm:protect",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:helpinghand",
     "tm:substitute",
 	  "tm:rest",
     "tm:sleeptalk",
@@ -335,6 +341,9 @@
       "baseExperienceYield": 80,
       "moves": [
     "tm:protect",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:helpinghand",
     "tm:substitute",
 	  "tm:rest",
     "tm:sleeptalk",
@@ -474,6 +483,9 @@
       "baseExperienceYield": 80,
       "moves": [
     "tm:protect",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:helpinghand",
     "tm:substitute",
 	  "tm:rest",
     "tm:sleeptalk",
@@ -614,6 +626,9 @@
       "baseExperienceYield": 80,
       "moves": [
     "tm:protect",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:helpinghand",
     "tm:substitute",
 	  "tm:rest",
     "tm:sleeptalk",

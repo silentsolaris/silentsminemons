@@ -1,0 +1,217 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2004,
+  "name": "tormniac",
+  "primaryType": "dark",
+  "secondaryType": "flying",
+  "maleRatio": 0.7,
+  "height": 4,
+  "weight": 100,
+  "pokedex": [
+    "cobblemon.species.tormniac.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "insomnia",
+    "forewarn",
+    "h:stakeout"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 53,
+    "defence": 70,
+    "special_attack": 108,
+    "special_defence": 88,
+    "speed": 101
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
+  "baseExperienceYield": 130,
+  "experienceGroup": "slow",
+  "catchRate": 40,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "standingEyeHeight": 1,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.8,
+    "height": 1.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+	  {
+          "pokemon": "tormniac",
+          "tier": 1
+        },
+        {
+          "pokemon": "darkrai",
+          "tier": 2
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:phantom_membrane",
+        "quantityRange": "0-3"
+      },
+      {
+        "item": "cobblemon:chesto_berry",
+        "percentage": 15.0
+      },
+	  {
+        "item": "cobblemon:colbur_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:helpinghand",
+    "tm:substitute",
+	"tm:rest",
+    "tm:sleeptalk",
+	"tm:facade",
+	"tm:terablast",
+    "legacy:attract",
+    "legacy:frustration",
+    "legacy:hiddenpower",
+    "legacy:return",
+    "legacy:round",
+    "legacy:snore",
+    "tm:toxic",
+    "1:gust",
+    "1:leer",
+    "1:detect",
+    "5:shadowsneak",
+    "7:aircutter",
+    "10:torment",
+    "10:snarl",
+    "15:partingshot",
+    "17:hypnosis",
+    "17:dreameater",
+    "20:featherdance",
+    "20:airslash",
+    "23:chipaway",
+    "25:taunt",
+    "25:darkpulse",
+    "30:tailwind",
+    "35:yawn",
+    "38:quickguard",
+    "40:nastyplot",
+    "43:psychic",
+    "45:roost",
+    "50:hurricane",
+    "tm:gust",
+    "tm:leer",
+    "tm:shadowsneak",
+    "tm:aircutter",
+    "tm:torment",
+    "tm:snarl",
+    "tm:partingshot",
+    "tm:hypnosis",
+    "tm:dreameater",
+    "tm:featherdance",
+    "tm:airslash",
+    "tm:chipaway",
+    "tm:taunt",
+    "tm:darkpulse",
+    "tm:tailwind",
+    "tm:yawn",
+    "tm:nastyplot",
+    "tm:roost",
+    "tm:hurricane",
+    "tm:shadowball",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:hex",
+    "tm:energyball",
+    "tm:strengthsap",
+    "tm:gigadrain",
+    "tm:megadrain",
+    "tm:absorb",
+    "tm:swagger",
+    "tm:flatter",
+    "tm:switcheroo",
+    "tm:sunnyday",
+    "tm:raindance",
+    "tm:haze",
+    "tm:defog",
+    "tm:phantomforce",
+    "tm:knockoff",
+    "tm:futuresight",
+    "tm:swift",
+    "tm:sludgebomb",
+    "tm:clearsmog",
+    "tm:sludgewave",
+    "tm:poisonjab",
+    "tm:feintattack",
+    "tm:pursuit",
+    "tm:drillpeck",
+    "tm:peck",
+    "tm:bravebird",
+    "tm:firstimpression",
+    "tm:uturn",
+    "tm:skittersmack",
+    "tm:leechlife",
+    "tm:quickguard",
+    "tm:detect",
+    "tm:vacuumwave",
+    "tm:aurasphere",
+    "tm:meanlook",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:mist",
+    "special:celebrate"
+  ],
+ "evolutions": [],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}

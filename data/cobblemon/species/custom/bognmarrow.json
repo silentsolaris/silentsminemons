@@ -111,6 +111,9 @@
   },
   "moves": [
     "tm:protect",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:helpinghand",
     "tm:substitute",
     "tm:sleeptalk",
 	  "tm:facade",

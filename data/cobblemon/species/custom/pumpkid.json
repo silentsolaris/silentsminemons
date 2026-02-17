@@ -129,6 +129,9 @@
   },
   "moves": [
     "tm:protect",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:helpinghand",
     "tm:substitute",
     "tm:sleeptalk",
 	  "tm:facade",
@@ -191,7 +194,6 @@
     "tm:bodyslam",
     "tm:bodypress",
     "tm:bulkup",
-    "tm:helpinghand",
     "tm:grassyglide",
     "tm:grassknot",
     "tm:pounce",

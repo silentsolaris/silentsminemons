@@ -100,6 +100,8 @@
   },
   "moves": [
     "tm:protect",
+    "tm:hyperbeam",
+    "tm:helpinghand",
     "tm:substitute",
 	  "tm:rest",
     "tm:sleeptalk",

@@ -110,6 +110,9 @@
   },
   "moves": [
     "tm:protect",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:helpinghand",
     "tm:substitute",
 	  "tm:rest",
     "tm:sleeptalk",
@@ -194,7 +197,6 @@
     "tm:smartstrike",
     "tm:dig",
     "tm:zenheadbutt",
-    "tm:gigaimpact",
     "tm:curse",
     "tm:heavyslam",
     "tm:snarl",
