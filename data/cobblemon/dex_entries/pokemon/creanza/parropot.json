@@ -27,6 +27,12 @@
       "unlockForms": [
         "Candle"
       ]
+    },
+    {
+      "displayForm": "Quill",
+      "unlockForms": [
+        "Quill"
+      ]
     }
   ],
   "variations": []
