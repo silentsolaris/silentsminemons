@@ -4,12 +4,12 @@
  "profileScale": 0.5,
  "profileTranslation": [ 0, 1.1, 0 ],
  "animations": {
-   "faint": "q.bedrock_primary('templatemon', 'faint', q.curve('one'))",
-   "cry": "q.bedrock_stateful('templatemon', 'cry')",
-   "recoil": "q.bedrock_stateful('templatemon', 'recoil')",
-   "physical": "q.bedrock_primary('templatemon', 'physical', q.curve('symmetrical_wide'))",
-   "special": "q.bedrock_primary('templatemon', 'special', q.curve('symmetrical_wide'))",
-   "status": "q.bedrock_primary('templatemon', 'status', q.curve('symmetrical_wide'))"
+   "faint": "q.bedrock_primary('gallagourd', 'faint', q.curve('one'))",
+   "cry": "q.bedrock_stateful('gallagourd', 'cry')",
+   "recoil": "q.bedrock_stateful('gallagourd', 'recoil')",
+   "physical": "q.bedrock_primary('gallagourd', 'physical', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('gallagourd', 'special', q.curve('symmetrical_wide'))",
+   "status": "q.bedrock_primary('gallagourd', 'status', q.curve('symmetrical_wide'))"
  },
  "poses": {
    "standing": {

@@ -1,51 +1,54 @@
 {
- "cobblemon.ui.pokedex.region.creanza": "Creanza",
- 
- "cobblemon.species.pumpkid.name": "Pumpkid",
- "cobblemon.species.pumpkid.desc": "This Pokémon is known to care for the crops of farmers. It is commonly seen sunbathing.",
- 
- "cobblemon.species.gallagourd.name": "Gallagourd",
- "cobblemon.species.gallagourd.desc": "This pokémon protects weaker Pokémon from their predators. If it is ever separated from its iron suit, it returns to being a Pumpkid.",
- 
- "cobblemon.species.nitkick.name": "Nitkick",
- "cobblemon.species.nitkick.desc": "It is a powerful Pokémon, but its stubbornness against following orders makes it an unpopular choice.",
- 
- "cobblemon.species.anonkey.name": "Anonkey",
- "cobblemon.species.anonkey.desc": "It destroys everything in its path. There is no reason, it is chaos incarnate. One kick could send even a snorlax flying.",
+    "cobblemon.ui.pokedex.region.creanza": "Creanza",
+    
+    "cobblemon.species.pumpkid.name": "Pumpkid",
+    "cobblemon.species.pumpkid.desc": "This Pokémon is known to care for the crops of farmers. It is commonly seen sunbathing.",
+    
+    "cobblemon.species.gallagourd.name": "Gallagourd",
+    "cobblemon.species.gallagourd.desc": "This pokémon protects weaker Pokémon from their predators. If it is ever separated from its iron suit, it returns to being a Pumpkid.",
+    
+    "cobblemon.species.nitkick.name": "Nitkick",
+    "cobblemon.species.nitkick.desc": "It is a powerful Pokémon, but its stubbornness against following orders makes it an unpopular choice.",
+    
+    "cobblemon.species.anonkey.name": "Anonkey",
+    "cobblemon.species.anonkey.desc": "It destroys everything in its path. There is no reason, it is chaos incarnate. One kick could send even a snorlax flying.",
 
- "cobblemon.species.parropot.name": "Parropot",
- "cobblemon.ui.pokedex.info.form.parropot": "",
- "cobblemon.species.parropot.desc": "An ancient pokemon, it searches for objects to put in it's head. The reason is unknown.",
- "cobblemon.ui.pokedex.info.form.parropot-honeypot": "Honey Pot",
-  "cobblemon.species.parropot-honeypot.desc": "An ancient pokemon, the honey in it's head puts bug pokemon in a trance.",
- "cobblemon.ui.pokedex.info.form.parropot-flowerpot": "Flower Pot",
-  "cobblemon.species.parropot-flowerpot.desc": "An ancient pokemon, the flower in it's head is always in bloom no matter the weather.",
- "cobblemon.ui.pokedex.info.form.parropot-candle": "Candle",
-  "cobblemon.species.parropot-candle.desc": "An ancient pokemon, the candle in it's head never goes out, no matter how hard one may try.",
-  "cobblemon.ui.pokedex.info.form.parropot-quill": "Quill",
-  "cobblemon.species.parropot-quill.desc": "An ancient pokemon, the quill in it's head is always flowing, even when the wind is still.",
+    "cobblemon.species.parropot.name": "Parropot",
+    "cobblemon.ui.pokedex.info.form.parropot": "",
+    "cobblemon.species.parropot.desc": "An ancient pokemon, it searches for objects to put in it's head. The reason is unknown.",
+    "cobblemon.ui.pokedex.info.form.parropot-honeypot": "Honey Pot",
+    "cobblemon.species.parropot-honeypot.desc": "An ancient pokemon, the honey in it's head puts bug pokemon in a trance.",
+    "cobblemon.ui.pokedex.info.form.parropot-flowerpot": "Flower Pot",
+    "cobblemon.species.parropot-flowerpot.desc": "An ancient pokemon, the flower in it's head is always in bloom no matter the weather.",
+    "cobblemon.ui.pokedex.info.form.parropot-candle": "Candle",
+    "cobblemon.species.parropot-candle.desc": "An ancient pokemon, the candle in it's head never goes out, no matter how hard one may try.",
+    "cobblemon.ui.pokedex.info.form.parropot-quill": "Quill",
+    "cobblemon.species.parropot-quill.desc": "An ancient pokemon, the quill in it's head is always flowing, even when the wind is still.",
 
- "cobblemon.species.ocatalyst.name": "Ocatalyst",
- "cobblemon.species.ocatalyst.desc": "It uses the alchemical flask on its tail to brew strange concoctions from berries. Its surpisingly sanitary.",
+    "cobblemon.species.siphosail.name": "Siphosail",
+    "cobblemon.species.siphosail.desc": "It drifts across looking for Localusk nests to conquer. A group of Siphosail is called a fleet.",
 
- "cobblemon.species.siphosail.name": "Siphosail",
- "cobblemon.species.siphosail.desc": "It drifts across looking for Localusk nests to conquer. A group of Siphosail is called a fleet.",
+    "cobblemon.species.serasea.name": "Serasea",
+    "cobblemon.species.serasea.desc": "It gently drifts in the dark depths. Spotting a Serasea in open waters is considered a bad omen",
 
- "cobblemon.species.serasea.name": "Serasea",
- "cobblemon.species.serasea.desc": "It gently drifts in the dark depths. Spotting a Serasea in open waters is considered a bad omen",
- 
- "cobblemon.species.bowne.name": "Bowne",
- "cobblemon.species.bowne.desc": "It carries a handcrafted bow of bone at all times. This pokémon is never seen without it.",
- 
- "cobblemon.species.bognmarrow.name": "Bognmarrow",
- "cobblemon.species.bognmarrow.desc": "It patrols its territory with a platoon of fellow Bognmarrow. Whichever one has the bigger mushroom is the leader... allegedly.",
- 
- "cobblemon.species.ivorice.name": "Ivorice",
- "cobblemon.species.ivorice.desc": "While a solitary Pokémon, it sometimes hunts with Pokémon of similar cruelty, such as Weavile or Froslass.",
- 
- "cobblemon.species.withereign.name": "Withereign",
- "cobblemon.species.withereign.desc": "This sinister Pokémon absorbs the souls of both its enemies and allies to fuel its power.",
+    "cobblemon.species.ocatalyst.name": "Ocatalyst",
+    "cobblemon.species.ocatalyst.desc": "It uses the alchemical flask on its tail to brew strange concoctions from berries. Its surpisingly sanitary.",
 
- "cobblemon.species.inshell.name": "Inshell",
- "cobblemon.species.inshell.desc": "It hides in it's iridescent shell, firing a poisonous needle when threatened. It has an angst-y attitude."
+    "cobblemon.species.tormniac.name": "Tormniac",
+    "cobblemon.species.tormniac.desc": "It preys on the sleep deprived. It will go to great lengths to keep it's prey awake for as long as possible.",
+    
+    "cobblemon.species.bowne.name": "Bowne",
+    "cobblemon.species.bowne.desc": "It carries a handcrafted bow of bone at all times. This pokémon is never seen without it.",
+    
+    "cobblemon.species.bognmarrow.name": "Bognmarrow",
+    "cobblemon.species.bognmarrow.desc": "It patrols its territory with a platoon of fellow Bognmarrow. Whichever one has the bigger mushroom is the leader... allegedly.",
+    
+    "cobblemon.species.ivorice.name": "Ivorice",
+    "cobblemon.species.ivorice.desc": "While a solitary Pokémon, it sometimes hunts with Pokémon of similar cruelty, such as Weavile or Froslass.",
+    
+    "cobblemon.species.withereign.name": "Withereign",
+    "cobblemon.species.withereign.desc": "This sinister Pokémon absorbs the souls of both its enemies and allies to fuel its power.",
+
+    "cobblemon.species.inshell.name": "Inshell",
+    "cobblemon.species.inshell.desc": "It hides in it's iridescent shell, firing a poisonous needle when threatened. It has an angst-y attitude."
 }

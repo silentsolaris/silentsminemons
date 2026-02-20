@@ -24,12 +24,10 @@
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "rare",
-            "level": "40-70",
+            "level": "40-80",
             "weight": 4,
             "condition": {
-				"structures": [
-                    "#minecraft:fortress"
-                ]
+				"structures": ["minecraft:fortress"]
             }
         }
    ]

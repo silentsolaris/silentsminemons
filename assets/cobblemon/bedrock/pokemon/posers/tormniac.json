@@ -1,0 +1,59 @@
+{
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.6, 0.15, 0],
+  "profileScale": 0.9,
+  "profileTranslation": [0, 0.4, 0],
+  "rootBone": "tormniac",
+  "animations": {
+    "faint": "q.bedrock_primary('tormniac', 'faint', q.curve('one'))",
+   "cry": "q.bedrock_stateful('tormniac', 'cry')",
+   "recoil": "q.bedrock_stateful('tormniac', 'recoil')",
+   "physical": "q.bedrock_primary('tormniac', 'physical', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('tormniac', 'special', q.curve('symmetrical_wide'))",
+   "status": "q.bedrock_primary('tormniac', 'status', q.curve('symmetrical_wide'))"
+  },
+  "poses": {
+    "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('tormniac', 'ground_idle')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('tormniac', 'blink')"
+     ]
+   },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('tormniac', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('tormniac', 'blink')"]
+   },
+    "hover": {
+      "poseTypes": ["HOVER"],
+      "animations": ["q.look('head')", "q.bedrock('tormniac', 'flying_idle')"],
+      "quirks": [
+        "q.bedrock_quirk('tormniac', 'blink')"
+      ]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "condition": "!q.is_gliding",
+      "animations": ["q.look('head')", "q.bedrock('tormniac', 'flying_move')"],
+      "quirks": [
+        "q.bedrock_quirk('tormniac', 'blink')"
+      ]
+    },
+    "glide": {
+      "poseTypes": ["FLY"],
+      "condition": "q.is_gliding",
+      "animations": ["q.look('head')", "q.bedrock('tormniac', 'flying_move')"],
+      "quirks": [
+        "q.bedrock_quirk('tormniac', 'blink')"
+      ]
+    }
+  }
+}

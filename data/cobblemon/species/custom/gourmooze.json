@@ -14,8 +14,8 @@
   ],
   "aspects": [],
   "abilities": [
-    "appetite",
-    "h:appetite"
+    "gluttony",
+    "h:gluttony"
   ],
   "eggGroups": [
     "amorphous"
@@ -131,7 +131,7 @@
     "20:swallow",
     "20:spitup",
     "25:gigadrain",
-    "30:comuppance",
+    "30:comeuppance",
     "35:scald",
     "40:energyball",
     "45:recycle",
@@ -222,8 +222,8 @@
         "cobblemon.species.gourmooze-obese.desc"
       ],
 	  "abilities": [
-      "appetite",
-	  "h:appetite"
+      "gluttony",
+	  "h:gluttony"
   ],
       "labels": [
         "minemons"

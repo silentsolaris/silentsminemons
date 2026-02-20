@@ -1,0 +1,34 @@
+{
+ "species": "cobblemon:tormniac",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:tormniac",
+     "model": "cobblemon:tormniac.geo",
+     "texture": "cobblemon:textures/pokemon/tormniac/tormniac.png",
+     "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/tormniac/tormniac_emissive.png",
+              "translucent": true
+        }
+      ]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/tormniac/tormniac_shiny.png",
+	 "layers": [
+        {
+              "name": "emissive",
+              "emissive": true,
+              "texture": "cobblemon:textures/pokemon/tormniac/tormniac_shiny_emissive.png",
+              "translucent": true
+        }
+      ]
+   }
+ ]
+}
