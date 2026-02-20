@@ -28,8 +28,8 @@
     "attack": 115,
     "defence": 70,
     "special_attack": 60,
-    "special_defence": 120,
-    "speed": 35
+    "special_defence": 105,
+    "speed": 45
   },
   "evYield": {
     "hp": 0,
@@ -133,7 +133,6 @@
     "1:bonemerang",
     "1:razorleaf",
     "1:magicalleaf",
-    "1:ragepowder",
     "1:vinewhip",
     "1:bulletseed",
     "1:leechseed",
@@ -161,6 +160,7 @@
     "tm:throatchop",
     "tm:spite",
     "tm:foulplay",
+    "tm:grassyglide",
     "tm:taunt",
     "tm:torment",
     "tm:flatter",
