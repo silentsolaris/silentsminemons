@@ -255,7 +255,7 @@
       "result": "ivorice",
       "consumeHeldItem": false,
       "learnableMoves": [
-        "iciclespear"
+        "iceshard"
       ],
       "requirements": [],
       "requiredContext": "minemons:ice_stone"
