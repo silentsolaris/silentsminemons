@@ -19,7 +19,7 @@
        "q.look('head')",
        "q.bedrock('nitkick', 'battle_idle')"
      ],
-     "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
+     "quirks": ["q.bedrock_quirk('nitkick', 'ground_idle')"]
    },
    "standing": {
      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],

@@ -17,7 +17,7 @@
      "isBattle": true,
      "animations": [
        "q.look('head')",
-       "q.bedrock('serasea', 'battle_idle')"
+       "q.bedrock('serasea', 'idle')"
      ],
      "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
    },
@@ -65,7 +65,7 @@
    },
    "sleep": {
      "poseTypes": ["SLEEP"],
-     "animations": ["q.bedrock('serasea', 'sleep')"]
+     "animations": ["q.bedrock('serasea', 'idle')"]
    }
  }
 }

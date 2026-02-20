@@ -17,7 +17,7 @@
      "isBattle": true,
      "animations": [
        "q.look('head')",
-       "q.bedrock('siphosail', 'battle_idle')"
+       "q.bedrock('siphosail', 'float')"
      ]
    },
    "standing": {
@@ -59,7 +59,7 @@
    },
    "sleep": {
      "poseTypes": ["SLEEP"],
-     "animations": ["q.bedrock('siphosail', 'sleep')"]
+     "animations": ["q.bedrock('siphosail', 'ground_idle')"]
    }
  }
 }

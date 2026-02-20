@@ -11,26 +11,38 @@
    "special": "q.bedrock_primary('gallagourd', 'special', q.curve('symmetrical_wide'))",
    "status": "q.bedrock_primary('gallagourd', 'status', q.curve('symmetrical_wide'))"
  },
- "poses": {
-   "standing": {
-     "poseName": "standing",
-     "transformTicks": 10,
-     "poseTypes": [
-       "STAND",
-       "NONE",
-       "PORTRAIT",
-       "PROFILE"
-     ],
+  "poses": {
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
      "animations": [
-       "look",
-       "bedrock(gallagourd, ground_idle)"
+       "q.look('head')",
+       "q.bedrock('gallagourd', 'battle_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('gallagourd', 'blink')"]
+   },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('gallagourd', 'ground_idle')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('gallagourd', 'blink')"
      ]
    },
    "walking": {
-     "poseName": "walking",
-     "transformTicks": 10,
-     "poseTypes": [ "WALK" ],
-     "animations": [ "bedrock(gallagourd, ground_walk)" ]
-		}
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('gallagourd', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('gallagourd', 'blink')"]
+   },
+   "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('gallagourd', 'sleep')"]
+   }
 	}
 }
