@@ -26,5 +26,5 @@ This datapack requires Cobblemon to work (obviously)
 
 SPECIAL THANKS :
 
-Saucecoie for the coding help!
-LcorpOfficial for explaining non-euclidian modeling!
+- Saucecoie for the coding help!
+- LcorpOfficial for explaining non-euclidian modeling!
