@@ -24,13 +24,19 @@
      "animations": [
        "look",
        "bedrock(anonkey, ground_idle)"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('anonkey', 'blink')"
      ]
    },
    "walking": {
      "poseName": "walking",
      "transformTicks": 10,
      "poseTypes": [ "WALK" ],
-     "animations": [ "bedrock(anonkey, ground_walk)" ]
+     "animations": [ "bedrock(anonkey, ground_walk)" ],
+     "quirks": [
+       "q.bedrock_quirk('anonkey', 'blink')"
+     ]
 		}
 	}
 }
