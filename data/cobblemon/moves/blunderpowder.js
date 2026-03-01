@@ -16,7 +16,7 @@
 				this.add(ally);
 				this.damage(ally.baseMaxhp / 16, ally, source, this.dex.conditions.get('Flame Burst'));
 				if (this.randomChance(3, 10)) {
-					source.trySetStatus('tox', ally);
+					ally.trySetStatus('tox', source);
 				}
 			}
 		},
@@ -25,7 +25,7 @@
 				this.add(ally);
 				this.damage(ally.baseMaxhp / 16, ally, source, this.dex.conditions.get('Flame Burst'));
 				if (this.randomChance(3, 10)) {
-					source.trySetStatus('tox', ally);
+					ally.trySetStatus('tox', source);
 				}
 			}
 		},
