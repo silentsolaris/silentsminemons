@@ -13,7 +13,6 @@
 		},
 		onHit(target, source, move) {
 			for (const ally of target.adjacentAllies()) {
-				this.add(ally);
 				this.damage(ally.baseMaxhp / 16, ally, source, this.dex.conditions.get('Flame Burst'));
 				if (this.randomChance(3, 10)) {
 					ally.trySetStatus('tox', source);
@@ -22,7 +21,6 @@
 		},
 		onAfterSubDamage(damage, target, source, move) {
 			for (const ally of target.adjacentAllies()) {
-				this.add(ally);
 				this.damage(ally.baseMaxhp / 16, ally, source, this.dex.conditions.get('Flame Burst'));
 				if (this.randomChance(3, 10)) {
 					ally.trySetStatus('tox', source);

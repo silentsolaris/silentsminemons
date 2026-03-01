@@ -10,7 +10,7 @@
 		self: {
 			onHit(pokemon) {
 				this.heal(pokemon.baseMaxhp / 4);
-			},
+			}
 		},
 		target: "normal",
 		type: "Ghost",
