@@ -22,7 +22,7 @@
 				boost[randomStat] = 1;
 			}
 		},
-		flags: {},
+		flags: { breakable: 1 },
 		name: "Savagery",
 		rating: 3,
 	}
