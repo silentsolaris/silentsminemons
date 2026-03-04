@@ -25,23 +25,23 @@
        "look",
        "bedrock(pumpkid, ground_idle)"
      ],
-     "quirks": ["q.bedrock_quirk('bowne', 'blink')"]
+     "quirks": ["q.bedrock_quirk('pumpkid', 'blink')"]
    },
    "battle-standing": {
      "poseTypes": ["STAND"],
      "isBattle": true,
      "animations": [
        "q.look('head')",
-       "q.bedrock('bowne', 'battle_idle')"
+       "q.bedrock('pumpkid', 'battle_idle')"
      ],
-     "quirks": ["q.bedrock_quirk('bowne', 'blink')"]
+     "quirks": ["q.bedrock_quirk('pumpkid', 'blink')"]
    },
    "walking": {
      "poseName": "walking",
      "transformTicks": 10,
      "poseTypes": [ "WALK" ],
      "animations": [ "bedrock(pumpkid, ground_walk)" ],
-     "quirks": ["q.bedrock_quirk('bowne', 'blink')"]
+     "quirks": ["q.bedrock_quirk('pumpkid', 'blink')"]
 		}
 	}
 }
