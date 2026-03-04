@@ -4,44 +4,32 @@
  "profileScale": 1,
  "profileTranslation": [ 0, 0.3, 0 ],
  "animations": {
-   "faint": "q.bedrock_primary('pumpkid', 'faint', q.curve('one'))",
    "cry": "q.bedrock_stateful('pumpkid', 'cry')",
-   "recoil": "q.bedrock_stateful('pumpkid', 'recoil')",
-   "physical": "q.bedrock_primary('pumpkid', 'physical', q.curve('symmetrical_wide'))",
-   "special": "q.bedrock_primary('pumpkid', 'special', q.curve('symmetrical_wide'))",
-   "status": "q.bedrock_primary('pumpkid', 'status', q.curve('symmetrical_wide'))"
+   "recoil": "q.bedrock_stateful('pumpkid', 'recoil')"
  },
  "poses": {
-   "standing": {
-     "poseName": "standing",
-     "transformTicks": 10,
-     "poseTypes": [
-       "STAND",
-       "NONE",
-       "PORTRAIT",
-       "PROFILE"
-     ],
-     "animations": [
-       "look",
-       "bedrock('pumpkid', 'ground_idle')"
-     ],
-     "quirks": ["q.bedrock_quirk('pumpkid', 'blink')"]
-   },
    "battle-standing": {
      "poseTypes": ["STAND"],
      "isBattle": true,
      "animations": [
        "q.look('head')",
        "q.bedrock('pumpkid', 'battle_idle')"
-     ],
-     "quirks": ["q.bedrock_quirk('pumpkid', 'blink')"]
+     ]
+   },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('pumpkid', 'ground_idle')"
+     ]
    },
    "walking": {
-     "poseName": "walking",
-     "transformTicks": 10,
-     "poseTypes": [ "WALK" ],
-     "animations": [ "bedrock('pumpkid', 'ground_walk')" ],
-     "quirks": ["q.bedrock_quirk('pumpkid', 'blink')"]
-		}
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('pumpkid', 'ground_walk')"
+     ]
+   }
 	}
 }
