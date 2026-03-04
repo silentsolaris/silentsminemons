@@ -23,7 +23,7 @@
      ],
      "animations": [
        "look",
-       "bedrock(pumpkid, ground_idle)"
+       "bedrock('pumpkid', 'ground_idle')"
      ],
      "quirks": ["q.bedrock_quirk('pumpkid', 'blink')"]
    },
@@ -40,7 +40,7 @@
      "poseName": "walking",
      "transformTicks": 10,
      "poseTypes": [ "WALK" ],
-     "animations": [ "bedrock(pumpkid, ground_walk)" ],
+     "animations": [ "bedrock('pumpkid', 'ground_walk')" ],
      "quirks": ["q.bedrock_quirk('pumpkid', 'blink')"]
 		}
 	}

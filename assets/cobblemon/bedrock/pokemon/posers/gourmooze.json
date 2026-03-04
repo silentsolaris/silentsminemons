@@ -23,7 +23,7 @@
      ],
      "animations": [
        "look",
-       "bedrock(gourmooze, ground_idle)"
+       "bedrock('gourmooze', 'ground_idle')"
      ]
    },
    "battle-standing": {
@@ -31,14 +31,14 @@
      "isBattle": true,
      "animations": [
        "q.look('head')",
-       "q.bedrock(gourmooze, battle_idle)"
+       "q.bedrock('gourmooze', 'battle_idle')"
      ]
    },
    "walking": {
      "poseName": "walking",
      "transformTicks": 10,
      "poseTypes": [ "WALK" ],
-     "animations": [ "bedrock(gourmooze, ground_walk)" ]
+     "animations": [ "bedrock('gourmooze', 'ground_walk')" ]
 		}
 	}
 }
