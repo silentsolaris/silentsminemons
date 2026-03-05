@@ -1,11 +1,11 @@
 {
  "portraitScale": 2,
- "portraitTranslation": [ -0.1, -1.2, 0 ],
- "profileScale": 1,
- "profileTranslation": [ 0, 0.3, 0 ],
+ "portraitTranslation": [ -0.1, -1, 0 ],
+ "profileScale": 1.2,
+ "profileTranslation": [ 0, -0.1, 0 ],
  "animations": {
-   "cry": "q.bedrock_stateful('pumpkid', 'cry')",
-   "recoil": "q.bedrock_stateful('pumpkid', 'recoil')"
+   "cry": "q.bedrock_stateful('gourmooze', 'cry')",
+   "recoil": "q.bedrock_stateful('gourmooze', 'recoil')"
  },
  "poses": {
    "battle-standing": {
@@ -13,7 +13,7 @@
      "isBattle": true,
      "animations": [
        "q.look('head')",
-       "q.bedrock('pumpkid', 'battle_idle')"
+       "q.bedrock('gourmooze', 'battle_idle')"
      ]
    },
    "standing": {
@@ -21,14 +21,14 @@
      "isBattle": false,
      "animations": [
        "q.look('head')",
-       "q.bedrock('pumpkid', 'ground_idle')"
+       "q.bedrock('gourmooze', 'ground_idle')"
      ]
    },
    "walking": {
      "poseTypes": ["WALK"],
      "animations": [
        "q.look('head')",
-       "q.bedrock('pumpkid', 'ground_walk')"
+       "q.bedrock('gourmooze', 'ground_walk')"
      ]
    }
 	}

@@ -1,0 +1,18 @@
+{
+ "species": "cobblemon:gourmooze",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:gourmooze",
+     "model": "cobblemon:gourmooze.geo",
+     "texture": "cobblemon:textures/pokemon/gourmooze/gourmooze.png"
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/gourmooze/gourmooze_shiny.png"
+   }
+ ]
+}
