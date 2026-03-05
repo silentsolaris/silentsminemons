@@ -37,6 +37,10 @@
      "quirks": [
        "q.bedrock_quirk('anonkey', 'blink')"
      ]
-		}
+		},
+    "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('anonkey', 'ground_idle')"]
+   }
 	}
 }
