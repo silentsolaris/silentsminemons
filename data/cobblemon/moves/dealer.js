@@ -16,12 +16,12 @@
 					this.add("Added " + pokemon.item + " to list.");
 				}
 			}
+			this.add("The held items on the field were shuffled!");
 			for (const item of items) {
 				let pkmn = this.sample(targets);
 				const index = targets.indexOf(pkmn);
-				pkmn.item = item;
+				pokemon.setItem(item, source, move);
 				targets.splice(index, 1);
-				this.add("The held items on the field were shuffled!");
 				this.add(pkmn.baseSpecies.name + " obtained the " + item + "!");
 			}
 		},
