@@ -20,6 +20,7 @@
 				let randomStat = stats.length ? this.sample(stats) : void 0;
 				if (randomStat)
 				boost[randomStat] = 1;
+			    this.boost(boost);
 			}
 		},
 		flags: { breakable: 1 },

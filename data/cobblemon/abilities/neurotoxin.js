@@ -6,6 +6,6 @@
 			return true;
 		},
 		flags: { breakable: 1 },
-		name: "Brain Worm",
+		name: "Neurotoxin",
 		rating: 3,
 	}
