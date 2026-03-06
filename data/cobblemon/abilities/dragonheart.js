@@ -1,19 +1,18 @@
 {
 		onBasePower(basePower, pokemon, target, move) {
-			if (this.field.isTerrain('psychicterrain') && source.isGrounded() && move.type === 'dragon') {
-				this.debug('terrain buff');
+			if (this.field.isTerrain('psychicterrain') && pokemon.isGrounded() && move.type === "Dragon") {
 				return this.chainModify(1.5);
 			}
 		},
+		onModifyMovePriority: -1,
 		onModifyMove(move) {
-			if (move.category !== "Status" && move.type === 'dragon') {
-				this.debug('Adding Dragonheart flinch');
+			if (move.category !== "Status" && move.type === "Dragon") {
 				if (!move.secondaries) move.secondaries = [];
 				for (const secondary of move.secondaries) {
 					if (secondary.volatileStatus === 'flinch') return;
 				}
 				move.secondaries.push({
-					chance: 10,
+					chance: 15,
 					volatileStatus: 'flinch',
 				});
 			}
