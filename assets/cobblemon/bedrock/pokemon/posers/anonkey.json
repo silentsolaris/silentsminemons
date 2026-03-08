@@ -40,7 +40,7 @@
 		},
     "sleep": {
      "poseTypes": ["SLEEP"],
-     "animations": ["q.bedrock('anonkey', 'ground_idle')"]
+     "animations": ["q.bedrock('anonkey', 'sleep')"]
    }
 	}
 }
