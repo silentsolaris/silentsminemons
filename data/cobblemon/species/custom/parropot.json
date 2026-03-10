@@ -38,7 +38,7 @@
     "speed": 0
   },
   "baseExperienceYield": 80,
-  "experienceGroup": "fast",
+  "experienceGroup": "medium_fast",
   "catchRate": 80,
   "eggCycles": 25,
   "baseFriendship": 50,
