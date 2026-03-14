@@ -3,7 +3,7 @@
 			onResidualOrder: 28,
 			onResidualSubOrder: 2,
 			onResidual(pokemon) {
-				typelist = [
+				let typelist = [
 					"Normal",
 					"Fire",
 					"Water",
