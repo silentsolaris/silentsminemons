@@ -25,13 +25,14 @@
 				];
 
 				let newtype = this.sample(typelist);
+				let newtypes = [newtype];
 				const index = typelist.indexOf(newtype);
-				newtypes.push(this.sample(typelist))
 				typelist.splice(index, 1);
 				if ((this.randomChance(1, 18))) {
 					newtypes.push(this.sample(typelist))
 					this.add(pokemon + "'s types changed to " + newtypes[0], newtypes[1]);
 					if (!pokemon.setType(newtypes)) return false;
+					return;
 				}
 				
 				this.add(pokemon + "'s type changed to " + newtypes[0]);
