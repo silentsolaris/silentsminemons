@@ -6,7 +6,7 @@
 		name: "Fester",
 		pp: 10,
 		priority: 0,
-		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, slicing: 1 },
+		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1},
 		onModifyAccuracy(accuracy, target) {
 			if (target.hasType('dark') || target.hasType('psychic') || target.hasType('grass')) {
 				return true;
