@@ -34,7 +34,7 @@
 
 			if (mySpeed >= allySpeed) return spe;
 
-			if (!this.randomChance(1, 5)) return spe;
+			if (!this.randomChance(1, 3)) return spe;
 
 			this.add('-activate', pokemon, 'ability: Mentor');
 
