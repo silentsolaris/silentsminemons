@@ -8,7 +8,7 @@
 		priority: 1,
 		flags: { protect: 1, mirror: 1, metronome: 1, pulse: 1 },
 		onHit(target, source, move) {
-			if (source.lastMoveUsed.type !== 'electric') return;
+			if (source.lastMoveUsed.type !== 'Electric') return;
 			for (const pokemon of this.getAllActive()) {
 				if (pokemon === source) continue;
 				pokemon.addVolatile('electrify');
