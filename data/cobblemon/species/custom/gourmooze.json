@@ -216,9 +216,7 @@
   "forms": [ 
 {
 "name": "Obese",
-"aspects": [
-    "obese"
-  ],
+
       "primaryType": "grass",
       "secondaryType": "water",
       "maleRatio": 0.7,
@@ -231,8 +229,8 @@
         "minemons"
       ],
       "aspects": [
-        "gourmooze-obese"
-      ],
+          "obese"
+        ],
       "baseStats": {
         "hp": 150,
 		"attack": 100,
