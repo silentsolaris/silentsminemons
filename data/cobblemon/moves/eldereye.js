@@ -7,7 +7,7 @@
 		pp: 5,
 		priority: 1,
 		flags: { protect: 1, mirror: 1, metronome: 1, pulse: 1 },
-		onStart(target, source, effect) {
+		onPrepareHit(target, source, move) {
 				this.effectState.lastMoveElectricType = source.lastMoveUsed.type === 'Electric';
 				this.add(source.lastMoveUsed + " was " + source.lastMoveUsed.type + " type.");
 			},
