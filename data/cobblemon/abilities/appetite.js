@@ -9,6 +9,7 @@
 			if (item.isBerry) {
 				this.add(pokemon.baseSpecies);
 				this.add(pokemon.baseSpecies.forme);
+				this.add(pokemon.baseSpecies === 'gourmooze', pokemon.transformed, !pokemon.hp);
 				if (pokemon.baseSpecies !== 'gourmooze' || pokemon.transformed || !pokemon.hp) return;
 				this.add("Ok we got a gourmooze ova here!");
 				if (pokemon.baseSpecies.forme === 'Obese') return;
