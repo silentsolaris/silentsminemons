@@ -12,23 +12,38 @@
 		},
 		onAfterMoveSecondary(target, source, move) {
 			let typelist = [
-				"Normal","Fire","Water","Electric","Grass","Ice","Fighting",
-				"Poison","Ground","Flying","Psychic","Bug","Rock","Ghost",
-				"Dragon","Dark","Steel","Fairy"
-			];
+					"Normal",
+					"Fire",
+					"Water",
+					"Electric",
+					"Grass",
+					"Ice",
+					"Fighting",
+					"Poison",
+					"Ground",
+					"Flying",
+					"Psychic",
+					"Bug",
+					"Rock",
+					"Ghost",
+					"Dragon",
+					"Dark",
+					"Steel",
+					"Fairy"
+				];
 
-			let type1 = this.sample(typelist);
-			typelist.splice(typelist.indexOf(type1), 1);
-
-			if (this.randomChance(1, 18)) {
-				source.setType(type1);
-				this.add('-start', source, 'typechange', type1);
-				return;
-			}
-
-			let type2 = this.sample(typelist);
-			source.setTypes([type1, type2]);
-			this.add('-start', source, 'typechange', type1 + '/' + type2);
+				let newtype = this.sample(typelist);
+				let newtypes = [newtype];
+				const index = typelist.indexOf(newtype);
+				typelist.splice(index, 1);
+				if ((this.randomChance(1, 18))) {
+					this.add('-start', source, 'typechange', newtypes[0]);
+					source.setType(newtypes[0]);
+					return;
+				}
+				newtypes.push(this.sample(typelist));
+				this.add('-start', source, 'typechange', newtypes[0], + "/" + newtypes[1]);
+				source.setTypes(newtypes[0], newtypes[1]);
 		},
 		target: "normal",
 		type: "Normal",
