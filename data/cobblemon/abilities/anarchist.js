@@ -18,12 +18,6 @@
 				this.add('-immune', target, 'confusion', '[from] ability: Anarchist');
 			}
 		},
-		onTryBoost(boost, target, source, effect) {
-			if (effect.name === 'Intimidate' && boost.atk) {
-				delete boost.atk;
-				this.add('-fail', target, 'unboost', 'Attack', '[from] ability: Anarchist', `[of] ${target}`);
-			}
-		},
 		flags: { breakable: 1},
 		name: "Anarchist",
 		rating: 3,
