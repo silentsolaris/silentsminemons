@@ -1,0 +1,6 @@
+{
+    "keys": ["obese"],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+  }
