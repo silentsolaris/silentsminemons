@@ -3,9 +3,10 @@
 			pokemon.abilityState.undying = false;
 		},
 		onDamage(damage, target, source, effect) {
-			if (damage >= target.hp && effect && effect.effectType === 'Move') {
+			if (damage >= target.hp && effect && effect.effectType === 'Move' && !target.abilityState.triggered) {
 				this.add("-activate", target, "ability: Determination");
 				target.abilityState.undying = true;
+				target.abilityState.triggered = true
 				return target.hp - 1;
 			}
 		},
