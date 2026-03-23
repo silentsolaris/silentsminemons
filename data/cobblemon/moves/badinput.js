@@ -43,7 +43,6 @@
 				}
 				newtypes.push(this.sample(typelist));
 				this.add('-start', source, 'typechange', newtypes[0], + "/" + newtypes[1]);
-				source.setTypes(newtypes[0], newtypes[1]);
 		},
 		target: "normal",
 		type: "Normal",
