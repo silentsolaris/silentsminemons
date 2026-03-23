@@ -10,7 +10,7 @@
 				this.effectState.target.abilityState.full = true;
 			}
 		}
-	}
+	},
 	onStart(pokemon) {
 		pokemon.abilityState.full = false;
 	},
