@@ -36,13 +36,13 @@
 				let newtypes = [newtype];
 				const index = typelist.indexOf(newtype);
 				typelist.splice(index, 1);
-				if ((this.randomChance(1, 18))) {
+				if (this.randomChance(1, 18)) {
 					this.add('-start', source, 'typechange', newtypes[0]);
 					source.setType(newtypes[0]);
 					return;
 				}
 				newtypes.push(this.sample(typelist));
-				this.add('-start', source, 'typechange', newtypes[0], + "/" + newtypes[1]);
+				this.add('-start', source, 'typechange', newtypes[0] + "/" + newtypes[1]);
 		},
 		target: "normal",
 		type: "Normal",
