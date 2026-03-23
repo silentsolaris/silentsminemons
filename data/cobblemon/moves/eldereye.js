@@ -7,9 +7,15 @@
 		pp: 5,
 		priority: 1,
 		flags: { protect: 1, mirror: 1, metronome: 1, pulse: 1 },
+		onPrepareHit(target, source, move) {
+			const lastMove = source.lastMove;
+			if (!lastMove) return;
+
+			this.effectState.lastMoveElectricType = lastMove.type === 'Electric';
+			this.add(lastMove.name + " was " + lastMove.type + " type.");
+		},
 		onHit(target, source, move) {
-			this.add(source.lastMove + " was " + source.lastMove.type + " tyoe.");
-			if (source.lastMove.type !== 'Electric') return;
+			if (!this.effectState.lastMoveElectricType) return;
 			for (const pokemon of this.getAllActive()) {
 				if (pokemon === source) continue;
 				pokemon.addVolatile('electrify');
