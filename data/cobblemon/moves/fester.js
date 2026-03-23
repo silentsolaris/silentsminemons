@@ -14,7 +14,7 @@
 		},
 		onModifyMove(move, pokemon, target) {
 			if (target.hasType('Dark') || target.hasType('Psychic') || target.hasType('Grass')) {
-				move.boosts = { atk: 1};
+				move.self = { boosts: { atk: 1 } };
 			}
 		},
 		target: "normal",
