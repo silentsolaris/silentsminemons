@@ -38,12 +38,12 @@
 				typelist.splice(index, 1);
 				if ((this.randomChance(1, 18))) {
 					this.add(source + "'s type changed to " + newtypes[0]);
-					if (!source.setType(newtypes)) return false;
+					source.setType(newtypes);
 					return;
 				}
 				newtypes.push(this.sample(typelist));
 				this.add(source + "'s types changed to " + newtypes[0], newtypes[1]);
-				if (!source.setType(newtypes)) return false;
+				source.setType(newtypes);
 		},
 		target: "normal",
 		type: "Normal",
