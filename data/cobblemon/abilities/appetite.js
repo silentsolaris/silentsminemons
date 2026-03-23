@@ -12,7 +12,7 @@
 				if (pokemon.baseSpecies !== 'gourmooze' || pokemon.transformed || !pokemon.hp) return;
 				if (pokemon.baseSpecies.forme === 'Obese') return;
 				this.add('-activate', pokemon, 'ability: Appetite');
-				pokemon.formeChange('Gourmooze-Obese', this.effect, true);
+				pokemon.formeChange('gourmooze-Obese', this.effect, true);
 				pokemon.formeRegression = true;
 			}
 		},
