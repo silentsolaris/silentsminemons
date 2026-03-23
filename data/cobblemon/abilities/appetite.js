@@ -7,7 +7,9 @@
 		},	
 		onEatItem(item, pokemon, source, effect) {
 			if (item.isBerry) {
-				if (pokemon.baseSpecies.baseSpecies !== 'Gourmooze' || pokemon.transformed || !pokemon.hp) return;
+				this.add(pokemon.baseSpecies);
+				this.add(pokemon.baseSpecies.forme);
+				if (pokemon.baseSpecies !== 'Gourmooze' || pokemon.transformed || !pokemon.hp) return;
 				if (pokemon.baseSpecies.forme === 'Obese') return;
 				this.add('-activate', pokemon, 'ability: Appetite');
 				pokemon.formeChange('Gourmooze-Obese', this.effect, true);
