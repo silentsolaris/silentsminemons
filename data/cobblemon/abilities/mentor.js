@@ -17,6 +17,8 @@
 				myAction.move.priority
 			);
 
+			this.add("User priority: " + myPriority);
+
 			const allyPriority = this.runEvent(
 				'ModifyPriority',
 				ally,
@@ -24,6 +26,8 @@
 				allyAction.move,
 				allyAction.move.priority
 			);
+
+			this.add("Ally priority: " + allyPriority);
 
 			this.add('-activate', pokemon, 'ability: Mentor');
 
