@@ -32,9 +32,9 @@
 				{
 					"name": "seat_locator",
 					"parent": "body",
-					"pivot": [0, 24, -2],
+					"pivot": [0, 24, -1],
 					"locators": {
-						"seat": [14, 45, 0]
+						"seat_1": [0, 24, -1]
 					}
 				},
 				{
