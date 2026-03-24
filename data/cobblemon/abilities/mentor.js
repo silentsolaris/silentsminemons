@@ -7,6 +7,8 @@
 			if (!ally) return spe;
 
 			this.add('-activate', pokemon, 'ability: Mentor');
+
+			return spe;
 		},
 		flags: {},
 		name: "Mentor",
