@@ -64,6 +64,9 @@
       "rouseChance": 0.0084
     },
     "moving": {
+      "fly": {
+        "canFly": true
+      },
       "walk": {
         "walkSpeed": 0.5
       },
