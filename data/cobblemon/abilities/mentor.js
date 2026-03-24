@@ -1,37 +1,21 @@
 {
-		onModifySpe(spe, pokemon) {
-			if (!pokemon.side || pokemon.side.active.length < 2) return spe;
-
-			const ally = pokemon.allies().find(p => p && !p.fainted);
-			if (!ally) return spe;
-			this.add(ally.baseSpecies);
-
-			const myAction = this.queue.willMove(pokemon);
-			const allyAction = this.queue.willMove(ally);
-
-			const myPriority = this.runEvent(
-				'ModifyPriority',
-				pokemon,
-				myAction.target,
-				myAction.move,
-				myAction.move.priority
-			);
-
-			this.add("User priority: " + myPriority);
-
-			const allyPriority = this.runEvent(
-				'ModifyPriority',
-				ally,
-				allyAction.target,
-				allyAction.move,
-				allyAction.move.priority
-			);
-
-			this.add("Ally priority: " + allyPriority);
-
+		onChargeMove(pokemon, target, move) {
 			this.add('-activate', pokemon, 'ability: Mentor');
+			return false;
+		},
 
-			return spe;
+		onAllyChargeMove(ally, target, move) {
+			const pokemon = this.effectState.target;
+			if (!pokemon || pokemon.fainted || move.category === 'Status') return;
+
+			this.add('-activate', pokemon, 'ability: Mentor', ally);
+			return false;
+		},
+
+		onBasePower(basePower, attacker, defender, move) {
+			if (!move.flags['charge']) return;
+			this.debug('Mentor boost');
+			return this.chainModify(1.2);
 		},
 		flags: {},
 		name: "Mentor",
