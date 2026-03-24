@@ -32,6 +32,20 @@
      "transformTicks": 10,
      "poseTypes": [ "WALK" ],
      "animations": [ "bedrock(withereign, ground_walk)" ]
-		}
+		},
+"     hover": {
+      "poseTypes": ["HOVER"],
+      "animations": ["q.look('head')", "q.bedrock('withereign', 'ground_idle')"]
+    },
+    "fly": {
+      "poseTypes": ["FLY"],
+      "condition": "!q.is_gliding",
+      "animations": ["q.look('head')", "q.bedrock('withereign', 'ground_walk')"]
+          },
+    "glide": {
+      "poseTypes": ["FLY"],
+      "condition": "q.is_gliding",
+      "animations": ["q.look('head')", "q.bedrock('tormniac', 'ground_walk')"]
+    }
 	}
 }
