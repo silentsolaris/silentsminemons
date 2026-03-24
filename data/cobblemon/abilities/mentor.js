@@ -9,6 +9,22 @@
 			const myAction = this.queue.willMove(pokemon);
 			const allyAction = this.queue.willMove(ally);
 
+			const myPriority = this.runEvent(
+				'ModifyPriority',
+				pokemon,
+				myAction.target,
+				myAction.move,
+				myAction.move.priority
+			);
+
+			const allyPriority = this.runEvent(
+				'ModifyPriority',
+				ally,
+				allyAction.target,
+				allyAction.move,
+				allyAction.move.priority
+			);
+
 			this.add('-activate', pokemon, 'ability: Mentor');
 
 			return spe;
