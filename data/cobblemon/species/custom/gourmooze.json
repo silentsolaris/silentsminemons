@@ -232,11 +232,11 @@
           "obese"
         ],
       "baseStats": {
-        "hp": 150,
-		"attack": 100,
+        "hp": 80,
+		"attack": 120,
 		"defence": 80,
-		"special_attack": 100,
-		"special_defence": 80,
+		"special_attack": 120,
+		"special_defence": 100,
 		"speed": 40
       },
       "baseExperienceYield": 100
