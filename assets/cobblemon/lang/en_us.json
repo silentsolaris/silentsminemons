@@ -53,5 +53,98 @@
     "cobblemon.species.withereign.desc": "This sinister Pokémon absorbs the souls of both its enemies and allies to fuel its power.",
 
     "cobblemon.species.inshell.name": "Inshell",
-    "cobblemon.species.inshell.desc": "It hides in it's iridescent shell, firing a poisonous needle when threatened. It has an angst-y attitude."
+    "cobblemon.species.inshell.desc": "It hides in it's iridescent shell, firing a poisonous needle when threatened. It has an angst-y attitude.",
+
+    "cobblemon.move.badinput": "Bad Input",
+    "cobblemon.move.badinput.desc": "This move inflicts physical or special damage, whichever will be more effective. The user distorts the fabric of reality, randomizing it's type in the process.",
+
+    "cobblemon.move.blastospore": "Blastospore",
+    "cobblemon.move.blastospore.desc": "The user explodes in a cloud of spores to inflict damage on adjacent foes. The user faints upon using this move.",
+
+    "cobblemon.move.blunderpowder": "Blunder Powder",
+    "cobblemon.move.blunderpowder.desc": "The user fires a musketball of mud at the target. The spore powder damages Pokémon next to the target as well.",
+
+    "cobblemon.move.dealer": "Dealer",
+    "cobblemon.move.dealer.desc": "The user shuffles the items of every Pokémon on the field, randomly giving each Pokémon an item.",
+
+    "cobblemon.move.eldereye": "Elder Eye",
+    "cobblemon.move.eldereye.desc": "The user fires a crystaline beam of energy at the target. If this move is used while raining, it electrifies the target's next move.",
+
+    "cobblemon.move.fester": "Fester",
+    "cobblemon.move.fester.desc": "The user feasts on the target's natural energies. This move always hits and the user's Attack is raised if the target is a Psychic, Dark or Grass-type.",
+
+    "cobblemon.move.frostbolt": "Frost Bolt",
+    "cobblemon.move.frostbolt.desc": "The user fires a crossbow bolt of ice at the target's weakpoints. This may leave the target paralyzed.",
+
+    "cobblemon.move.mishap": "Mishap",
+    "cobblemon.move.mishap.desc": "The user spills a strange brew on the target to confuse it. However, this also sharply raises the target’s Attack stat.",
+
+    "cobblemon.move.overcharge": "Overcharge",
+    "cobblemon.move.overcharge.desc": "The user overcharges it's joints, battering the target. If it's partner is Electric-Type, a random stat of that Pokémon is raised. Cannot be used twice in a row.",
+
+    "cobblemon.move.rapidfire": "Rapidfire",
+    "cobblemon.move.rapidfire.desc": "The user fires three sandballs in quick succession. This move has a heightened chance of landing a critical hit, may burn and flinch the target.",
+
+    "cobblemon.move.siphon": "Siphon",
+    "cobblemon.move.siphon.desc": "This move inflicts physical or special damage, whichever will be more effective. The user's HP will be restored by a portion of the damage dealt. If the user is at full hp, instead of healing it will summon grassy terrain.",
+
+    "cobblemon.move.soulfireblade": "Soulfire Blade",
+    "cobblemon.move.soulfireblade.desc": "The user slashes the target with a blade of soulfire. This may leave the target with a burn.",
+
+    "cobblemon.move.treefell": "Treefell",
+    "cobblemon.move.treefell.desc": "The user attacks by hacking at the target with a blade. This move is super effective on Grass-type Pokémon.",
+
+    "cobblemon.move.whiplash": "Whiplash",
+    "cobblemon.move.whiplash.desc": "The user whips the target with high speed winds. This move always goes first and is boosted if used in tailwind.",
+
+    "cobblemon.ability.anarchist": "Anarchist",
+    "cobblemon.ability.anarchist.desc": "Boosts the Attack stat of this Pokémon when hit by a Fighting-type move. This Pokémon cannot be confused.",
+
+    "cobblemon.ability.anomalous": "Anomaly",
+    "cobblemon.ability.anomalous.desc": "While this Pokémon is on the field, type interactions are reversed.",
+
+    "cobblemon.ability.appetite": "Appetite",
+    "cobblemon.ability.appetite.desc": "When this Pokémon eats a berry, it transforms into it's obese form.",
+
+    "cobblemon.ability.brainworm": "Brainworm",
+    "cobblemon.ability.brainworm.desc": "The Pokémon adds the psychic type to the attacker if it makes direct contact.",
+
+    "cobblemon.ability.culinary": "Culinary",
+    "cobblemon.ability.culinary.desc": "Doubles the benefits of consumed berries for allies.",
+
+    "cobblemon.ability.darksorcery": "Dark Sorcery",
+    "cobblemon.ability.darksorcery.desc": "This Pokémon's Psychic-type moves can hit Dark-types",
+
+    "cobblemon.ability.determination": "Determination",
+    "cobblemon.ability.determination.desc": "When this Pokémon is knocked out, instead of immediately fainting, it still continues the rest of it's turn. It faints when it's turn ends.",
+
+    "cobblemon.ability.dragonheart": "Dragon's Heart",
+    "cobblemon.ability.dragonheart.desc": "This Pokémon's Dragon-type moves are boosted and have a chance to flinch while in psychic terrain.",
+
+    "cobblemon.ability.lastgrasp": "Last Grasp",
+    "cobblemon.ability.lastgrasp.desc": "The Pokémon gains more health from sources of recovery. If Grassy Terrain is active, the Pokémon rejuvenates and achieves it's true form.",
+
+    "cobblemon.ability.maritime": "Maritime",
+    "cobblemon.ability.maritime.desc": "This Pokémon's Rock-type moves are boost and are perfectly accurate in rain.",
+
+    "cobblemon.ability.mentor": "Mentor",
+    "cobblemon.ability.mentor.desc": "This Pokémon has a chance to go before it's ally.",
+
+    "cobblemon.ability.neurotoxin": "Neurotoxin",
+    "cobblemon.ability.neurotoxin.desc": "Pokémon poisoned by the user's moves will also have their speed stat lowered.",
+
+    "cobblemon.ability.oxidize": "Oxidize",
+    "cobblemon.ability.oxidize.desc": "When hit by a Water or Electric-type move, this Pokémon envelops itself in a veil made of energy and regains some HP every turn.",
+
+    "cobblemon.ability.savagery": "Savagery",
+    "cobblemon.ability.savagery.desc": "Instead of being confused, a random stat is raised.",
+
+    "cobblemon.ability.silvertongue": "Silver Tongue",
+    "cobblemon.ability.silvertongue.desc": "This Pokémon's Steel-type moves may lower the target's speed.",
+
+    "cobblemon.ability.sirenscall": "Siren's Call",
+    "cobblemon.ability.sirenscall.desc": "The Pokémon draws in all Ghost-type moves. Instead of taking damage from them, its Sp. Def stat is boosted.",
+
+    "cobblemon.ability.snowglomerate": "Snowglomerate",
+    "cobblemon.ability.snowglomerate.desc": "snowglomerate"
 }

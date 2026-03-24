@@ -12,7 +12,7 @@
 		secondaries: [
 			{
 				chance: 10,
-				status: 'par'
+				status: 'brn'
 			}, {
 				chance: 10,
 				volatileStatus: 'flinch',
