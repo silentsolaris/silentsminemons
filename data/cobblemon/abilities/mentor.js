@@ -6,6 +6,9 @@
 			if (!ally) return spe;
 			this.add(ally.baseSpecies);
 
+			const myAction = this.queue.willMove(pokemon);
+			const allyAction = this.queue.willMove(ally);
+
 			this.add('-activate', pokemon, 'ability: Mentor');
 
 			return spe;
