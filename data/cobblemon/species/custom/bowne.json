@@ -267,7 +267,7 @@
       "result": "withereign",
       "consumeHeldItem": false,
       "learnableMoves": [
-        "barbbarrage"
+        "soulfireblade"
       ],
       "requirements": [],
       "requiredContext": "minecraft:netherite_ingot"
