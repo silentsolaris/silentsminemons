@@ -258,7 +258,7 @@
         "iceshard"
       ],
       "requirements": [],
-      "requiredContext": "minemons:ice_stone"
+      "requiredContext": "cobblemon:ice_stone"
 
 	},
 	{
