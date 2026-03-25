@@ -1,8 +1,8 @@
 {
  "portraitScale": 2,
- "portraitTranslation": [ -0.5, 2.7, 0 ],
- "profileScale": 0.5,
- "profileTranslation": [ 0, 1.1, 0 ],
+ "portraitTranslation": [ -0.5, 3.6, 0 ],
+ "profileScale": 0.4,
+ "profileTranslation": [ 0, 1.3, 0 ],
  "animations": {
    "faint": "q.bedrock_primary('gallagourd', 'faint', q.curve('one'))",
    "cry": "q.bedrock_stateful('gallagourd', 'cry')",
@@ -34,12 +34,31 @@
    },
    "walking": {
      "poseTypes": ["WALK"],
+     "condition": "!q.in_air && !q.is_sprinting",
      "animations": [
        "q.look('head')",
-       "q.bedrock('gallagourd', 'ground_walk')"
+       "q.bedrock('gallagourd', 'ground_walk')",
+       {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('gallagourd', 'ride_ground_walk')"
+        }
+
      ],
      "quirks": ["q.bedrock_quirk('gallagourd', 'blink')"]
    },
+   "running": {
+      "poseTypes": ["WALK", "FLOAT", "SWIM"],
+      "condition": "!q.in_air && q.is_sprinting",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gallagourd', 'ground_run')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('gallagourd', 'ride_ground_run')"
+        }
+      ],
+      "quirks": ["q.bedrock_quirk('gallagourd', 'blink')"]
+    },
    "sleep": {
      "poseTypes": ["SLEEP"],
      "animations": ["q.bedrock('gallagourd', 'sleep')"]
