@@ -30,6 +30,10 @@
        "q.look('head')",
        "q.bedrock('pumpkid', 'ground_walk')"
      ]
+   },
+   "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('pumpkid', 'sleep')"]
    }
 	}
 }

@@ -17,6 +17,7 @@ This datapack requires Cobblemon to work (obviously)
 - Ocatalyst - Poison/Fairy - Found around Swamp huts
 - Siphosail - Poison/Dark - Found in Warm and Lukewarm oceans
 - Serasea - Fairy/Ghost - Found in Cold, Deep and Frozen oceans
+- Gourmooze - Grass - Found in Swamps
 - Bowne - Ghost - Found at night or in soulsand biomes
 - Bognmarrow - Ghost/Grass - Evolves from Bowne in a mushroom biome
 - Ivorice - Ghost/Ice - Evolves from Bowne with an ice Stone
@@ -27,4 +28,5 @@ This datapack requires Cobblemon to work (obviously)
 SPECIAL THANKS :
 
 - Saucecoie for the coding help!
-- LcorpOfficial for explaining non-euclidian modeling!
+- LcorpOfficial for explaining misc things!
+- Thanks to the Cobblemon Community for Feedback, Suggestions and Bug Reports!
