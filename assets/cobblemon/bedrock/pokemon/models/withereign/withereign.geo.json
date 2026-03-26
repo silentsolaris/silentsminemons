@@ -162,6 +162,15 @@
 					]
 				},
 				{
+					"name": "locator_item",
+					"parent": "right_forearm",
+					"pivot": [-20, 32.5, 0],
+					"rotation": [90, 0, 0],
+					"locators": {
+						"item": [-20, 32.5, 0]
+					}
+				},
+				{
 					"name": "head",
 					"parent": "withereign",
 					"pivot": [0, 34.45186, 0.17292],

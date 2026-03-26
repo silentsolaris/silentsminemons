@@ -165,6 +165,15 @@
 					]
 				},
 				{
+					"name": "locator_item",
+					"parent": "vine_left5",
+					"pivot": [4, -1, 0],
+					"rotation": [0, 0, -90],
+					"locators": {
+						"item": [4, -1, 0]
+					}
+				},
+				{
 					"name": "vine_right1",
 					"parent": "head",
 					"pivot": [-4.1, 9, 0.5],

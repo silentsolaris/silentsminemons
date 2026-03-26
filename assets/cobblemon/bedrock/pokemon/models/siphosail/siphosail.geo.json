@@ -6,7 +6,7 @@
 				"identifier": "geometry.siphosail",
 				"texture_width": 128,
 				"texture_height": 128,
-				"visible_bounds_width": 4,
+				"visible_bounds_width": 3,
 				"visible_bounds_height": 4.5,
 				"visible_bounds_offset": [0, 1.75, 0]
 			},
@@ -54,6 +54,15 @@
 					"cubes": [
 						{"origin": [4.03739, 3.25639, 3], "size": [0, 6, 2], "uv": [56, 69]}
 					]
+				},
+				{
+					"name": "locator_item",
+					"parent": "tentacle2selection3",
+					"pivot": [4, 6, 4],
+					"rotation": [0, 0, -90],
+					"locators": {
+						"item": [4, 6, 4]
+					}
 				},
 				{
 					"name": "tentacle1",

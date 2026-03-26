@@ -151,6 +151,15 @@
 					]
 				},
 				{
+					"name": "locator_item",
+					"parent": "head",
+					"pivot": [0, 9.1, -3],
+					"rotation": [-70, 0, 0],
+					"locators": {
+						"item": [0, 9.1, -3]
+					}
+				},
+				{
 					"name": "body",
 					"parent": "rotation",
 					"pivot": [0, 0.125, -0.5],

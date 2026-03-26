@@ -60,6 +60,14 @@
 					]
 				},
 				{
+					"name": "locator_item",
+					"parent": "head",
+					"pivot": [0, 19.15, 11],
+					"locators": {
+						"item": [0, 19.15, 11]
+					}
+				},
+				{
 					"name": "eye_left",
 					"parent": "head",
 					"pivot": [-2, 21.26954, 5.86099],

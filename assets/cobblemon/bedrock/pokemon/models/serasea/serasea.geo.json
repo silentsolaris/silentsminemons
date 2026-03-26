@@ -134,7 +134,6 @@
 					"name": "wing_left",
 					"parent": "head",
 					"pivot": [2.75, 19.8, 0],
-					"rotation": [0, 0, 0],
 					"cubes": [
 						{"origin": [2.75, 16.8, 0], "size": [3, 4, 0], "uv": [42, 18]}
 					]
@@ -186,7 +185,6 @@
 					"name": "wing_right",
 					"parent": "head",
 					"pivot": [-2.75, 19.8, 0],
-					"rotation": [0, 0, 0],
 					"cubes": [
 						{"origin": [-5.75, 16.8, 0], "size": [3, 4, 0], "uv": [42, 24]}
 					]
@@ -233,6 +231,15 @@
 					"cubes": [
 						{"origin": [-12.75, 18.8, 0], "size": [3, 3, 0], "uv": [36, 27]}
 					]
+				},
+				{
+					"name": "locator_item",
+					"parent": "head",
+					"pivot": [0, 22, 0],
+					"rotation": [-90, 0, 0],
+					"locators": {
+						"item": [0, 22, 0]
+					}
 				},
 				{
 					"name": "body",

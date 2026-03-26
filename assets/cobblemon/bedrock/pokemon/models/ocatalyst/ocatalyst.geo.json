@@ -354,6 +354,14 @@
 					"cubes": [
 						{"origin": [-7.23665, 22.74573, -12], "size": [6, 10, 0], "uv": [56, 8], "mirror": true}
 					]
+				},
+				{
+					"name": "locator_item",
+					"parent": "head",
+					"pivot": [0, 15.75, -14.5],
+					"locators": {
+						"item": [0, 15.75, -14.5]
+					}
 				}
 			]
 		}

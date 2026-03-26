@@ -149,6 +149,14 @@
 					]
 				},
 				{
+					"name": "locator_item",
+					"parent": "head",
+					"pivot": [0, 3.75, -5.5],
+					"locators": {
+						"item": [0, 3.75, -5.5]
+					}
+				},
+				{
 					"name": "tail-1",
 					"parent": "body",
 					"pivot": [0, 10.75, 5],
