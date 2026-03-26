@@ -16,9 +16,9 @@
        "q.bedrock('parropot', 'battle_idle')"
      ],
      "quirks": 
-     ["q.bedrock_quirk('gallagourd', 'chirp')",
-     "q.bedrock_quirk('gallagourd', 'tweak1')",
-     "q.bedrock_quirk('gallagourd', 'tweak2')"
+     ["q.bedrock_quirk('parropot', 'chirp')",
+     "q.bedrock_quirk('parropot', 'tweak1')",
+     "q.bedrock_quirk('parropot', 'tweak2')"
     ]
    },
    "standing": {
@@ -29,9 +29,9 @@
        "q.bedrock('parropot', 'ground_idle')"
      ],
      "quirks": 
-     ["q.bedrock_quirk('gallagourd', 'chirp')",
-     "q.bedrock_quirk('gallagourd', 'tweak1')",
-     "q.bedrock_quirk('gallagourd', 'tweak2')"
+     ["q.bedrock_quirk('parropot', 'chirp')",
+     "q.bedrock_quirk('parropot', 'tweak1')",
+     "q.bedrock_quirk('parropot', 'tweak2')"
     ]
    },
    "walking": {
