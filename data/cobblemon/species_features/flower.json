@@ -1,6 +1,0 @@
-{
-    "keys": ["flower"],
-    "type": "flag",
-    "isAspect": true,
-    "default": false
-  }

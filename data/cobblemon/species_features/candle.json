@@ -1,6 +1,0 @@
-{
-    "keys": ["candle"],
-    "type": "flag",
-    "isAspect": true,
-    "default": false
-  }

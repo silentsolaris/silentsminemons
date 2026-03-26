@@ -1,0 +1,195 @@
+{
+  "requirements": [
+    {
+      "variant": "properties",
+      "target": "parropot"
+    }
+  ],
+  "interactions": [
+    {
+      "grouping": "cobblemon:form_change",
+      "cooldown": "0",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "minecraft:brush"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=empty') ? q.pokemon.apply('pot=candle') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=empty') ? q.pokemon.apply('pot=flower') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=empty') ? q.pokemon.apply('pot=honey') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=empty') ? q.pokemon.apply('pot=quill') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle || q.pokemon.matches('pot=empty') ? return 0 : q.pokemon.apply('pot=empty');"
+        }
+      ]
+    },
+    {
+      "grouping": "cobblemon:form_change",
+      "cooldown": "0",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "minecraft:candle"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=candle') ? q.pokemon.apply('pot=empty') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=candle') ? q.pokemon.apply('pot=flower') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=candle') ? q.pokemon.apply('pot=honey') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=candle') ? q.pokemon.apply('pot=quill') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle || q.pokemon.matches('pot=candle') ? return 0 : q.pokemon.apply('pot=candle');"
+        }
+      ]
+    },
+    {
+      "grouping": "cobblemon:form_change",
+      "cooldown": "0",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "minecraft:oxeye_daisy"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=flower') ? q.pokemon.apply('pot=empty') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=flower') ? q.pokemon.apply('pot=candle') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=flower') ? q.pokemon.apply('pot=honey') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=flower') ? q.pokemon.apply('pot=quill') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle || q.pokemon.matches('pot=flower') ? return 0 : q.pokemon.apply('pot=flower');"
+        }
+      ]
+    },
+    {
+      "grouping": "cobblemon:form_change",
+      "cooldown": "0",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "minecraft:honey_bottle"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=honey') ? q.pokemon.apply('pot=empty') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=honey') ? q.pokemon.apply('pot=candle') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=honey') ? q.pokemon.apply('pot=flower') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=honey') ? q.pokemon.apply('pot=quill') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle || q.pokemon.matches('pot=honey') ? return 0 : q.pokemon.apply('pot=honey');"
+        }
+      ]
+    },
+    {
+      "grouping": "cobblemon:form_change",
+      "cooldown": "0",
+      "requirements": [
+        {
+          "variant": "owner_held_item",
+          "itemCondition": "minecraft:feather"
+        }
+      ],
+      "effects": [
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=quill') ? q.pokemon.apply('pot=empty') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=quill') ? q.pokemon.apply('pot=candle') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=quill') ? q.pokemon.apply('pot=flower') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=quill') ? q.pokemon.apply('pot=honey') : return 0;"
+        },
+        {
+          "variant": "script",
+          "script":
+          "q.pokemon.in_battle || q.pokemon.matches('pot=quill') ? return 0 : q.pokemon.apply('pot=quill');"
+        }
+      ]
+    }
+  ]
+}
