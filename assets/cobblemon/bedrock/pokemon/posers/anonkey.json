@@ -30,14 +30,32 @@
      ]
    },
    "walking": {
-     "poseName": "walking",
-     "transformTicks": 10,
-     "poseTypes": [ "WALK" ],
-     "animations": [ "bedrock(anonkey, ground_walk)" ],
-     "quirks": [
-       "q.bedrock_quirk('anonkey', 'blink')"
-     ]
-		},
+     "poseTypes": ["WALK"],
+     "condition": "!q.in_air && !q.is_sprinting",
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('anonkey', 'ground_walk')",
+       {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('anonkey', 'ride_ground_walk')"
+        }
+
+     ],
+     "quirks": ["q.bedrock_quirk('anonkey', 'blink')"]
+   },
+   "running": {
+      "poseTypes": ["WALK", "FLOAT", "SWIM"],
+      "condition": "!q.in_air && q.is_sprinting",
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('anonkey', 'ground_run')",
+        {
+          "condition": "q.is_ridden",
+          "animation": "q.bedrock('anonkey', 'ride_ground_run')"
+        }
+      ],
+      "quirks": ["q.bedrock_quirk('anonkey', 'blink')"]
+    },
     "sleep": {
      "poseTypes": ["SLEEP"],
      "animations": ["q.bedrock('anonkey', 'sleep')"]
