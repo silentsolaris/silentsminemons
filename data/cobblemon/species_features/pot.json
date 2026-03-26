@@ -1,0 +1,16 @@
+{
+  "type": "choice",
+  "keys": [
+    "pot"
+  ],
+  "default": "empty",
+  "choices": [
+    "empty",
+    "candle",
+    "quill",
+    "flower",
+    "honey"
+  ],
+  "isAspect": true,
+  "aspectFormat": "{{choice}}-style"
+}

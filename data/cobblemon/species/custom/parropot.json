@@ -12,7 +12,7 @@
   "labels": [
     "minemons"
   ],
-  "aspects": [],
+  "aspects": ["empty"],
   "abilities": [
   "hustle",
 	"klutz",
