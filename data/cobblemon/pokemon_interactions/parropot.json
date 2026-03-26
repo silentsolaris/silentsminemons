@@ -19,27 +19,27 @@
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=empty') ? q.pokemon.apply('pot=candle') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('empty=true') ? q.pokemon.apply('candle=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=empty') ? q.pokemon.apply('pot=flower') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('empty=true') ? q.pokemon.apply('flower=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=empty') ? q.pokemon.apply('pot=honey') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('empty=true') ? q.pokemon.apply('honey=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=empty') ? q.pokemon.apply('pot=quill') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('empty=true') ? q.pokemon.apply('quill=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle || q.pokemon.matches('pot=empty') ? return 0 : q.pokemon.apply('pot=empty');"
+          "q.pokemon.in_battle || q.pokemon.matches('empty=true') ? return 0 : q.pokemon.apply('empty=true'); q.pokemon.apply('candle=false'); q.pokemon.apply('flower=false'); q.pokemon.apply('honey=false'); q.pokemon.apply('quill=false');"
         }
       ]
     },
@@ -56,27 +56,27 @@
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=candle') ? q.pokemon.apply('pot=empty') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('candle=true') ? q.pokemon.apply('empty=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=candle') ? q.pokemon.apply('pot=flower') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('candle=true') ? q.pokemon.apply('flower=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=candle') ? q.pokemon.apply('pot=honey') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('candle=true') ? q.pokemon.apply('honey=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=candle') ? q.pokemon.apply('pot=quill') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('candle=true') ? q.pokemon.apply('quill=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle || q.pokemon.matches('pot=candle') ? return 0 : q.pokemon.apply('pot=candle');"
+          "q.pokemon.in_battle || q.pokemon.matches('candle=true') ? return 0 : q.pokemon.apply('candle=true'); q.pokemon.apply('empty=false'); q.pokemon.apply('flower=false'); q.pokemon.apply('honey=false'); q.pokemon.apply('quill=false');"
         }
       ]
     },
@@ -93,27 +93,27 @@
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=flower') ? q.pokemon.apply('pot=empty') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('flower=true') ? q.pokemon.apply('candle=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=flower') ? q.pokemon.apply('pot=candle') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('flower=true') ? q.pokemon.apply('empty=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=flower') ? q.pokemon.apply('pot=honey') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('flower=true') ? q.pokemon.apply('honey=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=flower') ? q.pokemon.apply('pot=quill') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('flower=true') ? q.pokemon.apply('quill=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle || q.pokemon.matches('pot=flower') ? return 0 : q.pokemon.apply('pot=flower');"
+          "q.pokemon.in_battle || q.pokemon.matches('flower=true') ? return 0 : q.pokemon.apply('flower=true'); q.pokemon.apply('candle=false'); q.pokemon.apply('empty=false'); q.pokemon.apply('honey=false'); q.pokemon.apply('quill=false');"
         }
       ]
     },
@@ -130,27 +130,27 @@
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=honey') ? q.pokemon.apply('pot=empty') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('honey=true') ? q.pokemon.apply('candle=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=honey') ? q.pokemon.apply('pot=candle') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('honey=true') ? q.pokemon.apply('flower=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=honey') ? q.pokemon.apply('pot=flower') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('honey=true') ? q.pokemon.apply('empty=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=honey') ? q.pokemon.apply('pot=quill') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('honey=true') ? q.pokemon.apply('quill=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle || q.pokemon.matches('pot=honey') ? return 0 : q.pokemon.apply('pot=honey');"
+          "q.pokemon.in_battle || q.pokemon.matches('honey=true') ? return 0 : q.pokemon.apply('honey=true'); q.pokemon.apply('candle=false'); q.pokemon.apply('flower=false'); q.pokemon.apply('empty=false'); q.pokemon.apply('quill=false');"
         }
       ]
     },
@@ -167,27 +167,27 @@
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=quill') ? q.pokemon.apply('pot=empty') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('quill=true') ? q.pokemon.apply('candle=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=quill') ? q.pokemon.apply('pot=candle') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('quill=true') ? q.pokemon.apply('flower=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=quill') ? q.pokemon.apply('pot=flower') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('quill=true') ? q.pokemon.apply('honey=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('pot=quill') ? q.pokemon.apply('pot=honey') : return 0;"
+          "q.pokemon.in_battle ? return 0 : q.pokemon.matches('quill=true') ? q.pokemon.apply('empty=false') : return 0;"
         },
         {
           "variant": "script",
           "script":
-          "q.pokemon.in_battle || q.pokemon.matches('pot=quill') ? return 0 : q.pokemon.apply('pot=quill');"
+          "q.pokemon.in_battle || q.pokemon.matches('quill=true') ? return 0 : q.pokemon.apply('quill=true'); q.pokemon.apply('candle=false'); q.pokemon.apply('flower=false'); q.pokemon.apply('honey=false'); q.pokemon.apply('empty=false');"
         }
       ]
     }
