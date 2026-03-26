@@ -166,6 +166,12 @@
     "lightLevel": 7,
     "liquidGlowMode": "LAND"
   },
+  "features": [
+      "honey",
+      "candle",
+      "flower",
+      "quill"
+    ],
 "forms": [ 
 {
       "name": "Honeypot",
@@ -186,7 +192,7 @@
         "minemons"
       ],
       "aspects": [
-        "parropot-honey"
+        "honey"
       ],
       "baseStats": {
         "hp": 60,
@@ -323,7 +329,7 @@
         "minemons"
       ],
       "aspects": [
-        "parropot-flower"
+        "flower"
       ],
 	    "abilities": [
     "hustle",
@@ -465,7 +471,7 @@
         "minemons"
       ],
       "aspects": [
-        "parropot-candle"
+        "candle"
       ],
 	    "abilities": [
     "hustle",
@@ -608,7 +614,7 @@
         "minemons"
       ],
       "aspects": [
-        "parropot-quill"
+        "quill"
       ],
 	    "abilities": [
     "hustle",
