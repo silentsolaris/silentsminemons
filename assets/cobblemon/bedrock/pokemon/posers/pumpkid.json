@@ -14,7 +14,8 @@
      "animations": [
        "q.look('head')",
        "q.bedrock('pumpkid', 'battle_idle')"
-     ]
+     ],
+     "quirks": ["q.bedrock_quirk('gallagourd', 'blink')"]
    },
    "standing": {
      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
@@ -22,14 +23,16 @@
      "animations": [
        "q.look('head')",
        "q.bedrock('pumpkid', 'ground_idle')"
-     ]
+     ],
+     "quirks": ["q.bedrock_quirk('gallagourd', 'blink')"]
    },
    "walking": {
      "poseTypes": ["WALK"],
      "animations": [
        "q.look('head')",
        "q.bedrock('pumpkid', 'ground_walk')"
-     ]
+     ],
+     "quirks": ["q.bedrock_quirk('gallagourd', 'blink')"]
    },
    "sleep": {
      "poseTypes": ["SLEEP"],

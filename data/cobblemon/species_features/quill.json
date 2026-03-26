@@ -1,0 +1,6 @@
+{
+    "keys": ["quill"],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+  }

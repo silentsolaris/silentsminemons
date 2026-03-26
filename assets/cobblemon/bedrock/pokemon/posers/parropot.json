@@ -1,0 +1,45 @@
+{
+ "portraitScale": 2,
+ "portraitTranslation": [ -0.1, -1.2, 0 ],
+ "profileScale": 1,
+ "profileTranslation": [ 0, 0.3, 0 ],
+ "animations": {
+   "cry": "q.bedrock_stateful('parropot', 'cry')",
+   "recoil": "q.bedrock_stateful('parropot', 'recoil')"
+ },
+ "poses": {
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('parropot', 'battle_idle')"
+     ],
+     "quirks": 
+     ["q.bedrock_quirk('gallagourd', 'chirp')",
+     "q.bedrock_quirk('gallagourd', 'tweak1')",
+     "q.bedrock_quirk('gallagourd', 'tweak2')"
+    ]
+   },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('parropot', 'ground_idle')"
+     ],
+     "quirks": 
+     ["q.bedrock_quirk('gallagourd', 'chirp')",
+     "q.bedrock_quirk('gallagourd', 'tweak1')",
+     "q.bedrock_quirk('gallagourd', 'tweak2')"
+    ]
+   },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('parropot', 'ground_walk')"
+     ]
+   }
+}
+}
