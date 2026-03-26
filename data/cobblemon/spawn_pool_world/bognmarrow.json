@@ -8,7 +8,7 @@
             "pokemon": "bognmarrow",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "common",
+            "bucket": "uncommon",
             "level": "36-60",
             "weight": 4,
             "weightMultiplier": {
@@ -18,7 +18,7 @@
                 }
             },
             "condition": {
-                "canSeeSky": true,
+                "canSeeSky": false,
                 "biomes": [
                     "#cobblemon:is_swamp",
 					"#cobblemon:is_mushroom"
