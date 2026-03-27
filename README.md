@@ -17,6 +17,7 @@ This datapack requires Cobblemon to work (obviously)
 - Ocatalyst - Poison/Fairy - Found around Swamp huts
 - Siphosail - Poison/Dark - Found in Warm and Lukewarm oceans
 - Serasea - Fairy/Ghost - Found in Cold, Deep and Frozen oceans
+- Parropot - Rock - Found in Trail Ruins. Use a feather, honey bottle, oxyde daisy, candle or brush to change it's form!
 - Gourmooze - Grass - Found in Swamps
 - Bowne - Ghost - Found at night or in soulsand biomes
 - Bognmarrow - Ghost/Grass - Evolves from Bowne in a mushroom biome
