@@ -20,7 +20,7 @@
 				const index = targets.indexOf(pkmn);
 				pkmn.setItem(item, source, move);
 				targets.splice(index, 1);
-				this.add('-activate', source, 'move: Dealer', "[of] " + pkmn, item.id, '[msg]newowner');
+				this.add('-activate', source, 'move: Dealer', "[of] " + pkmn, item.name, '[msg]newowner');
 			}
 		},
 		target: "all",
