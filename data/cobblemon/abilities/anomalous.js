@@ -7,7 +7,7 @@
 				return 1;
 			}
 			this.add("Effectiveness: " + typeMod);
-			return typeMod * -1;
+			return 1;
 		},
 		flags: {},
 		name: "Anomalous",
