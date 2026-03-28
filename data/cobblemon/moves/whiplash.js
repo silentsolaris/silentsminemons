@@ -10,7 +10,10 @@
 		onBasePower(basePower, attacker, defender, move) {
 			const sides = [attacker.side, ...attacker.side.foeSidesWithConditions()];
 			for (const side of sides) {
-				if (side.getSideCondition('tailwind')) return this.chainModify(1.5);
+				if (side.getSideCondition('tailwind')) {
+					this.add('-activate', attacker, 'move: Whiplash');
+					return this.chainModify(1.5);
+				}
 			}
 		},
 		target: "normal",

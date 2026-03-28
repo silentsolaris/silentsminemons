@@ -16,8 +16,8 @@
 				this.heal(Math.ceil(damage * 0.5), source, target, 'drain');
 			}
 			else {
-				this.field.setTerrain('grassyterrain');
 				this.add('-activate', source, 'move: Siphon');
+				this.field.setTerrain('grassyterrain');
 			}
 		},
 		target: "normal",

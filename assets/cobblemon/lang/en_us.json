@@ -67,7 +67,6 @@
     "cobblemon.move.dealer": "Dealer",
     "cobblemon.move.dealer.desc": "The user shuffles the items of every Pokémon on the field, randomly giving each Pokémon an item.",
     "cobblemon.battle.activate.dealer.shuffle": "%1$s shuffled everyone's items!",
-    "cobblemon.battle.activate.dealer.newowner": "%2$s obtained the %3$s!",
 
     "cobblemon.move.eldereye": "Elder Eye",
     "cobblemon.move.eldereye.desc": "The user fires a crystaline beam of energy at the target. If this move is used while raining, it electrifies the target's next move.",
@@ -104,9 +103,9 @@
     "cobblemon.ability.anarchist": "Anarchist",
     "cobblemon.ability.anarchist.desc": "Boosts the Attack stat of this Pokémon when hit by a Fighting-type move. This Pokémon cannot be confused.",
 
-    "cobblemon.ability.anomalous": "Anomaly",
-    "cobblemon.ability.anomalous.desc": "While this Pokémon is on the field, type interactions are reversed.",
-    "cobblemon.battle.activate.anomalous": "%1$s twisted reality! Types have been reversed!",
+    "cobblemon.ability.anomaly": "Anomaly",
+    "cobblemon.ability.anomaly.desc": "While this Pokémon is on the field, type interactions are reversed.",
+    "cobblemon.battle.activate.anomaly": "%1$s twisted reality! Types have been reversed!",
 
     "cobblemon.ability.appetite": "Appetite",
     "cobblemon.ability.appetite.desc": "When this Pokémon eats a berry, it transforms into it's obese form.",
