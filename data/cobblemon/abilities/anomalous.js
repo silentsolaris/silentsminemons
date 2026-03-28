@@ -6,7 +6,7 @@
 				this.add("Immune");
 				return 1;
 			}
-			this.add("Effectiveness: " + typemod);
+			this.add("Effectiveness: " + typeMod);
 			return typeMod * -1;
 		},
 		flags: {},
