@@ -7,10 +7,10 @@
 
 		onAllyChargeMove(ally, target, move) {
 			const pokemon = this.effectState.target;
-			this.add(ally);
-			if (!ally || ally.fainted || move.category === 'Status') return;
+			this.add(ally.baseSpecies);
+			if (!ally || ally.fainted || move.category === 'Status' || ally === pokemon) return;
 
-			this.add('-activate', pokemon, 'ability: Mentor', ally, '[msg]ally');
+			this.add('-activate', pokemon, 'ability: Mentor', "[of] " + ally, '[msg]ally');
 			return false;
 		},
 

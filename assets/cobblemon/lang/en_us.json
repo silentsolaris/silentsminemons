@@ -138,7 +138,7 @@
     "cobblemon.ability.mentor": "Mentor",
     "cobblemon.ability.mentor.desc": "Damaging charging moves for both this Pokémon and it's ally happen in a single turn instead.",
     "cobblemon.battle.activate.mentor.self": "%1$s uses a technique to speed up the process!",
-    "cobblemon.battle.activate.mentor.ally": "%1$s guides %2$s",
+    "cobblemon.battle.activate.mentor.ally": "%1$s guides %3$s",
 
     "cobblemon.ability.neurotoxin": "Neurotoxin",
     "cobblemon.ability.neurotoxin.desc": "Pokémon poisoned by the user's moves will also have their speed stat lowered.",
