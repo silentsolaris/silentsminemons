@@ -2,9 +2,11 @@
 		onEffectivenessPriority: -2,
 		onEffectiveness(typeMod, target, type, move) {
 			if (move.category === 'Status') return;
-			if (target.runImmunity(move)) {
+			if (!target.runImmunity(move)) {
+				this.add("Immune");
 				return 1;
 			}
+			this.add("Effectiveness: " + typemod);
 			return typeMod * -1;
 		},
 		flags: {},
