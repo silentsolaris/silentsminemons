@@ -1,15 +1,13 @@
 {
-		onEffectivenessPriority: -2,
-		onEffectiveness(typeMod, target, type, move) {
-			if (move.category === 'Status') return;
-			if (!target.runImmunity(move)) {
-				this.add("Immune");
-				return 1;
-			}
-			this.add("Effectiveness: " + typeMod);
-			return 1;
-		},
-		flags: {},
-		name: "Anomalous",
-		rating: 3,
-	}
+	onEffectivenessPriority: 1,
+	onEffectiveness(typeMod, target, type, move) {
+		if (move.category === 'Status') return;
+
+		this.add('Anomalous invert: ' + typeMod);
+
+		return -typeMod;
+	},
+	flags: {},
+	name: "Anomalous",
+	rating: 3,
+}
