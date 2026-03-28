@@ -66,7 +66,8 @@
 
     "cobblemon.move.dealer": "Dealer",
     "cobblemon.move.dealer.desc": "The user shuffles the items of every Pokémon on the field, randomly giving each Pokémon an item.",
-    "cobblemon.battle.activate.dealer": "%1$ shuffled everyone's items!",
+    "cobblemon.battle.activate.dealer.shuffle": "%1$ shuffled everyone's items!",
+    "cobblemon.battle.activate.dealer.newowner": "%2$ obtained the %3$!",
 
     "cobblemon.move.eldereye": "Elder Eye",
     "cobblemon.move.eldereye.desc": "The user fires a crystaline beam of energy at the target. If this move is used while raining, it electrifies the target's next move.",
@@ -88,7 +89,7 @@
 
     "cobblemon.move.siphon": "Siphon",
     "cobblemon.move.siphon.desc": "This move inflicts physical or special damage, whichever will be more effective. The user's HP will be restored by a portion of the damage dealt. If the user is at full hp, instead of healing it will summon grassy terrain.",
-    "cobblemon.battle.activate.siphon.summonterrain": "%1$'s overabundance of energy summoned grassy terrain!",
+    "cobblemon.battle.activate.siphon": "%1$'s overabundance of energy summoned grassy terrain!",
 
     "cobblemon.move.soulfireblade": "Soulfire Blade",
     "cobblemon.move.soulfireblade.desc": "The user slashes the target with a blade of soulfire. This may leave the target with a burn.",
@@ -98,7 +99,7 @@
 
     "cobblemon.move.whiplash": "Whiplash",
     "cobblemon.move.whiplash.desc": "The user whips the target with high speed winds. This move always goes first and is boosted if used in tailwind.",
-    "cobblemon.battle.activate.siphon.tailwind": "The move was boosted by the flowing winds!",
+    "cobblemon.battle.activate.whiplash": "The move was boosted by the flowing winds!",
 
     "cobblemon.ability.anarchist": "Anarchist",
     "cobblemon.ability.anarchist.desc": "Boosts the Attack stat of this Pokémon when hit by a Fighting-type move. This Pokémon cannot be confused.",
@@ -124,7 +125,7 @@
 
     "cobblemon.ability.determination": "Determination",
     "cobblemon.ability.determination.desc": "When this Pokémon is knocked out, instead of immediately fainting, it still continues the rest of it's turn. It faints when it's turn ends.",
-    "cobblemon.battle.activate.determination": "%1$ makes it's last stand!",
+    "cobblemon.battle.activate.determination": "%1$ makes its last stand!",
 
     "cobblemon.ability.dragonheart": "Dragon's Heart",
     "cobblemon.ability.dragonheart.desc": "This Pokémon's Dragon-type moves are boosted and have a chance to flinch while in psychic terrain.",

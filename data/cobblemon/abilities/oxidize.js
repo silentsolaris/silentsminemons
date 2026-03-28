@@ -2,6 +2,12 @@
 		onHit(target, source, move) {
 			if (!target.hp) return;
 			if (move.type === 'Electric' || move.type === 'Water') {
+				if (move.type === 'Water') {
+					this.add('-activate', target, 'ability: Oxidize', '[msg]water');
+				}
+				if (move.type === 'Electric') {
+					this.add('-activate', target, 'ability: Oxidize', '[msg]electric');
+				}
 				target.addVolatile('aquaring');
 			}
 		},

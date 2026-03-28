@@ -14,13 +14,13 @@
 				if (!pkmn.item) continue;
 				items.push(pkmn.item);
 			}
-			this.add("The held items on the field were shuffled!");
+			this.add('-activate', source, 'move: Dealer', '[msg]shuffle');
 			for (const item of items) {
 				let pkmn = this.sample(targets);
 				const index = targets.indexOf(pkmn);
 				pkmn.setItem(item, source, move);
 				targets.splice(index, 1);
-				this.add(pkmn.baseSpecies.name + " obtained the " + item + "!");
+				this.add('-activate', source, 'move: Dealer', "[of] " + target, item, '[msg]newowner');
 			}
 		},
 		target: "all",

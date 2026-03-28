@@ -1,6 +1,6 @@
 {
 		onChargeMove(pokemon, target, move) {
-			this.add('-activate', pokemon, 'ability: Mentor');
+			this.add('-activate', pokemon, 'ability: Mentor', '[msg]self');
 			return false;
 		},
 
@@ -8,7 +8,7 @@
 			const pokemon = this.effectState.target;
 			if (!pokemon || pokemon.fainted || move.category === 'Status') return;
 
-			this.add('-activate', pokemon, 'ability: Mentor', ally);
+			this.add('-activate', pokemon, 'ability: Mentor', ally, '[msg]ally');
 			return false;
 		},
 

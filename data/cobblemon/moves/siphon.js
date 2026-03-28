@@ -17,6 +17,7 @@
 			}
 			else {
 				this.field.setTerrain('grassyterrain');
+				this.add('-activate', source, 'move: Siphon');
 			}
 		},
 		target: "normal",
