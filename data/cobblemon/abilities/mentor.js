@@ -6,6 +6,7 @@
 		},
 
 		onAllyChargeMove(ally, target, move) {
+			const pokemon = this.effectState.target;
 			this.add(ally);
 			if (!ally || ally.fainted || move.category === 'Status') return;
 
