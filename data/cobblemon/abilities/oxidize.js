@@ -1,6 +1,6 @@
 {
 		onHit(target, source, move) {
-			if (!target.hp) return;
+			if (!target.hp || target.volatiles['aquaring']) return;
 			if (move.type === 'Electric' || move.type === 'Water') {
 				if (move.type === 'Water') {
 					this.add('-activate', target, 'ability: Oxidize', '[msg]water');
