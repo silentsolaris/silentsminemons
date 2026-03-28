@@ -1,15 +1,12 @@
 {
 		onChargeMove(pokemon, target, move) {
-			this.add("charge yourself, NOW!!!");
 			this.add('-activate', pokemon, 'ability: Mentor', '[msg]self');
 			return false;
 		},
 
 		onAllyChargeMove(ally, target, move) {
 			const pokemon = this.effectState.target;
-			this.add(ally.baseSpecies);
 			if (!ally || ally.fainted || move.category === 'Status' || ally === pokemon) return;
-
 			this.add('-activate', pokemon, 'ability: Mentor', "[of] " + ally, '[msg]ally');
 			return false;
 		},
