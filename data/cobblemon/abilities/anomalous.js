@@ -1,8 +1,9 @@
 {
 	onAnyEffectivenessPriority: 1,
-	onAnyEffectiveness(typeMod, source, target, type, move) {
-		if (move.category === 'Status') return;
-		this.add('Anomalous (attacker): ' + typeMod);
+	onAnyEffectiveness(typeMod, target, source, move) {
+		if (!move || move.category === 'Status') return;
+
+		this.add('Anomalous invert: ' + typeMod);
 		return -typeMod;
 	},
 	flags: {},
