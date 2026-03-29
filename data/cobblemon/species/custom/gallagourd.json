@@ -48,7 +48,7 @@
   "standingEyeHeight": 1,
   "hitbox": {
     "width": 1.5,
-    "height": 2.5,
+    "height": 2.8,
     "fixed": false
   },
       "riding": {

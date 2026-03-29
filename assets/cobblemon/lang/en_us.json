@@ -158,6 +158,6 @@
     "cobblemon.ability.sirenscall": "Siren's Call",
     "cobblemon.ability.sirenscall.desc": "The Pokémon draws in all Ghost-type moves. Instead of taking damage from them, its Sp. Def stat is boosted.",
 
-    "cobblemon.ability.snowglomerate": "Snowglomerate",
-    "cobblemon.ability.snowglomerate.desc": "snowglomerate"
+    "cobblemon.ability.resonance": "Echo Chamber",
+    "cobblemon.ability.resonance.desc": "While this Pokémon is on the field, If a Sound-based move is used every turn, they do greater damage"
 }

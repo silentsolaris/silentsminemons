@@ -14,7 +14,7 @@
             "condition": {
 				"structures": [
                 "minecraft:trail_ruins",
-                "minecraft:jungle_temple"
+                "minecraft:jungle_pyramid"
                 ]
             }
         },
