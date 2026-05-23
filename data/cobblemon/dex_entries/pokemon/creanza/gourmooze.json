@@ -1,0 +1,21 @@
+{
+  "id": "cobblemon:gourmooze",
+  "speciesId": "cobblemon:gourmooze",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Obese",
+      "unlockForms": [
+        "Obese"
+      ]
+    }
+  ],
+  "variations": []
+}
