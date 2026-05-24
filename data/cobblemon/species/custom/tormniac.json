@@ -4,7 +4,7 @@
   "name": "tormniac",
   "primaryType": "ghost",
   "secondaryType": "flying",
-  "maleRatio": 0.7,
+  "maleRatio": 0.5,
   "height": 4,
   "weight": 100,
   "pokedex": [
