@@ -15,7 +15,7 @@
   "aspects": [],
   "abilities": [
     "oblivious",
-    "fluffy",
+    "overcoat",
     "h:cottondown"
   ],
   "eggGroups": [
@@ -170,6 +170,8 @@
     "tm:howl",
     "tm:swift",
     "tm:hypervoice",
+    "tm:trickroom",
+    "tm:wonderroom",
     "tm:helpinghand"
   ],
  "evolutions": [
