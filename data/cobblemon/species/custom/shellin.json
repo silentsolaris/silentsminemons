@@ -1,14 +1,14 @@
 {
   "implemented": true,
   "nationalPokedexNumber": 2003,
-  "name": "cloistropod",
+  "name": "shellin",
   "primaryType": "poison",
   "secondaryType": "psychic",
   "maleRatio": 0.6,
   "height": 3,
   "weight": 500,
   "pokedex": [
-    "cobblemon.species.cloistropod.desc"
+    "cobblemon.species.shellin.desc"
   ],
   "labels": [
     "minemons"
