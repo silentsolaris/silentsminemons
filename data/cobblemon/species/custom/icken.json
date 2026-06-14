@@ -1,0 +1,200 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2004,
+  "name": "icken",
+  "primaryType": "normal",
+  "secondaryType": "electric",
+  "maleRatio": 0.5,
+  "height": 3,
+  "weight": 200,
+  "pokedex": [
+    "cobblemon.species.icken.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "voltabsorb",
+    "stench",
+    "h:reckless"
+  ],
+  "eggGroups": [
+    "flying"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 40,
+    "defence": 40,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 80,
+  "experienceGroup": "medium_fast",
+  "catchRate": 80,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+	  	  {
+          "pokemon": "cluckenstein",
+          "tier": 3
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+	  {
+        "item": "cobblemon:berry_juice",
+        "percentage": 3.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:leer",
+    "1:peck",
+    "1:tackle",
+    "3:astonish",
+    "5:grudge",
+    "10:quickattack",
+    "15:wingattack",
+    "18:magnetrise",
+    "23:spark",
+    "28:facade",
+    "33:takedown",
+    "37:scaryface",
+    "44:wildcharge",
+    "50:bravebird",
+    "55:selfdestruct",
+    "tm:spark",
+    "tm:supercellslam",
+    "tm:wildcharge",
+    "tm:bravebird",
+    "tm:flareblitz",
+    "tm:selfdestruct",
+    "tm:curse",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:raindance",
+    "tm:thunderbolt",
+    "tm:thunder",
+    "tm:thunderwave",
+    "tm:poisonjab",
+    "tm:gunkshot",
+    "tm:pursuit",
+    "tm:nightslash",
+    "tm:taunt",
+    "tm:torment",
+    "tm:honeclaws",
+    "tm:snatch",
+    "tm:quash",
+    "tm:partingshot",
+    "tm:foulplay",
+    "tm:smartstrike",
+    "tm:powertrip",
+    "tm:swagger",
+    "tm:flatter",
+    "tm:voltswitch",
+    "tm:lashout",
+    "tm:electroball",
+    "tm:gyroball",
+    "tm:shockwave",
+    "tm:zapcannon",
+    "tm:electroweb",
+    "tm:chargebeam",
+    "tm:jumpkick",
+    "tm:doubleedge",
+    "tm:nastyplot",
+    "tm:teeterdance",
+    "tm:hurricane",
+    "tm:aerialace",
+    "tm:airslash",
+    "tm:aircutter",
+    "tm:featherdance",
+    "tm:drillpeck",
+    "tm:hypervoice",
+    "tm:hyperbeam",
+    "tm:boomburst",
+    "tm:trumpcard",
+    "tm:lastresort",
+    "tm:terrainpulse",
+    "tm:yawn"
+  ],
+ "evolutions": [
+     {
+      "id": "icken-cluckenstein",
+      "variant": "level_up",
+      "result": "cluckenstein",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+	  "powertrip"
+	  ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 32
+        }
+      ]
+    }
+  ],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}
