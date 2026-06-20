@@ -23,15 +23,15 @@
      ]
    },
    "battle-swimming": {
-     "poseTypes": ["STAND"],
-     "isBattle": true,
-     "isTouchingWater": true,
-    "isUnderWater": true,
-     "animations": [
-       "q.look('head')",
-       "q.bedrock('siphosail', 'battle_swim_idle')"
-     ]
-   },
+      "poseTypes": ["FLOAT"],
+      "isBattle": true,
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('gyarados', 'battle_swim_idle')"
+      ]
+    },
 
    "battle-surface-swimming": {
      "poseTypes": ["STAND"],
