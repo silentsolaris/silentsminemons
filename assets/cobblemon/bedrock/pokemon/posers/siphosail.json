@@ -13,7 +13,7 @@
  },
  "poses": {
    "battle-standing": {
-     "poseTypes": ["STAND", "FLOAT"],
+     "poseTypes": ["STAND"],
      "isBattle": true,
      "isTouchingWater": false,
     "isUnderWater": false,
@@ -29,7 +29,7 @@
       "isUnderWater": true,
       "animations": [
         "q.look('head')",
-        "q.bedrock('gyarados', 'battle_swim_idle')"
+        "q.bedrock('siphosail', 'battle_swim_idle')"
       ]
     },
 
