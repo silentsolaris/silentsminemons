@@ -13,7 +13,7 @@
  },
  "poses": {
    "battle-standing-land": {
-     "poseTypes": ["STAND"],
+     "poseTypes": ["STAND", "FLOAT"],
      "isBattle": true,
      "isTouchingWater": false,
     "isUnderWater": false,
