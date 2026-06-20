@@ -1,29 +1,41 @@
 {
     "cobblemon.ui.pokedex.region.creanza": "Creanza",
+
+    "cobblemon.species.woolipup.name": "Woolipup",
+    "cobblemon.species.woolipup.desc": "This simple pokémon believes Wooloo and Mareep to be one of it's own. It is known to challenge opponents twice it's size to protect it's herd.",
+
+    "cobblemon.species.lupelt.name": "Lupelt",
+    "cobblemon.species.lupelt.desc": "It's loyalt to a fault, it will never back down from a fight. It's wool builds up so much it struggles to move.",
+
+    "cobblemon.species.nitkick.name": "Nitkick",
+    "cobblemon.species.nitkick.desc": "It is a powerful pokémon, but its stubbornness against following orders makes it an unpopular choice.",
+    
+    "cobblemon.species.anonkey.name": "Anonkey",
+    "cobblemon.species.anonkey.desc": "It destroys everything in its path. There is no reason, it is chaos incarnate. One kick could send even a snorlax flying.",
     
     "cobblemon.species.pumpkid.name": "Pumpkid",
     "cobblemon.species.pumpkid.desc": "This Pokémon is known to care for the crops of farmers. It is commonly seen sunbathing.",
     
     "cobblemon.species.gallagourd.name": "Gallagourd",
-    "cobblemon.species.gallagourd.desc": "This pokémon protects weaker Pokémon from their predators. If it is ever separated from its iron suit, it returns to being a Pumpkid.",
+    "cobblemon.species.gallagourd.desc": "This Pokémon protects weaker Pokémon from their predators. If it is ever separated from its iron suit, it returns to being a Pumpkid.",
+
+    "cobblemon.species.snoblin.name": "Snoblin",
+    "cobblemon.species.snoblin.desc": "This Pokémon travels in groups of it's kind, migrating to different mountainsides. They fear the likes of Galarian Darmanitan.",
     
-    "cobblemon.species.nitkick.name": "Nitkick",
-    "cobblemon.species.nitkick.desc": "It is a powerful Pokémon, but its stubbornness against following orders makes it an unpopular choice.",
-    
-    "cobblemon.species.anonkey.name": "Anonkey",
-    "cobblemon.species.anonkey.desc": "It destroys everything in its path. There is no reason, it is chaos incarnate. One kick could send even a snorlax flying.",
+    "cobblemon.species.snideous.name": "Snideous",
+    "cobblemon.species.snideous.desc": "It hides in the dense blizzards of the highest mountaintops, it's exceedingly rare to spot one. It secretly protects migrating Snoblin on their pilgrimage.",
 
     "cobblemon.species.parropot.name": "Parropot",
-    "cobblemon.ui.pokedex.info.form.parropot": "",
-    "cobblemon.species.parropot.desc": "An ancient pokemon, it searches for objects to put in it's head. The reason is unknown.",
+    "cobblemon.ui.pokedex.info.form.parropot": "Empty Pot",
+    "cobblemon.species.parropot.desc": "An ancient Pokémon, it searches for objects to put in it's head. The reason is unknown.",
     "cobblemon.ui.pokedex.info.form.parropot-honeypot": "Honey Pot",
-    "cobblemon.species.parropot-honeypot.desc": "An ancient pokemon, the honey in it's head puts bug pokemon in a trance.",
+    "cobblemon.species.parropot-honeypot.desc": "An ancient Pokémon, the honey in it's head puts bug Pokémon in a trance.",
     "cobblemon.ui.pokedex.info.form.parropot-flowerpot": "Flower Pot",
-    "cobblemon.species.parropot-flowerpot.desc": "An ancient pokemon, the flower in it's head is always in bloom no matter the weather.",
+    "cobblemon.species.parropot-flowerpot.desc": "An ancient Pokémon, the flower in it's head is always in bloom no matter the weather.",
     "cobblemon.ui.pokedex.info.form.parropot-candle": "Candle",
-    "cobblemon.species.parropot-candle.desc": "An ancient pokemon, the candle in it's head never goes out, no matter how hard one may try.",
+    "cobblemon.species.parropot-candle.desc": "An ancient Pokémon, the candle in it's head never goes out, no matter how hard one may try.",
     "cobblemon.ui.pokedex.info.form.parropot-quill": "Quill",
-    "cobblemon.species.parropot-quill.desc": "An ancient pokemon, the quill in it's head is always flowing, even when the wind is still.",
+    "cobblemon.species.parropot-quill.desc": "An ancient Pokémon, the quill in it's head is always flowing, even when the wind is still.",
 
     "cobblemon.species.siphosail.name": "Siphosail",
     "cobblemon.species.siphosail.desc": "It drifts across looking for Localusk nests to conquer. A group of Siphosail is called a fleet.",
@@ -37,8 +49,14 @@
     "cobblemon.species.gourmooze.name" : "Gourmooze",
     "cobblemon.species.gourmooze.desc" : "It implements nutrients into it's body directly, becoming more powerful. It is exceptionally difficult to satisfy it's unique tastes in food.",
 
-    "cobblemon.species.tormniac.name": "Tormniac",
-    "cobblemon.species.tormniac.desc": "Despite it's dreadful appearance, it's quite friendly. It consumes the nightmares of others, leading to a peaceful sleep.",
+    "cobblemon.species.icken.name": "Icken",
+    "cobblemon.species.icken.desc": "This Pokémon is not normally desired, even by would-be predators. It is surprisingly intelligent.",
+
+    "cobblemon.species.cluckenstein.name": "Cluckenstein",
+    "cobblemon.species.cluckenstein.desc": "It is reckless in behavior, often injuring those around it during it's experiments. Once it decides on a tasks, it's tunnel vision is unbreakable.",
+
+    "cobblemon.species.reanderthal.name": "Reanderthal",
+    "cobblemon.species.reanderthal.desc": "In an attempt to achieve immortality during evolution, the body gained a consciousness of it's own. It original commands the newborn mind, to little effect.",
     
     "cobblemon.species.bowne.name": "Bowne",
     "cobblemon.species.bowne.desc": "It carries a handcrafted bow of bone at all times. This Pokémon is never seen without it.",
@@ -52,8 +70,11 @@
     "cobblemon.species.withereign.name": "Withereign",
     "cobblemon.species.withereign.desc": "This sinister Pokémon absorbs the souls of both its enemies and allies to fuel its power.",
 
-    "cobblemon.species.inshell.name": "Inshell",
-    "cobblemon.species.inshell.desc": "It hides in it's iridescent shell, firing a poisonous needle when threatened. It has an angst-y attitude.",
+    "cobblemon.species.tormniac.name": "Tormniac",
+    "cobblemon.species.tormniac.desc": "Despite it's dreadful appearance, it's quite friendly. It consumes the nightmares of others, leading to a peaceful sleep.",
+
+    "cobblemon.species.shellin.name": "Shellin",
+    "cobblemon.species.shellin.desc": "It hides in it's iridescent shell, firing a poisonous needle when threatened. It hates interacting with others, and is easily irritated.",
 
     "cobblemon.move.badinput": "Bad Input",
     "cobblemon.move.badinput.desc": "This move inflicts physical or special damage, whichever will be more effective. The user distorts the fabric of reality, randomizing it's type in the process.",
