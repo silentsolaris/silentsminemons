@@ -12,12 +12,24 @@
    "status": "q.bedrock_primary('siphosail', 'status', q.curve('symmetrical_wide'))"
  },
  "poses": {
-   "battle-standing": {
+   "battle-standing-land": {
      "poseTypes": ["STAND"],
      "isBattle": true,
+     "isTouchingWater": false,
+    "isUnderWater": false,
      "animations": [
        "q.look('head')",
-       "q.bedrock('siphosail', 'float')"
+       "q.bedrock('siphosail', 'battle_ground_idle')"
+     ]
+   },
+   "battle-standing-water": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "isTouchingWater": true,
+    "isUnderWater": true,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('siphosail', 'battle_swim_idle')"
      ]
    },
    "standing": {
@@ -57,9 +69,17 @@
        "q.bedrock('siphosail', 'ground_walk')"
      ]
    },
-   "sleep": {
+   "sleep-land": {
      "poseTypes": ["SLEEP"],
-     "animations": ["q.bedrock('siphosail', 'ground_idle')"]
+     "isTouchingWater": false,
+      "isUnderWater": false,
+     "animations": ["q.bedrock('siphosail', 'ground_sleep')"]
+   },
+   "sleep-water": {
+     "poseTypes": ["SLEEP"],
+     "isTouchingWater": true,
+      "isUnderWater": true,
+     "animations": ["q.bedrock('siphosail', 'swim_sleep')"]
    }
  }
 }
