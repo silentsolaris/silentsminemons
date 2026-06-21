@@ -22,8 +22,9 @@
        "q.bedrock('siphosail', 'battle_ground_idle')"
      ]
    },
+
    "battle-swimming": {
-      "poseTypes": ["FLOAT"],
+      "poseTypes": ["FLOAT", "SWIM"],
       "isBattle": true,
       "isTouchingWater": true,
       "isUnderWater": true,
@@ -32,17 +33,6 @@
         "q.bedrock('siphosail', 'battle_swim_idle')"
       ]
     },
-
-   "battle-surface-swimming": {
-     "poseTypes": ["STAND"],
-     "isBattle": true,
-     "isTouchingWater": true,
-    "isUnderWater": true,
-     "animations": [
-       "q.look('head')",
-       "q.bedrock('siphosail', 'battle_swim_idle')"
-     ]
-   },
 
    "standing": {
      "poseTypes": ["STAND", "NONE"],
@@ -54,6 +44,7 @@
    },
    "float": {
       "poseTypes": ["PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": false,
       "namedAnimations": {
         "faint": "q.bedrock_primary('siphosail', 'water_faint', q.curve('one'))"
       },
@@ -61,21 +52,17 @@
     },
     "swim": {
       "poseTypes": ["SWIM"],
+      "isBattle": false,
+      "isTouchingWater": true,
+      "isUnderWater": true,
       "namedAnimations": {
         "faint": "q.bedrock_primary('siphosail', 'water_faint', q.curve('one'))"
       },
       "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('siphosail', 'water_swim')"]
     },
-    "surface-swim": {
-      "poseTypes": ["SWIM"],
-      "isTouchingWater": true,
-      "isUnderWater": false,
-      "animations": [
-        "q.bedrock('siphosail', 'float')"
-      ]
-    },
    "walking": {
      "poseTypes": ["WALK"],
+     "isBattle": false,
      "animations": [
        "q.look('head')",
        "q.bedrock('siphosail', 'ground_walk')"
