@@ -1,7 +1,7 @@
 {
  "portraitScale": 1.66,
- "portraitTranslation": [-1, 1.5, 0],
- "profileScale": 0.6,
+ "portraitTranslation": [ 0.5, -0.4, 0 ],
+ "profileScale": 1,
  "profileTranslation": [0, 0.9, 0],
  "animations": {
    "faint": "q.bedrock_primary('woolipup', 'faint', q.curve('one'))",
@@ -25,6 +25,15 @@
        "look",
        "bedrock(anonkey, ground_idle)"
      ]
+   },
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('woolipup', 'battle_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('woolipup', 'blink')"]
    },
    "walking": {
      "poseTypes": ["WALK"],

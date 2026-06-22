@@ -1,6 +1,6 @@
 {
  "portraitScale": 1.66,
- "portraitTranslation": [-1, 1.5, 0],
+ "portraitTranslation": [-0.5, 1.5, 0],
  "profileScale": 0.6,
  "profileTranslation": [0, 0.9, 0],
  "animations": {
@@ -21,35 +21,42 @@
        "PORTRAIT",
        "PROFILE"
      ],
+     "isTouchingWater": false,
+      "isUnderWater": false,
      "animations": [
        "look",
        "bedrock(lupelt, ground_idle)"
      ]
    },
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "isTouchingWater": false,
+      "isUnderWater": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('lupelt', 'battle_idle')"
+     ]
+   },
    "walking": {
      "poseTypes": ["WALK"],
+     "isTouchingWater": false,
+      "isUnderWater": false,
      "condition": "!q.in_air && !q.is_sprinting",
      "animations": [
        "q.look('head')",
-       "q.bedrock('lupelt', 'ground_walk')"
+       "q.bedrock('lupelt', 'walk')"
      ]
    },
    "float": {
-      "poseTypes": ["FLOAT"],
-      "isBattle": false,
-      "namedAnimations": {
-        "faint": "q.bedrock_primary('lupelt', 'water_faint', q.curve('one'))"
-      },
-      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('lupelt', 'swim_idle')"]
+      "poseTypes": ["STAND", "FLOAT"],
+      "isTouchingWater": true,
+      "isUnderWater": false,
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('lupelt', 'float')"]
     },
     "swim": {
-      "poseTypes": ["SWIM"],
-      "isBattle": false,
+      "poseTypes": ["WALK", "SWIM"],
       "isTouchingWater": true,
-      "isUnderWater": true,
-      "namedAnimations": {
-        "faint": "q.bedrock_primary('lupelt', 'water_faint', q.curve('one'))"
-      },
       "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('lupelt', 'swim')"]
     }
 	}

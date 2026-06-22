@@ -2255,7 +2255,7 @@
 				}
 			}
 		},
-		"animation.lupelt.swim_idle": {
+		"animation.lupelt.float": {
 			"loop": true,
 			"animation_length": 1.25,
 			"bones": {
@@ -2364,6 +2364,10 @@
 					"position": {
 						"0.0": {
 							"post": [0, -15, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.0833": {
+							"post": [0, -11.97, 0],
 							"lerp_mode": "catmullrom"
 						},
 						"0.6667": {
@@ -2861,6 +2865,10 @@
 					"position": {
 						"0.0": {
 							"post": [0, -15, 0],
+							"lerp_mode": "catmullrom"
+						},
+						"0.0833": {
+							"post": [0, -14.79, 0],
 							"lerp_mode": "catmullrom"
 						},
 						"0.3333": {

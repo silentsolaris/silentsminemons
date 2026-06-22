@@ -29,6 +29,15 @@
        "q.bedrock_quirk('anonkey', 'blink')"
      ]
    },
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('anonkey', 'battle_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('anonkey', 'blink')"]
+   },
    "walking": {
      "poseTypes": ["WALK"],
      "condition": "!q.in_air && !q.is_sprinting",
