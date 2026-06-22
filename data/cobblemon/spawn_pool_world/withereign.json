@@ -29,6 +29,21 @@
             "condition": {
 				"structures": ["minecraft:fortress"]
             }
+        },
+        {
+            "id": "withereign-3",
+            "pokemon": "withereign",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "40-80",
+            "weight": 4,
+            "condition": {
+				"neededNearbyBlocks": [
+                    "minecraft:wither_rose",
+                    "minecraft:netherite_block"
+                ]
+            }
         }
    ]
 }

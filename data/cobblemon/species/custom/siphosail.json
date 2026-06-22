@@ -128,6 +128,7 @@
     "40:toxicspikes",
     "43:haze",
     "48:gunkshot",
+    "50:partingshot",
     "tm:taunt",
     "tm:nastyplot",
     "tm:raindance",
@@ -205,6 +206,7 @@
     "egg:shadowsneak",
     "egg:soak",
     "egg:partingshot",
+    "egg:recover",
     "egg:switcheroo"
   ],
  "evolutions": [],

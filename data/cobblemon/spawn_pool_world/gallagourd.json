@@ -16,6 +16,12 @@
                 "minecraft:village_taiga",
 				"minecraft:village_plains",
 				"minecraft:village_savanna"
+                ],
+                "neededBaseBlocks": [
+                    "minecraft:farmland",
+                    "minecraft:grass_block",
+                    "minecraft:dirt_path",
+                    "minecraft:dirt"
                 ]
             }
         }
