@@ -1,0 +1,42 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "lupelt-1",
+            "pokemon": "lupelt",
+            "presets": [
+                "wild",
+				"natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "24-45",
+            "weight": 3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_grassland",
+                    "#cobblemon:is_highlands",
+                    "#cobblemon:is_hills",
+                    "#cobblemon:mountain"
+                ],
+                "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_arid",
+                    "#cobblemon:is_lush",
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_savanna",
+                    "#cobblemon:is_spooky",
+                    "#cobblemon:is_cave",
+                    "#cobblemon:is_jungle",
+                    "#cobblemon:is_inferno",
+                    "#cobblemon:is_void"
+                ]
+            }
+            }
+        }
+   ]
+}
