@@ -1,0 +1,18 @@
+{
+ "species": "cobblemon:woolipup",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:woolipup",
+     "model": "cobblemon:woolipup.geo",
+     "texture": "cobblemon:textures/pokemon/woolipup/woolipup.png"
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/woolipup/woolipup_shiny.png"
+   }
+ ]
+}

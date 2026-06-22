@@ -67,7 +67,8 @@
       },
       "swim": {
         "avoidsWater": true,
-        "canSwimInLava": false
+        "canSwimInLava": false,
+        "swimSpeed": "0.2"
       }
     },
     "herd": {
