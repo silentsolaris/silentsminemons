@@ -1,0 +1,18 @@
+{
+ "species": "cobblemon:bruital",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:bruital",
+     "model": "cobblemon:bruital.geo",
+     "texture": "cobblemon:textures/pokemon/bruital/bruital.png"
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/bruital/bruital_shiny.png"
+   }
+ ]
+}
