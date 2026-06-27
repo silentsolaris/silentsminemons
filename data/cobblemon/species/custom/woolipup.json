@@ -44,7 +44,7 @@
   "baseFriendship": 50,
   "shoulderMountable": false,
   "baseScale": 1,
-  "standingEyeHeight": 1,
+  "standingEyeHeight": 0.5,
   "hitbox": {
     "width": 0.7,
     "height": 1,

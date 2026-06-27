@@ -1,8 +1,8 @@
 {
  "portraitScale": 2,
- "portraitTranslation": [ -0.5, 3.6, 0 ],
- "profileScale": 0.4,
- "profileTranslation": [ 0, 1.3, 0 ],
+ "portraitTranslation": [ -1.2, 2.4, 0 ],
+ "profileScale": 0.5,
+ "profileTranslation": [ 0, 1, 0 ],
  "animations": {
    "cry": "q.bedrock_stateful('shivor', 'cry')",
    "recoil": "q.bedrock_stateful('shivor', 'recoil')"

@@ -1,7 +1,7 @@
 {
- "portraitScale": 1.66,
- "portraitTranslation": [-0.14, -0.2, 0],
- "profileScale": 0.98,
+ "portraitScale": 1.8,
+ "portraitTranslation": [-0.14, -0.45, 0],
+ "profileScale": 1,
  "profileTranslation": [0, 0.26, 0],
  "animations": {
    "cry": "q.bedrock_stateful('bruital', 'cry')",
