@@ -53,7 +53,7 @@
      "quirks": ["q.bedrock_quirk('anonkey', 'blink')"]
    },
    "running": {
-      "poseTypes": ["WALK", "FLOAT", "SWIM"],
+      "poseTypes": ["WALK", "SWIM"],
       "condition": "!q.in_air && q.is_sprinting",
       "animations": [
         "q.look('head')",
