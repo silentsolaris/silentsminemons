@@ -1,0 +1,134 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2004,
+  "name": "foocoon",
+  "primaryType": "bug",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "height": 1,
+  "weight": 15,
+  "pokedex": [
+    "cobblemon.species.foocoon.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "shielddust",
+    "voltabsorb",
+    "h:brainworm"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 10,
+    "defence": 50,
+    "special_attack": 10,
+    "special_defence": 70,
+    "speed": 10
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "baseExperienceYield": 45,
+  "experienceGroup": "slow",
+  "catchRate": 90,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.15
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+	  	  {
+          "pokemon": "iotlander",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:enderpearl",
+        "quantityRange": "1"
+      },
+	  {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 3.0
+      }
+    ]
+  },
+  "moves": [
+    "1:stringshot",
+    "1:confusion",
+    "1:infestation",
+    "1:bugbite",
+    "1:powder",
+    "1:psybeam",
+    "1:harden",
+    "20:silktrap",
+    "25:ragepowder",
+    "egg:toxicthread",
+    "egg:stickyweb",
+    "egg:tailglow"
+  ],
+ "evolutions": [
+     {
+      "id": "foocoon-iotlander",
+      "variant": "item_interact",
+      "result": "iotlander",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+	  "fester"
+	  ],
+      "requirements": [],
+      "requiredContext": "minecraft:ender_eye"
+    }
+  ],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}

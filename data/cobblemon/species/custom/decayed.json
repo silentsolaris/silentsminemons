@@ -1,0 +1,276 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2012,
+  "name": "decayed",
+  "primaryType": "fairy",
+  "secondaryType": "poison",
+  "maleRatio": 0,
+  "height": 1,
+  "weight": 28,
+  "pokedex": [
+    "cobblemon.species.decayed.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "lastgrasp",
+    "h:lastgrasp"
+  ],
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseStats": {
+    "hp": 100,
+    "attack": 140,
+    "defence": 100,
+    "special_attack": 140,
+    "special_defence": 100,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 300,
+  "experienceGroup": "slow",
+  "catchRate": 35,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "standingEyeHeight": 1,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.8,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0155,
+      "rouseChance": 0.0084
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.15
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:wither_rose",
+        "quantityRange": "1"
+      },
+      {
+        "item": "cobblemon:fairy_feather",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:helpinghand",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "special:celebrate",
+    "1:absorb",
+    "1:fairywind",
+    "1:pursuit",
+    "1:purify",
+    "1:megadrain",
+    "1:banefulbunker",
+    "1:clearsmog",
+    "1:mortalspin",
+    "10:leechseed",
+    "15:feintattack",
+    "20:barbbarrage",
+    "30:nightdaze",
+    "35:ruination",
+    "35:naturesmadness",
+    "43:spiritbreak",
+    "47:ragepowder",
+    "51:wickedblow",
+    "55:woodhammer",
+    "60:perishsong",
+    "70:siphon",
+    "tm:acidspray",
+    "tm:agility",
+    "tm:alluringvoice",
+    "tm:allyswitch",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:aurasphere",
+    "tm:bind",
+    "tm:block",
+    "tm:brutalswing",
+    "tm:bulletseed",
+    "tm:burningjealousy",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:confide",
+    "tm:confuseray",
+    "tm:corrosivegas",
+    "tm:covet",
+    "tm:crosspoison",
+    "tm:curse",
+    "tm:cut",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:dazzlinggleam",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:drainingkiss",
+    "tm:dreameater",
+    "tm:earthpower",
+    "tm:encore",
+    "tm:embarge",
+    "tm:endure",
+    "tm:endeavor",
+    "tm:energyball",
+    "tm:explosion",
+    "tm:mistyexplosion",
+    "tm:faketears",
+    "tm:facade",
+    "tm:focusblast",
+    "tm:furycutter",
+    "tm:futuresight",
+    "tm:gigadrain",
+    "tm:grassknot",
+    "tm:grassyglide",
+    "tm:grassyterrain",
+    "tm:mistyterrain",
+    "tm:gunkshot",
+    "tm:haze",
+    "tm:healbell",
+    "tm:helpinghand",
+    "tm:hex",
+    "tm:hypervoice",
+    "tm:hyperbeam",
+    "tm:imprison",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:leafblade",
+    "tm:leafstorm",
+    "tm:leechlife",
+    "tm:lunge",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:magicalleaf",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:muddywater",
+    "tm:moonblast",
+    "tm:mysticalfire",
+    "tm:naturepower",
+    "tm:ominouswind",
+    "tm:outrage",
+    "tm:petalblizzard",
+    "tm:playrough",
+    "tm:pollenpuff",
+    "tm:powergem",
+    "tm:powerswap",
+    "tm:powerwhip",
+    "tm:psychup",
+    "tm:psychic",
+    "tm:psyshock",
+    "tm:psychocut",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:revenge",
+    "tm:rockslide",
+    "tm:screech",
+    "tm:secretpower",
+    "tm:seedbomb",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:silverwind",
+    "tm:skittersmack",
+    "tm:sludgebomb",
+    "tm:sludgewave",
+    "tm:snarl",
+    "tm:solarbeam",
+    "tm:solarblade",
+    "tm:suckerpunch",
+    "tm:synthesis",
+    "tm:swagger",
+    "tm:taunt",
+    "tm:telekenesis",
+    "tm:thief",
+    "tm:thunderwave",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:torment",
+    "tm:trickroom",
+    "tm:trick",
+    "tm:uturn",
+    "tm:venoshock",
+    "tm:weatherball",
+    "tm:wonderroom",
+    "tm:worryseed",
+    "tm:xscissor",
+    "tm:twister"
+  ],
+ "evolutions": [],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  },
+  "features": [
+      "rejuv"
+    ],
+  "forms": [ 
+{
+"name": "Rejuv",
+
+      "primaryType": "Fairy",
+      "secondaryType": "Grass",
+      "maleRatio": 0.7,
+	  "height": 6,
+	  "weight": 400,
+      "pokedex": [
+        "cobblemon.species.decayed-rejuv.desc"
+      ],
+      "labels": [
+        "minemons"
+      ],
+      "aspects": [
+          "rejuv"
+        ],
+      "baseStats": {
+        "hp": 100,
+        "attack": 140,
+        "defence": 50,
+        "special_attack": 140,
+        "special_defence": 50,
+         "speed": 120
+      }
+}
+  ]
+}

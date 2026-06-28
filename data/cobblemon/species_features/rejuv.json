@@ -1,0 +1,6 @@
+{
+    "keys": ["rejuv"],
+    "type": "flag",
+    "isAspect": true,
+    "default": false
+  }

@@ -38,7 +38,7 @@
   },
   "baseExperienceYield": 100,
   "experienceGroup": "medium_fast",
-  "catchRate": 60,
+  "catchRate": 65,
   "eggCycles": 25,
   "baseFriendship": 50,
   "shoulderMountable": false,
@@ -105,7 +105,7 @@
         "quantityRange": "2-5"
       },
       {
-        "item": "minecraft:sitrus_berry",
+        "item": "cobblemon:sitrus_berry",
         "percentage": 5.0
       }
     ]
@@ -233,9 +233,9 @@
         ],
       "baseStats": {
         "hp": 80,
-		"attack": 120,
-		"defence": 80,
-		"special_attack": 120,
+		"attack": 140,
+		"defence": 100,
+		"special_attack": 140,
 		"special_defence": 100,
 		"speed": 40
       },

@@ -38,9 +38,9 @@
     "special_defence": 0,
     "speed": 0
   },
-  "baseExperienceYield": 51,
+  "baseExperienceYield": 80,
   "experienceGroup": "slow",
-  "catchRate": 90,
+  "catchRate": 80,
   "eggCycles": 25,
   "baseFriendship": 50,
   "shoulderMountable": true,

@@ -176,7 +176,6 @@
     "cobblemon.ability.neurotoxin": "Neurotoxin",
     "cobblemon.ability.neurotoxin.desc": "Pokémon poisoned by the user's moves will also have their speed stat lowered.",
 
-
     "cobblemon.ability.oxidize": "Oxidize",
     "cobblemon.ability.oxidize.desc": "When hit by a Water or Electric-type move, this Pokémon envelops itself in a veil made of energy and regains some HP every turn.",
     "cobblemon.battle.activate.oxidize.water": "%1$s is moisturized by the attack!",
@@ -191,6 +190,6 @@
     "cobblemon.ability.sirenscall": "Siren's Call",
     "cobblemon.ability.sirenscall.desc": "The Pokémon draws in all Ghost-type moves. Instead of taking damage from them, its Sp. Def stat is boosted.",
 
-    "cobblemon.ability.resonance": "Echo Chamber",
-    "cobblemon.ability.resonance.desc": "While this Pokémon is on the field, If a Sound-based move is used every turn, they do greater damage"
+    "cobblemon.ability.echochamber": "Echo Chamber",
+    "cobblemon.ability.echochamber.desc": "While this Pokémon is on the field, If a Sound-based move is used every turn, they do greater damage"
 }

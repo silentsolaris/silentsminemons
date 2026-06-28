@@ -1,0 +1,222 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2015,
+  "name": "cephcery",
+  "primaryType": "water",
+  "secondaryType": "psychic",
+  "maleRatio": 0.3,
+  "height": 4,
+  "weight": 100,
+  "pokedex": [
+    "cobblemon.species.cephcery.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "magician",
+    "colorchange",
+    "h:darksorcery"
+  ],
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 50,
+    "defence": 75,
+    "special_attack": 115,
+    "special_defence": 100,
+    "speed": 85
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 120,
+  "experienceGroup": "medium",
+  "catchRate": 65,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "standingEyeHeight": 1,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 1.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.2
+      },
+      "swim": {
+        "canBreatheUnderwater": true,
+        "swimSpeed": "0.35"
+      }
+    },
+    "herd": {
+      "maxSize": "1",
+      "toleratedLeaders": [
+	  {
+          "pokemon": "ocatalyst",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": false,
+      "willDefendOwner": true,
+      "willFlee": true
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:glow_ink_sac",
+        "quantityRange": "1-3"
+      },
+      {
+        "item": "cobblemon:light_clay",
+        "percentage": 50
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:helpinghand",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "special:celebrate",
+    "1:bubble",
+    "1:confusion",
+    "1:leer",
+    "10:bubblebeam",
+    "13:soak",
+    "17:psybeam",
+    "25:octozooka",
+    "30:hypnosis",
+    "33:psychic",
+    "37:recover",
+    "40:followme",
+    "45:topsyturvy",
+    "tm:acidspray",
+    "tm:agility",
+    "tm:allyswitch",
+    "tm:bind",
+    "tm:brine",
+    "tm:brutalswing",
+    "tm:calmmind",
+    "tm:chargebeam",
+    "tm:chillingwater",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:dreameater",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:embargo",
+    "tm:encore",
+    "tm:expandingforce",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:confuseray",
+    "tm:flipturn",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:foulplay",
+    "tm:gastroacid",
+    "tm:futuresight",
+    "tm:gravity",
+    "tm:guardswap",
+    "tm:haze",
+    "tm:helpinghand",
+    "tm:hydropump",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:imprison",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:meteorbeam",
+    "tm:ancientpower",
+    "tm:mudshot",
+    "tm:muddywater",
+    "tm:mudlslap",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:naturepower",
+    "tm:ominouswind",
+    "tm:nightshade",
+    "tm:payback",
+    "tm:powergem",
+    "tm:psychicnoise",
+    "tm:psychicterrain",
+    "tm:psychocut",
+    "tm:quash",
+    "tm:roleplay",
+    "tm:skillswap",
+    "tm:safeguard",
+    "tm:screech",
+    "tm:secretpower",
+    "tm:shockwave",
+    "tm:sludgebomb",
+    "tm:snatch",
+    "tm:speedswap",
+    "tm:storedpower",
+    "tm:surf",
+    "tm:swift",
+    "tm:taunt",
+    "tm:telekenesis",
+    "tm:trick",
+    "tm:trickroom",
+    "tm:vacuumwave",
+    "tm:waterpulse",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wonderroom",
+    "tm:pluck",
+    "tm:waterfall",
+    "tm:liquidation",
+    "egg:mimic",
+    "egg:camoflauge",
+    "egg:octolock",
+    "egg:peck",
+    "egg:drillpeck",
+    "egg:aquajet",
+    "egg:sparklingaria"
+  ],
+ "evolutions": [],
+  "lightingData": {
+    "lightLevel": 7,
+    "liquidGlowMode": "LAND"
+  }
+}

@@ -39,7 +39,7 @@
   },
   "baseExperienceYield": 80,
   "experienceGroup": "medium_slow",
-  "catchRate": 80,
+  "catchRate": 90,
   "eggCycles": 25,
   "baseFriendship": 50,
   "shoulderMountable": true,
@@ -242,7 +242,7 @@
         "irondefense"
       ],
       "requirements": [],
-      "requiredContext": "minecraft:anvil"
+      "requiredContext": "minecraft:iron_chestplate"
 
 	}
   ],

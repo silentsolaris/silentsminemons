@@ -41,7 +41,7 @@
   },
   "baseExperienceYield": 100,
   "experienceGroup": "medium_fast",
-  "catchRate": 80,
+  "catchRate": 50,
   "eggCycles": 25,
   "baseFriendship": 50,
   "shoulderMountable": false,
