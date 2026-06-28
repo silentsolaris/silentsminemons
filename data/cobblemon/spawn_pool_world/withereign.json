@@ -27,7 +27,18 @@
             "level": "40-80",
             "weight": 4,
             "condition": {
-				"structures": ["minecraft:fortress"]
+				"structures": [
+                    "minecraft:fortress",
+                    "repurposed_structures:ancient_city_nether",
+                    "repurposed_structures:end_city_nether",
+                    "repurposed_structures:monument_nether",
+                    "repurposed_structures:pyramid_nether",
+                    "repurposed_structures:temple_nether_soul",
+                    "repurposed_structures:temple_nether_warped",
+                    "repurposed_structures:temple_nether_crimson",
+                    "repurposed_structures:temple_nether_basalt",
+                    "repurposed_structures:temple_nether_wasteland"
+                ]
             }
         },
         {

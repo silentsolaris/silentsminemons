@@ -34,6 +34,20 @@
                     "#cobblemon:is_swamp"
                 ]
             }
+        },
+        {
+            "id": "gourmooze-ribbits",
+            "pokemon": "gourmooze",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "10-50",
+            "weight": 10.0,
+            "condition": {
+                "structures": [
+                    "ribbits:ribbit_village"
+                ]
+            }
         }
    ]
 }

@@ -103,6 +103,20 @@
                     "#cobblemon:nether/is_desert"
                 ]
             }
+        },
+        {
+            "id": "bowne-5",
+            "pokemon": "bowne",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "10-35",
+            "weight": 4,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:bone_block"
+                ]
+            }
         }
    ]
 }
