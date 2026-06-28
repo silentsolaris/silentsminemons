@@ -47,7 +47,7 @@
                 "structures": [
                     "ribbits:ribbit_village",
                     "towns_and_towers:village_swamp",
-                    "repurposed:structures:village_swamp"
+                    "repurposed_structures:village_swamp"
                 ]
             }
         }
