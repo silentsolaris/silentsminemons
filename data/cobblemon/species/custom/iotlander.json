@@ -23,7 +23,7 @@
     "bug"
   ],
   "baseStats": {
-    "hp": 75,
+    "hp": 70,
     "attack": 130,
     "defence": 70,
     "special_attack": 80,
@@ -215,5 +215,38 @@
   "lightingData": {
     "lightLevel": 7,
     "liquidGlowMode": "LAND"
-  }
+  },
+  "forms": [ 
+{
+"name": "Mega",
+
+    "primaryType": "bug",
+    "secondaryType": "psychic",
+	  "height": 25,
+	  "weight": 500,
+      "pokedex": [
+        "cobblemon.species.iotlander-mega.desc"
+      ],
+      "labels": [
+        "minemons",
+        "mega"
+      ],
+      "aspects": [
+          "mega"
+        ],
+        "abilities": [
+        "brainworm",
+        "brainworm",
+        "h:brainworm"
+      ],
+      "baseStats": {
+      "hp": 70,
+      "attack": 150,
+      "defence": 90,
+      "special_attack": 100,
+      "special_defence": 110,
+      "speed": 150
+      }
+}
+  ]
 }

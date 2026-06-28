@@ -233,5 +233,38 @@
   "lightingData": {
     "lightLevel": 7,
     "liquidGlowMode": "LAND"
-  }
+  },
+  "forms": [ 
+{
+"name": "Mega",
+
+    "primaryType": "ghost",
+    "secondaryType": "poison",
+	  "height": 25,
+	  "weight": 500,
+      "pokedex": [
+        "cobblemon.species.withereign-mega.desc"
+      ],
+      "labels": [
+        "minemons",
+        "mega"
+      ],
+      "aspects": [
+          "mega"
+        ],
+        "abilities": [
+        "supremeoverlord",
+        "supremeoverlord",
+        "h:supremeoverlord"
+      ],
+      "baseStats": {
+        "hp": 90,
+      "attack": 140,
+      "defence": 130,
+      "special_attack": 80,
+      "special_defence": 100,
+      "speed": 110
+      }
+}
+  ]
 }

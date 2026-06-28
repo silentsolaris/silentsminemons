@@ -219,7 +219,6 @@
 
       "primaryType": "grass",
       "secondaryType": "water",
-      "maleRatio": 0.7,
 	  "height": 6,
 	  "weight": 1000,
       "pokedex": [
@@ -238,8 +237,7 @@
 		"special_attack": 140,
 		"special_defence": 100,
 		"speed": 40
-      },
-      "baseExperienceYield": 100
+      }
 }
   ]
 }
