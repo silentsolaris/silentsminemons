@@ -36,7 +36,7 @@
             }
         },
         {
-            "id": "bognmarrow-mushroom",
+            "id": "bognmarrow-2",
             "pokemon": "bognmarrow",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
@@ -58,7 +58,7 @@
             }
         },
         {
-            "id": "bognmarrow-village",
+            "id": "bognmarrow-3",
             "pokemon": "bognmarrow",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
@@ -77,7 +77,7 @@
             }
         },
         {
-            "id": "bognmarrow-structure",
+            "id": "bognmarrow-4",
             "pokemon": "bognmarrow",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
