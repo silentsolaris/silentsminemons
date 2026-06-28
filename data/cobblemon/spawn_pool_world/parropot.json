@@ -14,7 +14,22 @@
             "condition": {
 				"structures": [
                 "minecraft:trail_ruins",
-                "minecraft:jungle_pyramid"
+                "minecraft:jungle_pyramid",
+                "explorify:ruins",
+                "explorify:guide_post_warm",
+                "towns_and_towers:village_jungle",
+                "towns_and_towers:village_sparse_jungle",
+                "#betterjungletemples:better_jungle_temples",
+                "repurposed_structures:ruins_land_warm",
+                "repurposed_structures:ruins_land_hot",
+                "repurposed_structures:ruins_land_cold",
+                "repurposed_structures:pyramid_jungle",
+                "repurposed_structures:mansion_jungle",
+                "repurposed_structures:mineshaft_jungle",
+                "philipsruins:ancient_dungeon",
+                "philipsruins:ancient_ruins",
+                "philipsruins:ancient_towers",
+                "philipsruins:ancient_crypt"
                 ]
             }
         },
@@ -28,7 +43,9 @@
             "weight": 5,
             "condition": {
 				"structures": [
-                "cobblemon:ruin"
+                "cobblemon:ruin",
+                "towns_and_towers:village_flower_forest",
+                "repurposed_structures:city_overworld"
                 ]
             }
         },

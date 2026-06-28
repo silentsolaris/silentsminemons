@@ -21,6 +21,45 @@
                     "#cobblemon:is_savanna"
                 ]
             }
+        },
+        {
+            "id": "anonkey-pyramid",
+            "pokemon": "anonkey",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "40-70",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": true,
+				"structures": [
+                "minecraft:pyramid",
+                "towns_and_towers:mimic_desert",
+                "explorify:badlands_pyramid",
+                "explorify:desert_shrine",
+                "betterdeserttemples:desert_temple"
+                ]
+            }
+        },
+        {
+            "id": "anonkey-3",
+            "pokemon": "anonkey",
+            "presets": [
+                "wild",
+				"natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "50-80",
+            "weight": 4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_desert",
+                    "#cobblemon:is_badlands"
+                ]
+            }
         }
    ]
 }

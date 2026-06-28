@@ -24,6 +24,49 @@
 				   "#cobblemon:is_ocean"
                 ]
             }
+        },
+        {
+            "id": "ivorice-2",
+            "pokemon": "ivorice",
+            "presets": [
+                "wild",
+				"natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "40-60",
+            "weight": 4,
+            "condition": {
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "yungscavebiomes:frosted_caves"
+                ]
+            }
+        },
+        {
+            "id": "ivorice-structure",
+            "pokemon": "ivorice",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "36-50",
+            "weight": 5,
+            "condition": {
+				"structures": [
+                "repurposed_structures:mineshaft_icy",
+                "repurposed_structures:monument_icy",
+                "repurposed_structures:outpost_icy",
+                "repurposed_structures:outpost_snowy",
+                "repurposed_structures:mansion_snowy",
+                "repurposed_structures:pyramid_icy",
+                "repurposed_structures:pyramid_snowy",
+                "repurposed_structures:ruins_land_icy",
+                "betterdungeons:skeletal_dungeon",
+                "philipsruins:bone_dungeon"
+                ]
+            }
         }
    ]
 }

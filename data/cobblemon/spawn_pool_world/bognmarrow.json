@@ -56,6 +56,44 @@
                     "minecraft:red_mushroom"
                 ]
             }
+        },
+        {
+            "id": "bognmarrow-village",
+            "pokemon": "bognmarrow",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "36-50",
+            "weight": 5,
+            "condition": {
+				"structures": [
+                "ribbits:ribbit_village",
+                "towns_and_towers:village_mushroom_fields",
+                "towns_and_towers:village_swamp",
+                "repurposed_structures:village_mushroom",
+                "repurposed_structures:igloo_mushroom",
+                "repurposed_structures:city_overworld"
+                ]
+            }
+        },
+        {
+            "id": "bognmarrow-structure",
+            "pokemon": "bognmarrow",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "36-50",
+            "weight": 5,
+            "condition": {
+				"structures": [
+                "repurposed_structures:pyramid_mushroom",
+                "repurposed_structures:pyramid_dark_forest",
+                "repurposed_structures:mineshaft_jungle",
+                "repurposed_structures:mansion_jungle",
+                "betterdungeons:skeletal_dungeon",
+                "philipsruins:bone_dungeon"
+                ]
+            }
         }
    ]
 }

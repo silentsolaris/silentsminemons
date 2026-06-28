@@ -23,6 +23,16 @@
                     "#cobblemon:is_hills",
                     "#cobblemon:mountain"
                 ],
+                "neededBaseBlocks": [
+                    "minecraft:farmland",
+                    "minecraft:grass_block",
+                    "minecraft:dirt_path",
+                    "minecraft:dirt",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:gravel",
+                    "minecraft:stone"
+                ],
                 "anticondition": {
                 "biomes": [
                     "#cobblemon:is_arid",

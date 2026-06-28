@@ -8,7 +8,7 @@
             "pokemon": "tormniac",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "common",
+            "bucket": "rare",
             "level": "20-40",
             "weight": 4,
             "condition": {
@@ -17,6 +17,31 @@
                 "biomes": [
                     "#cobblemon:is_badlands",
                     "#cobblemon:is_arid"
+                ]
+            }
+        },
+		{
+            "id": "tormniac-2",
+            "pokemon": "tormniac",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "20-40",
+            "weight": 8,
+            "condition": {
+				"structures": [
+                    "explorify:ruins",
+                    "explorify:mausoleum",
+                    "philipsruins:ancient_crypt",
+                    "repurposed_structures:ruins_land_warm",
+                    "repurposed_structures:ruins_land_hot",
+                    "repurposed_structures:ruins_land_cold",
+                    "minecraft:pyramid",
+                    "minecraft:shipwreck_beached",
+                    "towns_and_towers:mimic_desert",
+                    "explorify:badlands_pyramid",
+                    "explorify:desert_shrine",
+                    "betterdeserttemples:desert_temple"
                 ]
             }
         }

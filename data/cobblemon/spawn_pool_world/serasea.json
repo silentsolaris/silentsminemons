@@ -13,13 +13,15 @@
             "spawnablePositionType": "submerged",
             "bucket": "uncommon",
             "level": "15-50",
-            "weight": 15,
+            "weight": 10,
             "condition": {
                 "canSeeSky": false,
                 "minSkyLight": 0,
                 "maxSkyLight": 7,
                 "structures": [
-                    "#cobblemon:shipwreck_cove"
+                    "#cobblemon:shipwreck_cove",
+                    "towns_and_towers:wreckage_ocean",
+                    "minecraft:shipwreck"
                 ]
             },
             "anticondition": {
@@ -39,7 +41,7 @@
             ],
             "type": "pokemon",
             "spawnablePositionType": "submerged",
-            "bucket": "uncommon",
+            "bucket": "rare",
             "level": "15-35",
             "weight": 7,
             "condition": {
@@ -85,7 +87,9 @@
                     "#cobblemon:is_overworld"
                 ],
                 "structures": [
-                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove",
+                    "repurposed_structures:ancient_city_ocean",
+                    "repurposed_structures:pyramid_ocean"
                 ],
                 "minY": -60,
                 "maxY": 13
@@ -105,7 +109,9 @@
                     "#cobblemon:is_overworld"
                 ],
                 "structures": [
-                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove"
+                    "cobblemon:shipwreck_coves/submerged_shipwreck_cove",
+                    "repurposed_structures:ancient_city_ocean",
+                    "repurposed_structures:pyramid_ocean"
                 ],
                 "minY": -60,
                 "maxY": 13

@@ -45,7 +45,9 @@
             "weight": 10.0,
             "condition": {
                 "structures": [
-                    "ribbits:ribbit_village"
+                    "ribbits:ribbit_village",
+                    "towns_and_towers:village_swamp",
+                    "repurposed:structures:village_swamp"
                 ]
             }
         }

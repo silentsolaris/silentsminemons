@@ -18,7 +18,8 @@
             "condition": {
                 "canSeeSky": false,
                 "biomes": [
-                    "#cobblemon:is_freezing"
+                    "#cobblemon:is_freezing",
+                    "yungscavebiomes:frosted_caves"
                 ]
             }
         }

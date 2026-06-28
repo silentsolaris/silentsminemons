@@ -117,6 +117,33 @@
                     "minecraft:bone_block"
                 ]
             }
+        },
+        {
+            "id": "bowne-structures",
+            "pokemon": "bowne",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "5-45",
+            "weight": 5,
+            "condition": {
+                "canSeeSky": false,
+				"structures": [
+                    "explorify:mausoleum",
+                    "repurposed_structures:temple_taiga",
+                    "repurposed_structures:temple_nether_soul",
+                    "repurposed_structures:stronghold_nether",
+                    "repurposed_structures:pyramid_nether",
+                    "repurposed_structures:outpost_soul",
+                    "repurposed_structures:monument_nether",
+                    "repurposed_structures:mineshaft_soul",
+                    "repurposed_structures:fortress_jungle",
+                    "repurposed_structures:ancient_city_nether",
+                    "betterdungeons:skeletal_dungeon",
+                    "philipsruins:bone_dungeon",
+                    "philipsruins:ancient_crypt"
+                ]
+            }
         }
    ]
 }
