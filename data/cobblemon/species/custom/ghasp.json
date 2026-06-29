@@ -1,0 +1,159 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2004,
+  "name": "ghasp",
+  "primaryType": "normal",
+  "maleRatio": 0.7,
+  "height": 5,
+  "weight": 400,
+  "pokedex": [
+    "cobblemon.species.ghasp.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "cloudnine",
+    "voltabsorb",
+    "h:flareboost"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 30,
+    "defence": 15,
+    "special_attack": 30,
+    "special_defence": 15,
+    "speed": 10
+  },
+  "evYield": {
+    "hp": 1,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 80,
+  "experienceGroup": "medium",
+  "catchRate": 80,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.15
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "exhaunt",
+          "tier": 2
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+	  {
+        "item": "cobblemon:air_balloon",
+        "percentage": 3.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:splash",
+    "1:bubble",
+    "1:tearfullook",
+    "6:swift",
+    "11:disable",
+    "15:bubblebeam",
+    "30:bounce",
+    "egg:healblock",
+    "egg:disable",
+    "egg:splash",
+    "egg:bubble",
+    "egg:bubblebeam",
+    "egg:tearfullook",
+    "egg:healingwish",
+    "egg:whirlwind",
+    "egg:memento",
+    "egg:clearsmog"
+  ],
+ "evolutions": [
+     {
+      "id": "ghasp-elatephyr",
+      "variant": "level_up",
+      "result": "elatephyr",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+	  "tailwind"
+	  ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:air_balloon"
+        }
+      ]
+    },
+    {
+      "id": "ghasp-exhaunt",
+      "variant": "level_up",
+      "result": "exhaunt",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+	  "asphyxiate"
+	  ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:air_balloon"
+        }
+      ]
+    }
+  ]
+}

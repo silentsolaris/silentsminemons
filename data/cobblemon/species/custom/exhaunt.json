@@ -1,0 +1,216 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2004,
+  "name": "exhaunt",
+  "primaryType": "ghost",
+  "maleRatio": 0.7,
+  "height": 5,
+  "weight": 400,
+  "pokedex": [
+    "cobblemon.species.exhaunt.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "airlock",
+    "infiltrator",
+    "h:windrider"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 62,
+    "attack": 136,
+    "defence": 52,
+    "special_attack": 114,
+    "special_defence": 52,
+    "speed": 83
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 2,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 120,
+  "experienceGroup": "medium",
+  "catchRate": 60,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.15
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "exhaunt",
+          "tier": 2
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+	  {
+        "item": "cobblemon:air_balloon",
+        "percentage": 3.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:splash",
+    "1:bubble",
+    "1:tearfullook",
+    "1:astonish",
+    "1:swift",
+    "1:disable",
+    "1:healblock",
+    "1:shadowsneak",
+    "1:bubblebeam",
+    "1:bounce",
+    "1:destinybond",
+    "1:grudge",
+    "20:stockpile",
+    "20:swallow",
+    "20:spitup",
+    "24:suckerpunch",
+    "29:strengthsap",
+    "32:shadowpunch",
+    "45:octolock",
+    "50:asphyxiate",
+    "tm:agility",
+    "tm:aurasphere",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:bind",
+    "tm:block",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:ominouswind",
+    "tm:brutalswing",
+    "tm:burningjealousy",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:corrosivegas",
+    "tm:covet",
+    "tm:darkpulse",
+    "tm:defog",
+    "tm:doubleteam",
+    "tm:echoedvoice",
+    "tm:embargo",
+    "tm:endeavor",
+    "tm:energyball",
+    "tm:faketears",
+    "tm:fling",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:foulplay",
+    "tm:frostbreath",
+    "tm:haze",
+    "tm:hex",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icywind",
+    "tm:imprision",
+    "tm:incinerate",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lastresort",
+    "tm:lunge",
+    "tm:mistyterrain",
+    "tm:mudshot",
+    "tm:mudslap",
+    "tm:mysticalfire",
+    "tm:nastyplot",
+    "tm:nightshade",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:poltergeist",
+    "tm:pounce",
+    "tm:psychicnoise",
+    "tm:psychic",
+    "tm:safeguard",
+    "tm:shadowball",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:skittersmack",
+    "tm:spite",
+    "tm:stompingtantrum",
+    "tm:storedpower",
+    "tm:strugglebug",
+    "tm:suckerpunch",
+    "tm:swagger",
+    "tm:taunt",
+    "tm:terrainpulse",
+    "tm:torment",
+    "tm:toxic",
+    "tm:toxicspikes",
+    "tm:twister",
+    "tm:uproar",
+    "tm:uturn",
+    "tm:vacuumwave",
+    "tm:willowisp",
+    "tm:painsplit",
+    "egg:healblock",
+    "egg:disable",
+    "egg:splash",
+    "egg:bubble",
+    "egg:bubblebeam",
+    "egg:tearfullook",
+    "egg:healingwish",
+    "egg:whirlwind",
+    "egg:memento",
+    "egg:clearsmog"
+  ],
+ "evolutions": [
+  ]
+}
