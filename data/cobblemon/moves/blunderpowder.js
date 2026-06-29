@@ -29,5 +29,5 @@
 		},
 		target: "normal",
 		type: "Grass",
-		contestType: "Smart",
+		contestType: "Clever",
 }

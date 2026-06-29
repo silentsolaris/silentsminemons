@@ -20,5 +20,5 @@
 		],
 		target: "normal",
 		type: "Ground",
-		contestType: "Tough",
+		contestType: "Cool",
 }

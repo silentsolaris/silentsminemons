@@ -133,6 +133,16 @@
     "cobblemon.move.whiplash.desc": "The user whips the target with high speed winds. This move always goes first and is boosted if used in tailwind.",
     "cobblemon.battle.activate.whiplash": "The move was boosted by the flowing winds!",
 
+    "cobblemon.move.asphyxiate": "Asphyxiate",
+    "cobblemon.move.asphyxiate.desc": "The user attacks by drawing in the air around the opponent. This move is super-effective on Flying-type Pokémon, and is boosted if used in tailwind.",
+
+    "cobblemon.move.backburn": "Backburn",
+    "cobblemon.move.backburn.desc": "The user snuffs out the opponent with it's own flames. This move is super effective on Fire-type Pokémon.",
+
+    "cobblemon.move.evaporate": "Evaporate",
+    "cobblemon.move.evaporate.desc": "The user heats the area so much water turns to steam. If the target uses a Water-type move, it fails.",
+    "cobblemon.battle.activate.evaporate": "The move evaporated!",
+
     "cobblemon.ability.anarchist": "Anarchist",
     "cobblemon.ability.anarchist.desc": "Boosts the Attack stat of this Pokémon when hit by a Fighting-type move. This Pokémon cannot be confused.",
 
@@ -191,5 +201,11 @@
     "cobblemon.ability.sirenscall.desc": "The Pokémon draws in all Ghost-type moves. Instead of taking damage from them, its Sp. Def stat is boosted.",
 
     "cobblemon.ability.echochamber": "Echo Chamber",
-    "cobblemon.ability.echochamber.desc": "While this Pokémon is on the field, If a Sound-based move is used every turn, they do greater damage"
+    "cobblemon.ability.echochamber.desc": "While this Pokémon is on the field, If a Sound-based move is used every turn, they do greater damage",
+
+    "cobblemon.ability.climatechange": "Climate Change",
+    "cobblemon.ability.climatechange.desc": "When this Pokémon switches in, it cycles any primary weathers active into another.",
+
+    "cobblemon.ability.forecast": "Forecast",
+    "cobblemon.ability.forecast.desc": "This Pokémon's Speed and Special Attack is boosted when a weather is active."
 }

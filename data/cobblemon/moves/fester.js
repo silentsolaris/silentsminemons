@@ -19,5 +19,5 @@
 		},
 		target: "normal",
 		type: "Bug",
-		contestType: "Tough",
+		contestType: "Clever",
 }
