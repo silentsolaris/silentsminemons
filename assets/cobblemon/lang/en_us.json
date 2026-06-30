@@ -236,5 +236,8 @@
     "cobblemon.ability.echochamber.desc": "While this Pokémon is on the field, If a Sound-based move is used every turn, they do greater damage",
 
     "cobblemon.ability.climatechange": "Climate Change",
-    "cobblemon.ability.climatechange.desc": "When this Pokémon switches in, it cycles any primary weathers active into another."
+    "cobblemon.ability.climatechange.desc": "When this Pokémon switches in, it cycles any primary weathers active into another.",
+
+    "cobblemon.move.frostfist": "Frost Fist",
+    "cobblemon.move.frostfist.desc": "This Pokémon's punching moves have a chance to freeze."
 }
