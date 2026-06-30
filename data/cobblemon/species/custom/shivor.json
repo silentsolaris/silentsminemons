@@ -15,7 +15,7 @@
   ],
   "aspects": [],
   "abilities": [
-    "intimidate",
+    "toxicbody",
     "slushrush",
     "h:stakeout"
   ],
@@ -240,6 +240,7 @@
     "tm:snarl",
     "tm:charm",
     "egg:pursuit",
+    "egg:slackoff",
     "egg:obstruct",
     "egg:powertrip",
     "egg:punishment",
