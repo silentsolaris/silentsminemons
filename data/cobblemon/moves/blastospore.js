@@ -1,5 +1,5 @@
 {
-	num: 42002,
+	num: 42003,
     	accuracy: 100,
 		basePower: 250,
 		category: "Physical",

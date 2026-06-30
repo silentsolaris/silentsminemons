@@ -1,5 +1,5 @@
 {
-    num: 839,
+    num: 420015,
 		accuracy: 90,
 		basePower: 70,
 		category: "Physical",
@@ -8,7 +8,7 @@
 		priority: 0,
 		flags: { protect: 1, mirror: 1, metronome: 1 },
 		onBasePower(basePower, pokemon, target) {
-			if (target.status === 'slp' || target.hasAbility('comatose') {
+			if (target.status === 'slp' || target.hasAbility('comatose')) {
 				return this.chainModify(2);
 			}
 		},

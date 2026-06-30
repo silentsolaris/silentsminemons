@@ -25,12 +25,6 @@
     "cobblemon.species.gallowgourd.name": "Gallowgourd",
     "cobblemon.species.gallowgourd.desc": "It is ruthless in how it delivers it's twisted justice. It is commonly mistaken for Gallagourd, and the two Pokémon have an intense rivalry. Gallagourd attempts to stop it's violence, even protecting villains from Galloguard.",
 
-    "cobblemon.species.snoblin.name": "Snoblin",
-    "cobblemon.species.snoblin.desc": "This Pokémon travels in groups of it's kind, migrating to different mountainsides. They fear the likes of Galarian Darmanitan.",
-    
-    "cobblemon.species.snideous.name": "Snideous",
-    "cobblemon.species.snideous.desc": "It hides in the dense blizzards of the highest mountaintops, it's exceedingly rare to spot one. It secretly protects migrating Snoblin on their pilgrimage.",
-
     "cobblemon.species.parropot.name": "Parropot",
     "cobblemon.ui.pokedex.info.form.parropot": "Empty Pot",
     "cobblemon.species.parropot.desc": "An ancient Pokémon, it searches for objects to put in it's head. The reason is unknown.",
@@ -55,11 +49,27 @@
     "cobblemon.species.serasea.name": "Serasea",
     "cobblemon.species.serasea.desc": "It gently drifts in the dark depths. Spotting a Serasea in open waters is considered a bad omen",
 
+    "cobblemon.species.cephcery.name": "Cephcery",
+    "cobblemon.species.cephcery.desc": "A devious Pokémon, it confuses it's prey by shifting the colors on it's body. It utilizes forbidden powers from worlds beyond.",
+    "cobblemon.species.cephcery-gmax.desc": "It has become a vessel for the forbidden powers it wields, projecting them in a more pure form. Looking at it for too long can cause one to lose their mind.",
+
     "cobblemon.species.ocatalyst.name": "Ocatalyst",
     "cobblemon.species.ocatalyst.desc": "It uses the alchemical flask on its tail to brew strange concoctions from berries. Its surpisingly sanitary.",
 
     "cobblemon.species.gourmooze.name" : "Gourmooze",
     "cobblemon.species.gourmooze.desc" : "It implements nutrients into it's body directly, becoming more powerful. It is exceptionally difficult to satisfy it's unique tastes in food.",
+
+    "cobblemon.species.souslag.name" : "Souslag",
+    "cobblemon.species.souslag.desc" : "It travels far and wide for the best ingredients. While having a short temper, it is quite satisfied when it's food is enjoyed by others. It is said this Pokémon taught humanity how to freeze food in ancient times.",
+
+    "cobblemon.species.ghasp.name": "Ghasp",
+    "cobblemon.species.ghasp.desc": "This weak Pokémon struggles to breath often. Helium seems to aid it's affliction.",
+
+    "cobblemon.species.ghasthma.name": "Ghasthma",
+    "cobblemon.species.ghasthma.desc": "It had taken it's last breath, it now wanders taking the air from the lungs of others. It seems to be in a constant state of discomfort.",
+
+    "cobblemon.species.elatephyr.name": "Elatephyr",
+    "cobblemon.species.elatephyr.desc": "While it still has breathing problems, they are much deminished, allowing it to live normally. It is acutely aware of weather patterns, and warns other Pokémon.",
 
     "cobblemon.species.icken.name": "Icken",
     "cobblemon.species.icken.desc": "This Pokémon is not normally desired, even by would-be predators. It is surprisingly intelligent.",
@@ -69,7 +79,8 @@
 
     "cobblemon.species.reanderthral.name": "Reanderthral",
     "cobblemon.species.reanderthral.desc": "In an attempt to achieve immortality during evolution, the body gained a consciousness of it's own. It original commands the newborn mind, to little effect.",
-    
+    "cobblemon.species.reanderthral-mega.desc": "It's two minds have achieved an enlightened symbyosis. They are perfectly in sync, and have become a perfect combination of brain and brawn.",
+
     "cobblemon.species.bowne.name": "Bowne",
     "cobblemon.species.bowne.desc": "It carries a handcrafted bow of bone at all times. This Pokémon is never seen without it.",
     
@@ -77,16 +88,31 @@
     "cobblemon.species.bognmarrow.desc": "It patrols its territory with a platoon of fellow Bognmarrow. Whichever one has the bigger mushroom is the leader... allegedly.",
     
     "cobblemon.species.ivorice.name": "Ivorice",
-    "cobblemon.species.ivorice.desc": "While a solitary Pokémon, it sometimes hunts with Pokémon of similar cruelty, such as Weavile or Froslass.",
+    "cobblemon.species.ivorice.desc": "While a solitary Pokémon, it sometimes hunts with Pokémon of similar cruelty, such as Weavile or Froslass. It always aims for the legs to paralyze it's prey.",
     
     "cobblemon.species.withereign.name": "Withereign",
     "cobblemon.species.withereign.desc": "This sinister Pokémon absorbs the souls of both its enemies and allies to fuel its power.",
+    "cobblemon.species.withereign-mega.desc": "It's destructive power has been multiplied by Mega-Evolution. Now nothing can stop it's quest of world domination.",
 
     "cobblemon.species.tormniac.name": "Tormniac",
     "cobblemon.species.tormniac.desc": "Despite it's dreadful appearance, it's quite friendly. It consumes the nightmares of others, leading to a peaceful sleep.",
 
     "cobblemon.species.shellin.name": "Shellin",
     "cobblemon.species.shellin.desc": "It hides in it's iridescent shell, firing a poisonous needle when threatened. It hates interacting with others, and is easily irritated.",
+
+    "cobblemon.species.cerebug.name": "Cerebug",
+    "cobblemon.species.cerebug.desc": "While weak on it's own, together they are terrifyingly efficient. It feeds on the energies of other Pokémon like a parasite.",
+
+    "cobblemon.species.foocoon.name": "Foocoon",
+    "cobblemon.species.foocoon.desc": "It incubates to achieve a powerful form. Despite this, it commands Cerebug telepathically like a commander of an army.",
+
+    "cobblemon.species.iotlander.name": "Iotlander",
+    "cobblemon.species.iotlander.desc": "The leader of it's colony, with absolute authority. It is believed this Pokémon came from another dimension to invade our world for it's life energy.",
+    "cobblemon.species.iotlander-mega.desc": "It has become an exceptional strategist. It commands other Iotlander, alongside their colonies, on long military campaigns of expansion.",
+
+    "cobblemon.species.decayed.name": "Decayed",
+    "cobblemon.species.decayed.desc": "This Mythical Pokémon decays anything it touches. It it said this Pokémon was created by Zygarde to counteract Xerneas.",
+    "cobblemon.species.decayed-rejuv.desc": "This Mythical Pokémon rejuvenates anything it touches. It it said this Pokémon was created by Zygarde to counteract Yveltal.",
 
     "cobblemon.move.badinput": "Bad Input",
     "cobblemon.move.badinput.desc": "This move inflicts physical or special damage, whichever will be more effective. The user distorts the fabric of reality, randomizing it's type in the process.",
@@ -134,7 +160,7 @@
     "cobblemon.battle.activate.whiplash": "The move was boosted by the flowing winds!",
 
     "cobblemon.move.asphyxiate": "Asphyxiate",
-    "cobblemon.move.asphyxiate.desc": "The user attacks by drawing in the air around the opponent. This move is super-effective on Flying-type Pokémon, and is boosted if used in tailwind.",
+    "cobblemon.move.asphyxiate.desc": "The user attacks by drawing in the air from the opponent. Removes the effects of Tailwind from the opposing side.",
 
     "cobblemon.move.backburn": "Backburn",
     "cobblemon.move.backburn.desc": "The user snuffs out the opponent with it's own flames. This move is super effective on Fire-type Pokémon.",
@@ -143,12 +169,15 @@
     "cobblemon.move.evaporate.desc": "The user heats the area so much water turns to steam. If the target uses a Water-type move, it fails.",
     "cobblemon.battle.activate.evaporate": "The move evaporated!",
 
+    "cobblemon.move.gmaxbizarre": "G-Max Bizarre",
+    "cobblemon.move.gmaxbizarre.desc": "A Psychic-type attack that Gigantamax Cephcery use. This move makes opponents only use attacking moves",
+
     "cobblemon.ability.anarchist": "Anarchist",
     "cobblemon.ability.anarchist.desc": "Boosts the Attack stat of this Pokémon when hit by a Fighting-type move. This Pokémon cannot be confused.",
 
     "cobblemon.ability.anomaly": "Anomaly",
     "cobblemon.ability.anomaly.desc": "While this Pokémon is on the field, type interactions are reversed.",
-    "cobblemon.battle.activate.anomaly": "%1$s twisted reality! Types have been reversed!",
+    "cobblemon.battle.activate.anomaly": "%1$s twisted reality! Type matchups have been reversed!",
 
     "cobblemon.ability.appetite": "Appetite",
     "cobblemon.ability.appetite.desc": "When this Pokémon eats a berry, it transforms into it's obese form.",
@@ -181,7 +210,7 @@
     "cobblemon.ability.mentor": "Mentor",
     "cobblemon.ability.mentor.desc": "Damaging charging moves for both this Pokémon and it's ally happen in a single turn instead.",
     "cobblemon.battle.activate.mentor.self": "%1$s uses a technique to speed up the process!",
-    "cobblemon.battle.activate.mentor.ally": "%1$s guides %3$s",
+    "cobblemon.battle.activate.mentor.ally": "%1$s guides %3$s's attack!",
 
     "cobblemon.ability.neurotoxin": "Neurotoxin",
     "cobblemon.ability.neurotoxin.desc": "Pokémon poisoned by the user's moves will also have their speed stat lowered.",
@@ -204,8 +233,5 @@
     "cobblemon.ability.echochamber.desc": "While this Pokémon is on the field, If a Sound-based move is used every turn, they do greater damage",
 
     "cobblemon.ability.climatechange": "Climate Change",
-    "cobblemon.ability.climatechange.desc": "When this Pokémon switches in, it cycles any primary weathers active into another.",
-
-    "cobblemon.ability.forecast": "Forecast",
-    "cobblemon.ability.forecast.desc": "This Pokémon's Speed and Special Attack is boosted when a weather is active."
+    "cobblemon.ability.climatechange.desc": "When this Pokémon switches in, it cycles any primary weathers active into another."
 }

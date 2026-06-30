@@ -1,13 +1,13 @@
 {
   "implemented": true,
   "nationalPokedexNumber": 2004,
-  "name": "exhaunt",
+  "name": "ghasthma",
   "primaryType": "ghost",
   "maleRatio": 0.7,
   "height": 5,
   "weight": 400,
   "pokedex": [
-    "cobblemon.species.exhaunt.desc"
+    "cobblemon.species.ghasthma.desc"
   ],
   "labels": [
     "minemons"

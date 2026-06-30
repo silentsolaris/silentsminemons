@@ -1,5 +1,5 @@
 {
-	num: 42005,
+	num: 42006,
 		accuracy: 85,
 		basePower: 0,
 		category: "Status",

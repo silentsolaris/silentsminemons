@@ -214,9 +214,23 @@
     "egg:aquajet",
     "egg:sparklingaria"
   ],
- "evolutions": [],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+  "evolutions": [],
+  "forms": [
+    {
+      "name": "Gmax",
+      "pokedex": [
+        "cobblemon.species.cephcery-gmax.desc"
+      ],
+      "labels": [
+        "minemons",
+        "gmax"
+      ],
+      "aspects": [
+        "gmax"
+      ],
+      "evolutions": [],
+      "battleOnly": true,
+      "dynamaxBlocked": true
+    }
+  ]
 }

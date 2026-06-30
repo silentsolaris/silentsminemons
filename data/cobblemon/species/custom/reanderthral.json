@@ -239,7 +239,10 @@
       "special_attack": 90,
       "special_defence": 110,
       "speed": 45
-      }
-}
+      },
+      "evolutions": [],
+      "battleOnly": true,
+      "dynamaxBlocked": true
+    }
   ]
 }

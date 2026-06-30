@@ -131,7 +131,7 @@
       "result": "elatephyr",
       "consumeHeldItem": true,
       "learnableMoves": [
-	  "tailwind"
+	    "tailwind"
 	  ],
       "requirements": [
         {
@@ -141,17 +141,17 @@
       ]
     },
     {
-      "id": "ghasp-exhaunt",
+      "id": "ghasp-ghasthma",
       "variant": "level_up",
-      "result": "exhaunt",
+      "result": "ghasthma",
       "consumeHeldItem": true,
       "learnableMoves": [
-	  "asphyxiate"
+	    "asphyxiate"
 	  ],
       "requirements": [
         {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:air_balloon"
+          "variant": "level",
+          "minLevel": 30
         }
       ]
     }
