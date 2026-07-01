@@ -163,7 +163,7 @@
     "cobblemon.battle.activate.whiplash": "The move was boosted by the flowing winds!",
 
     "cobblemon.move.asphyxiate": "Asphyxiate",
-    "cobblemon.move.asphyxiate.desc": "The user attacks by drawing in the air from the opponent. This move also lifts the effects of Tailwind from the opposing side.",
+    "cobblemon.move.asphyxiate.desc": "The user attacks by drawing in the air from the opponent. This move also lifts the effects of Tailwind from the opposing side. Also prevents the target from using moves that emit sound for two turns.",
 
     "cobblemon.move.backburn": "Backburn",
     "cobblemon.move.backburn.desc": "The user snuffs out the opponent with its own flames. This move is super effective on Fire-type Pokémon.",
