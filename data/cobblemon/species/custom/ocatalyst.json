@@ -169,7 +169,6 @@
     "tm:hydropump",
     "tm:hyperbeam",
     "tm:hypervoice",
-    "tm:electroball",
     "tm:incinerate",
     "tm:icywind",
     "tm:imprison",
@@ -202,7 +201,6 @@
     "tm:roleplay",
     "tm:round",
     "tm:safeguard",
-    "tm:scorchingsands",
     "tm:seedbomb",
     "tm:shadowball",
     "tm:shadowclaw",
@@ -212,7 +210,6 @@
     "tm:sludgebomb",
     "tm:sludgewave",
     "tm:snarl",
-    "tm:solarbeam",
     "tm:spikes",
     "tm:stealthrock",
     "tm:storedpower",
@@ -244,7 +241,8 @@
     "egg:purify",
     "egg:smog",
     "egg:sweetkiss",
-    "egg:fairylock"
+    "egg:fairylock",
+    "egg:zapcannon"
   ],
  "evolutions": [],
   "lightingData": {

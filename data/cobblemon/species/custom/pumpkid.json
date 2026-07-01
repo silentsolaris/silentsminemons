@@ -192,7 +192,6 @@
     "tm:metronome",
     "tm:mudshot",
     "tm:mudslap",
-    "tm:petalblizzard",
     "tm:powerwhip",
     "tm:raindance",
     "tm:rockblast",
@@ -226,7 +225,6 @@
     "egg:wideguard",
     "egg:grasswhistle",
     "egg:wakeupslap",
-    "egg:shiftgear",
     "egg:magnetbomb",
     "egg:meteormash",
     "egg:counter"

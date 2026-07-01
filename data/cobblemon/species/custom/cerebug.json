@@ -108,8 +108,9 @@
     "13:powder",
     "18:psybeam",
     "21:ragepowder",
-    "26:sleeppowder",
-    "26:poisonpowder"
+    "egg:toxicthread",
+    "egg:stickyweb",
+    "egg:tailglow"
   ],
  "evolutions": [
      {
