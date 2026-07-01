@@ -23,16 +23,16 @@
   ],
   "baseStats": {
     "hp": 60,
-    "attack": 110,
-    "defence": 100,
+    "attack": 100,
+    "defence": 110,
     "special_attack": 30,
     "special_defence": 60,
     "speed": 10
   },
   "evYield": {
     "hp": 0,
-    "attack": 1,
-    "defence": 0,
+    "attack": 0,
+    "defence": 1,
     "special_attack": 0,
     "special_defence": 0,
     "speed": 0
@@ -221,6 +221,14 @@
     "special_defence": 110,
     "speed": 10
     },
+    "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
     "moves": [
     "tm:protect",
     "tm:rest",
@@ -350,6 +358,14 @@
       "special_defence": 100,
       "speed": 10
     },
+    "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
     "moves": [
     "tm:protect",
     "tm:rest",
@@ -465,17 +481,25 @@
     ],
 	  "abilities": [
       "hustle",
-      "solarpower",
+      "whitesmoke",
       "h:fragmentation"
     ],
     "baseStats": {
       "hp": 60,
-      "attack": 100,
+      "attack": 140,
       "defence": 70,
-      "special_attack": 100,
-      "special_defence": 30,
+      "special_attack": 30,
+      "special_defence": 60,
       "speed": 10
     },
+    "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
     "moves": [
     "tm:protect",
     "tm:rest",
@@ -598,12 +622,20 @@
     ],
     "baseStats": {
       "hp": 60,
-      "attack": 110,
+      "attack": 100,
       "defence": 50,
       "special_attack": 10,
       "special_defence": 30,
-      "speed": 100
+      "speed": 110
     },
+    "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 1
+  },
     "moves": [
     "tm:protect",
     "tm:rest",
