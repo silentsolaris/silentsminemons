@@ -252,6 +252,7 @@
     "egg:yawn",
     "egg:aquajet"
   ],
+  "preEvolution": "bruital",
  "evolutions": [
   ],
   "lightingData": {

@@ -229,6 +229,7 @@
     "egg:ragingfury",
     "egg:megadrain"
   ],
+  "preEvolution": "bowne",
  "evolutions": [],
   "lightingData": {
     "lightLevel": 7,

@@ -334,6 +334,7 @@
     "egg:meteormash",
     "egg:counter"
   ],
+  "preEvolution": "pumpkid",
  "evolutions": [],
   "lightingData": {
     "lightLevel": 7,

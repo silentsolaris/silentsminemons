@@ -235,6 +235,7 @@
     "egg:absorb",
     "egg:megadrain"
   ],
+  "preEvolution": "bowne",
  "evolutions": [],
   "lightingData": {
     "lightLevel": 7,

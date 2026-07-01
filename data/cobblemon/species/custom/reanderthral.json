@@ -203,6 +203,7 @@
     "egg:teeterdance",
     "egg:flatter"
   ],
+"preEvolution": "cluckenstein",
  "evolutions": [
   ],
   "lightingData": {

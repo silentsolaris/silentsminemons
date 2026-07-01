@@ -260,6 +260,7 @@
     "tm:thief",
     "tm:encore"
   ],
+  "preEvolution": "pumpkit",
  "evolutions": [],
   "lightingData": {
     "lightLevel": 7,

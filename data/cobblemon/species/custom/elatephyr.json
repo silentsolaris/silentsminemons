@@ -186,6 +186,7 @@
     "egg:memento",
     "egg:clearsmog"
   ],
+  "preEvolution": "ghasp",
  "evolutions": [
   ]
 }

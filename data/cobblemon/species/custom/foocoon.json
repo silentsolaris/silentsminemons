@@ -114,6 +114,7 @@
     "egg:stickyweb",
     "egg:tailglow"
   ],
+  "preEvolution": "cerebug",
  "evolutions": [
      {
       "id": "foocoon-iotlander",
