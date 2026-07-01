@@ -16,8 +16,8 @@
   "aspects": [],
   "abilities": [
     "heatproof",
-    "justified",
-    "h:steelyspirit"
+    "steelyspirit",
+    "h:heroism"
   ],
   "eggGroups": [
     "grass"
@@ -230,7 +230,7 @@
     "50:woodhammer",
     "55:noretreat",
     "60:autotomize",
-    "63:doubleironbash",
+    "63:allornothing",
     "tm:afteryou",
     "tm:amnesia",
     "tm:babydolleyes",
@@ -327,7 +327,6 @@
     "egg:wideguard",
     "egg:grasswhistle",
     "egg:wakeupslap",
-    "egg:shiftgear",
     "egg:magnetbomb",
     "egg:meteormash",
     "egg:counter"

@@ -172,6 +172,15 @@
     "cobblemon.move.evaporate.desc": "The user heats the area so much that water turns to steam. If the target uses a Water-type move, it fails.",
     "cobblemon.battle.activate.evaporate": "The move evaporated!",
 
+    "cobblemon.move.allornothing": "All or Nothing",
+    "cobblemon.move.allornothing.desc": "The user heroically slams the target with their steely body. This also damages the user quite a lot.",
+
+    "cobblemon.move.cleave": "Cleave",
+    "cobblemon.move.cleave.desc": "The user snuffs makes a wide swipe it's blade toward opposing Pokémon. This also lowers their Speed stats.",
+
+    "cobblemon.move.splinteredaxe": "Splintered Axe",
+    "cobblemon.move.splinteredaxe.desc": "The user slashes the opponent with a splintered axe. Iron shards left behind by this attack remain scattered under the target as sharp steel.",
+
     "cobblemon.move.gmaxbizarre": "G-Max Bizarre",
     "cobblemon.move.gmaxbizarre.desc": "A Psychic-type attack that Gigantamax Cephcery use. This move makes opponents only able to use attacking moves for a short time.",
 
@@ -239,5 +248,14 @@
     "cobblemon.ability.climatechange.desc": "When this Pokémon switches in, it cycles any primary weathers active into another.",
 
     "cobblemon.move.frostfist": "Frost Fist",
-    "cobblemon.move.frostfist.desc": "This Pokémon's punching moves have a chance to freeze."
+    "cobblemon.move.frostfist.desc": "This Pokémon's punching moves have a chance to freeze.",
+
+    "cobblemon.move.heroism": "Heroism",
+    "cobblemon.move.heroism.desc": "The Pokémon's insense heroism powers up Fighting-type moves, prevents it from flinching and being affected by Intimidate.",
+
+    "cobblemon.move.executionner": "Executionner",
+    "cobblemon.move.executionner.desc": "Powers up slicing moves. The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.",
+
+    "cobblemon.move.fragmentation": "Fragmentation",
+    "cobblemon.move.fragmentation.desc": "Scatters stealth rock at the feet of the opposing team when the Pokémon takes damage from physical moves."
 }
