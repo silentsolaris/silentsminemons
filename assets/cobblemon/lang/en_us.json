@@ -8,7 +8,7 @@
     "cobblemon.species.lupelt.desc": "It is loyal to a fault, and it will never back down from a fight. Its wool builds up so fast that it struggles to move after a long time without being sheared.",
 
     "cobblemon.species.nitkick.name": "Nitkick",
-    "cobblemon.species.nitkick.desc": "While both a powerful and clever Pokémon, its stubbornness against following orders makes it an unpopular choice amongst beginner trainers.",
+    "cobblemon.species.nitkick.desc": "While both a powerful and clever Pokémon, its unruly behavior makes it difficult to train. If it weren't so lazy, it'd achieve great things.",
     
     "cobblemon.species.anonkey.name": "Anonkey",
     "cobblemon.species.anonkey.desc": "It destroys everything in its path in equal measure. There is no reason apart from its natural drive to deliver chaos unto the world. A well-placed kick from one of its hooves could send even a snorlax flying.",
@@ -44,14 +44,14 @@
     "cobblemon.species.shivor.desc": "This persistent Pokémon will stalk prey for days, waiting for the perfect moment to strike, moving faster than one would first think. It prepares its meals methodically using the sharp icicle it carries.",
 
     "cobblemon.species.siphosail.name": "Siphosail",
-    "cobblemon.species.siphosail.desc": "It drifts across looking for Localusk nests to conquer. A group of Siphosail is called a fleet.",
+    "cobblemon.species.siphosail.desc": "It sails across the ocean, stealing all it can from reefs. A group of Siphosail is called a fleet.",
 
     "cobblemon.species.serasea.name": "Serasea",
     "cobblemon.species.serasea.desc": "It gently drifts in the dark depths. Spotting a Serasea in open waters is considered a bad omen.",
 
     "cobblemon.species.cephcery.name": "Cephcery",
     "cobblemon.species.cephcery.desc": "A devious Pokémon, it confuses its prey by shifting the colors on its body. It utilizes forbidden powers from worlds beyond.",
-    "cobblemon.species.cephcery-gmax.desc": "It has become a vessel for the forbidden powers it wields, projecting them in a purer form. Looking at it for too long can cause one to lose their mind.",
+    "cobblemon.species.cephcery-gmax.desc": "It has become a projection for a forbidden presence. Looking at it for too long can cause one to lose their mind.",
 
     "cobblemon.species.ocatalyst.name": "Ocatalyst",
     "cobblemon.species.ocatalyst.desc": "It uses the alchemical flask on its tail to brew strange concoctions from berries. It's surpisingly sanitary despite being a Poison-type.",
@@ -60,7 +60,7 @@
     "cobblemon.species.gourmooze.desc" : "It absorbs nutrients into its body directly through its gelatinous skin, becoming more powerful in the process. It is exceptionally difficult to satisfy its unique tastes in food.",
 
     "cobblemon.species.souslag.name" : "Souslag",
-    "cobblemon.species.souslag.desc" : "It travels far and wide in search for the best ingredients to cook with. While having a short temper, it is quite satisfied when its food is enjoyed by others. It is said this Pokémon taught humanity how to preserve food using freezers in ancient times.",
+    "cobblemon.species.souslag.desc" : "It travels far and wide in search for the best ingredients to cook with. While having a short temper, it is quite satisfied when its food is enjoyed by others. It is said this Pokémon taught humanity how to preserve food using ice in ancient times.",
 
     "cobblemon.species.snowbrawl.name" : "Snowbrawl",
     "cobblemon.species.snowbrawl.desc" : "It intentionally places itself in inconvenient places to provoke fights. It attempts to defeat as many opponents as possible before it melts in the winter. It would rather go out fighting than meet such a fate.",
@@ -75,30 +75,30 @@
     "cobblemon.species.elatephyr.desc": "While it still has breathing problems, they have diminished, allowing it to live normally. It is acutely aware of weather patterns, and warns other Pokémon of upcoming meteorological disasters.",
 
     "cobblemon.species.icken.name": "Icken",
-    "cobblemon.species.icken.desc": "This Pokémon is repulsive to most Pokémon, leaving it with no predators. It is surprisingly intelligent.",
+    "cobblemon.species.icken.desc": "It is repulsive to most Pokémon, leaving it with no predators. It is surprisingly intelligent.",
 
     "cobblemon.species.cluckenstein.name": "Cluckenstein",
     "cobblemon.species.cluckenstein.desc": "It is reckless in behavior, often injuring those around it during its experiments. Once it decides on a task, its determination to see it through is unbreakable.",
 
     "cobblemon.species.reanderthral.name": "Reanderthral",
     "cobblemon.species.reanderthral.desc": "In an attempt to achieve immortality during evolution, the body gained a consciousness of its own. The original Pokémon still tries to command the newborn mind, to little effect.",
-    "cobblemon.species.reanderthral-mega.desc": "Its two minds have achieved an enlightened symbiosis. They are perfectly in sync, and have become a perfect combination of brain and brawn.",
+    "cobblemon.species.reanderthral-mega.desc": "Its two minds have achieved an enlightened symbiosis. They are perfectly in sync, and have become a perfect combination of brain and brawn. This connection immediately severs when the mega energy fades.",
 
     "cobblemon.species.bowne.name": "Bowne",
     "cobblemon.species.bowne.desc": "It carries a handcrafted bow of bone at all times. This Pokémon is never seen without it.",
     
     "cobblemon.species.bognmarrow.name": "Bognmarrow",
-    "cobblemon.species.bognmarrow.desc": "It patrols its territory with a platoon of fellow Bognmarrow. Whichever one has the bigger mushroom is the leader... allegedly.",
+    "cobblemon.species.bognmarrow.desc": "It patrols its territory with a platoon of fellow Bognmarrow. Whichever one has the bigger cap is the squadron leader.",
     
     "cobblemon.species.ivorice.name": "Ivorice",
     "cobblemon.species.ivorice.desc": "While a solitary Pokémon, it sometimes hunts with Pokémon of similar cruelty, such as Weavile or Froslass. It always aims for the legs first to try to immobilize its prey.",
     
     "cobblemon.species.withereign.name": "Withereign",
-    "cobblemon.species.withereign.desc": "This sinister Pokémon absorbs the souls of both its enemies and allies to fuel its power.",
+    "cobblemon.species.withereign.desc": "This sinister Pokémon absorbs the souls of both its enemies and allies to fuel its power. It dreams of world conquest.",
     "cobblemon.species.withereign-mega.desc": "Its destructive power has been multiplied by Mega Evolution. Now nothing can stop its quest of world domination.",
 
     "cobblemon.species.tormniac.name": "Tormniac",
-    "cobblemon.species.tormniac.desc": "Despite its dreadful appearance, it is quite friendly. It consumes the nightmares of others, leading to a peaceful sleep.",
+    "cobblemon.species.tormniac.desc": "Despite its dreadful appearance, it is quite cordial. It consumes the nightmares of others, leading to a peaceful sleep.",
 
     "cobblemon.species.shellin.name": "Shellin",
     "cobblemon.species.shellin.desc": "It hides in its iridescent shell, firing a poisonous needle when threatened. It hates interacting with others, and becomes easily irritated in crowded places.",
