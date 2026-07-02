@@ -135,7 +135,7 @@
     "cobblemon.move.eldereye.desc": "The user fires a crystalline beam of energy at the target. In rain, it also electrifies the target's next move.",
 
     "cobblemon.move.fester": "Fester",
-    "cobblemon.move.fester.desc": "The user feasts on the target's natural energies. This move always hits and the user's Attack is raised if the target is a Psychic, Dark or Grass-type.",
+    "cobblemon.move.fester.desc": "The user feasts on the target's natural energies. This move always hits and raises Attack if the target is a Psychic, Dark or Grass-type.",
 
     "cobblemon.move.frostbolt": "Frost Bolt",
     "cobblemon.move.frostbolt.desc": "The user fires a crossbow bolt of ice at the target's weak points. This may leave the target paralyzed.",
@@ -164,10 +164,10 @@
     "cobblemon.battle.activate.whiplash": "The move was boosted by the flowing winds!",
 
     "cobblemon.move.asphyxiate": "Asphyxiate",
-    "cobblemon.move.asphyxiate.desc": "The user attacks by drawing in the air from the opponent. This move also lifts the effects of Tailwind from the opposing side. Also prevents the target from using moves that emit sound for two turns.",
+    "cobblemon.move.asphyxiate.desc": "The user attacks by drawing in the air from the target. This move also lifts the effects of Tailwind from the opposing side. Also prevents the target from using moves that emit sound for two turns.",
 
     "cobblemon.move.backburn": "Backburn",
-    "cobblemon.move.backburn.desc": "The user snuffs out the opponent with its own flames. This move is super effective on Fire-type Pokémon.",
+    "cobblemon.move.backburn.desc": "The user snuffs out the target with its own flames. This move is super effective on Fire-type Pokémon.",
 
     "cobblemon.move.evaporate": "Evaporate",
     "cobblemon.move.evaporate.desc": "The user heats the area so much that water turns to steam. If the target uses a Water-type move, it fails.",
@@ -180,10 +180,16 @@
     "cobblemon.move.cleave.desc": "The user snuffs makes a wide swipe it's blade toward opposing Pokémon. This also lowers their Speed stats.",
 
     "cobblemon.move.splinteredaxe": "Splintered Axe",
-    "cobblemon.move.splinteredaxe.desc": "The user slashes the opponent with a splintered axe. Iron shards left behind by this attack remain scattered under the target as sharp steel.",
+    "cobblemon.move.splinteredaxe.desc": "The user slashes the target with a splintered axe. Iron shards left behind by this attack remain scattered under the target as sharp steel.",
 
     "cobblemon.move.gmaxbizarre": "G-Max Bizarre",
     "cobblemon.move.gmaxbizarre.desc": "A Psychic-type attack that Gigantamax Cephcery use. This move makes opponents only able to use attacking moves for a short time.",
+
+    "cobblemon.move.venombinding": "Venom Binding",
+    "cobblemon.move.venombinding.desc": "The target is badly poisoned, and they cannot flee or switch out.",
+
+    "cobblemon.move.plunder": "Plunder",
+    "cobblemon.move.plunder.desc": "Steals the target's stat boosts.",
 
     "cobblemon.ability.anarchist": "Anarchist",
     "cobblemon.ability.anarchist.desc": "Boosts the Attack stat of this Pokémon when hit by a Fighting-type move. This Pokémon cannot be confused.",

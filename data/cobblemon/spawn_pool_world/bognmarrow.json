@@ -21,7 +21,10 @@
                 "canSeeSky": false,
                 "biomes": [
                     "#cobblemon:is_swamp",
-					"#cobblemon:is_mushroom"
+					"#cobblemon:is_mushroom",
+                    "twilightforest:dense_mushroom_forest",
+                    "twilightforest:mushroom_forest",
+                    "twilightforest:swamp"
                 ]
             },
             "anticondition": {
@@ -91,7 +94,8 @@
                 "repurposed_structures:mineshaft_jungle",
                 "repurposed_structures:mansion_jungle",
                 "betterdungeons:skeletal_dungeon",
-                "philipsruins:bone_dungeon"
+                "philipsruins:bone_dungeon",
+                "twilightforest:labyrinth"
                 ]
             }
         }

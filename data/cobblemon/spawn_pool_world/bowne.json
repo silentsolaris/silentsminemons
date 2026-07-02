@@ -141,7 +141,9 @@
                     "repurposed_structures:ancient_city_nether",
                     "betterdungeons:skeletal_dungeon",
                     "philipsruins:bone_dungeon",
-                    "philipsruins:ancient_crypt"
+                    "philipsruins:ancient_crypt",
+                    "twilightforest:lich_tower",
+                    "twilightforest:goblin_knight_stronghold"
                 ]
             }
         }

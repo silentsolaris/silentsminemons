@@ -17,7 +17,19 @@
             "weight": 4,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_swamp"
+                    "#cobblemon:is_swamp",
+                    "twilightforest:swamp"
+                ],
+                "neededBaseBlocks": [
+                    "minecraft:farmland",
+                    "minecraft:grass_block",
+                    "minecraft:dirt_path",
+                    "minecraft:dirt",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:gravel",
+                    "minecraft:stone",
+                    "minecraft:lilypad"
                 ]
             }
         },
@@ -47,7 +59,19 @@
                 "structures": [
                     "ribbits:ribbit_village",
                     "towns_and_towers:village_swamp",
-                    "repurposed_structures:village_swamp"
+                    "repurposed_structures:village_swamp",
+                    "twilightforest:labyrinth"
+                ],
+                "neededBaseBlocks": [
+                    "minecraft:farmland",
+                    "minecraft:grass_block",
+                    "minecraft:dirt_path",
+                    "minecraft:dirt",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:gravel",
+                    "minecraft:stone",
+                    "minecraft:lilypad"
                 ]
             }
         }

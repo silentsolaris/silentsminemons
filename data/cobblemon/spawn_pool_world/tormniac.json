@@ -16,7 +16,9 @@
 				"canSeeSky": true,
                 "biomes": [
                     "#cobblemon:is_badlands",
-                    "#cobblemon:is_arid"
+                    "#cobblemon:is_arid",
+                    "twilightforest:spooky_forest",
+                    "twilightforest:dark_forest"
                 ]
             }
         },

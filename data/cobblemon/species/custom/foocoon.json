@@ -109,7 +109,8 @@
     "1:psybeam",
     "1:harden",
     "20:silktrap",
-    "25:ragepowder",
+    "23:magicpowder",
+    "27:ragepowder",
     "egg:toxicthread",
     "egg:stickyweb",
     "egg:tailglow"

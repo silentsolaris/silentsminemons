@@ -18,7 +18,8 @@
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "#cobblemon:is_savanna"
+                    "#cobblemon:is_savanna",
+                    "twilightforest:oak_savanna"
                 ]
             }
         },

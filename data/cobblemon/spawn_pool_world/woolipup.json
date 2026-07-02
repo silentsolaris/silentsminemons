@@ -21,7 +21,8 @@
                     "#cobblemon:is_grassland",
                     "#cobblemon:is_highlands",
                     "#cobblemon:is_hills",
-                    "#cobblemon:mountain"
+                    "#cobblemon:mountain",
+                    "twilightforest:highlands"
                 ],
                 "neededBaseBlocks": [
                     "minecraft:farmland",

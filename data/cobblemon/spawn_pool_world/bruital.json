@@ -19,7 +19,28 @@
                 "canSeeSky": false,
                 "biomes": [
                     "#cobblemon:is_freezing",
+                    "twilightforest:snowy_forest",
                     "yungscavebiomes:frosted_caves"
+                ]
+            }
+        },
+        {
+            "id": "bruital-2",
+            "pokemon": "bruital",
+            "presets": [
+                "wild",
+				"natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "40-60",
+            "weight": 4,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "minecraft:frozen_ocean",
+                    "twilightforest:glacier"
                 ]
             }
         }

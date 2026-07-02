@@ -41,7 +41,9 @@
                 "canSeeSky": false,
                 "biomes": [
                     "#cobblemon:is_freezing",
-                    "yungscavebiomes:frosted_caves"
+                    "yungscavebiomes:frosted_caves",
+                    "twilightforest:snowyforest",
+                    "twilightforest:glacier"
                 ]
             }
         },
@@ -64,7 +66,8 @@
                 "repurposed_structures:pyramid_snowy",
                 "repurposed_structures:ruins_land_icy",
                 "betterdungeons:skeletal_dungeon",
-                "philipsruins:bone_dungeon"
+                "philipsruins:bone_dungeon",
+                "twilightforest:aurora_palace"
                 ]
             }
         }

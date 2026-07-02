@@ -122,12 +122,12 @@
     "15:barbbarrage",
     "23:suckerpunch",
     "27:comeuppance",
-    "32:topsyturvy",
+    "32:venombinding",
     "36:dive",
     "43:poisonjab",
     "47:acidarmor",
     "50:falsesurrender",
-    "55:purify",
+    "55:plunder",
     "tm:amnesia",
     "tm:assurance",
     "tm:babydolleyes",
@@ -203,7 +203,9 @@
     "egg:recover",
     "egg:tickle",
     "egg:tearfullook",
-    "egg:splash"
+    "egg:splash",
+    "egg:purify",
+    "egg:wringout"
   ],
  "evolutions": [],
   "lightingData": {

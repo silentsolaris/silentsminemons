@@ -1,0 +1,16 @@
+{
+    num: 42025,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "Venom Binding",
+		pp: 5,
+		priority: 0,
+		flags: { reflectable: 1, mirror: 1, metronome: 1 },
+		volatileStatus: 'partiallytrapped',
+        status: 'tox',
+		target: "normal",
+		type: "Normal",
+		zMove: { boost: { spd: 1 } },
+		contestType: "Tough",
+}

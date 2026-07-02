@@ -4,8 +4,8 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "shivor-1",
-            "pokemon": "shivor",
+            "id": "snowbrawl-1",
+            "pokemon": "snowbrawl",
             "presets": [
                 "wild",
 				"natural"
@@ -13,34 +13,40 @@
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "40-60",
+            "level": "20-45",
             "weight": 4,
             "condition": {
-                "canSeeSky": false,
                 "biomes": [
                     "#cobblemon:is_freezing",
                     "twilightforest:snowy_forest",
+                    "twilightforest:glacier",
                     "yungscavebiomes:frosted_caves"
                 ]
             }
         },
         {
-            "id": "shivor-2",
-            "pokemon": "shivor",
-            "presets": [
-                "wild",
-				"natural"
-            ],
+            "id": "snowbrawl-2",
+            "pokemon": "snowbrawl",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "rare",
-            "level": "50-70",
+            "bucket": "common",
+            "level": "15-35",
             "weight": 4,
             "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "minecraft:frozen_ocean",
-                    "twilightforest:glacier"
+				"structures": [
+				
+				],
+                "neededBaseBlocks": [
+                    "minecraft:farmland",
+                    "minecraft:grass_block",
+                    "minecraft:dirt_path",
+                    "minecraft:dirt",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:gravel",
+                    "minecraft:stone",
+                    "minecraft:snow_block",
+                    "minecraft:snow"
                 ]
             }
         }

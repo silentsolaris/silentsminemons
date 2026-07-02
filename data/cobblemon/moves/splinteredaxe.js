@@ -8,9 +8,9 @@
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1, slicing: 1},
 		self: {
-			onHit(source) {
+			onAfterMoveSecondarySelf(pokemon, target, move) {
 				for (const side of source.side.foeSidesWithConditions()) {
-					side.addSideCondition('gmaxsteelsurge');
+					if (!target || target.fainted || target.hp <= 0) side.addSideCondition('gmaxsteelsurge');
 				}
 			},
 		},
