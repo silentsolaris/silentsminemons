@@ -3,7 +3,6 @@
 		accuracy: 90,
 		basePower: 80,
 		category: "Physical",
-		isNonstandard: "Past",
 		name: "Splintered Axe",
 		pp: 5,
 		priority: 0,

@@ -248,18 +248,18 @@
     "cobblemon.ability.climatechange": "Climate Change",
     "cobblemon.ability.climatechange.desc": "When this Pokémon switches in, it cycles any primary weathers active into another.",
 
-    "cobblemon.move.frostfist": "Frost Fist",
-    "cobblemon.move.frostfist.desc": "This Pokémon's punching moves have a chance to freeze.",
+    "cobblemon.ability.frostfist": "Frost Fist",
+    "cobblemon.ability.frostfist.desc": "This Pokémon's punching moves have a chance to freeze.",
 
-    "cobblemon.move.heroism": "Heroism",
-    "cobblemon.move.heroism.desc": "The Pokémon's insense heroism powers up Fighting-type moves, prevents it from flinching and being affected by Intimidate.",
+    "cobblemon.ability.heroism": "Heroism",
+    "cobblemon.ability.heroism.desc": "The Pokémon's insense heroism powers up Fighting-type moves, prevents it from flinching and being affected by Intimidate.",
 
-    "cobblemon.move.executionner": "Executionner",
-    "cobblemon.move.executionner.desc": "Powers up slicing moves. The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.",
+    "cobblemon.ability.executionner": "Executionner",
+    "cobblemon.ability.executionner.desc": "Powers up slicing moves. The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.",
 
-    "cobblemon.move.fragmentation": "Fragmentation",
-    "cobblemon.move.fragmentation.desc": "Scatters stealth rock at the feet of the opposing team when the Pokémon takes damage from physical moves.",
+    "cobblemon.ability.fragmentation": "Fragmentation",
+    "cobblemon.ability.fragmentation.desc": "Scatters stealth rock at the feet of the opposing team when the Pokémon takes damage from physical moves.",
 
-    "cobblemon.move.mortar": "Mortar",
-    "cobblemon.move.mortar.desc": "Powers up some ball and bomb moves."
+    "cobblemon.ability.mortar": "Mortar",
+    "cobblemon.ability.mortar.desc": "Powers up some ball and bomb moves."
 }

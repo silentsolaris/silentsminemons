@@ -2,12 +2,14 @@
 	num: 420016,
 		accuracy: 100,
 		basePower: 80,
-		category: "Special",
+		category: "Physical",
 		name: "Asphyxiate",
 		pp: 15,
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1 },
-		onStart(target) {
+		condition: {
+			duration: 2,
+			onStart(target) {
 				this.add('-start', target, 'Asphyxiate', '[silent]');
 			},
 			onDisableMove(pokemon) {
@@ -39,9 +41,12 @@
 			chance: 100,
 			onHit(target) {
 				target.addVolatile('throatchop');
-				pokemon.side.removeSideCondition('tailwind');
 			},
+		},
+		onTryHit(pokemon) {
+			pokemon.side.removeSideCondition('tailwind');
+		},
 		target: "normal",
-		type: "Ghost",
+		type: "Dark",
 		contestType: "Clever",
 }
