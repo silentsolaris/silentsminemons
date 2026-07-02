@@ -23,11 +23,11 @@
     "grass"
   ],
   "baseStats": {
-    "hp": 150,
+    "hp": 140,
     "attack": 120,
-    "defence": 127,
+    "defence": 117,
     "special_attack": 30,
-    "special_defence": 63,
+    "special_defence": 83,
     "speed": 20
   },
   "evYield": {

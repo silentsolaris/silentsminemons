@@ -7,7 +7,7 @@
 			}
 			else {
 				this.debug('Heroism Boost');
-				return chainmodify(1.2 + ( pokemon.hp / pokemon.maxhp))
+				return chainmodify(1.2 + ( pokemon.maxhp / pokemon.hp))
 			}
 		},
 			flags: {},
