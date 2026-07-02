@@ -47,6 +47,6 @@
 			pokemon.side.removeSideCondition('tailwind');
 		},
 		target: "normal",
-		type: "Dark",
+		type: "Ghost",
 		contestType: "Clever",
 }
