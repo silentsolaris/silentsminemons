@@ -14,18 +14,6 @@
 				}
 			},
 		},
-		condition: {
-			onSideStart(side) {
-				this.add('-sidestart', side, 'move: Splintered Axe');
-			},
-			onSwitchIn(pokemon) {
-				if (pokemon.hasItem('heavydutyboots')) return;
-				const steelHazard = this.dex.getActiveMove('Stealth Rock');
-				steelHazard.type = 'Steel';
-				const typeMod = this.clampIntRange(pokemon.runEffectiveness(steelHazard), -6, 6);
-				this.damage(pokemon.maxhp * (2 ** typeMod) / 8);
-			},
-		},
 		target: "normal",
 		type: "Steel",
 		contestType: "Cool",
