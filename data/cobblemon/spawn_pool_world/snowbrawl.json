@@ -34,7 +34,8 @@
             "weight": 4,
             "condition": {
 				"structures": [
-				
+				"minecraft:village_snowy",
+                "minecraft:igloo"
 				],
                 "neededBaseBlocks": [
                     "minecraft:farmland",

@@ -75,9 +75,13 @@
     "herd": {
       "maxSize": "3",
       "toleratedLeaders": [
-	  {
-          "pokemon": "snowbrawl",
+        {
+          "pokemon": "abomasnow",
           "tier": 1
+        },
+	    {
+          "pokemon": "snowbrawl",
+          "tier": 2
         }
 		]
     },
