@@ -1,0 +1,259 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2032,
+  "name": "salvior",
+  "primaryType": "water",
+  "secondaryType": "fighting",
+  "maleRatio": 0.5,
+  "height": 1,
+  "weight": 15,
+  "pokedex": [
+    "cobblemon.species.salvior.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "innerfocus",
+    "waterveil",
+    "h:mentor"
+  ],
+  "eggGroups": [
+    "water_1",
+    "water_2"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 100,
+    "defence": 80,
+    "special_attack": 50,
+    "special_defence": 150,
+    "speed": 90
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 3,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 80,
+  "experienceGroup": "fast",
+  "catchRate": 80,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.15
+      },
+      "swim": {
+        "canBreatheUnderwater": true,
+        "swimSpeed": "0.3"
+      }
+    },
+    "herd": {
+      "maxSize": "1",
+      "toleratedLeaders": []
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:bone_meal",
+        "quantityRange": "1-3"
+      },
+	  {
+        "item": "cobblemon:fighting_gem",
+        "percentage": 100.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:helpinghand",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "special:celebrate",
+    "1:tackle",
+    "1:aquajet",
+    "1:detect",
+    "1:rocksmash",
+    "1:soak",
+    "1:flipturn",
+    "1:soak",
+    "1:bounce",
+    "1:acupressure",
+    "1:waterfall",
+    "1:skullbash",
+    "1:noretreat",
+    "1:aquastep",
+    "1:flyingpress",
+    "65:coaching",
+    "70:centerself",
+    "75:finalgambit",
+    "80:absolutestrike",
+    "tm:acrobatics",
+    "tm:aerialace",
+    "tm:agility",
+    "tm:amnesia",
+    "tm:aquatail",
+    "tm:assurance",
+    "tm:aurasphere",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:brine",
+    "tm:brutalswing",
+    "tm:bulkup",
+    "tm:calmmind",
+    "tm:charm",
+    "tm:closecombat",
+    "tm:coaching",
+    "tm:confide",
+    "tm:crosspoison",
+    "tm:darkestlariat",
+    "tm:defog",
+    "tm:dive",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:dualchop",
+    "tm:echoedvoice",
+    "tm:encore",
+    "tm:faketears",
+    "tm:fling",
+    "tm:flipturn",
+    "tm:focusblast",
+    "tm:focusenergy",
+    "tm:gunkshot",
+    "tm:gigaimpact",
+    "tm:hail",
+    "tm:haze",
+    "tm:headbutt",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icefang",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:knockoff",
+    "tm:lashout",
+    "tm:lastresort",
+    "tm:liquidation",
+    "tm:lowsweep",
+    "tm:muddywater",
+    "tm:outrage",
+    "tm:payback",
+    "tm:playrough",
+    "tm:poisonjab",
+    "tm:retaliate",
+    "tm:revenge",
+    "tm:reversal",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:scald",
+    "tm:scaleshot",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:suckerpunch",
+    "tm:superpower",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:tailslap",
+    "tm:taunt",
+    "tm:throatchop",
+    "tm:upperhand",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:whirlpool",
+    "tm:workuo",
+    "tm:zenheadbutt",
+    "tm:raindance",
+    "egg:quickguard",
+    "egg:wideguard",
+    "egg:vitalthrow",
+    "egg:wakeupslap",
+    "egg:tripledive",
+    "egg:lifedew",
+    "egg:watersport",
+    "egg:aquaring",
+    "egg:soak",
+    "egg:wavecrash"
+  ],
+  "preEvolution": "salvior",
+ "evolutions": [],
+ "forms": [ 
+{
+"name": "Mega",
+
+    "primaryType": "water",
+    "secondaryType": "fighting",
+	  "height": 25,
+	  "weight": 500,
+      "pokedex": [
+        "cobblemon.species.salsei-mega.desc"
+      ],
+      "labels": [
+        "minemons",
+        "mega"
+      ],
+      "aspects": [
+          "mega"
+        ],
+        "abilities": [
+        "mentor",
+        "mentor",
+        "h:mentor"
+      ],
+      "baseStats": {
+      "hp": 130,
+      "attack": 120,
+      "defence": 100,
+      "special_attack": 100,
+      "special_defence": 150,
+      "speed": 100
+      },
+      "evolutions": [],
+      "battleOnly": true,
+      "dynamaxBlocked": true
+    }
+  ]
+}

@@ -23,5 +23,5 @@
 		},
 		target: "normal",
 		type: "Rock",
-		contestType: "Clever",
+		contestType: "Cool",
 }
