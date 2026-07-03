@@ -263,8 +263,8 @@
     "cobblemon.ability.heroism": "Heroism",
     "cobblemon.ability.heroism.desc": "This Pokémon's moves are dynamically boosted the more damaged this Pokémon is.",
 
-    "cobblemon.ability.executionner": "Executionner",
-    "cobblemon.ability.executionner.desc": "This Pokémon's moves are dynamically boosted against damaged targets. Healthy targets take reduced damage.",
+    "cobblemon.ability.executioner": "Executioner",
+    "cobblemon.ability.executioner.desc": "This Pokémon's moves are dynamically boosted against damaged targets. Healthy targets take reduced damage.",
 
     "cobblemon.ability.fragmentation": "Fragmentation",
     "cobblemon.ability.fragmentation.desc": "Scatters stealth rock at the feet of the opposing team when the Pokémon takes damage from physical moves.",
