@@ -15,7 +15,7 @@
   ],
   "aspects": [],
   "abilities": [
-    "waterabsorb",
+    "stormdrain",
     "galvanize",
     "h:maritime"
   ],
@@ -39,7 +39,7 @@
     "speed": 0
   },
   "baseExperienceYield": 300,
-  "experienceGroup": "medium",
+  "experienceGroup": "slow",
   "catchRate": 50,
   "eggCycles": 25,
   "baseFriendship": 50,
