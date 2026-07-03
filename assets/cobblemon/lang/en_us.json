@@ -257,11 +257,14 @@
     "cobblemon.ability.frostfist": "Frost Fist",
     "cobblemon.ability.frostfist.desc": "This Pokémon's punching moves have a chance to freeze.",
 
+    "cobblemon.ability.toxicbody": "Toxic Body",
+    "cobblemon.ability.toxicbody.desc": "Making contact with this Pokémon has a chance to badly poison the attacker.",
+
     "cobblemon.ability.heroism": "Heroism",
-    "cobblemon.ability.heroism.desc": "The Pokémon's insense heroism powers up Fighting-type moves, prevents it from flinching and being affected by Intimidate.",
+    "cobblemon.ability.heroism.desc": "This Pokémon's moves are dynamically boosted the more damaged this Pokémon is.",
 
     "cobblemon.ability.executionner": "Executionner",
-    "cobblemon.ability.executionner.desc": "Powers up slicing moves. The Pokémon cannot be knocked out by a single hit as long as its HP is full. One-hit KO moves will also fail to knock it out.",
+    "cobblemon.ability.executionner.desc": "This Pokémon's moves are dynamically boosted against damaged targets. Healthy targets take reduced damage.",
 
     "cobblemon.ability.fragmentation": "Fragmentation",
     "cobblemon.ability.fragmentation.desc": "Scatters stealth rock at the feet of the opposing team when the Pokémon takes damage from physical moves.",

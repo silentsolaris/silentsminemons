@@ -3,19 +3,24 @@
   "id": "cobblemon:creanza",
   "sortOrder": 7,
   "entries": [
+	"cobblemon:woolipup",
+	"cobblemon:lupelt",
 	"cobblemon:nitkick",
 	"cobblemon:anonkey",
+	"cobblemon:parropot",
+	"cobblemon:bruital",
+	"cobblemon:shivor",
+	"cobblemon:snowbrawl",
 	"cobblemon:pumpkid",
 	"cobblemon:gallagourd",
 	"cobblemon:ocatalyst",
 	"cobblemon:siphosail",
 	"cobblemon:serasea",
-	"cobblemon:parropot",
 	"cobblemon:gourmooze",
+	"cobblemon:tormniac",
 	"cobblemon:bowne",
 	"cobblemon:bognmarrow",
 	"cobblemon:ivorice",
-	"cobblemon:withereign",
-	"cobblemon:tormniac"
+	"cobblemon:withereign"
   ]
 }

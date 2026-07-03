@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:shivor",
+  "speciesId": "cobblemon:shivor",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}
