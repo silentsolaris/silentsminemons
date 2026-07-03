@@ -75,7 +75,11 @@
       "maxSize": "9",
       "toleratedLeaders": [
         {
-          "pokemon": "exhaunt",
+          "pokemon": "wailord",
+          "tier": 1
+        },
+        {
+          "pokemon": "ordnaland",
           "tier": 2
         }
 		]
