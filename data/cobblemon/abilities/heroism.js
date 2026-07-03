@@ -2,12 +2,12 @@
 		onBasePower(basePower, attacker, defender, move) {
 			if (pokemon.maxhp = pokemon.hp) {
 				this.debug('Heroism Normal');
-				return this.chainModify(0.8);
+				return this.chainModify(1);
 
 			}
 			else {
 				this.debug('Heroism Boost');
-				return chainmodify(1.2 + ( pokemon.maxhp / pokemon.hp))
+				return chainmodify(1.2 + ( pokemon.hp / pokemon.maxhp))
 			}
 		},
 			flags: {},
