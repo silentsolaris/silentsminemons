@@ -239,6 +239,7 @@
     "tm:wildcharge",
     "tm:twister",
     "tm:dragontail",
+    "tm:roar",
     "egg:soak",
     "egg:overdrive",
     "egg:zapcannon",
@@ -251,5 +252,6 @@
     "egg:watersport",
     "egg:waterspout"
   ],
+  "preEvolution": "hullet",
  "evolutions": []
 }

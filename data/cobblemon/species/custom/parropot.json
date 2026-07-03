@@ -37,7 +37,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "baseExperienceYield": 80,
+  "baseExperienceYield": 100,
   "experienceGroup": "medium_fast",
   "catchRate": 90,
   "eggCycles": 25,
@@ -73,9 +73,21 @@
     "herd": {
       "maxSize": "4",
       "toleratedLeaders": [
-	  	  {
-          "pokemon": "parropot",
+        {
+          "pokemon": "litwick",
           "tier": 1
+        },
+        {
+          "pokemon": "combee",
+          "tier": 1
+        },
+        {
+          "pokemon": "vespiquen",
+          "tier": 1
+        },
+        {
+          "pokemon": "parropot",
+          "tier": 2
         }
 		]
     },
