@@ -185,6 +185,9 @@
     "cobblemon.move.gmaxbizarre": "G-Max Bizarre",
     "cobblemon.move.gmaxbizarre.desc": "A Psychic-type attack that Gigantamax Cephcery use. This move makes opponents only able to use attacking moves for a short time.",
 
+    "cobblemon.move.gmaxcountdown": "G-Max Countdown",
+    "cobblemon.move.gmaxcountdown.desc": "A Fairy-type attack that Gigantamax Jesteratus use. This move starts a countdown in which all Pokémon present will faint at the end of, unless it switches out of battle.",
+
     "cobblemon.move.venombinding": "Venom Binding",
     "cobblemon.move.venombinding.desc": "The target is badly poisoned, and they cannot flee or switch out.",
 
@@ -270,5 +273,8 @@
     "cobblemon.ability.fragmentation.desc": "Scatters stealth rock at the feet of the opposing team when the Pokémon takes damage from physical moves.",
 
     "cobblemon.ability.mortar": "Mortar",
-    "cobblemon.ability.mortar.desc": "Powers up some ball and bomb moves."
+    "cobblemon.ability.mortar.desc": "Powers up some ball and bomb moves.",
+
+    "cobblemon.ability.timewarp": "Time Warp",
+    "cobblemon.ability.timewarp.desc": "The Pokémon creates a bizarre area in which slower Pokémon get to move first when it enters a battle."
 }

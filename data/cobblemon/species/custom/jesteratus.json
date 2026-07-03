@@ -1,0 +1,250 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2011,
+  "name": "jesteratus",
+  "primaryType": "steel",
+  "secondaryType": "fairy",
+  "maleRatio": 0.7,
+  "height": 4,
+  "weight": 100,
+  "pokedex": [
+    "cobblemon.species.jesteratus.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "technician",
+    "lightningrod",
+    "h:timewarp"
+  ],
+  "eggGroups": [
+    "mineral",
+    "fairy"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 100,
+    "defence": 80,
+    "special_attack": 50,
+    "special_defence": 74,
+    "speed": 31
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 120,
+  "experienceGroup": "medium",
+  "catchRate": 70,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "standingEyeHeight": 1,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1,
+    "height": 2,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.15
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "3",
+      "toleratedLeaders": [
+        {
+          "pokemon": "bronzong",
+          "tier": 1
+        },
+        {
+          "pokemon": "klang",
+          "tier": 1
+        },
+        {
+          "pokemon": "klinklang",
+          "tier": 2
+        },
+	    {
+          "pokemon": "jesteratus",
+          "tier": 3
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": false,
+      "willDefendOwner": true,
+      "willFlee": true
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:copper_ingot",
+        "quantityRange": "1-3"
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:helpinghand",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "tm:toxic",
+    "special:celebrate",
+    "1:bulletpunch",
+    "1:fairywind",
+    "10:metalsound",
+    "15:magnetbomb",
+    "25:fairylock",
+    "30:geargrind",
+    "35:craftyshield",
+    "40:playrough",
+    "43:gearup",
+    "47:spinout",
+    "53:shiftgear",
+    "57:hammerarm",
+    "60:overcharge",
+    "65:magicaltorque",
+    "tm:ancientpower",
+    "tm:assurance",
+    "tm:babydolleyes",
+    "tm:batonpass",
+    "tm:beatup",
+    "tm:bind",
+    "tm:block",
+    "tm:bounce",
+    "tm:brickbreak",
+    "tm:bulldoze",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:charm",
+    "tm:confide",
+    "tm:confuseray",
+    "tm:dazzlinggleam",
+    "tm:disarmingvoice",
+    "tm:drainpunch",
+    "tm:draningkiss",
+    "tm:dualchop",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroweb",
+    "tm:encore",
+    "tm:facade",
+    "tm:faketears",
+    "tm:fling",
+    "tm:focuspunch",
+    "tm:foulplay",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:hardpress",
+    "tm:headbutt",
+    "tm:icepunch",
+    "tm:ironhead",
+    "tm:knockoff",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:lowsweep",
+    "tm:magiccoat",
+    "tm:magicroom",
+    "tm:magnetrise",
+    "tm:megapunch",
+    "tm:mistyexplosion",
+    "tm:mistyterrain",
+    "tm:overheat",
+    "tm:payback",
+    "tm:poisonjab",
+    "tm:powerwhip",
+    "tm:raindance",
+    "tm:recycle",
+    "tm:reversal",
+    "tm:rockblast",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:rocksmash",
+    "tm:roleplay",
+    "tm:shockwave",
+    "tm:smackdown",
+    "tm:smartstrike",
+    "tm:snatch",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:suckerpunch",
+    "tm:superpower",
+    "tm:swift",
+    "tm:takedown",
+    "tm:taunt",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:poweruppunch",
+    "tm:thunder",
+    "tm:thunderbolt",
+    "tm:thunderpunch",
+    "tm:thunderwave",
+    "tm:trailblaze",
+    "tm:upperhand",
+    "tm:wildcharge",
+    "tm:irondefense",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:trickroom",
+    "egg:autotomize",
+    "egg:switcheroo",
+    "egg:flatter",
+    "egg:entrainment",
+    "egg:sing"
+  ],
+ "evolutions": [],
+  "forms": [
+    {
+      "name": "Gmax",
+      "pokedex": [
+        "cobblemon.species.jesteratus-gmax.desc"
+      ],
+      "labels": [
+        "minemons",
+        "gmax"
+      ],
+      "aspects": [
+        "gmax"
+      ],
+      "evolutions": [],
+      "battleOnly": true,
+      "dynamaxBlocked": true
+    }
+  ]
+}

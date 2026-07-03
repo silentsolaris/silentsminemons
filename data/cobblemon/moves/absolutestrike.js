@@ -7,7 +7,7 @@
 		pp: 5,
 		priority: 0,
 		flags: {
-			contact: 1, charge: 1, protect: 1, mirror: 1, gravity: 1, distance: 1,
+			contact: 1, charge: 1, protect: 1, mirror: 1,
 			metronome: 1, nosleeptalk: 1, noassist: 1, failinstruct: 1,
 		},
 		onTryMove(attacker, defender, move) {
@@ -15,6 +15,7 @@
 				return;
 			}
 			this.add('-prepare', attacker, move.name);
+			this.boost({ spd: 1 }, attacker, attacker, move);
 			if (!this.runEvent('ChargeMove', attacker, defender, move)) {
 				return;
 			}
@@ -23,5 +24,5 @@
 		},
 		target: "any",
 		type: "Fighting",
-		contestType: "Cute",
+		contestType: "Cool",
 }

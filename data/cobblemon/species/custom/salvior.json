@@ -17,7 +17,7 @@
   "abilities": [
     "justified",
     "swiftswim",
-    "h:defiant"
+    "h:innerfocus"
   ],
   "eggGroups": [
     "water_1",
@@ -25,7 +25,7 @@
   ],
   "baseStats": {
     "hp": 80,
-    "attack": 145,
+    "attack": 90,
     "defence": 80,
     "special_attack": 40,
     "special_defence": 60,
@@ -128,10 +128,8 @@
     "1:waterfall",
     "40:skullbash",
     "45:noretreat",
-    "50:aquastep",
-    "55:flyingpress",
-    "60:finalgambit",
-    "65:absolutestrike",
+    "50:memento",
+    "60:absolutestrike",
     "tm:acrobatics",
     "tm:aerialace",
     "tm:agility",
@@ -159,7 +157,6 @@
     "tm:doubleedge",
     "tm:dualchop",
     "tm:echoedvoice",
-    "tm:encore",
     "tm:faketears",
     "tm:fling",
     "tm:flipturn",
@@ -211,7 +208,7 @@
     "tm:waterpulse",
     "tm:waterfall",
     "tm:whirlpool",
-    "tm:workuo",
+    "tm:workup",
     "tm:zenheadbutt",
     "tm:raindance",
     "egg:quickguard",
@@ -222,8 +219,7 @@
     "egg:lifedew",
     "egg:watersport",
     "egg:aquaring",
-    "egg:soak",
-    "egg:wavecrash"
+    "egg:soak"
   ],
   "preEvolution": "prodifry",
  "evolutions": [

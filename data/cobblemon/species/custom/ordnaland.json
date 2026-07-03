@@ -1,0 +1,251 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2028,
+  "name": "ordnaland",
+  "primaryType": "rock",
+  "secondaryType": "electric",
+  "maleRatio": 0.7,
+  "height": 5,
+  "weight": 400,
+  "pokedex": [
+    "cobblemon.species.ordnaland.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "waterabsorb",
+    "galvanize",
+    "h:maritime"
+  ],
+  "eggGroups": [
+    "monster"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 80,
+    "defence": 110,
+    "special_attack": 110,
+    "special_defence": 60,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 2,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 300,
+  "experienceGroup": "medium",
+  "catchRate": 50,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.15
+      },
+      "swim": {
+        "canBreatheUnderwater": true,
+        "swimSpeed": "0.3"
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "exhaunt",
+          "tier": 2
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+	  {
+        "item": "cobblemon:rock_gem",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:electric_gem",
+        "percentage": 5.0
+      },
+      {
+        "item": "minecraft:prismarine_crystals",
+        "quantityRange": "2-5"
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:splash",
+    "1:growl",
+    "1:watergun",
+    "1:thundershock",
+    "1:ancientpower",
+    "1:rockpolish",
+    "1:chargebeam",
+    "1:electrify",
+    "1:waterpulse",
+    "1:powergem",
+    "1:wideguard",
+    "1:thunderbolt",
+    "1:surf",
+    "1:zapcannon",
+    "1:meteorbeam",
+    "1:waterspout",
+    "tm:amnesia",
+    "tm:ancientpower",
+    "tm:aquatail",
+    "tm:aurasphere",
+    "tm:blizzard",
+    "tm:bodypress",
+    "tm:bodyslam",
+    "tm:bounce",
+    "tm:brine",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:charge",
+    "tm:chargebeam",
+    "tm:chillingwater",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:darkpulse",
+    "tm:dazzlinggleam",
+    "tm:dive",
+    "tm:doubleedge",
+    "tm:dragonpulse",
+    "tm:earthpower",
+    "tm:earthquake",
+    "tm:echoedvoice",
+    "tm:eerieimpulse",
+    "tm:electricterrain",
+    "tm:electroball",
+    "tm:electroweb",
+    "tm:explosion",
+    "tm:facade",
+    "tm:flash",
+    "tm:flashcannon",
+    "tm:focusblast",
+    "tm:flipturn",
+    "tm:headbutt",
+    "tm:heatcrash",
+    "tm:heavyslam",
+    "tm:highhorsepower",
+    "tm:hydropump",
+    "tm:hyperbeam",
+    "tm:hypervoice",
+    "tm:icebeam",
+    "tm:icespinner",
+    "tm:icywind",
+    "tm:irondefense",
+    "tm:ironhead",
+    "tm:irontail",
+    "tm:laserfocus",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:liquidation",
+    "tm:magnetrise",
+    "tm:metalsound",
+    "tm:meteorbeam",
+    "tm:mudshot",
+    "tm:muddywater",
+    "tm:mudslap",
+    "tm:poisonjab",
+    "tm:powergem",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:raindance",
+    "tm:risingvoltage",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:safeguard",
+    "tm:scald",
+    "tm:scaryface",
+    "tm:scorchingsands",
+    "tm:screech",
+    "tm:shockwave",
+    "tm:signalbeam",
+    "tm:smackdown",
+    "tm:smartstrike",
+    "tm:snarl",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:steelbeam",
+    "tm:steelroller",
+    "tm:strength",
+    "tm:supercellslam",
+    "tm:superpower",
+    "tm:tailslap",
+    "tm:takedown",
+    "tm:terrainpulse",
+    "tm:thunder",
+    "tm:thunderfang",
+    "tm:icefang",
+    "tm:thunderwave",
+    "tm:thunderbolt",
+    "tm:trailblaze",
+    "tm:voltswitch",
+    "tm:waterpulse",
+    "tm:waterfall",
+    "tm:weatherball",
+    "tm:whirlpool",
+    "tm:wildcharge",
+    "tm:twister",
+    "tm:dragontail",
+    "egg:soak",
+    "egg:overdrive",
+    "egg:zapcannon",
+    "egg:iondeluge",
+    "egg:magneticflux",
+    "egg:spark",
+    "egg:rockwrecker",
+    "egg:headsmash",
+    "egg:aquaring",
+    "egg:watersport",
+    "egg:waterspout"
+  ],
+ "evolutions": []
+}
