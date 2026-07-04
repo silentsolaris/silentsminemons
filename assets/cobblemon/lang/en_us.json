@@ -192,10 +192,6 @@
     "cobblemon.move.backburn": "Backburn",
     "cobblemon.move.backburn.desc": "The user snuffs out the target with its own flames. This move is super effective on Fire-type Pokémon.",
 
-    "cobblemon.move.evaporate": "Evaporate",
-    "cobblemon.move.evaporate.desc": "The user heats the area so much that water turns to steam. If the target uses a Water-type move, it fails.",
-    "cobblemon.battle.activate.evaporate": "The move evaporated!",
-
     "cobblemon.move.allornothing": "All or Nothing",
     "cobblemon.move.allornothing.desc": "The user heroically slams the target with their steely body. This also damages the user quite a lot.",
 
@@ -209,13 +205,13 @@
     "cobblemon.move.gmaxbizarre.desc": "A Psychic-type attack that Gigantamax Cephcery use. This move makes opponents only able to use attacking moves for a short time.",
 
     "cobblemon.move.gmaxcountdown": "G-Max Countdown",
-    "cobblemon.move.gmaxcountdown.desc": "A Fairy-type attack that Gigantamax Jesteratus use. This move starts a countdown in which all Pokémon present will faint at the end of, unless it switches out of battle.",
+    "cobblemon.move.gmaxcountdown.desc": "A Fairy-type attack that Gigantamax Jesteratus use. This move twists the dimensions, in which slower Pokémon get to move first for five turns.",
 
-    "cobblemon.move.gmaxresonance": "G-Max Resonance",
-    "cobblemon.move.gmaxresonance.desc": "A Ghost-type attack that Gigantamax Plangiant use. This moves prevents opponents from restoring HP.",
+    "cobblemon.move.gmaxlament": "G-Max Lament",
+    "cobblemon.move.gmaxlament.desc": "A Ghost-type attack that Gigantamax Plangiant use. This moves prevents opponents from restoring HP.",
 
     "cobblemon.move.venombinding": "Venom Binding",
-    "cobblemon.move.venombinding.desc": "The target is badly poisoned, and they cannot flee or switch out.",
+    "cobblemon.move.venombinding.desc": "The target is badly poisoned, and cannot flee or switch out.",
 
     "cobblemon.move.plunder": "Plunder",
     "cobblemon.move.plunder.desc": "Steals the target's stat boosts.",
@@ -305,8 +301,8 @@
     "cobblemon.ability.mortar.desc": "Powers up some ball and bomb moves.",
 
     "cobblemon.ability.timewarp": "Time Warp",
-    "cobblemon.ability.timewarp.desc": "The Pokémon creates a bizarre area in which slower Pokémon get to move first when it enters a battle.",
+    "cobblemon.ability.timewarp.desc": "If Trick Room is active when this Pokémon enters the field, it's Speed is harshly lowered and renews the Trick Room's timer.",
 
     "cobblemon.ability.houserules": "House Rules",
-    "cobblemon.ability.houserules.desc": "The Pokémon creates supresses the effects of held items while it is on the field"
+    "cobblemon.ability.houserules.desc": "The Pokémon creates a bizarre area in which Pokémon’s held items lose their effects on switch in."
 }

@@ -25,15 +25,15 @@
   ],
   "baseStats": {
     "hp": 80,
-    "attack": 100,
-    "defence": 80,
+    "attack": 110,
+    "defence": 94,
     "special_attack": 50,
-    "special_defence": 74,
-    "speed": 31
+    "special_defence": 76,
+    "speed": 90
   },
   "evYield": {
     "hp": 0,
-    "attack": 1,
+    "attack": 2,
     "defence": 0,
     "special_attack": 0,
     "special_defence": 0,
@@ -138,7 +138,6 @@
     "tm:ancientpower",
     "tm:assurance",
     "tm:babydolleyes",
-    "tm:batonpass",
     "tm:beatup",
     "tm:bind",
     "tm:block",

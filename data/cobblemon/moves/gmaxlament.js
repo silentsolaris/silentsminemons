@@ -4,7 +4,7 @@
 		basePower: 10,
 		category: "Physical",
 		isNonstandard: "Past",
-		name: "G-Max Resonance",
+		name: "G-Max Lament",
 		pp: 5,
 		priority: 0,
 		flags: {},

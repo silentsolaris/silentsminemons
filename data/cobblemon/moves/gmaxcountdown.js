@@ -10,10 +10,9 @@
 		flags: {},
 		isMax: "Jesteratus",
 		self: {
-			onHit(source, target, effect) {
-				for (const pokemon of source.foes()) {
-					if (!pokemon.volatiles['dynamax']) pokemon.addVolatile('perishsong', source, effect);
-				}
+			onHit(source) {
+				if (!source.volatiles['dynamax']) return;
+				this.field.setpseudoWeather('trickroom');
 			},
 		},
 		target: "adjacentFoe",
