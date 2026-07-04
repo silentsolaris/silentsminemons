@@ -7,12 +7,21 @@
 		pp: 5,
 		priority: 0,
 		flags: {contact: 1, protect: 1, mirror: 1, metronome: 1, slicing: 1},
-		self: {
-			onAfterMoveSecondarySelf(pokemon, target, move) {
+		onAfterHit(target, source, move) {
+			if (!move.hasSheerForce && source.hp) {
 				for (const side of source.side.foeSidesWithConditions()) {
-					if (!target || target.fainted || target.hp <= 0) side.addSideCondition('gmaxsteelsurge');
+					side.addSideCondition('spikes');
+					side.addSideCondition('spikes');
 				}
-			},
+			}
+		},
+		onAfterSubDamage(damage, target, source, move) {
+			if (!move.hasSheerForce && source.hp) {
+				for (const side of source.side.foeSidesWithConditions()) {
+					side.addSideCondition('spikes');
+					side.addSideCondition('spikes');
+				}
+			}
 		},
 		target: "normal",
 		type: "Steel",

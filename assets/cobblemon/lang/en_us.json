@@ -118,6 +118,29 @@
     "cobblemon.species.decayed.desc": "This mythical Pokémon decays anything it touches. It it said this Pokémon was created by Zygarde to counteract Xerneas.",
     "cobblemon.species.decayed-rejuv.desc": "This Mythical Pokémon rejuvenates anything it touches. It it said this Pokémon was created by Zygarde to counteract Yveltal.",
 
+    "cobblemon.species.jesteratus.name": "Jesteratus",
+    "cobblemon.species.jesteratus.desc": "The machinery in it's body is beyond current technological advancements. It has the ability to alter space-time, but usually on accident. It is said it was made in ancient times by extraterrestrials.",
+    "cobblemon.species.jesteratus-gmax.desc": "Being in it's vacinity causes one to age rapidly. It is aware of all possible timelines.",
+
+    "cobblemon.species.hullet.name": "Hullet",
+    "cobblemon.species.hullet.desc": "As soon as it's born, rock fragments begin to cling to it's body. It fuses with the minerals in the stone to create the ultimate armor to protect itself from predators.",
+
+    "cobblemon.species.ordnaland.name": "Ordnaland",
+    "cobblemon.species.ordnaland.desc": "It's hydrophobic skin allows it to glide effortlessly through the water. The lasers it shoots from it's eyes can track even the fastest of targets.",
+
+    "cobblemon.species.rapscam.name": "Rapscam",
+    "cobblemon.species.rapscam.desc": "Communities of this Pokémon trade leaves for food like a form of currency. The more lush the leaf, the higher the value.",
+
+    "cobblemon.species.prodifry.name": "Prodifry",
+    "cobblemon.species.prodifry.desc": "It's natural talent for combat makes it a popular Pokémon. As soon as they're born they travel across the ocean to train.",
+
+    "cobblemon.species.salvior.name": "Salvior",
+    "cobblemon.species.salvior.desc": "Reaching a new height of power, it journeys the world in search of powerful opponents. It has an indominable spirit.",
+
+    "cobblemon.species.salsei.name": "Salsei",
+    "cobblemon.species.salsei.desc": "Now old, it desires peace and tranquility, however the fighting spirit lives on. It teaches Pokémon it sees having potential how to effectively use their moves.",
+    "cobblemon.species.salsei-mega.desc": "Regaining a part of it's youth upon Mega-Evolution. It dispatches foes with blistering power and speed of it's prime, now with the wisdom of it's years.",
+
     "cobblemon.move.badinput": "Bad Input",
     "cobblemon.move.badinput.desc": "This move inflicts physical or special damage, whichever will be more effective. The user distorts the fabric of reality, randomizing its type in the process.",
 
@@ -180,7 +203,7 @@
     "cobblemon.move.cleave.desc": "The user snuffs makes a wide swipe it's blade toward opposing Pokémon. This also lowers their Speed stats.",
 
     "cobblemon.move.splinteredaxe": "Splintered Axe",
-    "cobblemon.move.splinteredaxe.desc": "The user slashes the target with a splintered axe. Iron shards left behind by this attack remain scattered under the target as sharp steel.",
+    "cobblemon.move.splinteredaxe.desc": "The user slashes the target with a splintered axe. If the target is knocked out by this move, it lays two layers of spikes.",
 
     "cobblemon.move.gmaxbizarre": "G-Max Bizarre",
     "cobblemon.move.gmaxbizarre.desc": "A Psychic-type attack that Gigantamax Cephcery use. This move makes opponents only able to use attacking moves for a short time.",
@@ -188,11 +211,17 @@
     "cobblemon.move.gmaxcountdown": "G-Max Countdown",
     "cobblemon.move.gmaxcountdown.desc": "A Fairy-type attack that Gigantamax Jesteratus use. This move starts a countdown in which all Pokémon present will faint at the end of, unless it switches out of battle.",
 
+    "cobblemon.move.gmaxresonance": "G-Max Resonance",
+    "cobblemon.move.gmaxresonance.desc": "A Ghost-type attack that Gigantamax Plangiant use. This moves prevents opponents from restoring HP.",
+
     "cobblemon.move.venombinding": "Venom Binding",
     "cobblemon.move.venombinding.desc": "The target is badly poisoned, and they cannot flee or switch out.",
 
     "cobblemon.move.plunder": "Plunder",
     "cobblemon.move.plunder.desc": "Steals the target's stat boosts.",
+
+    "cobblemon.move.absolutestrike": "Absolute Strike",
+    "cobblemon.move.absolutestrike.desc": "In this two-turn attack, the user centers itself and boosts its Sp. Def stat, then attacks the target on the next turn.",
 
     "cobblemon.ability.anarchist": "Anarchist",
     "cobblemon.ability.anarchist.desc": "Boosts the Attack stat of this Pokémon when hit by a Fighting-type move. This Pokémon cannot be confused.",
@@ -276,5 +305,8 @@
     "cobblemon.ability.mortar.desc": "Powers up some ball and bomb moves.",
 
     "cobblemon.ability.timewarp": "Time Warp",
-    "cobblemon.ability.timewarp.desc": "The Pokémon creates a bizarre area in which slower Pokémon get to move first when it enters a battle."
+    "cobblemon.ability.timewarp.desc": "The Pokémon creates a bizarre area in which slower Pokémon get to move first when it enters a battle.",
+
+    "cobblemon.ability.houserules": "House Rules",
+    "cobblemon.ability.houserules.desc": "The Pokémon creates supresses the effects of held items while it is on the field"
 }
