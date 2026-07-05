@@ -8,13 +8,15 @@
             "pokemon": "bognmarrow",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
-            "level": "36-60",
-            "weight": 4,
+            "bucket": "rare",
+            "level": "31-56",
+            "weight": 0.75,
             "weightMultiplier": {
-                "multiplier": 1.5,
+                "multiplier": 5.0,
                 "condition": {
-                    "timeRange": "night"
+                    "neededNearbyBlocks": [
+                    "minecraft:bone_block"
+                    ]
                 }
             },
             "condition": {
@@ -44,32 +46,25 @@
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "36-50",
-            "weight": 3.0,
-            "condition": {
-                "neededNearbyBlocks": [
-                    "ribbits:toadstool",
-                    "ribbits:red_toadstool",
-                    "ribbits:brown_toadstool",
-                    "ribbits:toadstool_stem",
-                    "minecraft:red_mushroom_block",
-                    "minecraft:mushroom_stem",
-                    "minecraft:brown_mushroom_block",
-                    "minecraft:brown_mushroom",
-                    "minecraft:red_mushroom"
-                ]
-            }
-        },
-        {
-            "id": "bognmarrow-3",
-            "pokemon": "bognmarrow",
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "rare",
-            "level": "36-50",
-            "weight": 5,
+            "level": "31-56",
+            "weight": 0.48,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:bone_block"
+                    ]
+                }
+            },
             "condition": {
 				"structures": [
+                "repurposed_structures:pyramid_mushroom",
+                "repurposed_structures:pyramid_dark_forest",
+                "repurposed_structures:mineshaft_jungle",
+                "repurposed_structures:mansion_jungle",
+                "betterdungeons:skeletal_dungeon",
+                "philipsruins:bone_dungeon",
+                "twilightforest:labyrinth",
                 "ribbits:ribbit_village",
                 "towns_and_towers:village_mushroom_fields",
                 "towns_and_towers:village_swamp",
@@ -80,22 +75,32 @@
             }
         },
         {
-            "id": "bognmarrow-4",
+            "id": "bognmarrow-3",
             "pokemon": "bognmarrow",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "common",
-            "level": "36-50",
-            "weight": 5,
+            "bucket": "uncommon",
+            "level": "31-56",
+            "weight": 0.32,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:bone_block"
+                    ]
+                }
+            },
             "condition": {
-				"structures": [
-                "repurposed_structures:pyramid_mushroom",
-                "repurposed_structures:pyramid_dark_forest",
-                "repurposed_structures:mineshaft_jungle",
-                "repurposed_structures:mansion_jungle",
-                "betterdungeons:skeletal_dungeon",
-                "philipsruins:bone_dungeon",
-                "twilightforest:labyrinth"
+                "canSeeSky": false,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_deep_dark",
+                    "#cobblemon:is_forest",
+                    "#cobblemon:is_swamp"
                 ]
             }
         }

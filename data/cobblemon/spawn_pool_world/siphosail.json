@@ -11,8 +11,8 @@
             ],
             "type": "pokemon",
             "spawnablePositionType": "surface",
-            "bucket": "common",
-            "level": "15-35",
+            "bucket": "uncommon",
+            "level": "20-45",
             "weight": 10,
             "condition": {
                 "canSeeSky": true,
@@ -31,8 +31,8 @@
             "type": "pokemon",
             "spawnablePositionType": "submerged",
             "bucket": "uncommon",
-            "level": "15-50",
-            "weight": 15,
+            "level": "20-45",
+            "weight": 10,
             "condition": {
                 "canSeeSky": false,
                 "minSkyLight": 0,
@@ -61,8 +61,8 @@
             "type": "pokemon",
             "spawnablePositionType": "submerged",
             "bucket": "uncommon",
-            "level": "15-35",
-            "weight": 7,
+            "level": "20-45",
+            "weight": 10,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
@@ -76,9 +76,9 @@
             "pokemon": "siphosail",
             "type": "pokemon",
             "spawnablePositionType": "fishing",
-            "bucket": "common",
-            "level": "9-34",
-            "weight": 9.0,
+            "bucket": "uncommon",
+            "level": "20-45",
+            "weight": 10,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
@@ -96,7 +96,7 @@
             "type": "pokemon",
             "spawnablePositionType": "submerged",
             "bucket": "common",
-            "level": "9-34",
+            "level": "20-45",
             "weight": 9.0,
             "condition": {
                 "canSeeSky": false,
@@ -119,7 +119,7 @@
             "type": "pokemon",
             "spawnablePositionType": "fishing",
             "bucket": "common",
-            "level": "9-34",
+            "level": "20-45",
             "weight": 9.0,
             "condition": {
                 "canSeeSky": false,

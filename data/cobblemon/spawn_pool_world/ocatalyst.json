@@ -9,8 +9,8 @@
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "20-40",
-            "weight": 4,
+            "level": "20-45",
+            "weight": 2,
             "condition": {
 				"timeRange": "night",
 				"structures": [
@@ -27,8 +27,8 @@
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "20-40",
-            "weight": 4,
+            "level": "20-45",
+            "weight": 2,
             "condition": {
 				"structures": [
                     "minecraft:swamp_hut",
