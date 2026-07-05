@@ -14,7 +14,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "20-45",
-            "weight": 4,
+            "weight": 2,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_freezing",
@@ -30,8 +30,8 @@
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "15-35",
-            "weight": 4,
+            "level": "20-45",
+            "weight": 2,
             "condition": {
 				"structures": [
 				"minecraft:village_snowy",

@@ -8,9 +8,9 @@
             "pokemon": "withereign",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "ultra-rare",
-            "level": "50-70",
-            "weight": 4,
+            "bucket": "rare",
+            "level": "31-56",
+            "weight": 0.75,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_soul_fire",
@@ -23,9 +23,9 @@
             "pokemon": "withereign",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "rare",
-            "level": "40-80",
-            "weight": 4,
+            "bucket": "uncommon",
+            "level": "31-56",
+            "weight": 0.48,
             "condition": {
 				"structures": [
                     "minecraft:fortress",
@@ -42,21 +42,6 @@
                     "#betterfortresses:better_fortresses",
                     "betterdungeons:skeletal_dungeon",
                     "philipsruins:bone_dungeon"
-                ]
-            }
-        },
-        {
-            "id": "withereign-3",
-            "pokemon": "withereign",
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
-            "level": "40-80",
-            "weight": 4,
-            "condition": {
-				"neededNearbyBlocks": [
-                    "minecraft:wither_rose",
-                    "minecraft:netherite_block"
                 ]
             }
         }

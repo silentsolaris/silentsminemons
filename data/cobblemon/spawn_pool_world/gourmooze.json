@@ -13,8 +13,8 @@
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
-            "level": "10-40",
-            "weight": 4,
+            "level": "15-40",
+            "weight": 6.0,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_swamp",
@@ -39,8 +39,8 @@
             "type": "pokemon",
             "spawnablePositionType": "fishing",
             "bucket": "uncommon",
-            "level": "20-50",
-            "weight": 9.0,
+            "level": "15-40",
+            "weight": 6.0,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_swamp"
@@ -53,8 +53,8 @@
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "common",
-            "level": "10-50",
-            "weight": 10.0,
+            "level": "15-40",
+            "weight": 6.0,
             "condition": {
                 "structures": [
                     "ribbits:ribbit_village",

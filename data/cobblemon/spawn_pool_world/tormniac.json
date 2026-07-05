@@ -9,8 +9,8 @@
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "rare",
-            "level": "20-40",
-            "weight": 4,
+            "level": "20-45",
+            "weight": 6,
             "condition": {
 				"timeRange": "night",
 				"canSeeSky": true,
@@ -27,9 +27,9 @@
             "pokemon": "tormniac",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "common",
-            "level": "20-40",
-            "weight": 8,
+            "bucket": "rare",
+            "level": "20-45",
+            "weight": 6,
             "condition": {
 				"structures": [
                     "explorify:ruins",
