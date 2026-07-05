@@ -1,8 +1,8 @@
 {
  "portraitScale": 1.66,
- "portraitTranslation": [-0.3, 0.3, 0],
+ "portraitTranslation": [-0.5, -0.8, 0],
  "profileScale": 0.78,
- "profileTranslation": [0, 0.5, 0],
+ "profileTranslation": [0, 0.3, 0],
  "animations": {
    "faint": "q.bedrock_primary('serasea', 'faint', q.curve('one'))",
    "cry": "q.bedrock_stateful('serasea', 'cry')",
@@ -15,57 +15,70 @@
    "battle-standing": {
      "poseTypes": ["STAND"],
      "isBattle": true,
+     "isTouchingWater": false,
+    "isUnderWater": false,
      "animations": [
        "q.look('head')",
-       "q.bedrock('serasea', 'idle')"
-     ],
-     "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
+       "q.bedrock('serasea', 'battle_ground_idle')"
+     ]
    },
+
+   "battle-swimming": {
+      "poseTypes": ["FLOAT", "SWIM"],
+      "isBattle": true,
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('serasea', 'battle_swim_idle')"
+      ]
+    },
+
    "standing": {
      "poseTypes": ["STAND", "NONE"],
      "isBattle": false,
      "animations": [
        "q.look('head')",
-       "q.bedrock('serasea', 'idle')"
-     ],
-     "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
+       "q.bedrock('serasea', 'ground_idle')"
+     ]
    },
    "float": {
       "poseTypes": ["PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": false,
       "namedAnimations": {
         "faint": "q.bedrock_primary('serasea', 'water_faint', q.curve('one'))"
       },
-      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('serasea', 'idle')"],
-     "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('serasea', 'float')"]
     },
     "swim": {
       "poseTypes": ["SWIM"],
+      "isBattle": false,
+      "isTouchingWater": true,
+      "isUnderWater": true,
       "namedAnimations": {
         "faint": "q.bedrock_primary('serasea', 'water_faint', q.curve('one'))"
       },
-      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('serasea', 'move')"],
-     "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
-    },
-    "surface-swim": {
-      "poseTypes": ["SWIM"],
-      "isTouchingWater": true,
-      "isUnderWater": false,
-      "animations": [
-        "q.bedrock('serasea', 'idle')"
-      ],
-     "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('serasea', 'water_swim')"]
     },
    "walking": {
      "poseTypes": ["WALK"],
+     "isBattle": false,
      "animations": [
        "q.look('head')",
-       "q.bedrock('serasea', 'move')"
-     ],
-     "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
+       "q.bedrock('serasea', 'ground_walk')"
+     ]
    },
-   "sleep": {
+   "sleep-land": {
      "poseTypes": ["SLEEP"],
-     "animations": ["q.bedrock('serasea', 'idle')"]
+     "isTouchingWater": false,
+      "isUnderWater": false,
+     "animations": ["q.bedrock('serasea', 'ground_sleep')"]
+   },
+   "sleep-water": {
+     "poseTypes": ["SLEEP"],
+     "isTouchingWater": true,
+      "isUnderWater": true,
+     "animations": ["q.bedrock('serasea', 'swim_sleep')"]
    }
  }
 }
