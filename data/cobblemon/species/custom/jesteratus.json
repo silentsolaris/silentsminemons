@@ -16,7 +16,7 @@
   "aspects": [],
   "abilities": [
     "technician",
-    "lightningrod",
+    "oxidize",
     "h:timewarp"
   ],
   "eggGroups": [
@@ -152,7 +152,7 @@
     "tm:dazzlinggleam",
     "tm:disarmingvoice",
     "tm:drainpunch",
-    "tm:draningkiss",
+    "tm:drainingkiss",
     "tm:dualchop",
     "tm:eerieimpulse",
     "tm:electricterrain",

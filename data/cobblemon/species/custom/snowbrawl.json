@@ -220,9 +220,5 @@
     "egg:quickguard",
     "egg:counter"
   ],
- "evolutions": [],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+ "evolutions": []
 }

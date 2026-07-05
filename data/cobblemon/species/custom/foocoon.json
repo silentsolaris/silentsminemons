@@ -133,9 +133,5 @@
       ],
       "requiredContext": "minecraft:ender_eye"
     } 
-  ],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+  ]
 }

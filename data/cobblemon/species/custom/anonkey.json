@@ -324,9 +324,5 @@
     "egg:pursuit"
   ],
   "preEvolution": "nitkick",
- "evolutions": [],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+ "evolutions": []
 }

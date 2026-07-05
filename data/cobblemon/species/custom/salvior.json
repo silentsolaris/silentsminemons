@@ -222,15 +222,15 @@
     "egg:soak"
   ],
   "preEvolution": "prodifry",
- "evolutions": [
+  "evolutions": [
      {
       "id": "salvior-salsei",
       "variant": "level_up",
       "result": "salsei",
       "consumeHeldItem": false,
       "learnableMoves": [
-	  "amnesia"
-	  ],
+	    "amnesia"
+	    ],
       "requirements": [
         {
           "variant": "friendship",
@@ -238,9 +238,5 @@
         }
     ]
     }
-  ],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+  ]
 }

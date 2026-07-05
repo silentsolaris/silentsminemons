@@ -224,9 +224,5 @@
     "egg:barrier",
     "egg:purify"
   ],
- "evolutions": [],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+ "evolutions": []
 }

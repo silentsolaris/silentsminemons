@@ -256,9 +256,5 @@
       "requiredContext": "minecraft:iron_axe"
 
 	}
-  ],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+  ]
 }

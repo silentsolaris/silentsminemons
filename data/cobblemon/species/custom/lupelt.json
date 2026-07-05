@@ -222,9 +222,5 @@
   ],
  "evolutions": [
   ],
-  "preEvolution": "woolipup",
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+  "preEvolution": "woolipup"
 }

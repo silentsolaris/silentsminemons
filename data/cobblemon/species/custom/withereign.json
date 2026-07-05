@@ -231,10 +231,6 @@
   ],
   "preEvolution": "bowne",
  "evolutions": [],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  },
   "forms": [ 
 {
 "name": "Mega",

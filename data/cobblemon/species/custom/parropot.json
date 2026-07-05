@@ -193,10 +193,6 @@
     "egg:memento"
   ],
  "evolutions": [],
-   "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  },
   "features": [
       "honey",
       "candle",

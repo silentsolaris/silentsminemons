@@ -250,9 +250,5 @@
   ],
   "preEvolution": "bruital",
  "evolutions": [
-  ],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+  ]
 }

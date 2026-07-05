@@ -230,14 +230,10 @@
 	  ],
       "requirements": [
         {
-          "variant": "friendship",
-          "amount": 160
+          "variant": "level",
+          "minLevel": 35
         }
-    ]
+      ]
     }
-  ],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+  ]
 }

@@ -218,9 +218,5 @@
     "egg:whirlwind",
     "egg:perishsong"
   ],
- "evolutions": [],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+ "evolutions": []
 }

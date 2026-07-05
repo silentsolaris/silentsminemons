@@ -228,10 +228,6 @@
     "egg:belch"
   ],
  "evolutions": [],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  },
   "features": [
       "obese"
     ],

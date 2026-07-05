@@ -19,7 +19,7 @@
     "isUnderWater": false,
      "animations": [
        "q.look('head')",
-       "q.bedrock('serasea', 'battle_ground_idle')"
+       "q.bedrock('serasea', 'land_battle')"
      ]
    },
 
@@ -30,7 +30,7 @@
       "isUnderWater": true,
       "animations": [
         "q.look('head')",
-        "q.bedrock('serasea', 'battle_swim_idle')"
+        "q.bedrock('serasea', 'water_battle')"
       ]
     },
 
@@ -48,7 +48,7 @@
       "namedAnimations": {
         "faint": "q.bedrock_primary('serasea', 'water_faint', q.curve('one'))"
       },
-      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('serasea', 'float')"]
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('serasea', 'water_idle')"]
     },
     "swim": {
       "poseTypes": ["SWIM"],
@@ -58,7 +58,7 @@
       "namedAnimations": {
         "faint": "q.bedrock_primary('serasea', 'water_faint', q.curve('one'))"
       },
-      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('serasea', 'water_swim')"]
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('serasea', 'swim')"]
     },
    "walking": {
      "poseTypes": ["WALK"],
@@ -78,7 +78,7 @@
      "poseTypes": ["SLEEP"],
      "isTouchingWater": true,
       "isUnderWater": true,
-     "animations": ["q.bedrock('serasea', 'swim_sleep')"]
+     "animations": ["q.bedrock('serasea', 'water_sleep')"]
    }
  }
 }

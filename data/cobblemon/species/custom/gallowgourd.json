@@ -317,9 +317,5 @@
     "egg:obstruct"
   ],
   "preEvolution": "pumpkit",
- "evolutions": [],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+ "evolutions": []
 }

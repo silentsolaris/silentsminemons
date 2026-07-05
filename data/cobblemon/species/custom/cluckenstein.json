@@ -204,10 +204,5 @@
         }
       ]
     }
-  ],
-  "preEvolution": "icken",
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+  ]
 }

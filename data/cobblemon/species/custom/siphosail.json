@@ -207,9 +207,5 @@
     "egg:purify",
     "egg:wringout"
   ],
- "evolutions": [],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+ "evolutions": []
 }

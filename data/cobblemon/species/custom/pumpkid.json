@@ -243,9 +243,5 @@
       "requiredContext": "minecraft:iron_chestplate"
 
 	}
-  ],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+  ]
 }

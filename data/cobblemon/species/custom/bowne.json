@@ -273,9 +273,5 @@
       "requiredContext": "minecraft:netherite_ingot"
 
 	}
-	],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  }
+	]
 }

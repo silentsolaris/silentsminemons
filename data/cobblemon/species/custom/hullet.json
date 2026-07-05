@@ -253,18 +253,13 @@
   ],
  "evolutions": [
      {
-      "id": "hullet-ordnaland",
+      "id": "hullet_ordnaland",
       "variant": "item_interact",
       "result": "ordnaland",
-      "consumeHeldItem": true,
-      "learnableMoves": [
-	    "eldereye"
-	  ],
-      "requirements": [
-        {
-          "requiredContext": "cobblemon:thunder_stone"
-        }
-      ]
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [],
+      "requiredContext": "cobblemon:thunder_stone"
     }
   ]
 }

@@ -229,10 +229,6 @@
     "tm:xscissor"
   ],
  "evolutions": [],
-  "lightingData": {
-    "lightLevel": 7,
-    "liquidGlowMode": "LAND"
-  },
   "features": [
       "rejuv"
     ],

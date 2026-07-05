@@ -4,16 +4,14 @@
   "name": "plangiant",
   "primaryType": "ghost",
   "secondaryType": "rock",
-  "maleRatio": 0.7,
+  "maleRatio": -1,
   "height": 5,
   "weight": 400,
   "pokedex": [
     "cobblemon.species.plangiant.desc"
   ],
   "labels": [
-    "minemons",
-    "legendary",
-    "restricted"
+    "minemons"
   ],
   "aspects": [],
   "abilities": [
@@ -22,7 +20,7 @@
     "h:echochamber"
   ],
   "eggGroups": [
-    "amorphous"
+    "undiscovered"
   ],
   "baseStats": {
     "hp": 100,
@@ -222,8 +220,7 @@
     "tm:zenheadbutt"
     
   ],
- "evolutions": [
-  ],
+ "evolutions": [],
   "forms": [
     {
       "name": "Gmax",
@@ -239,7 +236,6 @@
       "aspects": [
         "gmax"
       ],
-      "evolutions": [],
       "battleOnly": true,
       "dynamaxBlocked": true
     }
