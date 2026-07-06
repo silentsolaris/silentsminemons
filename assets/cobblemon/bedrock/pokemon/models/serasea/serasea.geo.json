@@ -342,6 +342,15 @@
 					"cubes": [
 						{"origin": [-27.65, 33.25, 7], "size": [2, 0, 6], "uv": [42, 42]}
 					]
+				},
+				{
+					"name": "locator_item",
+					"parent": "wing_left5",
+					"pivot": [-27, 31, -2],
+					"rotation": [-90, 0, 0],
+					"locators": {
+						"item": [-27, 31, -2]
+					}
 				}
 			]
 		}

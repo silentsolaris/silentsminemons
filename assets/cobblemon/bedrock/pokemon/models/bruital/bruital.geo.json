@@ -192,6 +192,15 @@
 					]
 				},
 				{
+					"name": "locator_item",
+					"parent": "forearm_left",
+					"pivot": [7.25, 7, 0],
+					"rotation": [-90, 0, 0],
+					"locators": {
+						"item": [7.25, 7, 0]
+					}
+				},
+				{
 					"name": "arm_right",
 					"parent": "rotation",
 					"pivot": [-2.4375, 7.025, -0.00625],

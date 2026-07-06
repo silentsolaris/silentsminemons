@@ -6,7 +6,7 @@
 				"identifier": "geometry.snowbrawl",
 				"texture_width": 128,
 				"texture_height": 128,
-				"visible_bounds_width": 3,
+				"visible_bounds_width": 5,
 				"visible_bounds_height": 3.5,
 				"visible_bounds_offset": [0, 1.25, 0]
 			},
@@ -81,6 +81,14 @@
 						{"origin": [25.75, 23.25, 1.5], "size": [2, 1, 1], "uv": [82, 79]},
 						{"origin": [23.75, 23, 1], "size": [2, 2, 2], "uv": [0, 82]}
 					]
+				},
+				{
+					"name": "locator_item",
+					"parent": "hand_left",
+					"pivot": [21, 19, -3],
+					"locators": {
+						"item": [21, 19, -3]
+					}
 				},
 				{
 					"name": "shoulder_right",
