@@ -5,7 +5,7 @@
   "primaryType": "grass",
   "maleRatio": 0.4,
   "height": 1.5,
-  "weight": 40,
+  "weight": 90,
   "pokedex": [
     "cobblemon.species.pumpkid.desc"
   ],

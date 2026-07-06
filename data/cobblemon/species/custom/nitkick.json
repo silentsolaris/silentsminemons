@@ -5,7 +5,7 @@
   "primaryType": "fighting",
   "maleRatio": 0.7,
   "height": 5,
-  "weight": 400,
+  "weight": 150,
   "pokedex": [
     "cobblemon.species.nitkick.desc"
   ],

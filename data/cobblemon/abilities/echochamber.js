@@ -43,6 +43,6 @@
 			}
 		},
 		flags: {},
-		name: "Resonance",
+		name: "Echo Chamber",
 		rating: 3,
 	}

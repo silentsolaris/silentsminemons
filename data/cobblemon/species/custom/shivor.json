@@ -5,8 +5,8 @@
   "primaryType": "ice",
   "secondaryType": "poison",
   "maleRatio": 0.5,
-  "height": 30,
-  "weight": 400,
+  "height": 18,
+  "weight": 2800,
   "pokedex": [
     "cobblemon.species.shivor.desc"
   ],

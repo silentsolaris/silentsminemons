@@ -5,7 +5,7 @@
   "primaryType": "rock",
   "maleRatio": 0.5,
   "height": 2,
-  "weight": 30,
+  "weight": 80,
   "pokedex": [
     "cobblemon.species.parropot.desc"
   ],

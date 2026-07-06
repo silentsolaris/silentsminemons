@@ -6,7 +6,7 @@
   "secondaryType": "grass",
   "maleRatio": 0.5,
   "height": 15,
-  "weight": 45,
+  "weight": 250,
   "pokedex": [
     "cobblemon.species.bognmarrow.desc"
   ],

@@ -5,7 +5,7 @@
   "primaryType": "grass",
   "maleRatio": 0.7,
   "height": 1,
-  "weight": 28,
+  "weight": 135,
   "pokedex": [
     "cobblemon.species.gourmooze.desc"
   ],
@@ -237,8 +237,8 @@
 
       "primaryType": "grass",
       "secondaryType": "water",
-	  "height": 6,
-	  "weight": 1000,
+	  "height": 16,
+    "weight": 1805,
       "pokedex": [
         "cobblemon.species.gourmooze-obese.desc"
       ],

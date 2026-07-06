@@ -15,7 +15,6 @@
             "level": "20-45",
             "weight": 10,
             "condition": {
-                "canSeeSky": false,
                 "minSkyLight": 0,
                 "maxSkyLight": 7,
                 "structures": [
@@ -45,7 +44,9 @@
             "level": "20-45",
             "weight": 10,
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+				"timeRange": "night",
                 "biomes": [
                     "#cobblemon:is_cold_ocean",
                     "#cobblemon:is_frozen_ocean",
@@ -62,7 +63,9 @@
             "level": "20-45",
             "weight": 9.0,
             "condition": {
-                "canSeeSky": false,
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+				"timeRange": "night",
                 "biomes": [
                     "#cobblemon:is_cold_ocean",
                     "#cobblemon:is_frozen_ocean",
@@ -82,7 +85,6 @@
             "level": "20-45",
             "weight": 10,
             "condition": {
-                "canSeeSky": false,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],
@@ -104,7 +106,6 @@
             "level": "20-45",
             "weight": 10,
             "condition": {
-                "canSeeSky": false,
                 "biomes": [
                     "#cobblemon:is_overworld"
                 ],

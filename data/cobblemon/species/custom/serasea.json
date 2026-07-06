@@ -4,8 +4,8 @@
   "name": "serasea",
   "primaryType": "fairy",
   "secondaryType": "ghost",
-  "maleRatio": 0.3,
-  "height": 3,
+  "maleRatio": 0.2,
+  "height": 15,
   "weight": 40,
   "pokedex": [
     "cobblemon.species.serasea.desc"
@@ -46,7 +46,7 @@
   "baseFriendship": 50,
   "shoulderMountable": true,
   "baseScale": 1,
-  "standingEyeHeight": 1,
+  "standingEyeHeight": 0.8,
   "hitbox": {
     "width": 0.7,
     "height": 1.3,
@@ -65,7 +65,7 @@
     },
     "moving": {
       "walk": {
-        "walkSpeed": 0.3,
+        "walkSpeed": 0.2,
 		"avoidsLand": true
       },
       "swim": {
@@ -93,8 +93,8 @@
     "amount": 1,
     "entries": [
       {
-        "item": "cobblemon:absorb_bulb",
-		"percentage": 20
+        "item": "cobblemon:kasib_berry",
+		    "percentage": 20
       }
     ]
   },
