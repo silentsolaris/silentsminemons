@@ -16,18 +16,18 @@
   "abilities": [
     "guarddog",
     "overcoat",
-    "h:cottondown"
+    "h:woundlicker"
   ],
   "eggGroups": [
     "field"
   ],
   "baseStats": {
     "hp": 80,
-    "attack": 75,
+    "attack": 85,
     "defence": 120,
     "special_attack": 40,
     "special_defence": 70,
-    "speed": 80
+    "speed": 70
   },
   "evYield": {
     "hp": 0,

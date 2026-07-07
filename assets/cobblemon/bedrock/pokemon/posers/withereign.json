@@ -18,9 +18,9 @@
      "isBattle": true,
      "animations": [
        "q.look('head')",
-       "q.bedrock('ocatalyst', 'battle_idle')"
+       "q.bedrock('withereign', 'battle_idle')"
      ],
-     "quirks": ["q.bedrock_quirk('ocatalyst', 'blink')"]
+     "quirks": ["q.bedrock_quirk('withereign', 'blink')"]
    },
    "standing": {
      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
