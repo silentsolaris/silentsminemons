@@ -15,12 +15,12 @@
   ],
   "aspects": [],
   "abilities": [
-    "sandveil",
-    "sandspit",
-    "h:watercompaction"
+    "cutecharm",
+    "bulletproof",
+    "h:sandrush"
   ],
   "eggGroups": [
-    "fairy",
+    "amorphous",
     "mineral"
   ],
   "baseStats": {

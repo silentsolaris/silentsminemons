@@ -15,12 +15,12 @@
   ],
   "aspects": [],
   "abilities": [
-    "sandrush",
-    "sandstream",
-    "h:watercompaction"
+    "cutecharm",
+    "bulletproof",
+    "h:sandrush"
   ],
   "eggGroups": [
-    "fairy",
+    "amorphous",
     "mineral"
   ],
   "baseStats": {
@@ -33,7 +33,7 @@
   },
   "evYield": {
     "hp": 1,
-    "attack": 1,
+    "attack": 2,
     "defence": 0,
     "special_attack": 0,
     "special_defence": 0,
@@ -41,7 +41,7 @@
   },
   "baseExperienceYield": 200,
   "experienceGroup": "slow",
-  "catchRate": 60,
+  "catchRate": 40,
   "eggCycles": 25,
   "baseFriendship": 50,
   "shoulderMountable": false,
@@ -188,6 +188,10 @@
     "tm:mistyterrain",
     "tm:poweruppunch",
     "tm:superpower",
+    "tm:closecombat",
+    "tm:trailblaze",
+    "tm:heatcrash",
+    "tm:heavyslam",
     "egg:shoreup",
     "egg:destinybond"
   ],
