@@ -1,0 +1,195 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2003,
+  "name": "dromadust",
+  "primaryType": "ground",
+  "maleRatio": 0.5,
+  "height": 5,
+  "weight": 150,
+  "pokedex": [
+    "cobblemon.species.dromadust.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "sandveil",
+    "sandspit",
+    "h:watercompaction"
+  ],
+  "eggGroups": [
+    "fairy",
+    "mineral"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 80,
+    "defence": 60,
+    "special_attack": 40,
+    "special_defence": 40,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 100,
+  "experienceGroup": "slow",
+  "catchRate": 70,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.15
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+		{
+          "pokemon": "sewsand",
+          "tier": 2
+        },
+        {
+          "pokemon": "cuddelavee",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:sand",
+        "quantityRange": "2-5"
+      },
+	  {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 10.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:sandattack",
+    "1:tackle",
+    "1:playnice",
+    "1:fairywind",
+    "10:sandtomb",
+    "13:tearfullook",
+    "18:rocktomb",
+    "23:bulldoze",
+    "27:dig",
+    "33:rockslide",
+    "44:playrough",
+    "48:earthquake",
+    "50:fissure",
+    "tm:babydolleyes",
+    "tm:beatup",
+    "tm:bodyslam",
+    "tm:brutalswing",
+    "tm:bulldoze",
+    "tm:curse",
+    "tm:dig",
+    "tm:doubleteam",
+    "tm:doubleedge",
+    "tm:faketears",
+    "tm:fling",
+    "tm:hyperbeam",
+    "tm:lashout",
+    "tm:knockoff",
+    "tm:payback",
+    "tm:rockclimb",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:safeguard",
+    "tm:sandtomb",
+    "tm:sandstorm",
+    "tm:scorchingsands",
+    "tm:skittersmack",
+    "tm:smackdown",
+    "tm:spikes",
+    "tm:stealthrock",
+    "tm:stompingtantrum",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:suckerpunch",
+    "tm:sunnyday",
+    "tm:swift",
+    "tm:takedown",
+    "tm:thief",
+    "tm:throatchop",
+    "tm:torment",
+    "tm:twister",
+    "tm:vacuumwave",
+    "tm:weatherball",
+    "tm:workup",
+    "tm:earthpower",
+    "tm:confuseray",
+    "tm:charm",
+    "egg:shoreup",
+    "egg:destinybond"
+  ],
+ "evolutions": [
+     {
+      "id": "dromadust-sewsand",
+      "variant": "level_up",
+      "result": "sewsand",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+	  "spiritbreak"
+	  ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 20
+        }
+      ]
+    }
+  ]
+}
