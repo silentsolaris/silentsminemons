@@ -6,13 +6,29 @@
      "aspects": [],
      "poser": "cobblemon:shivor",
      "model": "cobblemon:shivor.geo",
-     "texture": "cobblemon:textures/pokemon/shivor/shivor.png"
+     "texture": "cobblemon:textures/pokemon/shivor/shivor.png",
+     "layers": [
+                {
+                      "name": "emissive",
+                      "emissive": true,
+                      "texture": "cobblemon:textures/pokemon/shivor/shivor_emissive.png",
+                      "translucent": true
+                }
+              ]
    },
    {
      "aspects": [
        "shiny"
      ],
-     "texture": "cobblemon:textures/pokemon/shivor/shivor_shiny.png"
+     "texture": "cobblemon:textures/pokemon/shivor/shivor_shiny.png",
+     "layers": [
+                {
+                      "name": "emissive",
+                      "emissive": true,
+                      "texture": "cobblemon:textures/pokemon/shivor/shivor_shiny_emissive.png",
+                      "translucent": true
+                }
+              ]
    }
  ]
 }
