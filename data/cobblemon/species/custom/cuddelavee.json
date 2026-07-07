@@ -15,9 +15,9 @@
   ],
   "aspects": [],
   "abilities": [
-    "cutecharm",
+    "sandspit",
     "bulletproof",
-    "h:sandrush"
+    "h:friendguard"
   ],
   "eggGroups": [
     "amorphous",
@@ -121,11 +121,13 @@
     "1:rocktomb",
     "1:spiritbreak",
     "1:bulldoze",
+    "1:stomp",
     "1:dig",
     "1:rockslide",
     "50:playrough",
     "55:earthquake",
-    "60:fissure",
+    "60:paddedblow",
+    "65:fissure",
     "tm:babydolleyes",
     "tm:beatup",
     "tm:bodyslam",
