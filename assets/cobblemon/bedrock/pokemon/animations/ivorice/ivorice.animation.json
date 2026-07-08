@@ -1398,6 +1398,18 @@
 					}
 				}
 			}
+		},
+		"animation.ivorice.blink": {
+			"animation_length": 0.1667,
+			"bones": {
+				"left_eye": {
+					"position": {
+						"0.0": [0, 0, 0],
+						"0.0833": {"pre": [0, 0, 0], "post": [-1, 0, 1]},
+						"0.1667": {"pre": [-1, 0, 1], "post": [0, 0, 0]}
+					}
+				}
+			}
 		}
 	}
 }

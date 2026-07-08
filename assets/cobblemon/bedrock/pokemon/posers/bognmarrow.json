@@ -24,13 +24,15 @@
      "animations": [
        "look",
        "bedrock(bognmarrow, ground_idle)"
-     ]
+     ],
+     "quirks": ["q.bedrock_quirk('withereign', 'blink')"]
    },
    "walking": {
      "poseName": "walking",
      "transformTicks": 10,
      "poseTypes": [ "WALK" ],
-     "animations": [ "bedrock(bognmarrow, ground_walk)" ]
+     "animations": [ "bedrock(bognmarrow, ground_walk)" ],
+     "quirks": ["q.bedrock_quirk('withereign', 'blink')"]
 		}
 	}
 }
