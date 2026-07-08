@@ -251,7 +251,7 @@
     "cobblemon.battle.activate.culinary": "%1$s prepares the meal!",
 
     "cobblemon.ability.darksorcery": "Dark Sorcery",
-    "cobblemon.ability.darksorcery.desc": "The Pokémon's Psychic-type moves can hit Dark-type Pokémon",
+    "cobblemon.ability.darksorcery.desc": "The Pokémon's damaging Psychic-type moves moves ignore immunities.",
 
     "cobblemon.ability.determination": "Determination",
     "cobblemon.ability.determination.desc": "When this Pokémon would be knocked out, it is instead left with 1 HP. However, it immediately faints once the current turn is over.",
@@ -322,5 +322,8 @@
     "cobblemon.ability.woundlicker.desc": "At the end of every turn this Pokémon licks the wounds of its partner, which slowly and steadily recovers its HP.",
 
     "cobblemon.ability.dreamcatcher": "Dream Catcher",
-    "cobblemon.ability.dreamcatcher.desc": "The Pokémon feeds on the dreams of the Pokémon it damages, healing HP equal to a fraction of the damage dealt."
+    "cobblemon.ability.dreamcatcher.desc": "The Pokémon feeds on the dreams of the Pokémon it damages, healing HP equal to a fraction of the damage dealt.",
+
+    "cobblemon.ability.withering": "Withering",
+    "cobblemon.ability.withering.desc": "The Pokémon's damaging Poison-type moves ignore immunities."
 }

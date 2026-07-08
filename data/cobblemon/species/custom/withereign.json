@@ -16,17 +16,17 @@
   "aspects": [],
   "abilities": [
     "flashfire",
-    "corrosion",
-    "h:supremeoverlord"
+    "supremeoverlord",
+    "h:withering"
   ],
   "eggGroups": [
   "human_like",
 	"monster"
   ],
   "baseStats": {
-    "hp": 90,
-    "attack": 120,
-    "defence": 130,
+    "hp": 80,
+    "attack": 130,
+    "defence": 120,
     "special_attack": 60,
     "special_defence": 100,
     "speed": 50
@@ -268,9 +268,9 @@
           "mega"
         ],
         "abilities": [
-        "supremeoverlord",
-        "supremeoverlord",
-        "h:supremeoverlord"
+        "withering",
+        "withering",
+        "h:withering"
       ],
       "baseStats": {
         "hp": 90,

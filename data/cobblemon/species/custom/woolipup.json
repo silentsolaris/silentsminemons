@@ -234,5 +234,12 @@
         }
       ]
     }
-  ]
+  ],
+  "features": ["sheared","color"],
+  "ai": [
+  {
+    "type": "apply_behaviours",
+    "behaviours": ["cobblemon:pokemon_eats_grass"]
+  }
+]
 }
