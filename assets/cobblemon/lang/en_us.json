@@ -316,5 +316,8 @@
     "cobblemon.ability.houserules.desc": "The Pokémon creates a bizarre area in which Pokémon’s held items lose their effects on switch in.",
 
     "cobblemon.ability.woundlicker": "Wound Licker",
-    "cobblemon.ability.woundlicker.desc": "At the end of every turn this Pokémon licks the wounds of it's partner, which slowly and steadily recovers it's HP."
+    "cobblemon.ability.woundlicker.desc": "At the end of every turn this Pokémon licks the wounds of it's partner, which slowly and steadily recovers it's HP.",
+
+    "cobblemon.ability.dreamcatcher": "Dream Catcher",
+    "cobblemon.ability.dreamcatcher.desc": "The Pokémon feeds on the dreams of the Pokémon it damages, healing HP equal to a fraction of the damage dealt."
 }
