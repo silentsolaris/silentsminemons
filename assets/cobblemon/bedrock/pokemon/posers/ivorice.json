@@ -25,14 +25,14 @@
        "look",
        "bedrock(ivorice, ground_idle)"
      ],
-     "quirks": ["q.bedrock_quirk('withereign', 'blink')"]
+     "quirks": ["q.bedrock_quirk('ivorice', 'blink')"]
    },
    "walking": {
      "poseName": "walking",
      "transformTicks": 10,
      "poseTypes": [ "WALK" ],
      "animations": [ "bedrock(ivorice, ground_walk)" ],
-     "quirks": ["q.bedrock_quirk('withereign', 'blink')"]
+     "quirks": ["q.bedrock_quirk('ivorice', 'blink')"]
 		}
 	}
 }

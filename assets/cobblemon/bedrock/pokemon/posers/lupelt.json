@@ -44,7 +44,8 @@
      "animations": [
        "q.look('head')",
        "q.bedrock('lupelt', 'battle_idle')"
-     ]
+     ],
+     "quirks": ["q.bedrock_quirk('lupelt', 'blink')"]
    },
    "standing": {
      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
@@ -54,7 +55,8 @@
      "animations": [
        "q.look('head')",
        "q.bedrock('lupelt', 'ground_idle')"
-     ]
+     ],
+     "quirks": ["q.bedrock_quirk('lupelt', 'blink')"]
    },
    "walking": {
      "poseTypes": ["WALK"],
@@ -63,18 +65,21 @@
      "animations": [
        "q.look('head')",
        "q.bedrock('lupelt', 'walk')"
-     ]
+     ],
+     "quirks": ["q.bedrock_quirk('lupelt', 'blink')"]
    },
    "float": {
       "poseTypes": ["STAND", "FLOAT"],
       "isTouchingWater": true,
       "isUnderWater": false,
-      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('lupelt', 'float')"]
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('lupelt', 'float')"],
+     "quirks": ["q.bedrock_quirk('lupelt', 'blink')"]
     },
     "swim": {
       "poseTypes": ["WALK", "SWIM"],
       "isTouchingWater": true,
-      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('lupelt', 'swim')"]
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('lupelt', 'swim')"],
+     "quirks": ["q.bedrock_quirk('lupelt', 'blink')"]
     }
 	}
 }

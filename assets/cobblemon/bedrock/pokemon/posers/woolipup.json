@@ -24,7 +24,8 @@
      "animations": [
        "q.look('head')",
        "q.bedrock('woolipup', 'battle_idle')"
-     ]
+     ],
+     "quirks": ["q.bedrock_quirk('woolipup', 'blink')"]
    },
    "standing": {
      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
@@ -32,14 +33,16 @@
      "animations": [
        "q.look('head')",
        "q.bedrock('woolipup', 'ground_idle')"
-     ]
+     ],
+     "quirks": ["q.bedrock_quirk('woolipup', 'blink')"]
    },
    "walking": {
      "poseTypes": ["WALK"],
      "animations": [
        "q.look('head')",
        "q.bedrock('woolipup', 'ground_walk')"
-     ]
+     ],
+     "quirks": ["q.bedrock_quirk('woolipup', 'blink')"]
    }
 	}
 }
