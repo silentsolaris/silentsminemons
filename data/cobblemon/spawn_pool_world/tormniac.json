@@ -11,6 +11,29 @@
             "bucket": "rare",
             "level": "20-45",
             "weight": 6,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:white_bed",
+                    "minecraft:black_bed",
+                    "minecraft:orange_bed",
+                    "minecraft:magenta_bed",
+                    "minecraft:light_blue_bed",
+                    "minecraft:light_gray_bed",
+                    "minecraft:yellow_bed",
+                    "minecraft:lime_bed",
+                    "minecraft:blue_bed",
+                    "minecraft:red_bed",
+                    "minecraft:green_bed",
+                    "minecraft:purple_bed",
+                    "minecraft:pink_bed",
+                    "minecraft:cyan_bed",
+                    "minecraft:gray_bed",
+                    "minecraft:brown_bed"
+                    ]
+                }
+            },
             "condition": {
 				"timeRange": "night",
 				"canSeeSky": true,
@@ -30,6 +53,29 @@
             "bucket": "rare",
             "level": "20-45",
             "weight": 6,
+            "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:white_bed",
+                    "minecraft:black_bed",
+                    "minecraft:orange_bed",
+                    "minecraft:magenta_bed",
+                    "minecraft:light_blue_bed",
+                    "minecraft:light_gray_bed",
+                    "minecraft:yellow_bed",
+                    "minecraft:lime_bed",
+                    "minecraft:blue_bed",
+                    "minecraft:red_bed",
+                    "minecraft:green_bed",
+                    "minecraft:purple_bed",
+                    "minecraft:pink_bed",
+                    "minecraft:cyan_bed",
+                    "minecraft:gray_bed",
+                    "minecraft:brown_bed"
+                    ]
+                }
+            },
             "condition": {
 				"structures": [
                     "explorify:ruins",
