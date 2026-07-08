@@ -1,24 +1,17 @@
 {
-		onDamagingHit(damage, target, source, move) {
-			if (move.type === 'Fighting') {
-				this.boost({ atk: 1 });
+    onModifySpDPriority: 1,
+		onModifySpD(spd) {
+			return this.chainModify(1.5);
+		},
+		onDisableMove(pokemon) {
+			for (const moveSlot of pokemon.moveSlots) {
+				const move = this.dex.moves.get(moveSlot.id);
+				if (move.category === 'Status' && move.id !== 'mefirst') {
+					pokemon.disableMove(moveSlot.id);
+				}
 			}
 		},
-		onUpdate(pokemon) {
-			if (pokemon.volatiles['confusion']) {
-				this.add('-activate', pokemon, 'ability: Anarchist');
-				pokemon.removeVolatile('confusion');
-			}
-		},
-		onTryAddVolatile(status, pokemon) {
-			if (status.id === 'confusion') return null;
-		},
-		onHit(target, source, move) {
-			if (move?.volatileStatus === 'confusion') {
-				this.add('-immune', target, 'confusion', '[from] ability: Anarchist');
-			}
-		},
-		flags: { breakable: 1},
-		name: "Anarchist",
-		rating: 3,
-	}
+        flags: {},
+	    name: "Anarchist",
+	    rating: 3,
+}

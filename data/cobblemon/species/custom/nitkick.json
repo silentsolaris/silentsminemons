@@ -14,8 +14,8 @@
   ],
   "aspects": [],
   "abilities": [
-    "scrappy",
-    "cudchew",
+    "defiant",
+    "stamina",
     "h:truant"
   ],
   "eggGroups": [
@@ -37,8 +37,8 @@
     "special_defence": 0,
     "speed": 0
   },
-  "baseExperienceYield": 80,
-  "experienceGroup": "slow",
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_slow",
   "catchRate": 80,
   "eggCycles": 25,
   "baseFriendship": 50,

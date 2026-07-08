@@ -225,11 +225,14 @@
     "cobblemon.move.plunder": "Plunder",
     "cobblemon.move.plunder.desc": "Steals the target's stat boosts.",
 
-    "cobblemon.move.absolutestrike": "Absolute Strike",
-    "cobblemon.move.absolutestrike.desc": "In this two-turn attack, the user centers itself and boosts its Sp. Def stat, then attacks the target on the next turn.",
+    "cobblemon.move.chaoskick": "Chaos Kick",
+    "cobblemon.move.chaoskick.desc": "The user kicks the target to tear down all they've built. Removes all of the target's stat changes.",
 
     "cobblemon.ability.anarchist": "Anarchist",
-    "cobblemon.ability.anarchist.desc": "Boosts the Attack stat of this Pokémon when hit by a Fighting-type move. This Pokémon cannot be confused.",
+    "cobblemon.ability.anarchist.desc": "This Pokémon's Sp. Def is raised but prevents the use of status moves",
+
+    "cobblemon.move.absolutestrike": "Absolute Strike",
+    "cobblemon.move.absolutestrike.desc": "In this two-turn attack, the user centers itself and boosts its Sp. Def stat, then attacks the target on the next turn.",
 
     "cobblemon.ability.anomaly": "Anomaly",
     "cobblemon.ability.anomaly.desc": "While this Pokémon is on the field, type interactions are reversed.",

@@ -15,8 +15,8 @@
   ],
   "aspects": [],
   "abilities": [
-    "moxie",
-    "cudchew",
+    "defiant",
+    "stamina",
     "h:anarchist"
   ],
   "eggGroups": [
@@ -25,10 +25,10 @@
   "baseStats": {
     "hp": 100,
     "attack": 130,
-    "defence": 80,
+    "defence": 90,
     "special_attack": 40,
-    "special_defence": 80,
-    "speed": 49
+    "special_defence": 70,
+    "speed": 95
   },
   "evYield": {
     "hp": 0,
@@ -38,8 +38,8 @@
     "special_defence": 0,
     "speed": 0
   },
-  "baseExperienceYield": 160,
-  "experienceGroup": "slow",
+  "baseExperienceYield": 500,
+  "experienceGroup": "medium_slow",
   "catchRate": 60,
   "eggCycles": 25,
   "baseFriendship": 50,
@@ -196,11 +196,11 @@
       },
       {
         "item": "cobblemon:colbur_berry",
-        "percentage": 3.0
+        "percentage": 5.0
       },
 	  {
         "item": "cobblemon:chople_berry",
-        "percentage": 5.0
+        "percentage": 15.0
       }
     ]
   },
@@ -232,7 +232,7 @@
     "45:jumpkick",
     "50:bulkup",
     "55:superpower",
-    "60:crunch",
+    "60:chaoskick",
     "tm:amnesia",
     "tm:assurance",
     "tm:babydolleyes",
