@@ -6,7 +6,7 @@
 				"identifier": "geometry.bowne",
 				"texture_width": 64,
 				"texture_height": 64,
-				"visible_bounds_width": 2,
+				"visible_bounds_width": 3,
 				"visible_bounds_height": 2.5,
 				"visible_bounds_offset": [0, 0.75, 0]
 			},
@@ -100,6 +100,18 @@
 					]
 				},
 				{
+					"name": "locator_eye_left",
+					"parent": "pupil_left",
+					"pivot": [2.25, 12.5, -4],
+					"rotation": [-90, 0, 0],
+					"locators": {
+						"eye2": {
+							"offset": [2.25, 12.5, -4],
+							"rotation": [0, 0, 90]
+						}
+					}
+				},
+				{
 					"name": "eye_right",
 					"parent": "head",
 					"pivot": [-2.5, 12.5, -4.015],
@@ -116,6 +128,44 @@
 					"cubes": [
 						{"origin": [-2.75, 11, -4.02], "size": [1, 3, 0], "uv": [22, 37], "mirror": true}
 					]
+				},
+				{
+					"name": "locator_eye_right",
+					"parent": "pupil_right",
+					"pivot": [-2.25, 12.5, -4],
+					"rotation": [-90, 0, 0],
+					"locators": {
+						"eye3": {
+							"offset": [-2.25, 12.5, -4],
+							"rotation": [0, 0, -90]
+						}
+					}
+				},
+				{
+					"name": "locator_item_face",
+					"parent": "head",
+					"pivot": [0, 15.5, -4.25],
+					"locators": {
+						"item_face": [0, 15.5, -4.25]
+					}
+				},
+				{
+					"name": "item_hat",
+					"parent": "head",
+					"pivot": [0, 18, -0.25],
+					"locators": {
+						"item_hat": [0, 18, -0.25]
+					}
+				},
+				{
+					"name": "locator_mouth",
+					"parent": "head",
+					"pivot": [0, 10, -3.5],
+					"rotation": [-90, 0, 0],
+					"locators": {
+						"mouth": [0, 10, -3.5],
+						"special": [0, 10, -3.5]
+					}
 				},
 				{
 					"name": "leg_left",

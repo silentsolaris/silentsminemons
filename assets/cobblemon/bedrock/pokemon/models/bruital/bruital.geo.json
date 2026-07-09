@@ -147,6 +147,32 @@
 					]
 				},
 				{
+					"name": "locator_item_face",
+					"parent": "head",
+					"pivot": [0, 15, -4.25],
+					"locators": {
+						"item_face": [0, 15, -4.25]
+					}
+				},
+				{
+					"name": "item_hat",
+					"parent": "head",
+					"pivot": [0, 16, -1.25],
+					"locators": {
+						"item_hat": [0, 16, -1.25]
+					}
+				},
+				{
+					"name": "locator_mouth",
+					"parent": "head",
+					"pivot": [0, 9, -5.5],
+					"rotation": [-90, 0, 0],
+					"locators": {
+						"mouth": [0, 9, -5.5],
+						"special": [0, 9, -5.5]
+					}
+				},
+				{
 					"name": "arm_left",
 					"parent": "rotation",
 					"pivot": [2.4375, 7.025, -0.00625],

@@ -107,6 +107,18 @@
 					]
 				},
 				{
+					"name": "locator_eye_left",
+					"parent": "pupil-left",
+					"pivot": [2.5, 10, -8.75],
+					"rotation": [-90, 0, 0],
+					"locators": {
+						"eye2": {
+							"offset": [2.5, 10, -8.75],
+							"rotation": [0, 0, 90]
+						}
+					}
+				},
+				{
 					"name": "eye-right",
 					"parent": "head",
 					"pivot": [-2.515, 10.02835, -8.7326],
@@ -121,6 +133,18 @@
 					"cubes": [
 						{"origin": [-2.52, 9.02835, -9.2326], "size": [0, 2, 1], "uv": [32, 46]}
 					]
+				},
+				{
+					"name": "locator_eye_right",
+					"parent": "pupil-right",
+					"pivot": [-2.5, 10, -8.75],
+					"rotation": [-90, 0, 0],
+					"locators": {
+						"eye3": {
+							"offset": [-2.5, 10, -8.75],
+							"rotation": [0, 0, -90]
+						}
+					}
 				},
 				{
 					"name": "mohawk-1",
