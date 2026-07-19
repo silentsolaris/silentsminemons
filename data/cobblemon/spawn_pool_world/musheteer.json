@@ -4,8 +4,8 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "bognmarrow-1",
-            "pokemon": "bognmarrow",
+            "id": "musheteer-1",
+            "pokemon": "musheteer",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "rare",
@@ -41,8 +41,8 @@
             }
         },
         {
-            "id": "bognmarrow-2",
-            "pokemon": "bognmarrow",
+            "id": "musheteer-2",
+            "pokemon": "musheteer",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
@@ -75,8 +75,8 @@
             }
         },
         {
-            "id": "bognmarrow-3",
-            "pokemon": "bognmarrow",
+            "id": "musheteer-3",
+            "pokemon": "musheteer",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",

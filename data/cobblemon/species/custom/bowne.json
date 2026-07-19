@@ -259,9 +259,9 @@
       "requiredContext": ""
     },
 	 {
-      "id": "bowne_bognmarrow-2",
+      "id": "bowne_musheteer-2",
       "variant": "level_up",
-      "result": "bognmarrow",
+      "result": "musheteer",
       "consumeHeldItem": false,
       "learnableMoves": [
 	  "blunderpowder"

@@ -1,14 +1,14 @@
 {
   "implemented": true,
   "nationalPokedexNumber": 2024,
-  "name": "bognmarrow",
+  "name": "musheteer",
   "primaryType": "ghost",
   "secondaryType": "grass",
   "maleRatio": 0.5,
   "height": 15,
   "weight": 250,
   "pokedex": [
-    "cobblemon.species.bognmarrow.desc"
+    "cobblemon.species.musheteer.desc"
   ],
   "labels": [
     "minemons"
@@ -17,7 +17,7 @@
   "abilities": [
     "hustle",
     "longreach",
-    "h:effectspore"
+    "h:stalwart"
   ],
   "eggGroups": [
     "human_like",
@@ -73,19 +73,19 @@
       }
     },
     "herd": {
-      "maxSize": "9",
+      "maxSize": "10",
       "toleratedLeaders": [
         {
           "pokemon": "bognmarrow",
-          "tier": 2
+          "tier": 1
         },
 		{
           "pokemon": "toedscruel",
-          "tier": 1
+          "tier": 2
         },
 		{
           "pokemon": "amoonguss",
-          "tier": 1
+          "tier": 2
         }
 		]
     },
