@@ -1,70 +1,71 @@
 {
   "implemented": true,
-  "nationalPokedexNumber": 2023,
-  "name": "bowne",
+  "nationalPokedexNumber": 2025,
+  "name": "spinerado",
   "primaryType": "ghost",
+  "secondaryType": "ground",
   "maleRatio": 0.5,
-  "height": 6,
-  "weight": 25,
+  "height": 13,
+  "weight": 300,
   "pokedex": [
-    "cobblemon.species.bowne.desc"
+    "cobblemon.species.spinerado.desc"
   ],
   "labels": [
     "minemons"
   ],
   "aspects": [],
   "abilities": [
-    "sniper",
+    "sandveil",
     "longreach",
-    "h:noguard"
+    "h:technician"
   ],
   "eggGroups": [
     "human_like",
 	  "amorphous"
   ],
   "baseStats": {
-    "hp": 50,
-    "attack": 60,
-    "defence": 25,
-    "special_attack": 25,
-    "special_defence": 50,
-    "speed": 38
+    "hp": 80,
+    "attack": 129,
+    "defence": 70,
+    "special_attack": 50,
+    "special_defence": 80,
+    "speed": 131
   },
   "evYield": {
     "hp": 0,
-    "attack": 1,
+    "attack": 2,
     "defence": 0,
     "special_attack": 0,
     "special_defence": 0,
     "speed": 0
   },
-  "baseExperienceYield": 80,
+  "baseExperienceYield": 168,
   "experienceGroup": "slow",
-  "catchRate": 80,
+  "catchRate": 50,
   "eggCycles": 25,
   "baseFriendship": 50,
-  "shoulderMountable": true,
-  "standingEyeHeight": 0.67,
+  "shoulderMountable": false,
+  "standingEyeHeight": 1,
   "baseScale": 1,
   "hitbox": {
-    "width": 0.5,
-    "height": 1,
+    "width": 1,
+    "height": 2.3,
     "fixed": false
   },
   "behaviour": {
     "resting": {
       "canSleep": true,
-      "willSleepOnBed": true,
+      "willSleepOnBed": false,
       "light": "0-4",
       "times": [
         "any"
       ],
-      "drowsyChance": 0.0014,
-      "rouseChance": 0.0042
+      "drowsyChance": 0.0155,
+      "rouseChance": 0.0084
     },
     "moving": {
       "walk": {
-        "walkSpeed": 0.4
+        "walkSpeed": 0.25
       },
       "swim": {
         "avoidsWater": true,
@@ -72,30 +73,34 @@
       }
     },
     "herd": {
-      "maxSize": "9",
+      "maxSize": "4",
       "toleratedLeaders": [
         {
-          "pokemon": "bowne",
+          "pokemon": "spinerado",
           "tier": 1
         },
 		{
-          "pokemon": "ivorice",
-          "tier": 1
-        },
-        {
-          "pokemon": "bognmarrow",
+          "pokemon": "hippowdown",
           "tier": 2
         },
 		{
-          "pokemon": "withereign",
+          "pokemon": "tormniac",
+          "tier": 2
+        },
+		{
+          "pokemon": "cacturne",
+          "tier": 3
+        },
+        {
+          "pokemon": "krookodile",
           "tier": 3
         }
 		]
     },
     "combat": {
-      "willDefendSelf": false,
+      "willDefendSelf": true,
       "willDefendOwner": true,
-      "willFlee": true
+      "willFlee": false
     },
     "fireImmune": false
   },
@@ -104,15 +109,11 @@
     "entries": [
       {
         "item": "minecraft:bone",
-        "quantityRange": "0-2"
+        "quantityRange": "2-5"
       },
       {
-        "item": "minecraft:soul_soil",
-        "percentage": 2.5
-      },
-      {
-        "item": "cobblemon:kasib_berry",
-        "percentage": 2.5
+        "item": "minecraft:blue_ice",
+        "percentage": 5.0
       }
     ]
   },
@@ -130,17 +131,22 @@
     "special:celebrate",
     "1:leer",
     "1:astonish",
-    "3:shadowsneak",
-    "5:disable",
-    "10:confuseray",
-    "15:shadowpunch",
-    "18:boneclub",
-    "23:willowisp",
-    "30:curse",
-    "35:bonemerang",
-    "40:skullbash",
-    "45:shadowbone",
-    "55:poltergeist",
+    "1:shadowsneak",
+    "1:disable",
+    "1:confuseray",
+    "1:shadowpunch",
+    "1:boneclub",
+    "1:willowisp",
+    "1:curse",
+    "1:bonemerang",
+    "1:skullbash",
+    "1:shadowbone",
+    "40:triplewhip",
+    "45:spikes",
+    "53:firelash",
+    "60:poltergeist",
+    "65:sandstorm",
+    "70:earthquake",
     "tm:aerialace",
     "tm:amnesia",
     "tm:ancientpower",
@@ -229,6 +235,18 @@
     "tm:zenhehadbutt",
     "tm:rockpolish",
     "tm:willowisp",
+    "tm:closecombat",
+    "tm:highhorsepower",
+    "tm:earthquake",
+    "tm:swordsdance",
+    "tm:psychocut",
+    "tm:quash",
+    "tm:sandtomb",
+    "tm:smartstrike",
+    "tm:stealthrock",
+    "tm:upperhand",
+    "tm:uturn",
+    "tm:tripleaxel",
     "egg:destinybond",
     "egg:grudge",
     "egg:trickortreat",
@@ -237,88 +255,6 @@
     "egg:falsesurrender",
     "egg:clearsmog"
   ],
- "evolutions": [
- {
-      "id": "bowne_bognmarrow-1",
-      "variant": "level_up",
-      "result": "bognmarrow",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-	  "spore"
-	  ],
-      "requirements": [
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_mushroom"
-        },
-        {
-          "variant": "level",
-          "minLevel": 36
-        }
-      ],
-      "requiredContext": ""
-    },
-	 {
-      "id": "bowne_musheteer-2",
-      "variant": "level_up",
-      "result": "musheteer",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-	  "blunderpowder"
-	  ],
-      "requirements": [
-        {
-          "variant": "biome",
-          "biomeCondition": "#cobblemon:is_swamp"
-        },
-        {
-          "variant": "level",
-          "minLevel": 36
-        }
-      ],
-      "requiredContext": ""
-    },
-	{
-      "id": "bowne_ivorice",
-      "variant": "item_interact",
-      "result": "ivorice",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-        "frostbolt"
-      ],
-      "requirements": [],
-      "requiredContext": "cobblemon:ice_stone"
-
-	},
-	{
-      "id": "bowne_withereign",
-      "variant": "item_interact",
-      "result": "withereign",
-      "consumeHeldItem": false,
-      "learnableMoves": [
-        "soulfireblade"
-      ],
-      "requirements": [],
-      "requiredContext": "minecraft:netherite_ingot"
-
-	},
-  {
-      "consumeHeldItem": false,
-      "id": "bowne_spinerado",
-      "learnableMoves": [
-        "triplewhip"
-      ],
-      "requirements": [
-        {
-          "variant": "party_member",
-          "minLevel": 40
-        },
-        {
-          "variant": "party_member",
-          "target": "type=ground",
-          "contains": true
-        }
-      ]
-    }
-	]
+  "preEvolution": "bowne",
+ "evolutions": []
 }

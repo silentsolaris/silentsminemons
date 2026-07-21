@@ -88,8 +88,8 @@
     "cobblemon.species.bowne.name": "Bowne",
     "cobblemon.species.bowne.desc": "It carries a handcrafted bow of bone at all times. This Pokémon is never seen without it.",
     
-    "cobblemon.species.bognmarrow.name": "Bognmarrow",
-    "cobblemon.species.bognmarrow.desc": "It patrols its territory with a platoon of fellow Bognmarrow. Whichever one has the bigger cap is the squadron leader.",
+    "cobblemon.species.musheteer.name": "Musheteer",
+    "cobblemon.species.musheteer.desc": "It patrols its territory with a platoon of fellow Musheteer. Whichever one has the bigger cap is the squadron leader. It is dedicated to whatever it has been ordered to do, even if it doesn't understand them.",
     
     "cobblemon.species.ivorice.name": "Ivorice",
     "cobblemon.species.ivorice.desc": "While a solitary Pokémon, it sometimes hunts with Pokémon of similar cruelty, such as Weavile or Froslass. It always aims for the legs first to try to immobilize its prey.",
@@ -178,8 +178,8 @@
     "cobblemon.move.overcharge": "Overcharge",
     "cobblemon.move.overcharge.desc": "The user overcharges its joints, battering the target. If its partner is an Electric-type, a random stat of that Pokémon is raised. Cannot be used twice in a row.",
 
-    "cobblemon.move.rapidfire": "Rapidfire",
-    "cobblemon.move.rapidfire.desc": "The user fires three sand projectiles in quick succession. This move has a heightened chance of landing a critical hit, and may burn and flinch the target.",
+    "cobblemon.move.triplewhip": "Triple Whip",
+    "cobblemon.move.triplewhip.desc": "The user fires three sand projectiles in quick succession. This move has a heightened chance of landing a critical hit, and may burn and flinch the target.",
 
     "cobblemon.move.siphon": "Siphon",
     "cobblemon.move.siphon.desc": "This move inflicts physical or special damage, whichever will be more effective. The user's HP will be restored by a portion of the damage dealt. If the user is at full hp, instead of healing it will summon grassy terrain.",
