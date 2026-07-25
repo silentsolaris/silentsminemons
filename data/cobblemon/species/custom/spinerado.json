@@ -15,8 +15,8 @@
   ],
   "aspects": [],
   "abilities": [
-    "sandveil",
-    "longreach",
+    "mummy",
+    "dryskin",
     "h:technician"
   ],
   "eggGroups": [
@@ -27,9 +27,9 @@
     "hp": 80,
     "attack": 129,
     "defence": 70,
-    "special_attack": 50,
+    "special_attack": 70,
     "special_defence": 80,
-    "speed": 131
+    "speed": 111
   },
   "evYield": {
     "hp": 0,
@@ -256,5 +256,41 @@
     "egg:clearsmog"
   ],
   "preEvolution": "bowne",
- "evolutions": []
+  "evolutions": [],
+  "forms": [ 
+  {
+  "name": "Mega",
+
+    "primaryType": "ghost",
+    "secondaryType": "ground",
+	  "height": 25,
+    "weight": 2800,
+      "pokedex": [
+        "cobblemon.species.spinerado-mega.desc"
+      ],
+      "labels": [
+        "minemons",
+        "mega"
+      ],
+      "aspects": [
+          "mega"
+        ],
+        "abilities": [
+        "brutality",
+        "brutality",
+        "h:brutality"
+      ],
+      "baseStats": {
+      "hp": 80,
+      "attack": 140,
+      "defence": 80,
+      "special_attack": 100,
+      "special_defence": 100,
+      "speed": 140
+      },
+      "evolutions": [],
+      "battleOnly": true,
+      "dynamaxBlocked": true
+    }
+  ]
 }

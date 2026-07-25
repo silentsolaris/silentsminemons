@@ -167,7 +167,7 @@
     "cobblemon.move.eldereye.desc": "The user fires a crystalline beam of energy at the target. In rain, it also electrifies the target's next move.",
 
     "cobblemon.move.fester": "Fester",
-    "cobblemon.move.fester.desc": "The user feasts on the target's natural energies. This move always hits and raises Attack if the target is a Psychic, Dark or Grass-type.",
+    "cobblemon.move.fester.desc": "The user feasts on the target's natural energies. This move always hits and raises the user's Attack if the target is a Psychic, Dark or Grass-type after attacking.",
 
     "cobblemon.move.frostbolt": "Frost Bolt",
     "cobblemon.move.frostbolt.desc": "The user fires a crossbow bolt of ice at the target's weak points. This may leave the target paralyzed.",
@@ -325,5 +325,8 @@
     "cobblemon.ability.dreamcatcher.desc": "The Pokémon feeds on the dreams of the Pokémon it damages, healing HP equal to a fraction of the damage dealt.",
 
     "cobblemon.ability.withering": "Withering",
-    "cobblemon.ability.withering.desc": "The Pokémon's damaging Poison-type moves ignore immunities."
+    "cobblemon.ability.withering.desc": "The Pokémon's damaging Poison-type moves ignore immunities.",
+
+    "cobblemon.ability.brutality": "Brutality",
+    "cobblemon.ability.brutality.desc": "This Pokémon's destiny is bonded after knocking out another Pokémon."
 }

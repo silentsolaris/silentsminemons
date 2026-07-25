@@ -95,9 +95,13 @@
         "item": "minecraft:sand",
         "quantityRange": "2-5"
       },
-	  {
-        "item": "cobblemon:roseli_berry",
+	    {
+        "item": "cobblemon:soft_sand",
         "percentage": 50.0
+      },
+      {
+        "item": "cobblemon:roseli_berry",
+        "percentage": 5.0
       }
     ]
   },
