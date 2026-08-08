@@ -226,7 +226,7 @@
     "tm:thunderfang",
     "tm:trailblaze",
     "tm:workup",
-    "tm:zenhehadbutt",
+    "tm:zenheadbutt",
     "tm:rockpolish",
     "tm:willowisp",
     "egg:destinybond",
@@ -315,7 +315,7 @@
         },
         {
           "variant": "party_member",
-          "target": "type=ground",
+          "target": "type=dark",
           "contains": true
         }
       ]

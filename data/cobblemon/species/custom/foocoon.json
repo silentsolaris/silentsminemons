@@ -186,12 +186,7 @@
       "learnableMoves": [
 	  "fester"
 	  ],
-      "requirements": [
-        {
-          "variant": "properties",
-          "target": "gender=female"
-        }
-      ],
+      "requirements": [],
       "requiredContext": "minecraft:ender_eye"
     } 
   ]

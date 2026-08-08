@@ -74,20 +74,8 @@
       "maxSize": "3",
       "toleratedLeaders": [
         {
-          "pokemon": "bronzong",
+          "pokemon": "rapscam",
           "tier": 1
-        },
-        {
-          "pokemon": "klang",
-          "tier": 1
-        },
-        {
-          "pokemon": "klinklang",
-          "tier": 2
-        },
-	    {
-          "pokemon": "jesteratus",
-          "tier": 3
         }
 		]
     },
