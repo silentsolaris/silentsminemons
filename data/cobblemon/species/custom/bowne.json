@@ -83,7 +83,7 @@
           "tier": 1
         },
         {
-          "pokemon": "bognmarrow",
+          "pokemon": "musheteer",
           "tier": 2
         },
 		{
@@ -239,9 +239,9 @@
   ],
  "evolutions": [
  {
-      "id": "bowne_bognmarrow-1",
+      "id": "bowne_musheteer-1",
       "variant": "level_up",
-      "result": "bognmarrow",
+      "result": "musheteer",
       "consumeHeldItem": false,
       "learnableMoves": [
 	  "spore"
