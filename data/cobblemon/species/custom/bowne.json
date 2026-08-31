@@ -244,7 +244,7 @@
       "result": "musheteer",
       "consumeHeldItem": false,
       "learnableMoves": [
-	  "spore"
+	  "blunderpowder"
 	  ],
       "requirements": [
         {
