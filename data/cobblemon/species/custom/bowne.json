@@ -303,8 +303,10 @@
 
 	},
   {
-      "consumeHeldItem": false,
       "id": "bowne_spinerado",
+      "variant": "level_up",
+      "result": "withereign",
+      "consumeHeldItem": false,
       "learnableMoves": [
         "triplewhip"
       ],
@@ -315,7 +317,7 @@
         },
         {
           "variant": "party_member",
-          "target": "type=dark",
+          "target": "type=ground",
           "contains": true
         }
       ]
