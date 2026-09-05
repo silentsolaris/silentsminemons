@@ -1,0 +1,72 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cuddelavee-1",
+            "pokemon": "cuddelavee",
+            "presets": [
+                "wild",
+				"natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "26-45",
+            "weight": 2,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_desert",
+                    "yungscavebiomes:lost_caves"
+                ]
+            }
+        },
+        {
+            "id": "cuddelavee-2",
+            "pokemon": "cuddelavee",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "26-45",
+            "weight": 2,
+            "condition": {
+				"structures": [
+				"minecraft:village_desert",
+                "minecraft:village_savanna",
+                "minecraft:pyramid",
+                "betterdeserttemples:desert_temple"
+				],
+                "neededBaseBlocks": [
+                    "minecraft:farmland",
+                    "minecraft:grass_block",
+                    "minecraft:dirt_path",
+                    "minecraft:dirt",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:gravel",
+                    "minecraft:stone",
+                    "minecraft:sand"
+                ]
+            }
+        },
+        {
+            "id": "cuddelavee-1",
+            "pokemon": "cuddelavee",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "10-35",
+            "weight": 2,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:pink_wool",
+					"minecraft:pink_carpet"
+                ],
+                "neededBaseBlocks": [
+                    "minecraft:sand"
+                ]
+            }
+        }
+   ]
+}

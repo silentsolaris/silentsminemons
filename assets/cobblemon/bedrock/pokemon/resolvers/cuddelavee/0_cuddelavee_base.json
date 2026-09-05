@@ -1,0 +1,18 @@
+{
+ "species": "cobblemon:cuddelavee",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:cuddelavee",
+     "model": "cobblemon:cuddelavee.geo",
+     "texture": "cobblemon:textures/pokemon/cuddelavee/cuddelavee.png"
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/cuddelavee/cuddelavee_shiny.png"
+   }
+ ]
+}

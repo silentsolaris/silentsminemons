@@ -3,7 +3,7 @@
   "nationalPokedexNumber": 2003,
   "name": "dromadust",
   "primaryType": "ground",
-  "maleRatio": 0.5,
+  "maleRatio": 0.7,
   "height": 5,
   "weight": 150,
   "pokedex": [
@@ -187,7 +187,7 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 20
+          "minLevel": 26
         }
       ]
     }

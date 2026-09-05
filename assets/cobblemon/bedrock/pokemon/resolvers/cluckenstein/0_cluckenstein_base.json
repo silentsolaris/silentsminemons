@@ -1,0 +1,18 @@
+{
+ "species": "cobblemon:cluckenstein",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:cluckenstein",
+     "model": "cobblemon:cluckenstein.geo",
+     "texture": "cobblemon:textures/pokemon/cluckenstein/cluckenstein.png"
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/cluckenstein/cluckenstein_shiny.png"
+   }
+ ]
+}

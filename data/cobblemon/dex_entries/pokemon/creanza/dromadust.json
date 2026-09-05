@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:dromadust",
+  "speciesId": "cobblemon:dromadust",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

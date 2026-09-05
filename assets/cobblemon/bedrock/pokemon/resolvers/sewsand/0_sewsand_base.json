@@ -1,0 +1,18 @@
+{
+ "species": "cobblemon:sewsand",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:sewsand",
+     "model": "cobblemon:sewsand.geo",
+     "texture": "cobblemon:textures/pokemon/sewsand/sewsand.png"
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/sewsand/sewsand_shiny.png"
+   }
+ ]
+}
