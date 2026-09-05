@@ -1,8 +1,8 @@
 {
- "portraitScale": 2,
- "portraitTranslation": [ -0.5, 2, 0 ],
- "profileScale": 0.5,
- "profileTranslation": [ 0, 1, 0 ],
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.4, 0.4, 0],
+  "profileScale": 0.8,
+  "profileTranslation": [0, 0.55, 0],
  "animations": {
    "faint": "q.bedrock_primary('dromadust', 'faint', q.curve('one'))",
    "cry": "q.bedrock_stateful('dromadust', 'cry')",

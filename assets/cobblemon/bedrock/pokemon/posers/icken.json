@@ -1,8 +1,8 @@
 {
  "portraitScale": 2,
  "portraitTranslation": [ -0.1, -1.2, 0 ],
- "profileScale": 1,
- "profileTranslation": [ 0, 0.3, 0 ],
+ "profileScale": 1.5,
+ "profileTranslation": [ 0, -0.39, 0 ],
  "animations": {
    "faint": "q.bedrock_primary('icken', 'faint', q.curve('one'))",
    "cry": "q.bedrock_stateful('icken', 'cry')",
@@ -18,8 +18,7 @@
      "animations": [
        "q.look('head')",
        "q.bedrock('icken', 'battle_idle')"
-     ],
-     "quirks": ["q.bedrock_quirk('icken', 'blink')"]
+     ]
    },
    "standing": {
      "poseName": "standing",
@@ -33,15 +32,13 @@
      "animations": [
        "look",
        "bedrock(icken, ground_idle)"
-     ],
-     "quirks": ["q.bedrock_quirk('icken', 'blink')"]
+     ]
    },
    "walking": {
      "poseName": "walking",
      "transformTicks": 10,
      "poseTypes": [ "WALK" ],
-     "animations": [ "bedrock(icken, ground_walk)" ],
-     "quirks": ["q.bedrock_quirk('icken', 'blink')"]
+     "animations": [ "bedrock(icken, ground_walk)" ]
 		},
     "sleep": {
      "poseTypes": ["SLEEP"],

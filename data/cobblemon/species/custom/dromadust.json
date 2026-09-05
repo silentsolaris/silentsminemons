@@ -48,7 +48,7 @@
   "standingEyeHeight": 1,
   "hitbox": {
     "width": 0.7,
-    "height": 1,
+    "height": 1.5,
     "fixed": false
   },
   "behaviour": {
@@ -64,7 +64,7 @@
     },
     "moving": {
       "walk": {
-        "walkSpeed": 0.15
+        "walkSpeed": 0.2
       },
       "swim": {
         "avoidsWater": true,

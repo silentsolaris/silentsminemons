@@ -47,8 +47,8 @@
   "baseScale": 1,
   "standingEyeHeight": 1,
   "hitbox": {
-    "width": 0.7,
-    "height": 1,
+    "width": 0.5,
+    "height": 0.5,
     "fixed": false
   },
   "behaviour": {

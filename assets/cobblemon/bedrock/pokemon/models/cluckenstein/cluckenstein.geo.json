@@ -13,7 +13,7 @@
 			"bones": [
 				{
 					"name": "Cluckenstein",
-					"pivot": [1.375, 8.19535, 1.3386]
+					"pivot": [0, 0, 0]
 				},
 				{
 					"name": "rotation",

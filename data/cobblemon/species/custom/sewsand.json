@@ -46,10 +46,10 @@
   "baseFriendship": 50,
   "shoulderMountable": false,
   "baseScale": 1,
-  "standingEyeHeight": 1,
+  "standingEyeHeight": 0.9,
   "hitbox": {
     "width": 0.7,
-    "height": 1,
+    "height": 1.9,
     "fixed": false
   },
   "behaviour": {
@@ -65,7 +65,7 @@
     },
     "moving": {
       "walk": {
-        "walkSpeed": 0.15
+        "walkSpeed": 0.2
       },
       "swim": {
         "avoidsWater": true,

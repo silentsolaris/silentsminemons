@@ -1,8 +1,8 @@
 {
- "portraitScale": 2,
- "portraitTranslation": [ -0.3, 1.5, 0 ],
- "profileScale": 0.6,
- "profileTranslation": [ 0, 0.9, 0 ],
+  "portraitScale": 2.2,
+  "portraitTranslation": [-0.55, 0.1, 0],
+  "profileScale": 0.9,
+  "profileTranslation": [0, 0.4, 0],
  "animations": {
    "cry": "q.bedrock_stateful('cluckenstein', 'cry')",
    "recoil": "q.bedrock_stateful('cluckenstein', 'recoil')"
@@ -14,7 +14,9 @@
      "animations": [
        "q.look('head')",
        "q.bedrock('cluckenstein', 'battle_idle')"
-     ]
+     ],
+     "quirks": ["q.bedrock_quirk('cluckenstein', 'quirk1')"
+      ]
    },
    "standing": {
      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
@@ -22,14 +24,18 @@
      "animations": [
        "q.look('head')",
        "q.bedrock('cluckenstein', 'ground_idle')"
-     ]
+     ],
+     "quirks": ["q.bedrock_quirk('cluckenstein', 'quirk1')"
+      ]
    },
    "walking": {
      "poseTypes": ["WALK"],
      "animations": [
        "q.look('head')",
        "q.bedrock('cluckenstein', 'ground_walk')"
-     ]
+     ],
+     "quirks": ["q.bedrock_quirk('cluckenstein', 'quirk1')"
+      ]
    },
    "sleep": {
      "poseTypes": ["SLEEP"],

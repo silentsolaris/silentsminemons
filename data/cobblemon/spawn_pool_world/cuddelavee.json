@@ -46,7 +46,8 @@
                     "minecraft:coarse_dirt",
                     "minecraft:gravel",
                     "minecraft:stone",
-                    "minecraft:sand"
+                    "minecraft:sand",
+                    "minecraft:sandstone"
                 ]
             }
         },
@@ -64,7 +65,8 @@
 					"minecraft:pink_carpet"
                 ],
                 "neededBaseBlocks": [
-                    "minecraft:sand"
+                    "minecraft:sand",
+                    "minecraft:sandstone"
                 ]
             }
         }
