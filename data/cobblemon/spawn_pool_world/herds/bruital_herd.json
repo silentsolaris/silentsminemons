@@ -1,0 +1,98 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bruital-herd-1",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "15-30",
+      "weight": 9,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "canSeeSky": false,
+        "biomes": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_glacial",
+            "#cobblemon:is_tundra",
+            "twilightforest:snowy_forest",
+            "yungscavebiomes:frosted_caves"
+        ]
+      },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "bruital",
+          "weight": 90.0,
+          "levelRange": "11-30",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "shivor",
+          "weight": 10.0,
+          "levelRange": "40-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "bruital-herd-2",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "15-30",
+      "weight": 25.2,
+      "condition": {
+        "minSkyLight": 2,
+        "maxSkyLight": 15,
+        "canSeeSky": false,
+        "biomes": [
+            "minecraft:frozen_ocean",
+            "twilightforest:glacier"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "bruital",
+          "weight": 90.0,
+          "levelRange": "11-30",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "shivor",
+          "weight": 10.0,
+          "levelRange": "40-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

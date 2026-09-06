@@ -10,7 +10,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "rare",
             "level": "20-45",
-            "weight": 6,
+            "weight": 60,
             "weightMultiplier": {
                 "multiplier": 5.0,
                 "condition": {
@@ -50,9 +50,9 @@
             "pokemon": "tormniac",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "rare",
+            "bucket": "uncommon",
             "level": "20-45",
-            "weight": 6,
+            "weight": 20,
             "weightMultiplier": {
                 "multiplier": 5.0,
                 "condition": {

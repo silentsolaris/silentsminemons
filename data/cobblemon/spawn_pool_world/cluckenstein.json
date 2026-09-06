@@ -10,7 +10,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "5-30",
-            "weight": 5.25,
+            "weight": 7.12,
             "condition": {
 				"timeRange": "night",
                 "biomes": [

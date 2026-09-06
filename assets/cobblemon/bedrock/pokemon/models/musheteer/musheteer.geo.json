@@ -176,6 +176,18 @@
 					]
 				},
 				{
+					"name": "locator_eye_left",
+					"parent": "left_pupil",
+					"pivot": [2.25, 35.5, -4.05],
+					"rotation": [-90, 0, 0],
+					"locators": {
+						"eye2": {
+							"offset": [2.25, 35.5, -4.05],
+							"rotation": [0, 0, 90]
+						}
+					}
+				},
+				{
 					"name": "hat",
 					"parent": "head",
 					"pivot": [0, 37.5, 0.75],

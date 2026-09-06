@@ -12,9 +12,9 @@
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
+            "bucket": "common",
             "level": "41-66",
-            "weight": 1.6,
+            "weight": 10,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
@@ -28,9 +28,9 @@
             "pokemon": "anonkey",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
+            "bucket": "common",
             "level": "41-66",
-            "weight": 1.6,
+            "weight": 10,
             "condition": {
                 "canSeeSky": true,
 				"structures": [
@@ -51,9 +51,9 @@
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "rare",
+            "bucket": "uncommon",
             "level": "50-80",
-            "weight": 2.5,
+            "weight": 9.6,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [

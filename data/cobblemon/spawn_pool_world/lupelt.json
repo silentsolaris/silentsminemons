@@ -14,7 +14,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "24-49",
-            "weight": 0.6,
+            "weight": 6,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [

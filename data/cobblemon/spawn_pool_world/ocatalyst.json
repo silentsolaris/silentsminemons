@@ -10,7 +10,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "20-45",
-            "weight": 2,
+            "weight": 20,
             "condition": {
 				"timeRange": "night",
 				"structures": [
@@ -28,7 +28,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "20-45",
-            "weight": 2,
+            "weight": 20,
             "condition": {
 				"structures": [
                     "minecraft:swamp_hut",

@@ -14,7 +14,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "10-45",
-            "weight": 2,
+            "weight": 16.8,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_desert",
@@ -29,7 +29,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "10-45",
-            "weight": 2,
+            "weight": 54,
             "condition": {
 				"structures": [
 				"minecraft:village_desert",
@@ -46,25 +46,6 @@
                     "minecraft:coarse_dirt",
                     "minecraft:gravel",
                     "minecraft:stone",
-                    "minecraft:sand",
-                    "minecraft:sandstone"
-                ]
-            }
-        },
-        {
-            "id": "dromadust-1",
-            "pokemon": "dromadust",
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
-            "level": "10-35",
-            "weight": 2,
-            "condition": {
-                "neededNearbyBlocks": [
-                    "minecraft:pink_wool",
-					"minecraft:pink_carpet"
-                ],
-                "neededBaseBlocks": [
                     "minecraft:sand",
                     "minecraft:sandstone"
                 ]
