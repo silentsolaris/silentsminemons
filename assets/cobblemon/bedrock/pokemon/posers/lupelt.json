@@ -80,6 +80,10 @@
       "isTouchingWater": true,
       "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('lupelt', 'swim')"],
      "quirks": ["q.bedrock_quirk('lupelt', 'blink')"]
-    }
+    },
+    "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('lupelt', 'sleep')"]
+   }
 	}
 }

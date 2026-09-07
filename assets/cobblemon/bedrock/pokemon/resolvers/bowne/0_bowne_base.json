@@ -23,12 +23,24 @@
      "texture": "cobblemon:textures/pokemon/bowne/bowne_shiny.png",
 	 "layers": [
         {
-              "name": "emissive",
-              "emissive": true,
-              "texture": "cobblemon:textures/pokemon/bowne/bowne_shiny_emissive.png",
-              "translucent": true
+          "name": "emissive",
+          "emissive": true,
+          "texture": "cobblemon:textures/pokemon/bowne/bowne_shiny_emissive.png",
+          "translucent": true
         }
       ]
-   }
+   },
+   {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/bowne/bowne_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
  ]
 }

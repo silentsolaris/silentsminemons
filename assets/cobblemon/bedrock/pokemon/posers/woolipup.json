@@ -43,6 +43,10 @@
        "q.bedrock('woolipup', 'ground_walk')"
      ],
      "quirks": ["q.bedrock_quirk('woolipup', 'blink')"]
+   },
+    "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('woolipup', 'sleep')"]
    }
 	}
 }
