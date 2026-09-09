@@ -38,7 +38,8 @@
         {
           "name": "alpha_eyes",
           "texture": "cobblemon:textures/pokemon/bowne/bowne_alpha.png",
-          "emissive": true
+          "emissive": true,
+          "translucent": true
         }
       ]
     }

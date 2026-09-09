@@ -13,6 +13,32 @@
        "shiny"
      ],
      "texture": "cobblemon:textures/pokemon/cluckenstein/cluckenstein_shiny.png"
-   }
+   },
+   {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/reanderthral/reanderthral_alpha.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
+   {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/cluckenstein/cluckenstein_alpha.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
  ]
 }

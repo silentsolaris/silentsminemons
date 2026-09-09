@@ -29,6 +29,19 @@
               "translucent": true
         }
       ]
-   }
+   },
+   {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/serasea/serasea_alpha.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
  ]
 }

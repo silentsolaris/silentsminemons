@@ -13,6 +13,19 @@
        "shiny"
      ],
      "texture": "cobblemon:textures/pokemon/sewsand/sewsand_shiny.png"
-   }
+   },
+   {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/sewsand/sewsand_alpha.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
  ]
 }

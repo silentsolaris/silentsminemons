@@ -13,6 +13,19 @@
       "aspects": ["shiny"],
       "texture": "cobblemon:textures/pokemon/lupelt/lupelt_shiny.png"
     },
+   {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/lupelt/lupelt_alpha.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    },
       {
         "aspects": ["color-black"],
         "layers": [

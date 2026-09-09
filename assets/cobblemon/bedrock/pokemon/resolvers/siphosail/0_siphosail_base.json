@@ -13,6 +13,19 @@
        "shiny"
      ],
      "texture": "cobblemon:textures/pokemon/siphosail/siphosail_shiny.png"
-   }
+   },
+   {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/siphosail/siphosail_alpha.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
  ]
 }
