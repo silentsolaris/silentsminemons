@@ -30,7 +30,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "10-40",
-            "weight": 90,
+            "weight": 50.4,
             "condition": {
                 "canSeeSky": true,
 				"structures": [

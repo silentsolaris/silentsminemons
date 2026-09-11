@@ -119,6 +119,18 @@
 					]
 				},
 				{
+					"name": "locator_eye_left",
+					"parent": "pupil-camel-left",
+					"pivot": [4.25, 48.51339, -10.14782],
+					"rotation": [-90, 0, 0],
+					"locators": {
+						"eye2": {
+							"offset": [4.25, 48.51339, -10.14782],
+							"rotation": [0, 0, 90]
+						}
+					}
+				},
+				{
 					"name": "eye-camel-right",
 					"parent": "head-camel",
 					"pivot": [-4.01, 48.3125, -10.125],
@@ -136,6 +148,18 @@
 					"cubes": [
 						{"origin": [-4.03, 48.0625, -11.125], "size": [0, 1, 2], "uv": [106, 31], "mirror": true}
 					]
+				},
+				{
+					"name": "locator_eye_right",
+					"parent": "pupil-camel-right",
+					"pivot": [-4.25, 48.51339, -10.14782],
+					"rotation": [-90, 0, 0],
+					"locators": {
+						"eye3": {
+							"offset": [-4.25, 48.51339, -10.14782],
+							"rotation": [0, 0, -90]
+						}
+					}
 				},
 				{
 					"name": "torso-doll",
