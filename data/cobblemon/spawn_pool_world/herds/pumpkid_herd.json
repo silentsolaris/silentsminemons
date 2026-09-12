@@ -1,40 +1,21 @@
 {
-    "enabled": true,
-    "neededInstalledMods": [],
-    "neededUninstalledMods": [],
-    "spawns": [
-        {
-            "id": "pumpkid-1",
-            "pokemon": "pumpkid",
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "common",
-            "level": "10-35",
-            "weight": 57,
-            "condition": {
-                "neededNearbyBlocks": [
-                    "minecraft:pumpkin",
-					"minecraft:carved_pumpkin"
-                ],
-                "neededBaseBlocks": [
-                    "minecraft:farmland",
-                    "minecraft:grass_block",
-                    "minecraft:dirt_path",
-                    "minecraft:dirt"
-                ]
-            }
-        },
-		{
-            "id": "pumpkid-2",
-            "pokemon": "pumpkid",
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "common",
-            "level": "10-35",
-            "weight": 28.5,
-            "condition": {
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "pumpkid-herd-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "10-50",
+      "weight": 28.5,
+      "condition": {
 				"structures": [
-				"minecraft:village_taiga",
+                "minecraft:village_taiga",
 				"minecraft:village_plains",
 				"minecraft:village_savanna",
                 "explorify:farmstead",
@@ -54,7 +35,7 @@
                 "repurposed_structures:village_mountains",
                 "repurposed_structures:village_oak",
                 "philipsruins:pumpkin_ruins"
-				],
+                ],
                 "neededBaseBlocks": [
                     "minecraft:farmland",
                     "minecraft:grass_block",
@@ -65,7 +46,27 @@
                     "minecraft:gravel",
                     "minecraft:stone"
                 ]
-            }
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "pumpkid",
+          "weight": 60.0,
+          "levelRange": "10-35",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "gallagourd",
+          "weight": 40.0,
+          "levelRange": "35-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
         }
-   ]
+      ]
+    }
+  ]
 }

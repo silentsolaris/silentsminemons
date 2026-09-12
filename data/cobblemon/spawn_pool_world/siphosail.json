@@ -4,25 +4,6 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "siphosail-1",
-            "pokemon": "siphosail",
-            "presets": [
-                "water"
-            ],
-            "type": "pokemon",
-            "spawnablePositionType": "surface",
-            "bucket": "uncommon",
-            "level": "20-45",
-            "weight": 100,
-            "condition": {
-                "canSeeSky": true,
-                "biomes": [
-                    "#cobblemon:is_warm_ocean",
-                    "#cobblemon:is_lukewarm_ocean"
-                ]
-            }
-        },
-        {
             "id": "siphosail-2",
             "pokemon": "siphosail",
             "presets": [

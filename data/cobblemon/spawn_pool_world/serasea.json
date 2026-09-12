@@ -13,7 +13,7 @@
             "spawnablePositionType": "submerged",
             "bucket": "uncommon",
             "level": "20-45",
-            "weight": 20,
+            "weight": 16,
             "condition": {
                 "minSkyLight": 0,
                 "maxSkyLight": 7,
@@ -42,7 +42,7 @@
             "spawnablePositionType": "submerged",
             "bucket": "uncommon",
             "level": "20-45",
-            "weight": 20,
+            "weight": 16,
             "condition": {
                 "minSkyLight": 0,
                 "maxSkyLight": 7,
@@ -61,7 +61,7 @@
             "spawnablePositionType": "fishing",
             "bucket": "uncommon",
             "level": "20-45",
-            "weight": 20,
+            "weight": 16,
             "condition": {
                 "minSkyLight": 0,
                 "maxSkyLight": 7,

@@ -1,0 +1,37 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "snowbrawl-herd-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 3,
+      "levelRange": "10-45",
+      "weight": 4,
+      "condition": {
+                "biomes": [
+                    "#cobblemon:is_freezing",
+                    "twilightforest:snowy_forest",
+                    "twilightforest:glacier",
+                    "yungscavebiomes:frosted_caves"
+                ]
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "snowbrawl",
+          "weight": 100.0,
+          "levelRange": "20-45",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

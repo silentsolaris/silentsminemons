@@ -1,0 +1,86 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "ocatalyst-alpha-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "20-100",
+      "weight": 100.0,
+      "condition": {
+				"timeRange": "night",
+				"structures": [
+                "minecraft:village_taiga",
+				        "minecraft:village_plains",
+				        "minecraft:village_savanna",
+				        "minecraft:village_snowy",
+                "minecraft:swamp_hut",
+                "explorify:mangrove_hut",
+                "explorify:dark_forest_settlement",
+                "towns_and_towers:village_swamp",
+                "repurposed_structures:witch_hut_oak",
+                "repurposed_structures:witch_hut_birch",
+                "repurposed_structures:witch_hut_dark_forest",
+                "repurposed_structures:witch_hut_giant_tree_taiga",
+                "repurposed_structures:witch_hut_mangrove",
+                "repurposed_structures:witch_hut_taiga",
+                "repurposed_structures:village_swamp",
+                "repurposed_structures:village_dark_forest",
+                "repurposed_structures:mansion_mangrove",
+                "#betterwitchhuts:has_structure/better_witch_hut",
+                "#betterwitchhuts:has_structure/witch_circle"
+                ],
+                "neededBaseBlocks": [
+                    "minecraft:farmland",
+                    "minecraft:grass_block",
+                    "minecraft:dirt_path",
+                    "minecraft:dirt",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:gravel",
+                    "minecraft:stone"
+                ]
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "ocatalyst held_item=cobblemon:fairy_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "ocatalyst",
+          "weight": 100.0,
+          "levelRange": "20-45",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "mismagius",
+          "weight": 40.0,
+          "levelRange": "39-50",
+          "maxTimes": 1,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "hattrem",
+          "weight": 40.0,
+          "levelRange": "32-37",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

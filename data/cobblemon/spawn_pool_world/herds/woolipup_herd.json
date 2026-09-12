@@ -1,21 +1,20 @@
 {
-    "enabled": true,
-    "neededInstalledMods": [],
-    "neededUninstalledMods": [],
-    "spawns": [
-        {
-            "id": "lupelt-1",
-            "pokemon": "lupelt",
-            "presets": [
-                "wild",
-				"natural"
-            ],
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "common",
-            "level": "24-49",
-            "weight": 3,
-            "condition": {
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "woolipup-herd-1",
+      "presets": [
+        "natural",
+        "wild"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "10-50",
+      "weight": 27,
+      "condition": {
                 "canSeeSky": true,
                 "biomes": [
                     "#cobblemon:is_grassland",
@@ -45,9 +44,29 @@
                     "#cobblemon:is_jungle",
                     "#cobblemon:is_inferno",
                     "#cobblemon:is_void"
-                    ]
-                }
+                ]
             }
+        },
+      "herdablePokemon": [
+        {
+          "pokemon": "woolipup",
+          "weight": 80.0,
+          "levelRange": "10-25",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "lupelt",
+          "weight": 20.0,
+          "levelRange": "24-49",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
         }
-   ]
+      ]
+    }
+  ]
 }

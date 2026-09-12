@@ -14,7 +14,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "10-35",
-            "weight": 54,
+            "weight": 27,
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
@@ -47,7 +47,7 @@
                     "#cobblemon:is_void"
                 ]
             }
-            }
+        }
         }
    ]
 }

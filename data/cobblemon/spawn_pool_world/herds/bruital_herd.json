@@ -1,0 +1,87 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bruital-herd-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "15-66",
+      "weight": 27,
+      "condition": {
+        "canSeeSky": false,
+        "biomes": [
+            "#cobblemon:is_freezing",
+            "#cobblemon:is_glacial",
+            "#cobblemon:is_tundra",
+            "twilightforest:snowy_forest",
+            "yungscavebiomes:frosted_caves"
+        ]
+    },
+      "herdablePokemon": [
+        {
+          "pokemon": "shivor",
+          "weight": 50.0,
+          "levelRange": "41-66",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "bruital",
+          "weight": 50.0,
+          "levelRange": "15-40",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "bruital-herd-2",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "15-66",
+      "weight": 25.2,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+            "minecraft:frozen_ocean",
+            "twilightforest:glacier"
+        ]
+    },
+      "herdablePokemon": [
+        {
+          "pokemon": "shivor",
+          "weight": 50.0,
+          "levelRange": "41-66",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "bruital",
+          "weight": 50.0,
+          "levelRange": "15-40",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

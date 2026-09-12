@@ -1,0 +1,52 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tormniac-alpha-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "31-100",
+      "weight": 100.0,
+      "condition": {
+				"structures": [
+                    "explorify:ruins",
+                    "explorify:mausoleum",
+                    "philipsruins:ancient_crypt",
+                    "repurposed_structures:ruins_land_warm",
+                    "repurposed_structures:ruins_land_hot",
+                    "repurposed_structures:ruins_land_cold",
+                    "minecraft:pyramid",
+                    "minecraft:shipwreck_beached",
+                    "towns_and_towers:mimic_desert",
+                    "explorify:badlands_pyramid",
+                    "explorify:desert_shrine",
+                    "betterdeserttemples:desert_temple"
+                ]
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "tormniac held_item=cobblemon:ghost_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "tormniac",
+          "weight": 100.0,
+          "levelRange": "15-40",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

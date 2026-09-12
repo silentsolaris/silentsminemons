@@ -1,0 +1,43 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "parropot-alpha-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "20-100",
+      "weight": 100.0,
+      "condition": {
+				"structures": [
+                "cobblemon:ruin",
+                "towns_and_towers:village_flower_forest",
+                "repurposed_structures:city_overworld"
+                ]
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "parropot candle held_item=cobblemon:rock_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "parropot empty",
+          "weight": 100.0,
+          "levelRange": "15-40",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

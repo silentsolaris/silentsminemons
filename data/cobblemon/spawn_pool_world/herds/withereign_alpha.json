@@ -1,0 +1,43 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "withereign-alpha-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "31-100",
+      "weight": 100.0,
+      "condition": {
+            "biomes": [
+                "#cobblemon:is_soul_fire",
+				"#cobblemon:is_soul_sand"
+            ]
+        },
+      "herdablePokemon": [
+        {
+          "pokemon": "withereign held_item=cobblemon:poison_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "bowne",
+          "weight": 100.0,
+          "levelRange": "31-56",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

@@ -5,6 +5,10 @@
     "spawns": [
 		{
             "id": "tormniac-1",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
             "pokemon": "tormniac",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
@@ -47,12 +51,16 @@
         },
 		{
             "id": "tormniac-2",
+            "presets": [
+                "natural",
+                "treetop"
+            ],
             "pokemon": "tormniac",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "20-45",
-            "weight": 20,
+            "weight": 10,
             "weightMultiplier": {
                 "multiplier": 5.0,
                 "condition": {

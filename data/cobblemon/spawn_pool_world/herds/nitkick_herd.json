@@ -1,0 +1,88 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "nitkick-herd-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 7,
+      "levelRange": "10-60",
+      "weight": 45.0,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+            "#cobblemon:is_savanna",
+            "twilightforest:oak_savanna"
+        ],
+        "timeRange": "day"
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "nitkick",
+          "weight": 80.0,
+          "levelRange": "10-29",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "anonkey",
+          "weight": 20.0,
+          "levelRange": "35-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "nitkick-herd-2",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 7,
+      "levelRange": "20-60",
+      "weight": 25.2,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+            "#cobblemon:is_desert",
+            "#cobblemon:is_badlands"
+        ],
+        "timeRange": "day"
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "nitkick",
+          "weight": 80.0,
+          "levelRange": "20-30",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "anonkey",
+          "weight": 20.0,
+          "levelRange": "45-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

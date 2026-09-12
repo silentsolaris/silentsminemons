@@ -1,0 +1,77 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "cuddelavee-alpha-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 6,
+      "levelRange": "31-100",
+      "weight": 100.0,
+      "condition": {
+				"structures": [
+				"minecraft:village_desert",
+                "minecraft:village_savanna",
+                "minecraft:pyramid",
+                "#cobblemon:is_desert",
+                "yungscavebiomes:lost_caves",
+                "betterdeserttemples:desert_temple"
+				],
+                "neededBaseBlocks": [
+                    "minecraft:farmland",
+                    "minecraft:grass_block",
+                    "minecraft:dirt_path",
+                    "minecraft:dirt",
+                    "minecraft:podzol",
+                    "minecraft:coarse_dirt",
+                    "minecraft:gravel",
+                    "minecraft:stone",
+                    "minecraft:sand",
+                    "minecraft:sandstone"
+                ]
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "cuddelavee held_item=cobblemon:fairy_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "cuddelavee",
+          "weight": 100.0,
+          "levelRange": "35-60",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "sewsand",
+          "weight": 50.0,
+          "levelRange": "20-40",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 4,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "dromadust",
+          "weight": 20.0,
+          "levelRange": "10-35",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 6,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

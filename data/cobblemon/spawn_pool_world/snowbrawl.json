@@ -7,14 +7,13 @@
             "id": "snowbrawl-1",
             "pokemon": "snowbrawl",
             "presets": [
-                "wild",
 				"natural"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "20-45",
-            "weight": 20,
+            "weight": 16,
             "condition": {
                 "biomes": [
                     "#cobblemon:is_freezing",

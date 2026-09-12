@@ -31,7 +31,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "35-50",
-            "weight": 3,
+            "weight": 1.5,
             "condition": {
 				"structures": [
                 "minecraft:village_taiga",

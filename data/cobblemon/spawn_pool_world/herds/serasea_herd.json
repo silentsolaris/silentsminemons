@@ -1,0 +1,36 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "serasea-herd-1",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "submerged",
+      "maxHerdSize": 2,
+      "levelRange": "20-45",
+      "weight": 100,
+      "condition": {
+                "biomes": [
+                    "#cobblemon:is_cold_ocean",
+                    "#cobblemon:is_frozen_ocean",
+                    "#cobblemon:is_deep_ocean"
+                ]
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "serasea",
+          "weight": 100.0,
+          "levelRange": "10-45",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

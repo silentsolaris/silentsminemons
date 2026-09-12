@@ -1,0 +1,69 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "tormniac-herd-1",
+      "presets": [
+        "natural",
+         "treetop"
+    ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 5,
+      "levelRange": "20-45",
+      "weight": 10,
+      "weightMultiplier": {
+                "multiplier": 5.0,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:white_bed",
+                    "minecraft:black_bed",
+                    "minecraft:orange_bed",
+                    "minecraft:magenta_bed",
+                    "minecraft:light_blue_bed",
+                    "minecraft:light_gray_bed",
+                    "minecraft:yellow_bed",
+                    "minecraft:lime_bed",
+                    "minecraft:blue_bed",
+                    "minecraft:red_bed",
+                    "minecraft:green_bed",
+                    "minecraft:purple_bed",
+                    "minecraft:pink_bed",
+                    "minecraft:cyan_bed",
+                    "minecraft:gray_bed",
+                    "minecraft:brown_bed"
+                    ]
+                }
+            },
+            "condition": {
+				"structures": [
+                    "explorify:ruins",
+                    "explorify:mausoleum",
+                    "philipsruins:ancient_crypt",
+                    "repurposed_structures:ruins_land_warm",
+                    "repurposed_structures:ruins_land_hot",
+                    "repurposed_structures:ruins_land_cold",
+                    "minecraft:pyramid",
+                    "minecraft:shipwreck_beached",
+                    "towns_and_towers:mimic_desert",
+                    "explorify:badlands_pyramid",
+                    "explorify:desert_shrine",
+                    "betterdeserttemples:desert_temple"
+                ]
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "tormniac",
+          "weight": 100.0,
+          "levelRange": "20-45",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}
