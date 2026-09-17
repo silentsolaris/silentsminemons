@@ -1,0 +1,220 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2003,
+  "name": "skelute",
+  "primaryType": "ghost",
+  "secondaryType": "water",
+  "maleRatio": 0.3,
+  "height": 5,
+  "weight": 80,
+  "pokedex": [
+    "cobblemon.species.skelute.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "cursedbody",
+    "soundproof",
+    "h:perishbody"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 75,
+    "attack": 40,
+    "defence": 30,
+    "special_attack": 60,
+    "special_defence": 80,
+    "speed": 40
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_slow",
+  "catchRate": 80,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.15
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+	  	  {
+          "pokemon": "vessilage",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:bone",
+        "quantityRange": "2-5"
+      },
+	  {
+        "item": "cobblemon:kasib_berry",
+        "percentage": 3.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:astonish",
+    "1:watergun",
+    "1:growl",
+    "5:disarmingvoice",
+    "11:confuseray",
+    "16:nightshade",
+    "20:sing",
+    "23:waterpulse",
+    "27:embargo",
+    "31:ominouswind",
+    "36:painsplit",
+    "42:shadowball",
+    "47:hydropump",
+    "tm:skittersmack",
+    "tm:torment",
+    "tm:knockoff",
+    "tm:faketears",
+    "tm:payback",
+    "tm:embargo",
+    "tm:foulplay",
+    "tm:eerieimpulse",
+    "tm:disarmingvoice",
+    "tm:dazzlinggleam",
+    "tm:aurasphere",
+    "tm:vacuumwave",
+    "tm:willowisp",
+    "tm:defog",
+    "tm:tailwind",
+    "tm:nightshade",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:spite",
+    "tm:shadowball",
+    "tm:ominouswind",
+    "tm:hex",
+    "tm:phantomforce",
+    "tm:poltergeist",
+    "tm:trailblaze",
+    "tm:mudslap",
+    "tm:highhorsepower",
+    "tm:stompingtantrum",
+    "tm:icebeam",
+    "tm:blizzard",
+    "tm:haze",
+    "tm:icywind",
+    "tm:tripleaxel",
+    "tm:hyperbeam",
+    "tm:screech",
+    "tm:focusenergy",
+    "tm:metronome",
+    "tm:swift",
+    "tm:scaryface",
+    "tm:painsplit",
+    "tm:encore",
+    "tm:uproar",
+    "tm:helpinghand",
+    "tm:hypervoice",
+    "tm:weatherball",
+    "tm:block",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:workup",
+    "tm:confide",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:amnesia",
+    "tm:futuresight",
+    "tm:magiccoat",
+    "tm:imprison",
+    "tm:calmmind",
+    "tm:zenheadbutt",
+    "tm:powergem",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:whirlpool",
+    "tm:hydropump",
+    "tm:raindance",
+    "tm:muddywater",
+    "tm:waterpulse",
+    "tm:brine",
+    "tm:scald",
+    "tm:liquidation",
+    "tm:flipturn",
+    "tm:chillingwater",
+    "egg:perishsong",
+    "egg:destinybond",
+    "egg:lifedew",
+    "egg:aquaring"
+  ],
+ "evolutions": [
+     {
+      "id": "skelute-vessilage",
+      "variant": "level_up",
+      "result": "vessilage",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+	  "destinybond"
+	  ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]
+    }
+  ]
+}
