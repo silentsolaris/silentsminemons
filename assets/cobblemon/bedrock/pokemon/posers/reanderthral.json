@@ -1,0 +1,45 @@
+{
+  "portraitScale": 2,
+  "portraitTranslation": [-1.3, 3.2, 0],
+  "profileScale": 0.4,
+  "profileTranslation": [0, 1.2, 0],
+ "animations": {
+   "cry": "q.bedrock_stateful('reanderthral', 'cry')",
+   "recoil": "q.bedrock_stateful('reanderthral', 'recoil')"
+ },
+ "poses": {
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('reanderthral', 'battle_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('reanderthral', 'blink1')"
+      ]
+   },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('reanderthral', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('reanderthral', 'blink1')"
+      ]
+   },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('reanderthral', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('reanderthral', 'blink1')"
+      ]
+   },
+   "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('reanderthral', 'sleep')"]
+   }
+	}
+}

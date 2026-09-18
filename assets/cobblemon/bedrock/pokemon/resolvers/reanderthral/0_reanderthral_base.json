@@ -1,17 +1,17 @@
 {
- "species": "cobblemon:cluckenstein",
+ "species": "cobblemon:reanderthral",
  "order": 0,
  "variations": [
    {
      "aspects": [],
-     "poser": "cobblemon:cluckenstein",
-     "model": "cobblemon:cluckenstein.geo",
-     "texture": "cobblemon:textures/pokemon/cluckenstein/cluckenstein.png",
+     "poser": "cobblemon:reanderthral",
+     "model": "cobblemon:reanderthral.geo",
+     "texture": "cobblemon:textures/pokemon/reanderthral/reanderthral.png",
      "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "cobblemon:textures/pokemon/cluckenstein/cluckenstein_emissive.png",
+              "texture": "cobblemon:textures/pokemon/reanderthral/reanderthral_emissive.png",
               "translucent": true
         }
       ]
@@ -20,12 +20,12 @@
      "aspects": [
        "shiny"
      ],
-     "texture": "cobblemon:textures/pokemon/cluckenstein/cluckenstein_shiny.png",
+     "texture": "cobblemon:textures/pokemon/reanderthral/reanderthral_shiny.png",
      "layers": [
         {
               "name": "emissive",
               "emissive": true,
-              "texture": "cobblemon:textures/pokemon/cluckenstein/cluckenstein_shiny_emissive.png",
+              "texture": "cobblemon:textures/pokemon/reanderthral/reanderthral_shiny_emissive.png",
               "translucent": true
         }
       ]
