@@ -157,7 +157,7 @@
     "cobblemon.move.blastospore.desc": "The user explodes in a cloud of spores to inflict damage on adjacent foes. The user faints upon using this move.",
 
     "cobblemon.move.blunderpowder": "Blunder Powder",
-    "cobblemon.move.blunderpowder.desc": "The user fires a muddy musket ball at the target. The spore powder damages Pokémon next to the target as well.",
+    "cobblemon.move.blunderpowder.desc": "The user fires a muddy musket ball at the target. The spore powder damages Pokémon next to the target as well and may leave them poisoned.",
 
     "cobblemon.move.dealer": "Dealer",
     "cobblemon.move.dealer.desc": "The user shuffles the items of every Pokémon, randomly giving each of them a new item amongst those on the field.",
@@ -201,6 +201,9 @@
     "cobblemon.move.backburn": "Backburn",
     "cobblemon.move.backburn.desc": "The user snuffs out the target with its own flames. This move is super effective on Fire-type Pokémon.",
 
+    "cobblemon.move.dreamneedle": "Dream Needle",
+    "cobblemon.move.dreamneedle.desc": "The user reaches into the target's dreams. This may also put the target asleep. This move's power is doubled if the target is already asleep.",
+
     "cobblemon.move.allornothing": "All or Nothing",
     "cobblemon.move.allornothing.desc": "The user heroically slams the target with their steely body. This also damages the user quite a lot.",
 
@@ -233,6 +236,9 @@
 
     "cobblemon.move.absolutestrike": "Absolute Strike",
     "cobblemon.move.absolutestrike.desc": "In this two-turn attack, the user centers itself and boosts its Sp. Def stat, then attacks the target on the next turn.",
+
+    "cobblemon.move.paddedblow": "Padded Blow",
+    "cobblemon.move.paddedblow.desc": "The user slams the target with a muffling fabric. The target's ability is now suppressed.",
 
     "cobblemon.ability.anomaly": "Anomaly",
     "cobblemon.ability.anomaly.desc": "While this Pokémon is on the field, type interactions are reversed.",
