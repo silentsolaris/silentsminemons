@@ -1,6 +1,6 @@
 {
 	    onModifySpDPriority: 1,
-		onModifySpD(spd) {
+		onModifySpD(spd, pokemon) {
 			if (pokemon.hasItem('assaultvest')) return;
 			return this.chainModify(1.5);
 		},
