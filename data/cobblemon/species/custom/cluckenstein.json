@@ -197,7 +197,7 @@
       "result": "reanderthal",
       "consumeHeldItem": false,
       "learnableMoves": [
-	  "wildcharge"
+	  "revivalblessing"
 	  ],
       "requirements": [
         {
