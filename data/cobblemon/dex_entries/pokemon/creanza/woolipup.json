@@ -13,7 +13,7 @@
   ],
   "variations": [
     {
-      "displayName": "cobblemon.pokedex.variation.color",
+      "displayName": "cobblemon.pokedex.variation.color_sheepdogs",
       "icon": "cobblemon:textures/gui/pokedex/variation/color.png",
       "aspects": [
         "color-none",

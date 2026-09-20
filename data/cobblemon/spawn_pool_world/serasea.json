@@ -11,7 +11,7 @@
             ],
             "type": "pokemon",
             "spawnablePositionType": "submerged",
-            "bucket": "uncommon",
+            "bucket": "rare",
             "level": "20-45",
             "weight": 16,
             "condition": {
@@ -40,7 +40,7 @@
             ],
             "type": "pokemon",
             "spawnablePositionType": "submerged",
-            "bucket": "uncommon",
+            "bucket": "rare",
             "level": "20-45",
             "weight": 16,
             "condition": {
@@ -59,7 +59,7 @@
             "pokemon": "serasea",
             "type": "pokemon",
             "spawnablePositionType": "fishing",
-            "bucket": "uncommon",
+            "bucket": "rare",
             "level": "20-45",
             "weight": 16,
             "condition": {
@@ -81,7 +81,7 @@
             ],
             "type": "pokemon",
             "spawnablePositionType": "submerged",
-            "bucket": "uncommon",
+            "bucket": "rare",
             "level": "20-45",
             "weight": 20,
             "condition": {
@@ -102,7 +102,7 @@
             "pokemon": "serasea",
             "type": "pokemon",
             "spawnablePositionType": "fishing",
-            "bucket": "uncommon",
+            "bucket": "rare",
             "level": "20-45",
             "weight": 20,
             "condition": {

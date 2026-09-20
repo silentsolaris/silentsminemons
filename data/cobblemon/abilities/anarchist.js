@@ -1,10 +1,11 @@
 {
-	if (pokemon.hasitem('assaultvest')) return;
-    onModifySpDPriority: 1,
+	    onModifySpDPriority: 1,
 		onModifySpD(spd) {
+			if (pokemon.hasitem('assaultvest')) return;
 			return this.chainModify(1.5);
 		},
 		onDisableMove(pokemon) {
+			if (pokemon.hasitem('assaultvest')) return;
 			for (const moveSlot of pokemon.moveSlots) {
 				const move = this.dex.moves.get(moveSlot.id);
 				if (move.category === 'Status' && move.id !== 'mefirst') {

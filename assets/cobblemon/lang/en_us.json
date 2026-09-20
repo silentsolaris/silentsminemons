@@ -58,6 +58,8 @@
     "cobblemon.species.ocatalyst-mega.desc": "Upon Mega-evolution its tail has grown large enough to hold gallons of its concoction. It blasts the strange liquid in an arc, with a range as far as the horizon.",
 
     "cobblemon.species.gourmooze.name" : "Gourmooze",
+    "cobblemon.ui.pokedex.info.form.gourmooze" : "Normal",
+    "cobblemon.ui.pokedex.info.form.gourmooze-obese" : "Obese",
     "cobblemon.species.gourmooze.desc" : "It absorbs nutrients into its body directly through its gelatinous skin, becoming more powerful in the process. It is exceptionally difficult to satisfy its unique tastes in food.",
     "cobblemon.species.gourmooze-obese.desc" : "Engorged with a delectible meal, it becomes stronger than it was before. It is most happy when in this form.",
 

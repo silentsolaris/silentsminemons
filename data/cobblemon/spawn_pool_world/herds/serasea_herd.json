@@ -8,7 +8,7 @@
         "water"
       ],
       "type": "pokemon-herd",
-      "bucket": "common",
+      "bucket": "rare",
       "spawnablePositionType": "submerged",
       "maxHerdSize": 2,
       "levelRange": "20-45",
