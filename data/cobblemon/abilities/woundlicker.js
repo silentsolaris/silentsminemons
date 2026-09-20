@@ -2,7 +2,7 @@
         onResidualOrder: 30,
 			onResidual(pokemon) {
                 for (const ally of pokemon.adjacentAllies()) {
-				this.heal(ally.baseMaxhp / 16, ally, pokemon);
+				this.heal(ally.baseMaxhp / 8, ally, pokemon);
 			}
 		},
 		flags: {},

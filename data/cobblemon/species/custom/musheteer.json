@@ -15,9 +15,9 @@
   ],
   "aspects": [],
   "abilities": [
-    "hustle",
-    "longreach",
-    "h:stalwart"
+    "effectspore",
+    "mortar",
+    "h:hustle"
   ],
   "eggGroups": [
     "human_like",
