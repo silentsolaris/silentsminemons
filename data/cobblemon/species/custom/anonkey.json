@@ -38,7 +38,7 @@
     "special_defence": 0,
     "speed": 0
   },
-  "baseExperienceYield": 500,
+  "baseExperienceYield": 140,
   "experienceGroup": "medium_slow",
   "catchRate": 60,
   "eggCycles": 25,

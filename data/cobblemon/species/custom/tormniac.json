@@ -17,7 +17,7 @@
   "abilities": [
     "insomnia",
     "stakeout",
-    "h:dreamcatcher"
+    "h:dreamweaver"
   ],
   "eggGroups": [
     "flying"
@@ -38,7 +38,7 @@
     "special_defence": 0,
     "speed": 1
   },
-  "baseExperienceYield": 130,
+  "baseExperienceYield": 120,
   "experienceGroup": "slow",
   "catchRate": 60,
   "eggCycles": 25,
@@ -212,11 +212,11 @@
     "tm:uturn",
     "tm:weatherball",
     "tm:workup",
+    "tm:featherdance",
+    "tm:roost",
     "egg:switcheroo",
     "egg:punishment",
-    "egg:pursuit",
-    "egg:featherdance",
-    "egg:roost"
+    "egg:pursuit"
   ],
  "evolutions": []
 }

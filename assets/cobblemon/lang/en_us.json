@@ -59,6 +59,7 @@
 
     "cobblemon.species.gourmooze.name" : "Gourmooze",
     "cobblemon.species.gourmooze.desc" : "It absorbs nutrients into its body directly through its gelatinous skin, becoming more powerful in the process. It is exceptionally difficult to satisfy its unique tastes in food.",
+    "cobblemon.species.gourmooze-obese.desc" : "Engorged with a delectible meal, it becomes stronger than it was before. It is most happy when in this form.",
 
     "cobblemon.species.souslag.name" : "Souslag",
     "cobblemon.species.souslag.desc" : "It travels far and wide in search for the best ingredients to cook with. While having a short temper, it is quite satisfied when its food is enjoyed by others. It is said this Pokémon taught humanity how to preserve food using ice in ancient times.",
@@ -327,8 +328,8 @@
     "cobblemon.ability.woundlicker": "Wound Licker",
     "cobblemon.ability.woundlicker.desc": "At the end of every turn this Pokémon licks the wounds of its partner, which slowly and steadily recovers its HP.",
 
-    "cobblemon.ability.dreamcatcher": "Dream Catcher",
-    "cobblemon.ability.dreamcatcher.desc": "The Pokémon feeds on the dreams of the Pokémon it damages, healing HP equal to a fraction of the damage dealt.",
+    "cobblemon.ability.dreamweaver": "Dream Catcher",
+    "cobblemon.ability.dreamweaver.desc": "The Pokémon feeds on the dreams of the Pokémon it damages, healing HP equal to a fraction of the damage dealt.",
 
     "cobblemon.ability.withering": "Withering",
     "cobblemon.ability.withering.desc": "The Pokémon's damaging Poison-type moves ignore immunities.",

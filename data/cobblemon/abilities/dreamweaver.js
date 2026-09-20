@@ -8,6 +8,6 @@
             }
 		},
         flags: {},
-		name: "Dreamcatcher",
+		name: "Dream Weaver",
 		rating: 3,
 }
