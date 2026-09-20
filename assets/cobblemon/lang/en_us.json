@@ -304,8 +304,8 @@
     "cobblemon.ability.frostfist": "Frost Fist",
     "cobblemon.ability.frostfist.desc": "This Pokémon's punching moves have a chance to freeze.",
 
-    "cobblemon.ability.toxicbody": "Toxic Body",
-    "cobblemon.ability.toxicbody.desc": "Making contact with this Pokémon has a chance to badly poison the attacker.",
+    "cobblemon.ability.toxicblade": "Toxic Blade",
+    "cobblemon.ability.toxicblade.desc": "When this Pokémon attacks with a slicing move, it has a chance to badly poison the target.",
 
     "cobblemon.ability.heroism": "Heroism",
     "cobblemon.ability.heroism.desc": "This Pokémon's moves are dynamically boosted the more damaged this Pokémon is.",

@@ -1,4 +1,5 @@
 {
+	if (pokemon.hasitem('assaultvest')) return;
     onModifySpDPriority: 1,
 		onModifySpD(spd) {
 			return this.chainModify(1.5);
