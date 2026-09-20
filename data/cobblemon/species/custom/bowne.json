@@ -305,7 +305,7 @@
   {
       "id": "bowne_spinerado",
       "variant": "level_up",
-      "result": "withereign",
+      "result": "spinerado",
       "consumeHeldItem": false,
       "learnableMoves": [
         "triplewhip"

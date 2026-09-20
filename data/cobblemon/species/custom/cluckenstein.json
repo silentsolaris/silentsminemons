@@ -25,9 +25,9 @@
   "baseStats": {
     "hp": 80,
     "attack": 110,
-    "defence": 80,
-    "special_attack": 100,
-    "special_defence": 80,
+    "defence": 60,
+    "special_attack": 80,
+    "special_defence": 60,
     "speed": 50
   },
   "evYield": {
@@ -190,7 +190,7 @@
   ],
  "evolutions": [
      {
-      "id": "cluckenstein-reanderthal",
+      "id": "cluckenstein-reanderthral",
       "variant": "level_up",
       "result": "reanderthal",
       "consumeHeldItem": false,
