@@ -8,7 +8,7 @@
 			}
 		},
 		onAnyRedirectTarget(target, source, source2, move) {
-			if (move.type !== 'Ghost' || move.flags['pledgecombo']) return;
+			if (move.type !== 'Ghost') return;
 			const redirectTarget = ['randomNormal', 'adjacentFoe'].includes(move.target) ? 'normal' : move.target;
 			if (this.validTarget(this.effectState.target, source, redirectTarget)) {
 				if (move.smartTarget) move.smartTarget = false;

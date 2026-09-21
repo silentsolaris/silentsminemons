@@ -1,0 +1,228 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2004,
+  "name": "cleggary",
+  "primaryType": "bug",
+  "secondaryType": "dragon",
+  "maleRatio": 0.3,
+  "height": 18,
+  "weight": 100,
+  "pokedex": [
+    "cobblemon.species.cleggary.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "compoundeyes",
+    "unnerve",
+    "h:plaguebringer"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 41,
+    "defence": 70,
+    "special_attack": 120,
+    "special_defence": 80,
+    "speed": 113
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 140,
+  "experienceGroup": "medium_fast",
+  "catchRate": 60,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "standingEyeHeight": 1.2,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 1.5,
+    "height": 2,
+    "fixed": false
+  },
+    "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "stats": {
+          "ACCELERATION": "40-60",
+          "JUMP": "30-40",
+          "SKILL": "30-40",
+          "SPEED": "25-40",
+          "STAMINA": "50-80"
+        }
+      }
+    },
+    "seats": [
+  {
+    "locator": "seat_1"
+  }
+]
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.25
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "cleggary",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:coarsed_dirt",
+        "quantityRange": "2-5"
+      },
+	  {
+        "item": "cobblemon:tanga_berry",
+        "percentage": 3.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "special:celebrate",
+    "1:stringshot",
+    "1:infestation",
+    "1:twister",
+    "1:strugglebug",
+    "1:powder",
+    "1:silverwind",
+    "1:toxic",
+    "1:ragepowder",
+    "43:dragonpulse",
+    "47:bugbuzz",
+    "50:quiverdance",
+    "55:locustwave",
+    "tm:leechlife",
+    "tm:signalbeam",
+    "tm:uturn",
+    "tm:bugbuzz",
+    "tm:bugbite",
+    "tm:strugglebug",
+    "tm:infestation",
+    "tm:pollenpuff",
+    "tm:lunge",
+    "tm:skittersmack",
+    "tm:thief",
+    "tm:beatup",
+    "tm:torment",
+    "tm:taunt",
+    "tm:snatch",
+    "tm:embargo",
+    "tm:fling",
+    "tm:darkpulse",
+    "tm:quash",
+    "tm:outrage",
+    "tm:dragondance",
+    "tm:dragonpulse",
+    "tm:dracometeor",
+    "tm:dragontail",
+    "tm:scaleshot",
+    "tm:dragoncheer",
+    "tm:thunderwave",
+    "tm:dazzlinggleam",
+    "tm:flamethrower",
+    "tm:fireblast",
+    "tm:incinerate",
+    "tm:mysticalfire",
+    "tm:burningjealousy",
+    "tm:fly",
+    "tm:defog",
+    "tm:aircutter",
+    "tm:aerialace",
+    "tm:roost",
+    "tm:tailwind",
+    "tm:airslash",
+    "tm:acrobatics",
+    "tm:hurricane",
+    "tm:dualwingbeat",
+    "tm:confuseray",
+    "tm:curse",
+    "tm:ominouswind",
+    "tm:hex",
+    "tm:gigadrain",
+    "tm:trailblaze",
+    "tm:dig",
+    "tm:mudslap",
+    "tm:mudshot",
+    "tm:earthpower",
+    "tm:highhorsepower",
+    "tm:stompingtantrum",
+    "tm:scorchingsands",
+    "tm:haze",
+    "tm:flash",
+    "tm:hyperbeam",
+    "tm:screech",
+    "tm:doubleteam",
+    "tm:swift",
+    "tm:scaryface",
+    "tm:swagger",
+    "tm:weatherball",
+    "tm:gigaimpact",
+    "tm:hypervoice",
+    "tm:echoedvoice",
+    "tm:toxic",
+    "tm:sludgebomb",
+    "tm:gastroacid",
+    "tm:toxicspikes",
+    "tm:gunkshot",
+    "tm:venoshock",
+    "tm:sludgebomb",
+    "tm:corrosivegas",
+    "tm:agility",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:steelwing"
+  ],
+  "preEvolution": "foalae",
+ "evolutions": []
+}

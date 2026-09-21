@@ -12,7 +12,7 @@
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
+            "bucket": "rare",
             "level": "15-40",
             "weight": 60,
             "condition": {
@@ -38,7 +38,7 @@
             "pokemon": "gourmooze",
             "type": "pokemon",
             "spawnablePositionType": "fishing",
-            "bucket": "uncommon",
+            "bucket": "rare",
             "level": "15-40",
             "weight": 60,
             "condition": {
@@ -52,7 +52,7 @@
             "pokemon": "gourmooze",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "common",
+            "bucket": "uncommon",
             "level": "15-40",
             "weight": 20,
             "condition": {

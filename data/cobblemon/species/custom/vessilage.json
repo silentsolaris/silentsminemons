@@ -17,18 +17,18 @@
   "abilities": [
     "cursedbody",
     "soundproof",
-    "h:perishbody"
+    "h:grimwalker"
   ],
   "eggGroups": [
     "amorphous"
   ],
   "baseStats": {
     "hp": 75,
-    "attack": 40,
-    "defence": 20,
-    "special_attack": 60,
-    "special_defence": 80,
-    "speed": 40
+    "attack": 65,
+    "defence": 80,
+    "special_attack": 115,
+    "special_defence": 125,
+    "speed": 45
   },
   "evYield": {
     "hp": 0,
@@ -194,6 +194,12 @@
     "tm:liquidation",
     "tm:flipturn",
     "tm:chillingwater",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:magicroom",
+    "tm:safeguard",
+    "tm:torment",
+    "tm:memento",
     "egg:perishsong",
     "egg:destinybond",
     "egg:lifedew",

@@ -1,0 +1,154 @@
+{
+  "implemented": true,
+  "nationalPokedexNumber": 2003,
+  "name": "foalae",
+  "primaryType": "bug",
+  "maleRatio": 0.3,
+  "height": 5,
+  "weight": 150,
+  "pokedex": [
+    "cobblemon.species.foalae.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "compundeyes",
+    "unnerve",
+    "h:stall"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 55,
+    "attack": 30,
+    "defence": 55,
+    "special_attack": 70,
+    "special_defence": 70,
+    "speed": 75
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 100,
+  "experienceGroup": "medium_fast",
+  "catchRate": 80,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.15
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+	  	  {
+          "pokemon": "cleggary",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+      {
+        "item": "minecraft:dirt",
+        "quantityRange": "2-5"
+      },
+	  {
+        "item": "cobblemon:tanga_berry",
+        "percentage": 3.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "special:celebrate",
+    "1:stringshot",
+    "1:infestation",
+    "5:twister",
+    "10:strugglebug",
+    "15:powder",
+    "15:silverwind",
+    "25:toxic",
+    "30:ragepowder",
+    "40:bugbuzz",
+    "40:toxic",
+    "tm:strugglebug",
+    "tm:pounce",
+    "tm:bugbite",
+    "tm:pinmissile",
+    "tm:leechlife",
+    "tm:bugbuzz",
+    "tm:pollenpuff",
+    "tm:lunge",
+    "tm:skittersmack",
+    "tm:taunt",
+    "tm:defog",
+    "tm:mudslap",
+    "tm:mudshot",
+    "tm:gastroacid"
+  ],
+ "evolutions": [
+     {
+      "id": "foalae-cleggary",
+      "variant": "level_up",
+      "result": "cleggary",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+	  "quiverdance"
+	  ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 35
+        }
+      ]
+    }
+  ]
+}
