@@ -64,7 +64,7 @@
       "isUnderWater": false,
      "animations": [
        "q.look('head')",
-       "q.bedrock('lupelt', 'walk')"
+       "q.bedrock('lupelt', 'ground_walk')"
      ],
      "quirks": ["q.bedrock_quirk('lupelt', 'blink')"]
    },

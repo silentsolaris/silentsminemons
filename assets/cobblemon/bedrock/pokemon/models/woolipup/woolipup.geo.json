@@ -227,8 +227,7 @@
 				{
 					"name": "front_paw_left",
 					"parent": "front_forelimb_left",
-					"pivot": [2.5, 1.85, -2.8],
-					"rotation": [10, 0, 0],
+					"pivot": [2.5, 1.85, -3.8],
 					"cubes": [
 						{"origin": [1.5, -0.03024, -3.81139], "size": [2, 2, 2], "inflate": 0.01, "uv": [32, 40]},
 						{"origin": [1.5, -0.03024, -3.81139], "size": [2, 1, 1], "inflate": 0.2, "uv": [44, 11]},
@@ -257,8 +256,7 @@
 				{
 					"name": "front_paw_right",
 					"parent": "front_forelimb_right",
-					"pivot": [-2.5, 1.85, -2.8],
-					"rotation": [10, 0, 0],
+					"pivot": [-2.5, 1.85, -3.8],
 					"cubes": [
 						{"origin": [-3.5, -0.03024, -3.81139], "size": [2, 2, 2], "inflate": 0.01, "uv": [32, 40], "mirror": true},
 						{"origin": [-3.5, -0.03024, -3.81139], "size": [2, 1, 1], "inflate": 0.2, "uv": [44, 11], "mirror": true},

@@ -396,7 +396,7 @@
 				{
 					"name": "back_forelimb_left",
 					"parent": "back_limb_left",
-					"pivot": [5, 8, 6.85],
+					"pivot": [5, 8, 4.85],
 					"cubes": [
 						{"origin": [2.5, 0, 4.85], "size": [3, 8, 3], "uv": [100, 100]}
 					]
@@ -429,7 +429,7 @@
 				{
 					"name": "back_forelimb_right",
 					"parent": "back_limb_right",
-					"pivot": [-5, 8, 6.85],
+					"pivot": [-5, 8, 4.85],
 					"cubes": [
 						{"origin": [-5.5, 0, 4.85], "size": [3, 8, 3], "uv": [100, 100], "mirror": true}
 					]
