@@ -15,7 +15,9 @@
        "q.look('head')",
        "q.bedrock('cluckenstein', 'battle_idle')"
      ],
-     "quirks": ["q.bedrock_quirk('cluckenstein', 'quirk1')"
+     "quirks": [
+      "q.bedrock_quirk('cluckenstein', 'blink')",
+      "q.bedrock_quirk('cluckenstein', 'quirk1')"
       ]
    },
    "standing": {
@@ -25,7 +27,9 @@
        "q.look('head')",
        "q.bedrock('cluckenstein', 'ground_idle')"
      ],
-     "quirks": ["q.bedrock_quirk('cluckenstein', 'quirk1')"
+     "quirks": [
+      "q.bedrock_quirk('cluckenstein', 'blink')",
+      "q.bedrock_quirk('cluckenstein', 'quirk1')"
       ]
    },
    "walking": {
@@ -34,7 +38,9 @@
        "q.look('head')",
        "q.bedrock('cluckenstein', 'ground_walk')"
      ],
-     "quirks": ["q.bedrock_quirk('cluckenstein', 'quirk1')"
+     "quirks": [
+      "q.bedrock_quirk('cluckenstein', 'blink')",
+      "q.bedrock_quirk('cluckenstein', 'quirk1')"
       ]
    },
    "sleep": {

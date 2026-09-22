@@ -147,7 +147,7 @@
 					]
 				},
 				{
-					"name": "mouth",
+					"name": "mouth_closed",
 					"parent": "head",
 					"pivot": [0, 25.66667, -4.01],
 					"cubes": [
@@ -155,19 +155,59 @@
 					]
 				},
 				{
-					"name": "mouth_side_left",
-					"parent": "mouth",
+					"name": "mouth_closed_side_left",
+					"parent": "mouth_closed",
 					"pivot": [1.1, 26, -4.01],
 					"cubes": [
 						{"origin": [0.6, 25.5, -4.01], "size": [1, 1, 0], "uv": [70, 83]}
 					]
 				},
 				{
-					"name": "mouth_side_right",
-					"parent": "mouth",
+					"name": "mouth_closed_side_right",
+					"parent": "mouth_closed",
 					"pivot": [-1.1, 26, -4.01],
 					"cubes": [
 						{"origin": [-1.6, 25.5, -4.01], "size": [1, 1, 0], "uv": [70, 83], "mirror": true}
+					]
+				},
+				{
+					"name": "mouth_open",
+					"parent": "head",
+					"pivot": [0, 25.25, -3.015],
+					"cubes": [
+						{"origin": [-1.5, 24.5, -3.01], "size": [3, 2, 0], "uv": [34, 86]}
+					]
+				},
+				{
+					"name": "mouth_open_side_right",
+					"parent": "mouth_open",
+					"pivot": [-1.5, 26.25, -3.02],
+					"cubes": [
+						{"origin": [-2, 25.75, -3.02], "size": [1, 1, 0], "uv": [34, 87]}
+					]
+				},
+				{
+					"name": "mouth_open_side_left",
+					"parent": "mouth_open",
+					"pivot": [1.5, 26.25, -3.02],
+					"cubes": [
+						{"origin": [1, 25.75, -3.02], "size": [1, 1, 0], "uv": [34, 87], "mirror": true}
+					]
+				},
+				{
+					"name": "eyebrow_right",
+					"parent": "head",
+					"pivot": [-1.5, 28.5, -2.75],
+					"cubes": [
+						{"origin": [-2.5, 28, -3.25], "size": [2, 4, 1], "uv": [57, 1]}
+					]
+				},
+				{
+					"name": "eyebrow_left",
+					"parent": "head",
+					"pivot": [1.5, 28.5, -2.75],
+					"cubes": [
+						{"origin": [0.5, 28, -3.25], "size": [2, 4, 1], "uv": [57, 1], "mirror": true}
 					]
 				},
 				{
@@ -203,11 +243,11 @@
 				{
 					"name": "locator_eye_right",
 					"parent": "eye_right",
-					"pivot": [-1.5, 28, -4],
+					"pivot": [-1.5, 28, -4.25],
 					"rotation": [-90, 0, 0],
 					"locators": {
 						"eye3": {
-							"offset": [-1.5, 28, -4],
+							"offset": [-1.5, 28, -4.25],
 							"rotation": [0, 0, -90]
 						}
 					}

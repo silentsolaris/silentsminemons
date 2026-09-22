@@ -15,7 +15,9 @@
        "q.look('head')",
        "q.bedrock('reanderthral', 'battle_idle')"
      ],
-     "quirks": ["q.bedrock_quirk('reanderthral', 'blink1')"
+     "quirks": [
+      "q.bedrock_quirk('reanderthral', 'blink1')",
+      "q.bedrock_quirk('reanderthral', 'blink2')"
       ]
    },
    "standing": {
@@ -25,7 +27,9 @@
        "q.look('head')",
        "q.bedrock('reanderthral', 'ground_idle')"
      ],
-     "quirks": ["q.bedrock_quirk('reanderthral', 'blink1')"
+     "quirks": [
+      "q.bedrock_quirk('reanderthral', 'blink1')",
+      "q.bedrock_quirk('reanderthral', 'blink2')"
       ]
    },
    "walking": {
@@ -34,7 +38,9 @@
        "q.look('head')",
        "q.bedrock('reanderthral', 'ground_walk')"
      ],
-     "quirks": ["q.bedrock_quirk('reanderthral', 'blink1')"
+     "quirks": [
+      "q.bedrock_quirk('reanderthral', 'blink1')",
+      "q.bedrock_quirk('reanderthral', 'blink2')"
       ]
    },
    "sleep": {

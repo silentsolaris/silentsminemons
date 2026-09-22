@@ -98,7 +98,7 @@
 					"rotation": [-90, 0, 0],
 					"locators": {
 						"eye2": {
-							"offset": [4.25, 6, -4.25],
+							"offset": [4.35, 5.9, -4.25],
 							"rotation": [0, 0, 90]
 						}
 					}
@@ -123,11 +123,11 @@
 				{
 					"name": "locator_eye_right",
 					"parent": "pupil_right",
-					"pivot": [-4.25, 6, -4.25],
+					"pivot": [-4.35, 6, -4.35],
 					"rotation": [-90, 0, 0],
 					"locators": {
 						"eye3": {
-							"offset": [-4.25, 6, -4.25],
+							"offset": [-4.35, 6, -4.35],
 							"rotation": [0, 0, -90]
 						}
 					}
