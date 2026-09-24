@@ -234,6 +234,9 @@
     "cobblemon.move.chaoskick": "Chaos Kick",
     "cobblemon.move.chaoskick.desc": "The user kicks the target to tear down all they've built. Removes all of the target's stat changes.",
 
+    "cobblemon.move.wispwisk": "Wisp Wisk",
+    "cobblemon.move.wispwisk.desc": "The user fires a bullet of spectral energy. This may lower the target's attack.",
+
     "cobblemon.ability.anarchist": "Anarchist",
     "cobblemon.ability.anarchist.desc": "This Pokémon's Sp. Def is raised but prevents the use of status moves",
 
