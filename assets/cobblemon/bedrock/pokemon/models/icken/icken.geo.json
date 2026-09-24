@@ -59,6 +59,22 @@
 					]
 				},
 				{
+					"name": "eyelid_left",
+					"parent": "head",
+					"pivot": [1.75, 7, -1.75],
+					"cubes": [
+						{"origin": [0.25, 6, -3.25], "size": [3, 2, 3], "inflate": 0.1, "uv": [24, 3]}
+					]
+				},
+				{
+					"name": "eyelid_right",
+					"parent": "head",
+					"pivot": [-1.75, 7, -1.75],
+					"cubes": [
+						{"origin": [-3.25, 6, -3.25], "size": [3, 2, 3], "inflate": 0.1, "uv": [24, 3], "mirror": true}
+					]
+				},
+				{
 					"name": "eyebrow_left",
 					"parent": "head",
 					"pivot": [3.25, 9, -3.25],

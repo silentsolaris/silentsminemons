@@ -19,7 +19,7 @@
       "isUnderWater": false,
      "animations": [
        "q.look('head')",
-       "q.bedrock('serasea', 'land_battle')"
+       "q.bedrock('serasea', 'land_battle_idle')"
      ],
      "quirks": ["q.bedrock_quirk('serasea', 'blink')"]
    },
@@ -31,7 +31,7 @@
       "isUnderWater": true,
       "animations": [
         "q.look('head')",
-        "q.bedrock('serasea', 'water_battle')"
+        "q.bedrock('serasea', 'water_battle_idle')"
       ],
      "quirks": ["q.bedrock_quirk('serasea', 'blink')"]
     },

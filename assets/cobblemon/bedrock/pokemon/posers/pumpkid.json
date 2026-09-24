@@ -37,6 +37,22 @@
    "sleep": {
      "poseTypes": ["SLEEP"],
      "animations": ["q.bedrock('pumpkid', 'sleep')"]
+   },
+   "shoulder_left": {
+     "poseTypes": ["SHOULDER_LEFT"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('pumpkid', 'shoulder_left')"
+     ],
+     "quirks": ["q.bedrock_quirk('pumpkid', 'blink')"]
+   },
+   "shoulder_right": {
+     "poseTypes": ["SHOULDER_RIGHT"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('pumpkid', 'shoulder_right')"
+     ],
+     "quirks": ["q.bedrock_quirk('pumpkid', 'blink')"]
    }
 	}
 }

@@ -17,7 +17,8 @@
      ],
      "quirks": [
       "q.bedrock_quirk('reanderthral', 'blink1')",
-      "q.bedrock_quirk('reanderthral', 'blink2')"
+      "q.bedrock_quirk('reanderthral', 'blink2')",
+      "q.bedrock_quirk('reanderthral', 'look_quirk')"
       ]
    },
    "standing": {
@@ -29,7 +30,8 @@
      ],
      "quirks": [
       "q.bedrock_quirk('reanderthral', 'blink1')",
-      "q.bedrock_quirk('reanderthral', 'blink2')"
+      "q.bedrock_quirk('reanderthral', 'blink2')",
+      "q.bedrock_quirk('reanderthral', 'look_quirk')"
       ]
    },
    "walking": {
