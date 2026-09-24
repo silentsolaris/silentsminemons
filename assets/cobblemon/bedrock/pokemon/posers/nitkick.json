@@ -17,7 +17,9 @@
      "isBattle": true,
      "animations": [
        "q.look('head')",
-       "q.bedrock('nitkick', 'battle_idle')"
+       "q.bedrock('nitkick', 'battle_idle')",
+      "q.bedrock_quirk('nitkick', 'ear_quirk_left')",
+      "q.bedrock_quirk('nitkick', 'ear_quirk_right')"
      ],
      "quirks": ["q.bedrock_quirk('nitkick', 'ground_idle')"]
    },
@@ -29,7 +31,9 @@
        "q.bedrock('nitkick', 'ground_idle')"
      ],
      "quirks": [
-       "q.bedrock_quirk('nitkick', 'blink')"
+       "q.bedrock_quirk('nitkick', 'blink')",
+      "q.bedrock_quirk('nitkick', 'ear_quirk_left')",
+      "q.bedrock_quirk('nitkick', 'ear_quirk_right')"
      ]
    },
    "walking": {
@@ -38,7 +42,11 @@
        "q.look('head')",
        "q.bedrock('nitkick', 'ground_walk')"
      ],
-     "quirks": ["q.bedrock_quirk('nitkick', 'blink')"]
+     "quirks": [
+      "q.bedrock_quirk('nitkick', 'blink')",
+      "q.bedrock_quirk('nitkick', 'ear_quirk_left')",
+      "q.bedrock_quirk('nitkick', 'ear_quirk_right')"
+    ]
    },
    "sleep": {
      "poseTypes": ["SLEEP"],

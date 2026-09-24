@@ -16,7 +16,9 @@
        "q.look('head')",
        "q.bedrock('ocatalyst', 'battle_idle')"
      ],
-     "quirks": ["q.bedrock_quirk('ocatalyst', 'blink')"]
+     "quirks": ["q.bedrock_quirk('ocatalyst', 'blink')",
+    "q.bedrock_quirk('ocatalyst', 'look_quirk_left')",
+    "q.bedrock_quirk('ocatalyst', 'look_quirk_right')"]
    },
    "standing": {
      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
@@ -26,7 +28,9 @@
        "q.bedrock('ocatalyst', 'ground_idle')"
      ],
      "quirks": [
-       "q.bedrock_quirk('ocatalyst', 'blink')"
+       "q.bedrock_quirk('ocatalyst', 'blink')",
+    "q.bedrock_quirk('ocatalyst', 'look_quirk_left')",
+    "q.bedrock_quirk('ocatalyst', 'look_quirk_right')"
      ]
    },
    "walking": {
@@ -47,7 +51,8 @@
        "q.look('head')",
        "q.bedrock('ocatalyst', 'shoulder_left')"
      ],
-     "quirks": ["q.bedrock_quirk('ocatalyst', 'blink')"]
+     "quirks": ["q.bedrock_quirk('ocatalyst', 'blink')",
+    "q.bedrock_quirk('ocatalyst', 'look_quirk_left')"]
    },
    "shoulder_right": {
      "poseTypes": ["SHOULDER_RIGHT"],
@@ -55,7 +60,8 @@
        "q.look('head')",
        "q.bedrock('ocatalyst', 'shoulder_right')"
      ],
-     "quirks": ["q.bedrock_quirk('ocatalyst', 'blink')"]
+     "quirks": ["q.bedrock_quirk('ocatalyst', 'blink')",
+    "q.bedrock_quirk('ocatalyst', 'look_quirk_right')"]
    }
  }
 }

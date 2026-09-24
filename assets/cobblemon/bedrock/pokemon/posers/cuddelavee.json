@@ -15,7 +15,8 @@
        "q.look('head-camel')",
        "q.bedrock('cuddelavee', 'battle_idle')"
      ],
-     "quirks": ["q.bedrock_quirk('cuddelavee', 'blink')"]
+     "quirks": ["q.bedrock_quirk('cuddelavee', 'blink')",
+      "q.bedrock_quirk('cuddelavee', 'rocking_quirk')"]
    },
    "standing": {
      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
@@ -24,7 +25,8 @@
        "q.look('head-camel')",
        "q.bedrock('cuddelavee', 'ground_idle')"
      ],
-     "quirks": ["q.bedrock_quirk('cuddelavee', 'blink')"]
+     "quirks": ["q.bedrock_quirk('cuddelavee', 'blink')",
+      "q.bedrock_quirk('cuddelavee', 'rocking_quirk')"]
    },
    "walking": {
      "poseTypes": ["WALK"],
@@ -32,7 +34,8 @@
        "q.look('head-camel')",
        "q.bedrock('cuddelavee', 'ground_walk')"
      ],
-     "quirks": ["q.bedrock_quirk('cuddelavee', 'blink')"]
+     "quirks": ["q.bedrock_quirk('cuddelavee', 'blink')",
+      "q.bedrock_quirk('cuddelavee', 'rocking_quirk')"]
    },
    "sleep": {
      "poseTypes": ["SLEEP"],

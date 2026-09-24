@@ -15,7 +15,8 @@
        "q.look('head')",
        "q.bedrock('snowbrawl', 'battle_idle')"
      ],
-     "quirks": ["q.bedrock_quirk('snowbrawl', 'blink')"]
+     "quirks": ["q.bedrock_quirk('snowbrawl', 'blink')",
+    "q.bedrock_quirk('snowbrawl', 'chuckle_quirk')"]
    },
    "standing": {
      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
@@ -24,7 +25,8 @@
        "q.look('head')",
        "q.bedrock('snowbrawl', 'ground_idle')"
      ],
-     "quirks": ["q.bedrock_quirk('snowbrawl', 'blink')"]
+     "quirks": ["q.bedrock_quirk('snowbrawl', 'blink')",
+    "q.bedrock_quirk('snowbrawl', 'chuckle_quirk')"]
    },
    "walking": {
      "poseTypes": ["WALK"],

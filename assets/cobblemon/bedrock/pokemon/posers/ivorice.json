@@ -19,7 +19,8 @@
        "q.look('head')",
        "q.bedrock('ivorice', 'battle_idle')"
      ],
-     "quirks": ["q.bedrock_quirk('ivorice', 'blink')"]
+     "quirks": ["q.bedrock_quirk('ivorice', 'blink')",
+      "q.bedrock_quirk('ivorice', 'cough_quirk')"]
    },
    "standing": {
      "poseName": "standing",
@@ -34,14 +35,18 @@
        "look",
        "bedrock(ivorice, ground_idle)"
      ],
-     "quirks": ["q.bedrock_quirk('ivorice', 'blink')"]
+     "quirks": ["q.bedrock_quirk('ivorice', 'blink')",
+      "q.bedrock_quirk('ivorice', 'cough_quirk')"]
    },
    "walking": {
      "poseName": "walking",
      "transformTicks": 10,
      "poseTypes": [ "WALK" ],
      "animations": [ "bedrock(ivorice, ground_walk)" ],
-     "quirks": ["q.bedrock_quirk('ivorice', 'blink')"]
+     "quirks": [
+      "q.bedrock_quirk('ivorice', 'blink')",
+      "q.bedrock_quirk('ivorice', 'cough_quirk')"
+    ]
 		},
     "sleep": {
      "poseTypes": ["SLEEP"],
