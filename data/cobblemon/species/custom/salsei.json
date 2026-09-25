@@ -212,7 +212,7 @@
     "egg:aquaring",
     "egg:soak"
   ],
-  "preEvolution": "salvior",
+  "preEvolution": "chamo",
  "evolutions": [],
  "forms": [ 
 {

@@ -221,9 +221,9 @@
   ],
  "evolutions": [
      {
-      "id": "prodifry-salvior",
+      "id": "prodifry-chamo",
       "variant": "level_up",
-      "result": "salvior",
+      "result": "chamo",
       "consumeHeldItem": false,
       "learnableMoves": [
 	    "waterfall"
