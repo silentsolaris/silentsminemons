@@ -165,11 +165,11 @@
 				{
 					"name": "locator_eye_left",
 					"parent": "eye-pupil_left",
-					"pivot": [2.5, 44, -5],
+					"pivot": [2.5, 44, -5.2],
 					"rotation": [-90, 0, 0],
 					"locators": {
 						"eye2": {
-							"offset": [2.5, 44, -5],
+							"offset": [2.5, 44, -5.2],
 							"rotation": [0, 0, 90]
 						}
 					}
@@ -193,11 +193,11 @@
 				{
 					"name": "locator_eye_right",
 					"parent": "eye-pupil_right",
-					"pivot": [-2.5, 44, -5],
+					"pivot": [-2.5, 44, -5.1],
 					"rotation": [-90, 0, 0],
 					"locators": {
 						"eye3": {
-							"offset": [-2.5, 44, -5],
+							"offset": [-2.5, 44, -5.1],
 							"rotation": [0, 0, -90]
 						}
 					}

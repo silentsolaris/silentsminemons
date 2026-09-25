@@ -19,7 +19,8 @@
        "q.look('head')",
        "q.bedrock('musheteer', 'battle_idle')"
      ],
-     "quirks": ["q.bedrock_quirk('musheteer', 'blink')"]
+     "quirks": ["q.bedrock_quirk('musheteer', 'blink')",
+    "q.bedrock_quirk('musheteer', 'neck_crack_quirk')"]
    },
    "standing": {
      "poseName": "standing",
@@ -34,7 +35,8 @@
        "look",
        "bedrock(musheteer, ground_idle)"
      ],
-     "quirks": ["q.bedrock_quirk('musheteer', 'blink')"]
+     "quirks": ["q.bedrock_quirk('musheteer', 'blink')",
+    "q.bedrock_quirk('musheteer', 'neck_crack_quirk')"]
    },
    "walking": {
      "poseName": "walking",

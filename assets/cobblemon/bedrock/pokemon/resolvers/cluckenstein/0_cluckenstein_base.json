@@ -37,7 +37,7 @@
       "layers": [
         {
           "name": "alpha_eyes",
-          "texture": "cobblemon:textures/pokemon/reanderthral/reanderthral_alpha.png",
+          "texture": "cobblemon:textures/pokemon/cluckenstein/cluckenstein_alpha.png",
           "emissive": true,
           "translucent": true
         }
