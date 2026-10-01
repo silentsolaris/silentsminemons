@@ -25,7 +25,7 @@
   ],
   "baseStats": {
     "hp": 50,
-    "attack": 90,
+    "attack": 70,
     "defence": 50,
     "special_attack": 30,
     "special_defence": 40,
@@ -221,9 +221,9 @@
   ],
  "evolutions": [
      {
-      "id": "prodifry-chamo",
+      "id": "prodifry-seavior",
       "variant": "level_up",
-      "result": "chamo",
+      "result": "seavior",
       "consumeHeldItem": false,
       "learnableMoves": [
 	    "waterfall"

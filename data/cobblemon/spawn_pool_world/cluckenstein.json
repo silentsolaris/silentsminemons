@@ -6,12 +6,18 @@
         {
             "id": "cluckenstein-1",
             "pokemon": "cluckenstein",
+            "presets": [
+                "natural",
+                "wild"
+            ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "20-35",
             "weight": 7.12,
             "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 10,
 				"timeRange": "night",
                 "biomes": [
                     "#cobblemon:is_swamp",

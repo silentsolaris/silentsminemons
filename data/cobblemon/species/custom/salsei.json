@@ -24,12 +24,12 @@
     "water_2"
   ],
   "baseStats": {
-    "hp": 130,
-    "attack": 80,
+    "hp": 115,
+    "attack": 90,
     "defence": 80,
     "special_attack": 70,
-    "special_defence": 150,
-    "speed": 90
+    "special_defence": 145,
+    "speed": 80
   },
   "evYield": {
     "hp": 0,
@@ -212,7 +212,7 @@
     "egg:aquaring",
     "egg:soak"
   ],
-  "preEvolution": "chamo",
+  "preEvolution": "seavior",
  "evolutions": [],
  "forms": [ 
 {
@@ -238,11 +238,11 @@
         "h:mentor"
       ],
       "baseStats": {
-      "hp": 130,
+      "hp": 115,
       "attack": 120,
       "defence": 100,
       "special_attack": 100,
-      "special_defence": 150,
+      "special_defence": 145,
       "speed": 100
       },
       "evolutions": [],

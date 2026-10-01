@@ -20,6 +20,8 @@
                 }
             },
             "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 10,
 				"timeRange": "night",
                 "biomes": [
                    "#cobblemon:is_forest",
@@ -58,6 +60,8 @@
                 }
             },
             "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 10,
 				"timeRange": "night",
                 "biomes": [
                     "#cobblemon:is_spooky"

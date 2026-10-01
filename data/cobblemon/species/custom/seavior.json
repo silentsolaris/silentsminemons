@@ -1,14 +1,14 @@
 {
   "implemented": false,
   "nationalPokedexNumber": 2032,
-  "name": "chamo",
+  "name": "seavior",
   "primaryType": "water",
   "secondaryType": "fighting",
   "maleRatio": 0.5,
   "height": 1,
   "weight": 15,
   "pokedex": [
-    "cobblemon.species.chamo.desc"
+    "cobblemon.species.seavior.desc"
   ],
   "labels": [
     "minemons"

@@ -12,6 +12,7 @@
             "level": "20-45",
             "weight": 20,
             "condition": {
+                "canSeeSky": true,
 				"timeRange": "night",
 				"structures": [
                 "minecraft:village_taiga",
@@ -30,6 +31,7 @@
             "level": "20-45",
             "weight": 20,
             "condition": {
+                "canSeeSky": true,
 				"structures": [
                     "minecraft:swamp_hut",
                     "explorify:mangrove_hut",

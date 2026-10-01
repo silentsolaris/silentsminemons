@@ -6,12 +6,18 @@
         {
             "id": "reanderthral-1",
             "pokemon": "reanderthral",
+            "presets": [
+                "natural",
+                "wild"
+            ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "35-50",
             "weight": 0.48,
             "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 10,
 				"timeRange": "night",
                 "biomes": [
                     "#cobblemon:is_swamp",

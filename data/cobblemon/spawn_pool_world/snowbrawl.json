@@ -15,6 +15,7 @@
             "level": "20-45",
             "weight": 16,
             "condition": {
+                "canSeeSky": true,
                 "biomes": [
                     "#cobblemon:is_freezing",
                     "twilightforest:snowy_forest",
@@ -32,6 +33,7 @@
             "level": "20-45",
             "weight": 20,
             "condition": {
+                "canSeeSky": true,
 				"structures": [
 				"minecraft:village_snowy",
                 "minecraft:igloo"

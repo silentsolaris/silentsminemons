@@ -6,12 +6,18 @@
         {
             "id": "icken-1",
             "pokemon": "icken",
+            "presets": [
+                "natural",
+                "wild"
+            ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
             "bucket": "uncommon",
             "level": "5-30",
             "weight": 50.4,
             "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 10,
 				"timeRange": "night",
                 "biomes": [
                     "#cobblemon:is_swamp",

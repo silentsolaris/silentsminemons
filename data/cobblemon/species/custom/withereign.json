@@ -33,8 +33,8 @@
   },
   "evYield": {
     "hp": 0,
-    "attack": 1,
-    "defence": 1,
+    "attack": 2,
+    "defence": 0,
     "special_attack": 0,
     "special_defence": 0,
     "speed": 0
@@ -239,6 +239,15 @@
     "tm:outrage",
     "tm:swordsdance",
     "tm:temperflare",
+    "tm:firepunch",
+    "tm:thunderpunch",
+    "tm:icepunch",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:magicroom",
+    "tm:icywind",
+    "tm:drainpunch",
+    "tm:superpower",
     "egg:destinybond",
     "egg:grudge",
     "egg:trickortreat",
@@ -273,10 +282,10 @@
         "h:withering"
       ],
       "baseStats": {
-        "hp": 90,
-      "attack": 140,
+        "hp": 80,
+      "attack": 160,
       "defence": 130,
-      "special_attack": 80,
+      "special_attack": 60,
       "special_defence": 100,
       "speed": 110
       },

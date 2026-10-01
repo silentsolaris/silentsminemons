@@ -16,7 +16,7 @@
      "poseTypes": ["STAND"],
      "isBattle": true,
      "isTouchingWater": false,
-      "isUnderWater": false,
+     "isUnderWater": false,
      "animations": [
        "q.look('head')",
        "q.bedrock('serasea', 'ground_battle_idle')"
@@ -47,7 +47,7 @@
      "quirks": ["q.bedrock_quirk('serasea', 'blink')"]
    },
    "surface-idle": {
-      "poseTypes": ["PORTRAIT", "PROFILE", "FLOAT", "STAND"],
+      "poseTypes": ["PORTRAIT", "PROFILE", "FLOAT"],
       "isBattle": false,
       "isTouchingWater": true,
       "namedAnimations": {
@@ -57,7 +57,7 @@
      "quirks": ["q.bedrock_quirk('serasea', 'blink')"]
     },
     "swim": {
-      "poseTypes": ["SWIM", "WALK"],
+      "poseTypes": ["SWIM"],
       "isBattle": false,
       "isTouchingWater": true,
       "namedAnimations": {
@@ -86,7 +86,6 @@
    "sleep-water": {
      "poseTypes": ["SLEEP"],
      "isTouchingWater": true,
-      "isUnderWater": true,
      "animations": ["q.bedrock('serasea', 'water_sleep')"]
    }
  }

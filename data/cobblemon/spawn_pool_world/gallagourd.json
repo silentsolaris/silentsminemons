@@ -33,6 +33,7 @@
             "level": "35-50",
             "weight": 1.5,
             "condition": {
+                "canSeeSky": true,
 				"structures": [
                 "minecraft:village_taiga",
 				"minecraft:village_plains",

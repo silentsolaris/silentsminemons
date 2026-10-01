@@ -16,7 +16,7 @@
      "poseTypes": ["STAND"],
      "isBattle": true,
      "isTouchingWater": false,
-    "isUnderWater": false,
+     "isUnderWater": false,
      "animations": [
        "q.look('head')",
        "q.bedrock('siphosail', 'battle_ground_idle')"
