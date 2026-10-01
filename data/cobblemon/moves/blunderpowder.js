@@ -15,7 +15,7 @@
 			for (const ally of target.adjacentAllies()) {
 				this.damage(ally.baseMaxhp / 16, ally, source, this.dex.conditions.get('Flame Burst'));
 				if (this.randomChance(3, 10)) {
-					ally.trySetStatus('tox', source);
+					ally.trySetStatus('psn', source);
 				}
 			}
 		},
@@ -23,11 +23,15 @@
 			for (const ally of target.adjacentAllies()) {
 				this.damage(ally.baseMaxhp / 16, ally, source, this.dex.conditions.get('Flame Burst'));
 				if (this.randomChance(3, 10)) {
-					ally.trySetStatus('tox', source);
+					ally.trySetStatus('psn', source);
 				}
 			}
 		},
+		secondary: {
+			chance: 30,
+			status: 'psn',
+		},
 		target: "normal",
 		type: "Grass",
-		contestType: "Clever",
+		contestType: "Cool",
 }

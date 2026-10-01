@@ -160,7 +160,7 @@
     "cobblemon.move.blastospore.desc": "The user explodes in a cloud of spores to inflict damage on adjacent foes. The user faints upon using this move.",
 
     "cobblemon.move.blunderpowder": "Blunder Powder",
-    "cobblemon.move.blunderpowder.desc": "The user fires a muddy musket ball at the target. The spore powder damages Pokémon next to the target as well and may leave them poisoned.",
+    "cobblemon.move.blunderpowder.desc": "The user fires a muddy musket ball at the target. The spore powder damages Pokémon next to the target as well. This may also poison targets.",
 
     "cobblemon.move.dealer": "Dealer",
     "cobblemon.move.dealer.desc": "The user shuffles the items of every Pokémon, randomly giving each of them a new item amongst those on the field.",
@@ -189,7 +189,7 @@
     "cobblemon.battle.activate.siphon": "%1$s's overabundance of energy summoned grassy terrain!",
 
     "cobblemon.move.soulfireblade": "Soulfire Blade",
-    "cobblemon.move.soulfireblade.desc": "The user slashes the target with a blade of soulfire. This may leave the target with a burn.",
+    "cobblemon.move.soulfireblade.desc": "The user slashes the target with a blade of soulfire. If the target is poisoned it is burned instead. This may leave a target without a status with a burn.",
 
     "cobblemon.move.treefell": "Treefell",
     "cobblemon.move.treefell.desc": "The user attacks by hacking at the target with a blade. This move is super effective on Grass-type Pokémon.",
