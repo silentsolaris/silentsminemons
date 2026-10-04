@@ -65,14 +65,14 @@
     },
     "moving": {
       "fly": {
-        "canFly": true
+        "canFly": false
       },
       "walk": {
-        "walkSpeed": 0.5
+        "walkSpeed": 0.2
       },
       "swim": {
         "avoidsWater": true,
-        "canSwimInLava": true
+        "canSwimInLava": false
       }
     },
     "herd": {
