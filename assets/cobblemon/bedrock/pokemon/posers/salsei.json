@@ -1,8 +1,8 @@
 {
  "portraitScale": 1.66,
- "portraitTranslation": [0, 0, 0],
- "profileScale": 1,
- "profileTranslation": [0, 0, 0],
+ "portraitTranslation": [-1.1, -0.4, 0],
+ "profileScale": 0.45,
+ "profileTranslation": [0, 0.7, 0],
  "animations": {
    "faint": "q.bedrock_primary('salsei', 'faint', q.curve('one'))",
    "cry": "q.bedrock_stateful('salsei', 'cry')",

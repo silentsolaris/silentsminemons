@@ -1,8 +1,8 @@
 {
- "portraitScale": 1.66,
- "portraitTranslation": [0, 0, 0],
- "profileScale": 1,
- "profileTranslation": [0, 0, 0],
+ "portraitScale": 2.5,
+ "portraitTranslation": [-0.2, -2.3, 0],
+ "profileScale": 1.5,
+ "profileTranslation": [0, -0.8, 0],
  "animations": {
    "faint": "q.bedrock_primary('prodifry', 'faint', q.curve('one'))",
    "cry": "q.bedrock_stateful('prodifry', 'cry')",

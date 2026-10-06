@@ -21,7 +21,7 @@
 					"pivot": [0, 2, -1]
 				},
 				{
-					"name": "body",
+					"name": "torso",
 					"parent": "rotation",
 					"pivot": [0, 5.25, 8],
 					"cubes": [
@@ -46,7 +46,7 @@
 				},
 				{
 					"name": "neck",
-					"parent": "body",
+					"parent": "torso",
 					"pivot": [0, 4.75, -4],
 					"cubes": [
 						{"origin": [-4, 0.25, -9], "size": [8, 9, 5], "inflate": 0.01, "uv": [44, 0]},
@@ -376,7 +376,7 @@
 				},
 				{
 					"name": "bottom_fin_small",
-					"parent": "body",
+					"parent": "torso",
 					"pivot": [0, -1.75, -0.5],
 					"cubes": [
 						{"origin": [0, -3.75, -3], "size": [0, 2, 5], "uv": [0, 58]},

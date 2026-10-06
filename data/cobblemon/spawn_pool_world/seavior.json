@@ -6,6 +6,47 @@
         {
             "id": "seavior-1",
             "pokemon": "seavior",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-35",
+            "weight": 2.7,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "seavior-2",
+            "pokemon": "seavior",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "20-35",
+            "weight": 4.32,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:ocean"
+                ]
+            }
+        },
+        {
+            "id": "seavior-3",
+            "pokemon": "seavior",
             "type": "pokemon",
             "spawnablePositionType": "fishing",
             "bucket": "common",
@@ -13,8 +54,13 @@
             "weight": 9.5,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_river",
+                    "#cobblemon:is_freshwater",
                     "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
                 ]
             }
         }

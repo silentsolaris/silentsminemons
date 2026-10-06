@@ -48,8 +48,8 @@
   "baseScale": 1,
   "standingEyeHeight": 0.5,
   "hitbox": {
-    "width": 1.5,
-    "height": 1.5,
+    "width": 1.8,
+    "height": 1.6,
     "fixed": false
   },
   "behaviour": {
@@ -65,7 +65,7 @@
     },
     "moving": {
       "walk": {
-        "walkSpeed": 0.15
+        "walkSpeed": 0.2
       },
       "swim": {
         "canBreatheUnderwater": true,

@@ -6,6 +6,47 @@
         {
             "id": "prodifry-1",
             "pokemon": "prodifry",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "1-15",
+            "weight": 27,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "prodifry-2",
+            "pokemon": "prodifry",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "1-15",
+            "weight": 25.2,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:ocean"
+                ]
+            }
+        },
+        {
+            "id": "prodifry-3",
+            "pokemon": "prodifry",
             "type": "pokemon",
             "spawnablePositionType": "fishing",
             "bucket": "common",
@@ -13,8 +54,13 @@
             "weight": 90,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_river",
+                    "#cobblemon:is_freshwater",
                     "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
                 ]
             }
         }

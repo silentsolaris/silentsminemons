@@ -6,6 +6,47 @@
         {
             "id": "salsei-1",
             "pokemon": "salsei",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "common",
+            "level": "20-35",
+            "weight": 0.3,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_freshwater"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "salsei-2",
+            "pokemon": "salsei",
+            "presets": [
+                "water"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "submerged",
+            "bucket": "uncommon",
+            "level": "20-35",
+            "weight": 0.48,
+            "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:ocean"
+                ]
+            }
+        },
+        {
+            "id": "salsei-3",
+            "pokemon": "salsei",
             "type": "pokemon",
             "spawnablePositionType": "fishing",
             "bucket": "common",
@@ -13,8 +54,13 @@
             "weight": 0.25,
             "condition": {
                 "biomes": [
-                    "#cobblemon:is_river",
+                    "#cobblemon:is_freshwater",
                     "#cobblemon:is_ocean"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
                 ]
             }
         }

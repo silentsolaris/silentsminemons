@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:salsei",
+  "speciesId": "cobblemon:salsei",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}
