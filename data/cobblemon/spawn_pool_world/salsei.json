@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "salsei-1",
+            "pokemon": "salsei",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "40-60",
+            "weight": 0.25,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_river",
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        }
+   ]
+}

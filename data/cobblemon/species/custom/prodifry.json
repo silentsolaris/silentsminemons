@@ -15,7 +15,7 @@
   ],
   "aspects": [],
   "abilities": [
-    "justified",
+    "innerfocus",
     "swiftswim",
     "h:prankster"
   ],
@@ -46,7 +46,7 @@
   "baseFriendship": 50,
   "shoulderMountable": true,
   "baseScale": 1,
-  "standingEyeHeight": 1,
+  "standingEyeHeight": 0.8,
   "hitbox": {
     "width": 0.5,
     "height": 0.5,
@@ -75,9 +75,13 @@
     "herd": {
       "maxSize": "9",
       "toleratedLeaders": [
+        {
+          "pokemon": "prodifry",
+          "tier": 3
+        },
 	  	  {
-          "pokemon": "salvior",
-          "tier": 1
+          "pokemon": "seavior",
+          "tier": 2
         },
         {
           "pokemon": "salsei",
@@ -120,9 +124,9 @@
     "1:aquajet",
     "1:detect",
     "5:rocksmash",
-    "10:soak",
+    "10:watersport",
     "15:flipturn",
-    "20:soak",
+    "20:aquaring",
     "25:bounce",
     "30:acupressure",
     "35:waterfall",
@@ -147,8 +151,6 @@
     "tm:closecombat",
     "tm:coaching",
     "tm:confide",
-    "tm:crosspoison",
-    "tm:darkestlariat",
     "tm:defog",
     "tm:dive",
     "tm:doubleteam",
@@ -216,8 +218,7 @@
     "egg:tripledive",
     "egg:lifedew",
     "egg:watersport",
-    "egg:aquaring",
-    "egg:soak"
+    "egg:aquaring"
   ],
  "evolutions": [
      {
@@ -231,7 +232,7 @@
       "requirements": [
         {
           "variant": "level",
-          "minLevel": 35
+          "minLevel": 25
         }
       ]
     }

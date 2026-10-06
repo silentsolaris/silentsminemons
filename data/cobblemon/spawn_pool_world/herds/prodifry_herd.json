@@ -1,0 +1,105 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "prodifry-herd-river",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "submerged",
+      "maxHerdSize": 9,
+      "levelRange": "10-70",
+      "weight": 50.4,
+      "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_river"
+                ],
+                "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+      "herdablePokemon": [
+        {
+          "pokemon": "prodifry",
+          "weight": 80.0,
+          "levelRange": "1-15",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 9,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "seavior",
+          "weight": 20.0,
+          "levelRange": "25-40",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "salsei",
+          "weight": 50.0,
+          "levelRange": "50-70",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "prodifry-herd-ocean",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "submerged",
+      "maxHerdSize": 9,
+      "levelRange": "10-50",
+      "weight": 16.8,
+      "condition": {
+                "canSeeSky": true,
+                "biomes": [
+                    "#cobblemon:is_ocean"
+                ]
+        },
+      "herdablePokemon": [
+        {
+          "pokemon": "prodifry",
+          "weight": 50.0,
+          "levelRange": "1-15",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "seavior",
+          "weight": 80.0,
+          "levelRange": "25-40",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 9,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "salsei",
+          "weight": 10.0,
+          "levelRange": "50-80",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

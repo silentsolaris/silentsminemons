@@ -1,0 +1,102 @@
+{
+ "portraitScale": 1.66,
+ "portraitTranslation": [0, 0, 0],
+ "profileScale": 1,
+ "profileTranslation": [0, 0, 0],
+ "animations": {
+   "faint": "q.bedrock_primary('salsei', 'faint', q.curve('one'))",
+   "cry": "q.bedrock_stateful('salsei', 'cry')",
+   "recoil": "q.bedrock_stateful('salsei', 'recoil')",
+   "physical": "q.bedrock_primary('salsei', 'physical', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('salsei', 'special', q.curve('symmetrical_wide'))",
+   "status": "q.bedrock_primary('salsei', 'status', q.curve('symmetrical_wide'))"
+ },
+ "poses": {
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "isTouchingWater": false,
+     "isUnderWater": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('salsei', 'ground_battle_idle')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('salsei', 'blink')"
+     ]
+   },
+
+   "battle-swimming": {
+      "poseTypes": ["FLOAT", "SWIM"],
+      "isBattle": true,
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('salsei', 'water_battle_idle')"
+      ],
+     "quirks": [
+       "q.bedrock_quirk('salsei', 'blink')"
+     ]
+    },
+
+   "standing": {
+     "poseTypes": ["STAND", "NONE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('salsei', 'ground_idle')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('salsei', 'blink')"
+     ]
+   },
+   "float": {
+      "poseTypes": ["PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": false,
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('salsei', 'water_faint', q.curve('one'))"
+      },
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('salsei', 'water_idle')"],
+     "quirks": [
+       "q.bedrock_quirk('salsei', 'blink')"
+     ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "isBattle": false,
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('salsei', 'water_faint', q.curve('one'))"
+      },
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('salsei', 'swim')"],
+     "quirks": [
+       "q.bedrock_quirk('salsei', 'blink')"
+     ]
+    },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('salsei', 'ground_walk')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('salsei', 'blink')"
+     ]
+   },
+   "sleep-land": {
+     "poseTypes": ["SLEEP"],
+     "isTouchingWater": false,
+      "isUnderWater": false,
+     "animations": ["q.bedrock('salsei', 'ground_sleep')"]
+   },
+   "sleep-water": {
+     "poseTypes": ["SLEEP"],
+     "isTouchingWater": true,
+      "isUnderWater": true,
+     "animations": ["q.bedrock('salsei', 'water_sleep')"]
+   }
+ }
+}

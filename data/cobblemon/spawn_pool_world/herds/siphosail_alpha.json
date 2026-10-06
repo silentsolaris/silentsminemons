@@ -5,7 +5,7 @@
     {
       "id": "siphosail-alpha-1",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon-herd",
       "bucket": "boss",
@@ -42,7 +42,7 @@
     {
       "id": "siphosail-alpha-2",
       "presets": [
-        "natural"
+        "water"
       ],
       "type": "pokemon-herd",
       "bucket": "boss",

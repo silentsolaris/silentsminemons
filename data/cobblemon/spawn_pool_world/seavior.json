@@ -1,0 +1,22 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "seavior-1",
+            "pokemon": "seavior",
+            "type": "pokemon",
+            "spawnablePositionType": "fishing",
+            "bucket": "common",
+            "level": "20-35",
+            "weight": 9.5,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_river",
+                    "#cobblemon:is_ocean"
+                ]
+            }
+        }
+   ]
+}

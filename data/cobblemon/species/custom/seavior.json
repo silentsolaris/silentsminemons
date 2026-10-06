@@ -1,5 +1,5 @@
 {
-  "implemented": false,
+  "implemented": true,
   "nationalPokedexNumber": 2032,
   "name": "seavior",
   "primaryType": "water",
@@ -15,9 +15,9 @@
   ],
   "aspects": [],
   "abilities": [
-    "justified",
+    "innerfocus",
     "swiftswim",
-    "h:innerfocus"
+    "h:justified"
   ],
   "eggGroups": [
     "water_1",
@@ -26,7 +26,7 @@
   "baseStats": {
     "hp": 80,
     "attack": 90,
-    "defence": 80,
+    "defence": 60,
     "special_attack": 40,
     "special_defence": 60,
     "speed": 115
@@ -44,12 +44,12 @@
   "catchRate": 80,
   "eggCycles": 25,
   "baseFriendship": 50,
-  "shoulderMountable": true,
+  "shoulderMountable": false,
   "baseScale": 1,
-  "standingEyeHeight": 1,
+  "standingEyeHeight": 0.8,
   "hitbox": {
-    "width": 0.5,
-    "height": 0.5,
+    "width": 1,
+    "height": 1,
     "fixed": false
   },
   "behaviour": {
@@ -69,15 +69,15 @@
       },
       "swim": {
         "canBreatheUnderwater": true,
-        "swimSpeed": "0.3"
+        "swimSpeed": "0.5"
       }
     },
     "herd": {
       "maxSize": "9",
       "toleratedLeaders": [
 	  	  {
-          "pokemon": "salvior",
-          "tier": 1
+          "pokemon": "seavior",
+          "tier": 2
         },
         {
           "pokemon": "salsei",
@@ -149,8 +149,6 @@
     "tm:closecombat",
     "tm:coaching",
     "tm:confide",
-    "tm:crosspoison",
-    "tm:darkestlariat",
     "tm:defog",
     "tm:dive",
     "tm:doubleteam",

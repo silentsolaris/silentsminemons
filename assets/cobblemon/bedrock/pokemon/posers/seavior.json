@@ -1,0 +1,102 @@
+{
+ "portraitScale": 1.66,
+ "portraitTranslation": [0, 0, 0],
+ "profileScale": 1,
+ "profileTranslation": [0, 0, 0],
+ "animations": {
+   "faint": "q.bedrock_primary('seavior', 'faint', q.curve('one'))",
+   "cry": "q.bedrock_stateful('seavior', 'cry')",
+   "recoil": "q.bedrock_stateful('seavior', 'recoil')",
+   "physical": "q.bedrock_primary('seavior', 'physical', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('seavior', 'special', q.curve('symmetrical_wide'))",
+   "status": "q.bedrock_primary('seavior', 'status', q.curve('symmetrical_wide'))"
+ },
+ "poses": {
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "isTouchingWater": false,
+     "isUnderWater": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('seavior', 'ground_battle_idle')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('seavior', 'blink')"
+     ]
+   },
+
+   "battle-swimming": {
+      "poseTypes": ["FLOAT", "SWIM"],
+      "isBattle": true,
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('seavior', 'water_battle_idle')"
+      ],
+     "quirks": [
+       "q.bedrock_quirk('seavior', 'blink')"
+     ]
+    },
+
+   "standing": {
+     "poseTypes": ["STAND", "NONE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('seavior', 'ground_idle')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('seavior', 'blink')"
+     ]
+   },
+   "float": {
+      "poseTypes": ["PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": false,
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('seavior', 'water_faint', q.curve('one'))"
+      },
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('seavior', 'water_idle')"],
+     "quirks": [
+       "q.bedrock_quirk('seavior', 'blink')"
+     ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "isBattle": false,
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('seavior', 'water_faint', q.curve('one'))"
+      },
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('seavior', 'swim')"],
+     "quirks": [
+       "q.bedrock_quirk('seavior', 'blink')"
+     ]
+    },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('seavior', 'ground_walk')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('seavior', 'blink')"
+     ]
+   },
+   "sleep-land": {
+     "poseTypes": ["SLEEP"],
+     "isTouchingWater": false,
+      "isUnderWater": false,
+     "animations": ["q.bedrock('seavior', 'ground_sleep')"]
+   },
+   "sleep-water": {
+     "poseTypes": ["SLEEP"],
+     "isTouchingWater": true,
+      "isUnderWater": true,
+     "animations": ["q.bedrock('seavior', 'water_sleep')"]
+   }
+ }
+}

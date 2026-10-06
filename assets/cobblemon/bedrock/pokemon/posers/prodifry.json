@@ -1,0 +1,102 @@
+{
+ "portraitScale": 1.66,
+ "portraitTranslation": [0, 0, 0],
+ "profileScale": 1,
+ "profileTranslation": [0, 0, 0],
+ "animations": {
+   "faint": "q.bedrock_primary('prodifry', 'faint', q.curve('one'))",
+   "cry": "q.bedrock_stateful('prodifry', 'cry')",
+   "recoil": "q.bedrock_stateful('prodifry', 'recoil')",
+   "physical": "q.bedrock_primary('prodifry', 'physical', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('prodifry', 'special', q.curve('symmetrical_wide'))",
+   "status": "q.bedrock_primary('prodifry', 'status', q.curve('symmetrical_wide'))"
+ },
+ "poses": {
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "isTouchingWater": false,
+     "isUnderWater": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('prodifry', 'ground_battle_idle')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('prodifry', 'blink')"
+     ]
+   },
+
+   "battle-swimming": {
+      "poseTypes": ["FLOAT", "SWIM"],
+      "isBattle": true,
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "animations": [
+        "q.look('head')",
+        "q.bedrock('prodifry', 'water_battle_idle')"
+      ],
+     "quirks": [
+       "q.bedrock_quirk('prodifry', 'blink')"
+     ]
+    },
+
+   "standing": {
+     "poseTypes": ["STAND", "NONE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('prodifry', 'ground_idle')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('prodifry', 'blink')"
+     ]
+   },
+   "float": {
+      "poseTypes": ["PORTRAIT", "PROFILE", "FLOAT"],
+      "isBattle": false,
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('prodifry', 'water_faint', q.curve('one'))"
+      },
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('prodifry', 'water_idle')"],
+     "quirks": [
+       "q.bedrock_quirk('prodifry', 'blink')"
+     ]
+    },
+    "swim": {
+      "poseTypes": ["SWIM"],
+      "isBattle": false,
+      "isTouchingWater": true,
+      "isUnderWater": true,
+      "namedAnimations": {
+        "faint": "q.bedrock_primary('prodifry', 'water_faint', q.curve('one'))"
+      },
+      "animations": ["q.pitch_tilt('body', 0.22)", "q.bedrock('prodifry', 'swim')"],
+     "quirks": [
+       "q.bedrock_quirk('prodifry', 'blink')"
+     ]
+    },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('prodifry', 'ground_walk')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('prodifry', 'blink')"
+     ]
+   },
+   "sleep-land": {
+     "poseTypes": ["SLEEP"],
+     "isTouchingWater": false,
+      "isUnderWater": false,
+     "animations": ["q.bedrock('prodifry', 'ground_sleep')"]
+   },
+   "sleep-water": {
+     "poseTypes": ["SLEEP"],
+     "isTouchingWater": true,
+      "isUnderWater": true,
+     "animations": ["q.bedrock('prodifry', 'water_sleep')"]
+   }
+ }
+}
