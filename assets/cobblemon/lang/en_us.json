@@ -282,7 +282,7 @@
     "cobblemon.ability.maritime.desc": "In rain, this Pokémon's Rock-type moves are boosted and cannot miss.",
 
     "cobblemon.ability.mentor": "Mentor",
-    "cobblemon.ability.mentor.desc": "Damaging 2-turn moves used by the Pokémon and its allies occur in a single turn instead.",
+    "cobblemon.ability.mentor.desc": "Attacking moves requiring a charge, used by the Pokémon and its allies, occur in a single turn instead.",
     "cobblemon.battle.activate.mentor.self": "%1$s uses a technique to speed up the process!",
     "cobblemon.battle.activate.mentor.ally": "%1$s guides %3$s's attack!",
 
