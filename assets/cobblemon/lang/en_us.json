@@ -235,7 +235,7 @@
     "cobblemon.move.chaoskick.desc": "The user kicks the target to tear down all they've built. Removes all of the target's stat changes.",
 
     "cobblemon.move.riptide": "Riptide",
-    "cobblemon.move.riptide.desc": "Charges on first turn, attacks on second. On hit, clears active terrains.",
+    "cobblemon.move.riptide.desc": "Charges on first turn, attacks on second. On hit, makes the target incapable of using the same move twice in a row.",
 
     "cobblemon.move.wispwisk": "Wisp Wisk",
     "cobblemon.move.wispwisk.desc": "The user fires a bullet of spectral energy. This may lower the target's attack.",

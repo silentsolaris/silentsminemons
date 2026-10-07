@@ -27,9 +27,9 @@
     "hp": 80,
     "attack": 100,
     "defence": 50,
-    "special_attack": 80,
+    "special_attack": 70,
     "special_defence": 90,
-    "speed": 70
+    "speed": 80
   },
   "evYield": {
     "hp": 0,

@@ -21,13 +21,8 @@
 			attacker.addVolatile('twoturnmove', defender);
 			return null;
 		},
-		onAfterHit(target, source) {
-			this.field.clearTerrain();
-		},
-		onAfterSubDamage(damage, target, source) {
-			if (source.hp) {
-				this.field.clearTerrain();
-			}
+		onHit(target) {
+			target.addVolatile('torment');
 		},
 		target: "any",
 		type: "Water",

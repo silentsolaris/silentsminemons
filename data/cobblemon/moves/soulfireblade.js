@@ -8,9 +8,10 @@
 		priority: 0,
 		flags: { contact: 1, protect: 1, mirror: 1, metronome: 1, slicing: 1 },
 		onHit(target, source) {
-			if (target.status === 'psn' || target.status === 'tox') return;
-    		target.cureStatus();
-    		target.trySetStatus("brn", source);
+			if (target.status === 'psn' || target.status === 'tox') {
+				target.cureStatus();
+    			target.trySetStatus("brn", source);
+			};
 		},
 		secondary: {
 			chance: 30,
