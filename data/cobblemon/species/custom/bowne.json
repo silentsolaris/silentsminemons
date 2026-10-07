@@ -40,7 +40,7 @@
   },
   "baseExperienceYield": 60,
   "experienceGroup": "slow",
-  "catchRate": 80,
+  "catchRate": 180,
   "eggCycles": 25,
   "baseFriendship": 50,
   "shoulderMountable": true,
@@ -298,7 +298,7 @@
         "soulfireblade"
       ],
       "requirements": [],
-      "requiredContext": "minecraft:netherite_ingot"
+      "requiredContext": "minecraft:wither_rose"
 
 	},
   {

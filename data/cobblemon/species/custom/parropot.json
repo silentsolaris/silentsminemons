@@ -39,7 +39,7 @@
   },
   "baseExperienceYield": 70,
   "experienceGroup": "medium_fast",
-  "catchRate": 90,
+  "catchRate": 200,
   "eggCycles": 25,
   "baseFriendship": 50,
   "shoulderMountable": true,
@@ -200,14 +200,14 @@
     ],
 "forms": [ 
 {
-    "name": "Honeypot",
+    "name": "Honey-Pot",
     "primaryType": "rock",
     "secondaryType": "bug",
     "maleRatio": 0.5,
 	  "height": 2,
 	  "weight": 30,
     "pokedex": [
-      "cobblemon.species.parropot-honeypot.desc"
+      "cobblemon.species.parropot-honey-pot.desc"
     ],
 	  "abilities": [
     "hustle",
@@ -337,14 +337,14 @@
       "battleOnly": false
     },
 	{
-    "name": "Flowerpot",
+    "name": "Flower-Pot",
     "primaryType": "rock",
     "secondaryType": "grass",
     "maleRatio": 0.5,
 	  "height": 2,
 	  "weight": 30,
     "pokedex": [
-        "cobblemon.species.parropot-flowerpot.desc"
+        "cobblemon.species.parropot-flower-pot.desc"
     ],
     "labels": [
       "minemons"
@@ -471,14 +471,14 @@
       "battleOnly": false
     },
 	{
-    "name": "Candle",
+    "name": "Candle-Pot",
     "primaryType": "rock",
     "secondaryType": "fire",
     "maleRatio": 0.5,
 	  "height": 2,
 	  "weight": 30,
     "pokedex": [
-      "cobblemon.species.parropot-candle.desc"
+      "cobblemon.species.parropot-candle-pot.desc"
     ],
     "labels": [
       "minemons"
@@ -607,14 +607,14 @@
       "battleOnly": false
     },
     {
-    "name": "Quill",
+    "name": "Quill-Pot",
     "primaryType": "rock",
     "secondaryType": "flying",
     "maleRatio": 0.5,
 	  "height": 2,
 	  "weight": 30,
     "pokedex": [
-      "cobblemon.species.parropot-quill.desc"
+      "cobblemon.species.parropot-quill-pot.desc"
     ],
     "labels": [
       "minemons"

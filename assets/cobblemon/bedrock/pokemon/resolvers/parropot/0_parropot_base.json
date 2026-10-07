@@ -28,7 +28,7 @@
       ]
     },
    {
-      "aspects": ["candle"],
+      "aspects": ["candle-pot"],
       "texture": "cobblemon:textures/pokemon/parropot/parropot_candle.png",
       "layers": [
         {
@@ -49,19 +49,19 @@
       ]
     },
 {
-      "aspects": ["honey"],
+      "aspects": ["honey-pot"],
       "texture": "cobblemon:textures/pokemon/parropot/parropot_honey.png"
     },
 {
-      "aspects": ["quill"],
+      "aspects": ["quill-pot"],
       "texture": "cobblemon:textures/pokemon/parropot/parropot_quill.png"
     },
 {
-      "aspects": ["flower"],
+      "aspects": ["flower-pot"],
       "texture": "cobblemon:textures/pokemon/parropot/parropot_flower.png"
     },
     {
-      "aspects": ["candle", "shiny"],
+      "aspects": ["candle-pot", "shiny"],
       "texture": "cobblemon:textures/pokemon/parropot/parropot_candle_shiny.png",
       "layers": [
         {
@@ -82,15 +82,15 @@
       ]
     },
 {
-      "aspects": ["honey", "shiny"],
+      "aspects": ["honey-pot", "shiny"],
       "texture": "cobblemon:textures/pokemon/parropot/parropot_honey_shiny.png"
     },
 {
-      "aspects": ["quill", "shiny"],
+      "aspects": ["quill-pot", "shiny"],
       "texture": "cobblemon:textures/pokemon/parropot/parropot_quill_shiny.png"
     },
 {
-      "aspects": ["flower", "shiny"],
+      "aspects": ["flower-pot", "shiny"],
       "texture": "cobblemon:textures/pokemon/parropot/parropot_flower_shiny.png"
     }
  ]

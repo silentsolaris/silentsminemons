@@ -1,5 +1,5 @@
 {
-    "keys": ["candle"],
+    "keys": ["quill-pot"],
     "type": "flag",
     "isAspect": true,
     "default": false

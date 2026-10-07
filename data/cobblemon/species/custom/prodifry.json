@@ -4,9 +4,9 @@
   "name": "prodifry",
   "primaryType": "water",
   "secondaryType": "fighting",
-  "maleRatio": 0.5,
-  "height": 1,
-  "weight": 15,
+  "maleRatio": 0.7,
+  "height": 2,
+  "weight": 30,
   "pokedex": [
     "cobblemon.species.prodifry.desc"
   ],
@@ -17,18 +17,17 @@
   "abilities": [
     "innerfocus",
     "swiftswim",
-    "h:prankster"
+    "h:justified"
   ],
   "eggGroups": [
-    "water_1",
-    "water_2"
+    "undiscovered"
   ],
   "baseStats": {
     "hp": 50,
     "attack": 70,
-    "defence": 50,
-    "special_attack": 30,
-    "special_defence": 40,
+    "defence": 30,
+    "special_attack": 20,
+    "special_defence": 30,
     "speed": 50
   },
   "evYield": {
@@ -39,9 +38,9 @@
     "special_defence": 0,
     "speed": 0
   },
-  "baseExperienceYield": 80,
-  "experienceGroup": "fast",
-  "catchRate": 80,
+  "baseExperienceYield": 40,
+  "experienceGroup": "medium_fast",
+  "catchRate": 255,
   "eggCycles": 25,
   "baseFriendship": 50,
   "shoulderMountable": true,

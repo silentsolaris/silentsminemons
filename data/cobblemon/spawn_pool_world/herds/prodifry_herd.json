@@ -36,7 +36,7 @@
         },
         {
           "pokemon": "seavior",
-          "weight": 20.0,
+          "weight": 50.0,
           "levelRange": "25-40",
           "levelRangeOffset": "-3-3",
           "maxTimes": 3,
@@ -45,7 +45,7 @@
         },
         {
           "pokemon": "salsei",
-          "weight": 50.0,
+          "weight": 20.0,
           "levelRange": "50-70",
           "levelRangeOffset": "-3-3",
           "maxTimes": 2,
@@ -77,25 +77,16 @@
           "weight": 50.0,
           "levelRange": "1-15",
           "levelRangeOffset": "-3-3",
-          "maxTimes": 3,
-          "isLeader": false,
-          "isFollower": true
-        },
-        {
-          "pokemon": "seavior",
-          "weight": 80.0,
-          "levelRange": "25-40",
-          "levelRangeOffset": "-3-3",
           "maxTimes": 5,
           "isLeader": false,
           "isFollower": true
         },
         {
-          "pokemon": "salsei",
-          "weight": 10.0,
-          "levelRange": "50-80",
+          "pokemon": "seavior",
+          "weight": 50.0,
+          "levelRange": "25-40",
           "levelRangeOffset": "-3-3",
-          "maxTimes": 2,
+          "maxTimes": 5,
           "isLeader": false,
           "isFollower": true
         }
