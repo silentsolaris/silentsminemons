@@ -1,7 +1,7 @@
 {
         num: 42028,
 		accuracy: 90,
-		basePower: 120,
+		basePower: 110,
 		category: "Physical",
 		name: "Absolute Strike",
 		pp: 5,
