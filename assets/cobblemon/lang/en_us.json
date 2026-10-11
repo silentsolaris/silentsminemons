@@ -290,7 +290,7 @@
     "cobblemon.ability.neurotoxin.desc": "Pokémon poisoned by the user's moves will also have their Speed stat lowered.",
 
     "cobblemon.ability.oxidize": "Oxidize",
-    "cobblemon.ability.oxidize.desc": "When hit by a Water or Electric-type move, this Pokémon envelops itself in a veil made of energy and regains some HP every turn.",
+    "cobblemon.ability.oxidize.desc": "When hit by a Water or Electric-type move, this Pokémon envelops itself in a veil made of energy and regains some HP every turn. It also takes slightly less damage from these moves.",
     "cobblemon.battle.activate.oxidize.water": "%1$s is moisturized by the attack!",
     "cobblemon.battle.activate.oxidize.electric": "%1$s is energized by the attack!",
 
@@ -328,7 +328,7 @@
     "cobblemon.ability.mortar.desc": "Powers up some ball and bomb moves.",
 
     "cobblemon.ability.timewarp": "Time Warp",
-    "cobblemon.ability.timewarp.desc": "If Trick Room is active when this Pokémon enters the field, its Speed is harshly lowered and renews the Trick Room's timer.",
+    "cobblemon.ability.timewarp.desc": "Once per battle, if Trick Room is active when this Pokémon enters the field, its Speed is harshly lowered and renews the Trick Room's timer.",
 
     "cobblemon.ability.houserules": "House Rules",
     "cobblemon.ability.houserules.desc": "The Pokémon creates a bizarre area in which Pokémon’s held items lose their effects on switch in.",

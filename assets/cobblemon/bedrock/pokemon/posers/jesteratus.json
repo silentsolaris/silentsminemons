@@ -1,0 +1,45 @@
+{
+ "portraitScale": 1.8,
+ "portraitTranslation": [-0.14, 0.6, 0],
+ "profileScale": 0.65,
+ "profileTranslation": [0, 0.8, 0],
+ "animations": {
+   "cry": "q.bedrock_stateful('jesteratus', 'cry')",
+   "recoil": "q.bedrock_stateful('jesteratus', 'recoil')"
+ },
+ "poses": {
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('jesteratus', 'battle_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('jesteratus', 'blink')",
+    "q.bedrock_quirk('ocatalyst', 'clock_quirk')"]
+   },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('jesteratus', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('jesteratus', 'blink')",
+    "q.bedrock_quirk('ocatalyst', 'clock_quirk')"]
+   },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('jesteratus', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('jesteratus', 'blink')"]
+   },
+   "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('jesteratus', 'sleep')"],
+     "quirks": ["q.bedrock_quirk('ocatalyst', 'clock_quirk')"]
+   }
+	}
+}

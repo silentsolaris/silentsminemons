@@ -193,18 +193,14 @@
  "evolutions": [
      {
       "id": "cluckenstein-reanderthral",
-      "variant": "level_up",
-      "result": "reanderthal",
+      "variant": "item_interact",
+      "result": "reanderthral",
       "consumeHeldItem": false,
       "learnableMoves": [
-	  "revivalblessing"
-	  ],
-      "requirements": [
-        {
-            "variant": "recoil",
-            "amount": 200
-        }
-      ]
-    }
+        "revivalblessing"
+      ],
+      "requirements": [],
+      "requiredContext": "cobblemon:thunder_stone"
+	}
   ]
 }

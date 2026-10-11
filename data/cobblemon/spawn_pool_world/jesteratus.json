@@ -1,0 +1,57 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "jesteratus-1",
+            "pokemon": "jesteratus",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "20-45",
+            "weight": 60,
+            "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:copper_block",
+					"minecraft:exposed_copper",
+                    "minecraft:weathered_copper",
+                    "minecraft:oxidized_copper",
+                    "minecraft:waxed_copper_block",
+					"minecraft:waxed_exposed_copper",
+                    "minecraft:waxed_weathered_copper",
+                    "minecraft:waxed_oxidized_copper",
+                    "minecraft:raw_copper_block",
+                    "minecraft:copper_golem_statue",
+                    "minecraft:exposed_copper_golem_statue",
+                    "minecraft:weathered_copper_golem_statue",
+                    "minecraft:oxidized_copper_golem_statue",
+                    "minecraft:waxed_copper_golem_statue",
+                    "minecraft:waxed_exposed_copper_golem_statue",
+                    "minecraft:waxed_weathered_copper_golem_statue",
+                    "minecraft:waxed_oxidized_copper_golem_statue",
+                    "create:cogwheel",
+                    "create:large_cogwheel",
+                    "create:flywheel"
+                ]
+            }
+        },
+        {
+            "id": "jesteratus-2",
+            "pokemon": "jesteratus",
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "20-45",
+            "weight": 16,
+            "condition": {
+				"structures": [
+				"minecraft:trial_chamber",
+                "cataclysm:ancient_factory"
+				],
+                "minY": -40,
+                "maxY": 0
+            }
+        }
+   ]
+}

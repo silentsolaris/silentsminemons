@@ -1,5 +1,5 @@
 {
-  "implemented": false,
+  "implemented": true,
   "nationalPokedexNumber": 2011,
   "name": "jesteratus",
   "primaryType": "steel",
@@ -45,11 +45,11 @@
   "eggCycles": 25,
   "baseFriendship": 50,
   "shoulderMountable": false,
-  "standingEyeHeight": 1,
+  "standingEyeHeight": 0.8,
   "baseScale": 1,
   "hitbox": {
-    "width": 1,
-    "height": 2,
+    "width": 1.2,
+    "height": 1.8,
     "fixed": false
   },
   "behaviour": {
@@ -65,7 +65,7 @@
     },
     "moving": {
       "walk": {
-        "walkSpeed": 0.15
+        "walkSpeed": 0.4
       },
       "swim": {
         "avoidsWater": true,

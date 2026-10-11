@@ -31,7 +31,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "20-45",
-            "weight": 20,
+            "weight": 16,
             "condition": {
                 "canSeeSky": true,
 				"structures": [

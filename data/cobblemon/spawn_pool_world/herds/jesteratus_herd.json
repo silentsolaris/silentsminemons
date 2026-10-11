@@ -1,0 +1,34 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "jesteratus-herd-1",
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "20-45",
+      "weight": 4,
+      "condition": {
+				"structures": [
+				        "minecraft:trial_chamber",
+                "cataclysm:ancient_factory"
+				  ],
+              "minY": -40,
+               "maxY": 0
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "jesteratus",
+          "weight": 100.0,
+          "levelRange": "20-45",
+          "levelRangeOffset": "-3-10",
+          "maxTimes": 4,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

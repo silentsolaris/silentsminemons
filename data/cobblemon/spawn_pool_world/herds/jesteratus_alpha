@@ -1,0 +1,92 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "jesteratus-alpha-1",
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "31-100",
+      "weight": 100.0,
+      "condition": {
+                "neededNearbyBlocks": [
+                    "minecraft:copper_block",
+					"minecraft:exposed_copper",
+                    "minecraft:weathered_copper",
+                    "minecraft:oxidized_copper",
+                    "minecraft:waxed_copper_block",
+					"minecraft:waxed_exposed_copper",
+                    "minecraft:waxed_weathered_copper",
+                    "minecraft:waxed_oxidized_copper",
+                    "minecraft:raw_copper_block",
+                    "minecraft:copper_golem_statue",
+                    "minecraft:exposed_copper_golem_statue",
+                    "minecraft:weathered_copper_golem_statue",
+                    "minecraft:oxidized_copper_golem_statue",
+                    "minecraft:waxed_copper_golem_statue",
+                    "minecraft:waxed_exposed_copper_golem_statue",
+                    "minecraft:waxed_weathered_copper_golem_statue",
+                    "minecraft:waxed_oxidized_copper_golem_statue",
+                    "create:cogwheel",
+                    "create:large_cogwheel",
+                    "create:flywheel"
+                ]
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "jesteratus held_item=cobblemon:steel_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "jesteratus",
+          "weight": 100.0,
+          "levelRange": "15-45",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "jesteratus-alpha-2",
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "31-100",
+      "weight": 100.0,
+      "condition": {
+		"structures": [
+			"minecraft:trial_chamber",
+            "cataclysm:ancient_factory"
+		    ],
+            "minY": -40,
+            "maxY": 0
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "jesteratus held_item=cobblemon:steel_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "jesteratus",
+          "weight": 100.0,
+          "levelRange": "15-45",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}
