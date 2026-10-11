@@ -25,10 +25,10 @@
   ],
   "baseStats": {
     "hp": 95,
-    "attack": 125,
+    "attack": 135,
     "defence": 95,
     "special_attack": 80,
-    "special_defence": 64,
+    "special_defence": 74,
     "speed": 21
   },
   "evYield": {
