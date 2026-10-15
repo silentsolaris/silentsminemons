@@ -26,9 +26,9 @@
     "hp": 70,
     "attack": 130,
     "defence": 70,
-    "special_attack": 80,
+    "special_attack": 100,
     "special_defence": 110,
-    "speed": 110
+    "speed": 120
   },
   "evYield": {
     "hp": 0,
@@ -252,6 +252,7 @@
     "tm:smarkstrike",
     "tm:aquatail",
     "tm:zenheadbutt",
+    "egg:quiverdance",
     "special:celebrate"
   ],
   "preEvolution": "directick",
@@ -282,9 +283,9 @@
       "baseStats": {
       "hp": 70,
       "attack": 150,
-      "defence": 90,
-      "special_attack": 100,
-      "special_defence": 110,
+      "defence": 80,
+      "special_attack": 120,
+      "special_defence": 130,
       "speed": 150
       },
       "evolutions": [],

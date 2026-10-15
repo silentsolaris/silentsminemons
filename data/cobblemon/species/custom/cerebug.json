@@ -203,6 +203,7 @@
     "tm:meteorbeam",
     "tm:metalclaw",
     "tm:flash",
+    "egg:quiverdance",
     "special:celebrate"
   ],
  "evolutions": [

@@ -228,6 +228,7 @@
     "tm:flashcannon",
     "tm:ironhead",
     "tm:zenheadbutt",
+    "egg:quiverdance",
     "special:celebrate"
   ],
   "preEvolution": "cerebug",
