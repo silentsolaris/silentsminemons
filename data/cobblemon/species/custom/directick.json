@@ -1,0 +1,251 @@
+{
+  "implemented": false,
+  "nationalPokedexNumber": 2033,
+  "name": "directick",
+  "primaryType": "bug",
+  "secondaryType": "psychic",
+  "maleRatio": 0.5,
+  "height": 1,
+  "weight": 15,
+  "pokedex": [
+    "cobblemon.species.directick.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "sapsipper",
+    "telepathy",
+    "h:brainworm"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 60,
+    "attack": 80,
+    "defence": 50,
+    "special_attack": 70,
+    "special_defence": 100,
+    "speed": 50
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 1,
+    "speed": 0
+  },
+  "baseExperienceYield": 45,
+  "experienceGroup": "slow",
+  "catchRate": 150,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.15
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+	  	  {
+          "pokemon": "iotlander",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:enderpearl",
+        "quantityRange": "1-2"
+      },
+	  {
+        "item": "cobblemon:payapa_berry",
+        "percentage": 3.0
+      }
+    ]
+  },
+  "moves": [
+    "1:furycutter",
+    "1:stringshot",
+    "1:magicpowder",
+    "1:hypnosis",
+    "1:pounce",
+    "1:confuseray",
+    "1:firstimpression",
+    "1:barrier",
+    "33:psychocut",
+    "37:cosmicpower",
+    "43:takedown",
+    "47:stickyweb",
+    "50:doubleedge",
+    "55:fester",
+    "tm:leechlife",
+    "tm:signalbeam",
+    "tm:uturn",
+    "tm:xscissor",
+    "tm:bugbuzz",
+    "tm:bugbite",
+    "tm:strugglebug",
+    "tm:infestation",
+    "tm:lunge",
+    "tm:skittersmack",
+    "tm:pounce",
+    "tm:thief",
+    "tm:torment",
+    "tm:faketears",
+    "tm:payback",
+    "tm:thunderbolt",
+    "tm:thunderwave",
+    "tm:thunder",
+    "tm:shockwave",
+    "tm:chargebeam",
+    "tm:electroweb",
+    "tm:wildcharge",
+    "tm:nightshade",
+    "tm:confuseray",
+    "tm:shadowball",
+    "tm:shadowclaw",
+    "tm:gigadrain",
+    "tm:energyball",
+    "tm:trailblaze",
+    "tm:dig",
+    "tm:mudslap",
+    "tm:mudshot",
+    "tm:cut",
+    "tm:swordsdance",
+    "tm:screech",
+    "tm:hyperbeam",
+    "tm:doubleteam",
+    "tm:selfdestruct",
+    "tm:swift",
+    "tm:substitite",
+    "tm:snore",
+    "tm:protect",
+    "tm:scaryface",
+    "tm:endure",
+    "tm:falseswipe",
+    "tm:attract",
+    "tm:sleeptalk",
+    "tm:snore",
+    "tm:safeguard",
+    "tm:psychup",
+    "tm:uproar",
+    "tm:facade",
+    "tm:endeavor",
+    "tm:hypervoice",
+    "tm:gigaimpact",
+    "tm:echoedvoice",
+    "tm:laserfocus",
+    "tm:terablast",
+    "tm:sludgebomb",
+    "tm:poisonjab",
+    "tm:gunkshot",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:agility",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:amnesia",
+    "tm:dreameater",
+    "tm:rest",
+    "tm:futuresight",
+    "tm:magiccoat",
+    "tm:skillswap",
+    "tm:imprison",
+    "tm:cosmicpower",
+    "tm:gravity",
+    "tm:powerswap",
+    "tm:guardswap",
+    "tm:psychocut",
+    "tm:trickroom",
+    "tm:wonderroom",
+    "tm:magicroom",
+    "tm:storedpower",
+    "tm:allyswitch",
+    "tm:psychicterrain",
+    "tm:speedswap",
+    "tm:psychicterrain",
+    "tm:expandingforce",
+    "tm:psychicnoise",
+    "tm:meteorbeam",
+    "tm:metalclaw",
+    "tm:beatup",
+    "tm:taunt",
+    "tm:suckerpunch",
+    "tm:nastyplot",
+    "tm:honeclaws",
+    "tm:quash",
+    "tm:brutalswing",
+    "tm:lashout",
+    "tm:outrage",
+    "tm:dragonclaw",
+    "tm:dazzlinggleam",
+    "tm:focusblast",
+    "tm:stompingtantrum",
+    "tm:strength",
+    "tm:flash",
+    "tm:rockclimb",
+    "tm:takedown",
+    "tm:doubleedge",
+    "tm:swagger",
+    "tm:confide",
+    "tm:flashcannon",
+    "tm:ironhead",
+    "tm:zenheadbutt",
+    "special:celebrate"
+  ],
+  "preEvolution": "cerebug",
+ "evolutions": [
+     {
+      "id": "directick-iotlander",
+      "variant": "level_up",
+      "result": "iotlander",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+	  "fester"
+	  ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 50
+        }
+      ]
+    } 
+  ]
+}
