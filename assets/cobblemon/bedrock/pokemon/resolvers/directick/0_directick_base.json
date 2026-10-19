@@ -1,0 +1,47 @@
+{
+ "species": "cobblemon:directick",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:directick",
+     "model": "cobblemon:directick.geo",
+     "texture": "cobblemon:textures/pokemon/directick/directick.png",
+     "layers": [
+                {
+                      "name": "emissive",
+                      "emissive": true,
+                      "texture": "cobblemon:textures/pokemon/directick/directick_emissive.png",
+                      "translucent": true
+                }
+              ]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/directick/directick_shiny.png",
+     "layers": [
+                {
+                      "name": "emissive",
+                      "emissive": true,
+                      "texture": "cobblemon:textures/pokemon/directick/directick_shiny_emissive.png",
+                      "translucent": true
+                }
+              ]
+   },
+   {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/directick/directick_alpha.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+ ]
+}

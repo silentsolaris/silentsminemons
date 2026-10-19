@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "directick-1",
+            "pokemon": "directick",
+            "presets": [
+				"natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "ultra-rare",
+            "level": "25-45",
+            "weight": 10.8,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_warped"
+                ]
+            }
+        },
+        {
+            "id": "directick-2",
+            "pokemon": "directick",
+            "presets": [
+				"natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "25-45",
+            "weight": 6.75,
+            "condition": {
+                "biomes": [
+                    "##cobblemon:is_end"
+                ]
+            }
+        }
+   ]
+}

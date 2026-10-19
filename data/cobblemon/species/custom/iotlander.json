@@ -4,7 +4,7 @@
   "name": "iotlander",
   "primaryType": "bug",
   "secondaryType": "psychic",
-  "maleRatio": 0.5,
+  "maleRatio": 0.3,
   "height": 1,
   "weight": 15,
   "pokedex": [
@@ -64,7 +64,7 @@
     },
     "moving": {
       "walk": {
-        "walkSpeed": 0.15
+        "walkSpeed": 0.3
       },
       "swim": {
         "avoidsWater": true,

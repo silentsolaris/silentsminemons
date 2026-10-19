@@ -1,0 +1,55 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "iotlander-alpha-1",
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "31-100",
+      "weight": 100.0,
+      "condition": {
+                "biomes": [
+                    "#cobblemon:is_warped",
+                    "#cobblemon:is_end"
+                ]
+            },
+      "herdablePokemon": [
+        {
+          "pokemon": "iotlander held_item=cobblemon:psychic_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "50-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "cerebug",
+          "weight": 80.0,
+          "levelRange": "15-30",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "directick",
+          "weight": 50.0,
+          "levelRange": "25-30",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "iotlander",
+          "weight": 10.0,
+          "levelRange": "55-60",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

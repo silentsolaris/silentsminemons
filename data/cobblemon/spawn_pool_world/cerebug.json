@@ -1,0 +1,41 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "cerebug-1",
+            "pokemon": "cerebug",
+            "presets": [
+				"natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "ultra-rare",
+            "level": "15-30",
+            "weight": 18,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_warped"
+                ]
+            }
+        },
+        {
+            "id": "cerebug-2",
+            "pokemon": "cerebug",
+            "presets": [
+				"natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "rare",
+            "level": "15-30",
+            "weight": 22.5,
+            "condition": {
+                "biomes": [
+                    "##cobblemon:is_end"
+                ]
+            }
+        }
+   ]
+}

@@ -1,8 +1,8 @@
 {
  "portraitScale": 1.66,
- "portraitTranslation": [-1, 1.5, 0],
- "profileScale": 0.6,
- "profileTranslation": [0, 0.9, 0],
+ "portraitTranslation": [-1, 1.6, 0],
+ "profileScale": 0.48,
+ "profileTranslation": [0, 1.02, 0],
  "animations": {
    "faint": "q.bedrock_primary('anonkey', 'faint', q.curve('one'))",
    "cry": "q.bedrock_stateful('anonkey', 'cry')",
@@ -43,12 +43,7 @@
      "condition": "!q.in_air && !q.is_sprinting",
      "animations": [
        "q.look('head')",
-       "q.bedrock('anonkey', 'ground_walk')",
-       {
-          "condition": "q.is_ridden",
-          "animation": "q.bedrock('anonkey', 'ride_ground_walk')"
-        }
-
+       "q.bedrock('anonkey', 'ground_walk')"
      ],
      "quirks": ["q.bedrock_quirk('anonkey', 'blink')"]
    },
@@ -57,11 +52,7 @@
       "condition": "!q.in_air && q.is_sprinting",
       "animations": [
         "q.look('head')",
-        "q.bedrock('anonkey', 'ground_run')",
-        {
-          "condition": "q.is_ridden",
-          "animation": "q.bedrock('anonkey', 'ride_ground_run')"
-        }
+        "q.bedrock('anonkey', 'ground_run')"
       ],
       "quirks": ["q.bedrock_quirk('anonkey', 'blink')"]
     },

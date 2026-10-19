@@ -1,0 +1,47 @@
+{
+ "species": "cobblemon:cerebug",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:cerebug",
+     "model": "cobblemon:cerebug.geo",
+     "texture": "cobblemon:textures/pokemon/cerebug/cerebug.png",
+     "layers": [
+                {
+                      "name": "emissive",
+                      "emissive": true,
+                      "texture": "cobblemon:textures/pokemon/cerebug/cerebug_emissive.png",
+                      "translucent": true
+                }
+              ]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/cerebug/cerebug_shiny.png",
+     "layers": [
+                {
+                      "name": "emissive",
+                      "emissive": true,
+                      "texture": "cobblemon:textures/pokemon/cerebug/cerebug_shiny_emissive.png",
+                      "translucent": true
+                }
+              ]
+   },
+   {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/cerebug/cerebug_alpha.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+ ]
+}

@@ -1,0 +1,61 @@
+{
+ "species": "cobblemon:iotlander",
+ "order": 0,
+ "variations": [
+   {
+     "aspects": [],
+     "poser": "cobblemon:iotlander",
+     "model": "cobblemon:iotlander.geo",
+     "texture": "cobblemon:textures/pokemon/iotlander/iotlander.png",
+     "layers": [
+                {
+                "name": "liquid",
+                "texture": "cobblemon:textures/pokemon/iotlander/iotlander_transparency.png",
+                "translucent": true,
+                "emissive": true,
+                "translucent_cull": true
+                },
+                {
+                      "name": "emissive",
+                      "emissive": true,
+                      "texture": "cobblemon:textures/pokemon/iotlander/iotlander_emissive.png",
+                      "translucent": true
+                }
+              ]
+   },
+   {
+     "aspects": [
+       "shiny"
+     ],
+     "texture": "cobblemon:textures/pokemon/iotlander/iotlander_shiny.png",
+     "layers": [
+                {
+                "name": "liquid",
+                "texture": "cobblemon:textures/pokemon/iotlander/iotlander_shiny_transparency.png",
+                "translucent": true,
+                "emissive": true,
+                "translucent_cull": true
+                },
+                {
+                      "name": "emissive",
+                      "emissive": true,
+                      "texture": "cobblemon:textures/pokemon/iotlander/iotlander_shiny_emissive.png",
+                      "translucent": true
+                }
+              ]
+   },
+   {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/iotlander/iotlander_alpha.png",
+          "emissive": true,
+          "translucent": true
+        }
+      ]
+    }
+ ]
+}

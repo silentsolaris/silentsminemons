@@ -1,0 +1,42 @@
+{
+ "portraitScale": 1.8,
+ "portraitTranslation": [-0.7, 3.5, 0],
+ "profileScale": 0.4,
+ "profileTranslation": [0, 1.3, 0],
+ "animations": {
+   "cry": "q.bedrock_stateful('iotlander', 'cry')",
+   "recoil": "q.bedrock_stateful('iotlander', 'recoil')"
+ },
+ "poses": {
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('iotlander', 'battle_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('iotlander', 'blink')"]
+   },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('iotlander', 'ground_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('iotlander', 'blink')"]
+   },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('iotlander', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('iotlander', 'blink')"]
+   },
+   "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('iotlander', 'sleep')"]
+   }
+	}
+}
