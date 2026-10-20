@@ -96,7 +96,8 @@
     "entries": [
       {
         "item": "minecraft:sand",
-        "quantityRange": "2-5"
+        "quantityRange": "2-5",
+        "percentage": 50.0
       },
 	  {
         "item": "cobblemon:roseli_berry",

@@ -93,11 +93,12 @@
     "entries": [
       {
         "item": "minecraft:shulker_shell",
-        "quantityRange": "1-2"
+        "quantityRange": "1-2",
+        "percentage": 75.0
       },
 	  {
         "item": "minecraft:diamond",
-        "percentage": 3.0
+        "percentage": 5.0
       }
     ]
   },

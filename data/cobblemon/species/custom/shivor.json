@@ -87,11 +87,12 @@
     "entries": [
       {
         "item": "minecraft:ice",
-        "quantityRange": "2-3"
+        "quantityRange": "2-3",
+        "percentage": 50.0
       },
 	  {
         "item": "cobblemon:poison_barb",
-        "percentage": 5.0
+        "percentage": 25.0
       },
       {
         "item": "cobblemon:kebia_berry",

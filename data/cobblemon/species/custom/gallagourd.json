@@ -119,7 +119,8 @@
       },
 	  {
         "item": "minecraft:iron_ingot",
-        "quantityRange": "2-5"
+        "quantityRange": "2-5",
+        "percentage": 50.0
       }
     ]
   },

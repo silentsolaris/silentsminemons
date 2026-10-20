@@ -104,7 +104,8 @@
     "entries": [
       {
         "item": "minecraft:white_wool",
-        "quantityRange": "2-5"
+        "quantityRange": "1-3",
+        "percentage": 75.0
       },
 	  {
         "item": "cobblemon:oran_berry",

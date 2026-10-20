@@ -92,7 +92,8 @@
     "entries": [
       {
         "item": "minecraft:enderpearl",
-        "quantityRange": "1-2"
+        "quantityRange": "1-2",
+        "percentage": 50.0
       },
 	  {
         "item": "cobblemon:payapa_berry",

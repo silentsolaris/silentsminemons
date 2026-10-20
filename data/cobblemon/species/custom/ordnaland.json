@@ -104,7 +104,8 @@
       },
       {
         "item": "minecraft:prismarine_crystals",
-        "quantityRange": "2-5"
+        "quantityRange": "2-5",
+        "percentage": 50.0
       }
     ]
   },

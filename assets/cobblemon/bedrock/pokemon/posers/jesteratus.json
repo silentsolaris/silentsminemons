@@ -16,7 +16,7 @@
        "q.bedrock('jesteratus', 'battle_idle')"
      ],
      "quirks": ["q.bedrock_quirk('jesteratus', 'blink')",
-    "q.bedrock_quirk('ocatalyst', 'clock_quirk')"]
+    "q.bedrock_quirk('jesteratus', 'clock_quirk')"]
    },
    "standing": {
      "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
@@ -26,7 +26,7 @@
        "q.bedrock('jesteratus', 'ground_idle')"
      ],
      "quirks": ["q.bedrock_quirk('jesteratus', 'blink')",
-    "q.bedrock_quirk('ocatalyst', 'clock_quirk')"]
+    "q.bedrock_quirk('jesteratus', 'clock_quirk')"]
    },
    "walking": {
      "poseTypes": ["WALK"],
@@ -39,7 +39,7 @@
    "sleep": {
      "poseTypes": ["SLEEP"],
      "animations": ["q.bedrock('jesteratus', 'sleep')"],
-     "quirks": ["q.bedrock_quirk('ocatalyst', 'clock_quirk')"]
+     "quirks": ["q.bedrock_quirk('jesteratus', 'clock_quirk')"]
    }
 	}
 }

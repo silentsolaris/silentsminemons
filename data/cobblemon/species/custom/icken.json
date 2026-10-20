@@ -91,8 +91,7 @@
     "amount": 5,
     "entries": [
 	  {
-        "item": "cobblemon:berry_juice",
-        "percentage": 3.0
+        "item": "minecraft:raw_chicken"
       }
     ]
   },

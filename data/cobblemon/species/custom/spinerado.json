@@ -109,11 +109,13 @@
     "entries": [
       {
         "item": "minecraft:bone",
-        "quantityRange": "2-5"
+        "quantityRange": "2-5",
+        "percentage": 75.0
       },
       {
-        "item": "minecraft:blue_ice",
-        "percentage": 5.0
+        "item": "minecraft:sandstone",
+        "quantityRange": "1-3",
+        "percentage": 75.0
       }
     ]
   },

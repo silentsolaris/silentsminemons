@@ -92,7 +92,8 @@
     "entries": [
       {
         "item": "minecraft:bone",
-        "quantityRange": "2-5"
+        "quantityRange": "1-2",
+        "percentage": 75.0
       },
 	  {
         "item": "cobblemon:kasib_berry",

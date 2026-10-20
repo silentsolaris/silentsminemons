@@ -91,8 +91,9 @@
     "amount": 5,
     "entries": [
       {
-        "item": "minecraft:egg",
-        "quantityRange": "1-2"
+        "item": "minecraft:rotten_flesh",
+        "quantityRange": "1-2",
+        "percentage": 50.0
       },
 	  {
         "item": "minecraft:raw_chicken"

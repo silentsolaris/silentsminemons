@@ -112,7 +112,8 @@
     "entries": [
       {
         "item": "minecraft:coarsed_dirt",
-        "quantityRange": "2-5"
+        "quantityRange": "2-5",
+        "percentage": 50.0
       },
 	  {
         "item": "cobblemon:tanga_berry",
