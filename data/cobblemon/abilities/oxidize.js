@@ -15,14 +15,14 @@
 		onSourceModifyAtk(atk, attacker, defender, move) {
 			if (move.type === 'Water' || move.type === 'Electric') {
 				this.debug('Oxidize weaken');
-				return this.chainModify(0.75);
+				return this.chainModify(0.5);
 			}
 		},
 		onSourceModifySpAPriority: 5,
 		onSourceModifySpA(atk, attacker, defender, move) {
 			if (move.type === 'Water' || move.type === 'Electric') {
 				this.debug('Oxidize weaken');
-				return this.chainModify(0.75);
+				return this.chainModify(0.5);
 			}
 		},
 		flags: {},

@@ -290,7 +290,7 @@
     "cobblemon.ability.neurotoxin.desc": "Pokémon poisoned by the user's moves will also have their Speed stat lowered.",
 
     "cobblemon.ability.oxidize": "Oxidize",
-    "cobblemon.ability.oxidize.desc": "Takes less damage from Water & Electric-Type attacks, and, when hit by these moves gains an aura of healing.",
+    "cobblemon.ability.oxidize.desc": "Takes less damage from Water & Electric-Type attacks, and, when hit by these moves, the Pokémon gains an aura of healing.",
     "cobblemon.battle.activate.oxidize.water": "%1$s is moisturized by the attack!",
     "cobblemon.battle.activate.oxidize.electric": "%1$s is energized by the attack!",
 
