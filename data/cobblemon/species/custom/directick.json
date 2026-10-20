@@ -91,7 +91,7 @@
     "amount": 3,
     "entries": [
       {
-        "item": "minecraft:enderpearl",
+        "item": "minecraft:ender_pearl",
         "quantityRange": "1-2",
         "percentage": 50.0
       },
