@@ -71,13 +71,16 @@
         "canSwimInLava": false
       }
     },
+    "entityInteract": {
+        "avoidedByCreeper": true
+    },
     "herd": {
       "maxSize": "1",
       "toleratedLeaders": [
 	  {
-          "pokemon": "ocatalyst",
-          "tier": 1
-        }
+      "pokemon": "ocatalyst",
+      "tier": 1
+      }
 		]
     },
     "combat": {
