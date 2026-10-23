@@ -73,36 +73,6 @@
                 "repurposed_structures:city_overworld"
                 ]
             }
-        },
-        {
-            "id": "musheteer-3",
-            "pokemon": "musheteer",
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
-            "level": "31-56",
-            "weight": 4.8,
-            "weightMultiplier": {
-                "multiplier": 5.0,
-                "condition": {
-                    "neededNearbyBlocks": [
-                    "minecraft:bone_block"
-                    ]
-                }
-            },
-            "condition": {
-                "canSeeSky": false,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ]
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_deep_dark",
-                    "#cobblemon:is_forest",
-                    "#cobblemon:is_swamp"
-                ]
-            }
         }
    ]
 }
