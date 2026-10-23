@@ -5,7 +5,7 @@
     {
       "id": "jesteratus-herd-1",
       "type": "pokemon-herd",
-      "bucket": "common",
+      "bucket": "uncommon",
       "spawnablePositionType": "grounded",
       "maxHerdSize": 4,
       "levelRange": "20-45",

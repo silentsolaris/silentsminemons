@@ -41,7 +41,7 @@
             "pokemon": "jesteratus",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "common",
+            "bucket": "uncommon",
             "level": "20-45",
             "weight": 16,
             "condition": {
