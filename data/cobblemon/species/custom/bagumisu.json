@@ -1,0 +1,189 @@
+{
+  "implemented": false,
+  "nationalPokedexNumber": 2009,
+  "name": "bagumisu",
+  "primaryType": "bug",
+  "secondaryType": "fire",
+  "maleRatio": 0.5,
+  "height": 5,
+  "weight": 100,
+  "pokedex": [
+    "cobblemon.species.bagumisu.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "swarm",
+    "steelworker",
+    "h:steelyspirit"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 35,
+    "attack": 40,
+    "defence": 50,
+    "special_attack": 25,
+    "special_defence": 40,
+    "speed": 20
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 50,
+  "experienceGroup": "erratic",
+  "catchRate": 180,
+  "eggCycles": 40,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "baseScale": 1,
+  "standingEyeHeight": 0.6,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.4
+      },
+      "swim": {
+        "avoidsWater": false,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "3",
+      "toleratedLeaders": [
+        {
+          "pokemon": "bagumisu",
+          "tier": 2
+        },
+        {
+          "pokemon": "hotaroji",
+          "tier": 1  
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:coal",
+        "quantityRange": "1-2",
+        "percentage": 50.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "special:celebrate",
+    "1:tackle",
+    "1:confuseray",
+    "5:ember",
+    "10:strugglebug",
+    "15:moonlight",
+    "20:willowisp",
+    "23:flatter",
+    "27:metalclaw",
+    "30:willowisp",
+    "tm:pinmissile",
+    "tm:signalbeam",
+    "tm:uturn",
+    "tm:strugglebug",
+    "tm:bugbuzz",
+    "tm:infestation",
+    "tm:xscissor",
+    "tm:lunge",
+    "tm:skittersmack",
+    "tm:thief",
+    "tm:taunt",
+    "tm:torment",
+    "tm:embargo",
+    "tm:fling",
+    "tm:foulplay",
+    "tm:flamethrower",
+    "tm:firespin",
+    "tm:fireblast",
+    "tm:sunnyday",
+    "tm:heatwave",
+    "tm:willowisp",
+    "tm:overheat",
+    "tm:flareblitz",
+    "tm:flamecharge",
+    "tm:incinerate",
+    "tm:mysticalfire",
+    "tm:defog",
+    "tm:tailwind",
+    "tm:confuseray",
+    "tm:solarbeam",
+    "tm:flash",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:doubleedge",
+    "tm:safeguard",
+    "tm:afteryou",
+    "tm:hyperbeam",
+    "tm:agility",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:steelwing",
+    "tm:metalsound",
+    "tm:irondefense",
+    "tm:gyroball",
+    "tm:metalclaw",
+    "tm:flashcannon",
+    "tm:smartstrike",
+    "egg:tailglow"
+  ],
+ "evolutions": [
+     {
+      "id": "bagumisu-hotaroji",
+      "variant": "level_up",
+      "result": "hotaroji",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+	  "flamecharge"
+	  ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 25
+        }
+      ]
+    }
+  ]
+}

@@ -1,17 +1,18 @@
 {
   "implemented": false,
   "nationalPokedexNumber": 2028,
-  "name": "plangiant",
+  "name": "bellhemoth",
   "primaryType": "ghost",
   "secondaryType": "rock",
   "maleRatio": -1,
   "height": 5,
   "weight": 400,
   "pokedex": [
-    "cobblemon.species.plangiant.desc"
+    "cobblemon.species.bellhemoth.desc"
   ],
   "labels": [
-    "minemons"
+    "minemons",
+    "legendary"
   ],
   "aspects": [],
   "abilities": [

@@ -1,0 +1,206 @@
+{
+  "implemented": false,
+  "nationalPokedexNumber": 2009,
+  "name": "craybolt",
+  "primaryType": "ground",
+  "secondaryType": "steel",
+  "maleRatio": 0.5,
+  "height": 5,
+  "weight": 100,
+  "pokedex": [
+    "cobblemon.species.craybolt.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "shellarmor",
+    "stormdrain",
+    "h:eartheater"
+  ],
+  "eggGroups": [
+    "water_3"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 100,
+    "defence": 110,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 25
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 2,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 50,
+  "experienceGroup": "medium_fast",
+  "catchRate": 180,
+  "eggCycles": 40,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "baseScale": 1,
+  "standingEyeHeight": 0.6,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.4
+      },
+      "swim": {
+        "avoidsWater": false,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "3",
+      "toleratedLeaders": [
+        {
+          "pokemon": "craybolt",
+          "tier": 2
+        },
+        {
+          "pokemon": "crustruct",
+          "tier": 1  
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:iron_nugget",
+        "quantityRange": "1-2",
+        "percentage": 50.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "special:celebrate",
+    "1:harden",
+    "1:sandattack",
+    "1:scratch",
+    "1:mudslap",
+    "1:metalclaw",
+    "1:bulldoze",
+    "1:rototiller",
+    "1:metalsound",
+    "1:smartstrike",
+    "27:dig",
+    "32:spikes",
+    "40:highhorsepower",
+    "50:irondefense",
+    "50:bodypress",
+    "60:earthquake",
+    "tm:leechlife",
+    "tm:xscissor",
+    "tm:skittersmack",
+    "tm:knockoff",
+    "tm:brutalswing",
+    "tm:rocksmash",
+    "tm:superpower",
+    "tm:brickbreak",
+    "tm:bodypress",
+    "tm:heatcrash",
+    "tm:curse",
+    "tm:trailblaze",
+    "tm:earthquake",
+    "tm:mudslap",
+    "tm:spikes",
+    "tm:sandtomb",
+    "tm:mudshot",
+    "tm:earthpower",
+    "tm:bulldoze",
+    "tm:stompingtantrum",
+    "tm:icespinner",
+    "tm:cut",
+    "tm:strength",
+    "tm:rockclimb",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:doubleedge",
+    "tm:hyperbeam",
+    "tm:screech",
+    "tm:falseswipe",
+    "tm:safeguard",
+    "tm:facade",
+    "tm:endeavor",
+    "tm:block",
+    "tm:gigaimpact",
+    "tm:workup",
+    "tm:confide",
+    "tm:laserfocus",
+    "tm:terrainpulse",
+    "tm:poisonjab",
+    "tm:crosspoison",
+    "tm:gunkshot",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:gravity",
+    "tm:rockslide",
+    "tm:rocktomb",
+    "tm:stoneedge",
+    "tm:stealthrock",
+    "tm:smackdown",
+    "tm:metalclaw",
+    "tm:metalsound",
+    "tm:flashcannon",
+    "tm:heavyslam",
+    "tm:ironhead",
+    "tm:smartstrike",
+    "tm:steelroller",
+    "tm:hardpress",
+    "tm:highhorsepower",
+    "egg:nightslash",
+    "egg:slash",
+    "egg:guillotine",
+    "egg:crabhammer"
+  ],
+ "evolutions": [
+     {
+      "id": "craybolt-crustruct",
+      "variant": "item_interact",
+      "result": "crustruct",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+	  "earthquake"
+	  ],
+      "requirements": [],
+      "requiredContext": "minecraft:diamond_pickaxe"
+    }
+  ]
+}

@@ -74,7 +74,7 @@
       "maxSize": "3",
       "toleratedLeaders": [
 	  	  {
-          "pokemon": "polorror",
+          "pokemon": "cubchoo",
           "tier": 4
         },
 		{
@@ -86,7 +86,7 @@
           "tier": 2
         },
         {
-          "pokemon": "cubchoo",
+          "pokemon": "shivor",
           "tier": 1  
         }
 		]

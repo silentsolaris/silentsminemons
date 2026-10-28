@@ -1,0 +1,190 @@
+{
+  "implemented": false,
+  "nationalPokedexNumber": 2006,
+  "name": "bhaima",
+  "primaryType": "water",
+  "secondaryType": "dark",
+  "maleRatio": 0.5,
+  "height": 3,
+  "weight": 200,
+  "pokedex": [
+    "cobblemon.species.bhaima.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "torrent",
+    "torrent",
+    "h:defiant"
+  ],
+  "eggGroups": [
+    "field"
+  ],
+  "baseStats": {
+    "hp": 130,
+    "attack": 110,
+    "defence": 80,
+    "special_attack": 70,
+    "special_defence": 62,
+    "speed": 78
+  },
+  "evYield": {
+    "hp": 3,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 50,
+  "experienceGroup": "medium_slow",
+  "catchRate": 240,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": false,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "bhaima",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+	  {
+        "item": "minecraft:leather",
+        "quantityRange": "1-2",
+        "percentage": 50.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:leer",
+    "1:tackle",
+    "6:bubble",
+    "1:torment",
+    "1:faketears",
+    "1:bubblebeam",
+    "1:lifedew",
+    "1:liquidation",
+    "40:throatchop",
+    "45:taunt",
+    "53:knockoff",
+    "56:partingshot",
+    "60:wavecrash",
+    "tm:thief",
+    "tm:torment",
+    "tm:taunt",
+    "tm:knockoff",
+    "tm:faketears",
+    "tm:payback",
+    "tm:payback",
+    "tm:assurance",
+    "tm:suckerpunch",
+    "tm:darkpulse",
+    "tm:nastyplot",
+    "tm:foulplay",
+    "tm:throatchop",
+    "tm:outrage",
+    "tm:charm",
+    "tm:rocksmash",
+    "tm:superpower",
+    "tm:revenge",
+    "tm:brickbreak",
+    "tm:bulkup",
+    "tm:nightshade",
+    "tm:curse",
+    "tm:spite",
+    "tm:hex",
+    "tm:trailblaze",
+    "tm:earthquake",
+    "tm:bulldoze",
+    "tm:highhorsepower",
+    "tm:stompingtantrum",
+    "tm:icebeam",
+    "tm:haze",
+    "tm:icywind",
+    "tm:icespinner",
+    "tm:strength",
+    "tm:rockclimb",
+    "tm:scaryface",
+    "tm:swagger",
+    "tm:weatherball",
+    "tm:hypervoice",
+    "tm:hyperbeam",
+    "tm:gigaimpact",
+    "tm:retaliate",
+    "tm:workup",
+    "tm:zenheadbutt",
+    "tm:rockslide",
+    "tm:stoneedge",
+    "tm:ironhead",
+    "tm:waterpledge",
+    "tm:hydrocannon",
+    "tm:surf",
+    "tm:waterfall",
+    "tm:whirlpool",
+    "tm:hydropump",
+    "tm:raindance",
+    "tm:muddywater",
+    "tm:waterpulse",
+    "tm:brine",
+    "tm:liquidation",
+    "tm:flipturn",
+    "tm:chillingwater",
+    "egg:aquajet",
+    "egg:soak",
+    "egg:wavecrash"
+  ],
+ "evolutions": [
+  ]
+}

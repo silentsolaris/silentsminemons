@@ -134,6 +134,9 @@
     "cobblemon.species.rapscam.name": "Rapscam",
     "cobblemon.species.rapscam.desc": "Communities of this Pokémon trade leaves for food like a form of currency. The more lush the leaf, the higher the value.",
 
+    "cobblemon.species.bellhemoth.name": "Bellhemoth",
+    "cobblemon.species.bellhemoth.desc": "Ancient texts describe the events of a prophesized apocalypse. A choir of bells heard across the world, ringing so loud they drown out chaos, deafening the world until all is silent.",
+
     "cobblemon.species.prodifry.name": "Prodifry",
     "cobblemon.species.prodifry.desc": "Its natural talent for combat makes it a popular Pokémon. As soon as they're born they travel across the ocean to train.",
 
@@ -223,7 +226,7 @@
     "cobblemon.move.gmaxcountdown.desc": "A Fairy-type attack that Gigantamax Jesteratus use. This move twists the dimensions, in which slower Pokémon get to move first for five turns.",
 
     "cobblemon.move.gmaxlament": "G-Max Lament",
-    "cobblemon.move.gmaxlament.desc": "A Ghost-type attack that Gigantamax Plangiant use. This moves prevents opponents from restoring HP.",
+    "cobblemon.move.gmaxlament.desc": "A Ghost-type attack that Gigantamax Bellhemoth use. This moves prevents opponents from restoring HP.",
 
     "cobblemon.move.venombinding": "Venom Binding",
     "cobblemon.move.venombinding.desc": "The target is badly poisoned, and cannot flee or switch out.",

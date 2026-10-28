@@ -1,0 +1,215 @@
+{
+  "implemented": false,
+  "nationalPokedexNumber": 2009,
+  "name": "artiweb",
+  "primaryType": "bug",
+  "secondaryType": "ground",
+  "maleRatio": 0.5,
+  "height": 5,
+  "weight": 100,
+  "pokedex": [
+    "cobblemon.species.artiweb.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "swarm",
+    "technician",
+    "h:landscaper"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 70,
+    "special_attack": 40,
+    "special_defence": 50,
+    "speed": 30
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 50,
+  "experienceGroup": "medium_fast",
+  "catchRate": 180,
+  "eggCycles": 40,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "baseScale": 1,
+  "standingEyeHeight": 0.6,
+  "hitbox": {
+    "width": 0.7,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.4
+      },
+      "swim": {
+        "avoidsWater": false,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "3",
+      "toleratedLeaders": [
+	  	  {
+          "pokemon": "ariados",
+          "tier": 4
+        },
+		{
+          "pokemon": "artiweb",
+          "tier": 3
+        },
+        {
+          "pokemon": "weavisan",
+          "tier": 2
+        },
+        {
+          "pokemon": "operachne",
+          "tier": 1  
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 3,
+    "entries": [
+      {
+        "item": "minecraft:string",
+        "quantityRange": "1-2",
+        "percentage": 50.0
+      },
+	  {
+        "item": "minecraft:dirt",
+        "quantityRange": "1-2",
+        "percentage": 50.0
+      },
+      {
+        "item": "minecraft:spider_eye",
+        "percentage": 25.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "special:celebrate",
+    "1:stringshot",
+    "1:sandattack",
+    "1:mudslap",
+    "8:infestation",
+    "12:spiderweb",
+    "15:bulldoze",
+    "20:silktrap",
+    "tm:pinmissile",
+    "tm:leechlife",
+    "tm:xscissor",
+    "tm:bugbuzz",
+    "tm:bugbite",
+    "tm:strugglebug",
+    "tm:lunge",
+    "tm:skittersmack",
+    "tm:pounce",
+    "tm:thief",
+    "tm:crunch",
+    "tm:knockoff",
+    "tm:snatch",
+    "tm:payback",
+    "tm:embargo",
+    "tm:suckerpunch",
+    "tm:nastyplot",
+    "tm:bounce",
+    "tm:confuseray",
+    "tm:gigadrain",
+    "tm:trailblaze",
+    "tm:earthquake",
+    "tm:dig",
+    "tm:mudslap",
+    "tm:spikes",
+    "tm:sandtomb",
+    "tm:mudshot",
+    "tm:earthpower",
+    "tm:bulldoze",
+    "tm:highhorsepower",
+    "tm:stompingtantrum",
+    "tm:cut",
+    "tm:screech",
+    "tm:doubleteam",
+    "tm:scaryface",
+    "tm:swagger",
+    "tm:safeguard",
+    "tm:psychup",
+    "tm:workup",
+    "tm:toxicspikes",
+    "tm:gunkshot",
+    "tm:sludgebomb",
+    "tm:agility",
+    "tm:reflect",
+    "tm:lightscreen",
+    "tm:rocktomb",
+    "tm:rockslide",
+    "tm:sandstorm",
+    "tm:stoneedge",
+    "tm:stealthrock",
+    "tm:metalclaw",
+    "tm:smartstrike",
+    "egg:firstimpression",
+    "egg:silktrap",
+    "egg:stickyweb",
+    "egg:fissure",
+    "egg:magnitude",
+    "egg:rototiller",
+    "egg:spiderweb"
+  ],
+ "evolutions": [
+     {
+      "id": "artiweb-weavisan",
+      "variant": "level_up",
+      "result": "weavisan",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+	  "dig"
+	  ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 18
+        }
+      ]
+    }
+  ]
+}

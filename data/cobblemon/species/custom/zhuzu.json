@@ -1,0 +1,205 @@
+{
+  "implemented": false,
+  "nationalPokedexNumber": 2006,
+  "name": "zhuzu",
+  "primaryType": "grass",
+  "maleRatio": 0.5,
+  "height": 3,
+  "weight": 200,
+  "pokedex": [
+    "cobblemon.species.zhuzu.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "overgrow",
+    "overgrow",
+    "h:windrider"
+  ],
+  "eggGroups": [
+    "field",
+    "grass"
+  ],
+  "baseStats": {
+    "hp": 40,
+    "attack": 45,
+    "defence": 43,
+    "special_attack": 67,
+    "special_defence": 60,
+    "speed": 55
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 1,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 50,
+  "experienceGroup": "medium_slow",
+  "catchRate": 240,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "baseScale": 1,
+  "standingEyeHeight": 1,
+  "hitbox": {
+    "width": 0.5,
+    "height": 0.5,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": false,
+      "light": "0-4",
+      "times": [
+        "day"
+      ],
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.35
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+	  	{
+          "pokemon": "whanguzi",
+          "tier": 2
+        },
+        {
+          "pokemon": "chirowufu",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": true,
+      "willDefendOwner": true,
+      "willFlee": false
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 5,
+    "entries": [
+	  {
+        "item": "minecraft:moss_block",
+        "quantityRange": "1-2",
+        "percentage": 50.0
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "legacy:toxic",
+    "special:celebrate",
+    "1:growl",
+    "1:scratch",
+    "6:leafage",
+    "10:supersonic",
+    "13:reflect",
+    "17:magicalleaf",
+    "20:leechseed",
+    "30:energyball",
+    "35:psychic",
+    "tm:leechlife",
+    "tm:pollenpuff",
+    "tm:skittersmack",
+    "tm:darkpulse",
+    "tm:foulplay",
+    "tm:dazzlinggleam",
+    "tm:aurasphere",
+    "tm:focusblast",
+    "tm:fly",
+    "tm:defog",
+    "tm:roost",
+    "tm:tailwind",
+    "tm:airslash",
+    "tm:dualwingbeat",
+    "tm:hurricane",
+    "tm:confuseray",
+    "tm:shadowball",
+    "tm:grasspledge",
+    "tm:frenzyplant",
+    "tm:solarbeam",
+    "tm:gigadrain",
+    "tm:synthesis",
+    "tm:magicalleaf",
+    "tm:energyball",
+    "tm:leafstorm",
+    "tm:grassknot",
+    "tm:grassyterrain",
+    "tm:trailblaze",
+    "tm:earthpower",
+    "tm:flash",
+    "tm:hyperbeam",
+    "tm:swift",
+    "tm:superfang",
+    "tm:encore",
+    "tm:hypervoice",
+    "tm:weatherball",
+    "tm:secretpower",
+    "tm:round",
+    "tm:echoedvoice",
+    "tm:terrainpulse",
+    "tm:psybeam",
+    "tm:psychic",
+    "tm:agility",
+    "tm:lightscreen",
+    "tm:reflect",
+    "tm:futuresight",
+    "tm:trick",
+    "tm:roleplay",
+    "tm:magiccoat",
+    "tm:skillswap",
+    "tm:imprison",
+    "tm:calmmind",
+    "tm:magicroom",
+    "tm:wonderroom",
+    "tm:trickroom",
+    "tm:storedpower",
+    "tm:allyswitch",
+    "tm:expandingforce",
+    "tm:psychicnoise",
+    "tm:psyshock",
+    "egg:healpulse",
+    "egg:ingrain",
+    "egg:grasswhistle"
+  ],
+ "evolutions": [
+     {
+      "id": "zhuzu-whanguzi",
+      "variant": "level_up",
+      "result": "whanguzi",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+	  "magicalleaf"
+	  ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": 16
+        }
+      ]
+    }
+  ]
+}
