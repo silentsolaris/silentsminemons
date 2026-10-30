@@ -16,8 +16,8 @@
   "aspects": [],
   "abilities": [
     "shellarmor",
-    "stormdrain",
-    "h:eartheater"
+    "eartheater",
+    "h:landscaper"
   ],
   "eggGroups": [
     "water_3"

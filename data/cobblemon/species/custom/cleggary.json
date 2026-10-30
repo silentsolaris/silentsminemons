@@ -3,7 +3,7 @@
   "nationalPokedexNumber": 2004,
   "name": "cleggary",
   "primaryType": "bug",
-  "secondaryType": "dragon",
+  "secondaryType": "poison",
   "maleRatio": 0.3,
   "height": 18,
   "weight": 100,
@@ -17,7 +17,7 @@
   "abilities": [
     "compoundeyes",
     "unnerve",
-    "h:plaguebringer"
+    "h:pestilence"
   ],
   "eggGroups": [
     "bug"
@@ -162,13 +162,6 @@
     "tm:fling",
     "tm:darkpulse",
     "tm:quash",
-    "tm:outrage",
-    "tm:dragondance",
-    "tm:dragonpulse",
-    "tm:dracometeor",
-    "tm:dragontail",
-    "tm:scaleshot",
-    "tm:dragoncheer",
     "tm:thunderwave",
     "tm:dazzlinggleam",
     "tm:flamethrower",

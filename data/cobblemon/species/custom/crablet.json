@@ -16,8 +16,8 @@
   "aspects": [],
   "abilities": [
     "shellarmor",
-    "stormdrain",
-    "h:eartheater"
+    "eartheater",
+    "h:landscaper"
   ],
   "eggGroups": [
     "water_3"
@@ -28,7 +28,7 @@
     "defence": 100,
     "special_attack": 30,
     "special_defence": 30,
-    "speed": 30
+    "speed": 20
   },
   "evYield": {
     "hp": 0,
