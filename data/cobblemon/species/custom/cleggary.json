@@ -15,9 +15,9 @@
   ],
   "aspects": [],
   "abilities": [
-    "compoundeyes",
+    "swarm",
     "unnerve",
-    "h:pestilence"
+    "h:compoundeyes"
   ],
   "eggGroups": [
     "bug"

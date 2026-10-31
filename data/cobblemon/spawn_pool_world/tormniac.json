@@ -6,8 +6,7 @@
 		{
             "id": "tormniac-1",
             "presets": [
-                "natural",
-                "treetop"
+                "natural"
             ],
             "pokemon": "tormniac",
             "type": "pokemon",
@@ -52,8 +51,7 @@
 		{
             "id": "tormniac-2",
             "presets": [
-                "natural",
-                "treetop"
+                "natural"
             ],
             "pokemon": "tormniac",
             "type": "pokemon",

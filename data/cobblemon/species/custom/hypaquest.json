@@ -16,19 +16,19 @@
   "aspects": [],
   "abilities": [
     "competitive",
-    "martiallaw",
-    "h:conquerer"
+    "battlearmor",
+    "h:relentless"
   ],
   "eggGroups": [
     "field"
   ],
   "baseStats": {
-    "hp": 90,
+    "hp": 80,
     "attack": 60,
     "defence": 80,
     "special_attack": 115,
     "special_defence": 70,
-    "speed": 90
+    "speed": 100
   },
   "evYield": {
     "hp": 0,

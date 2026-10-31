@@ -2,8 +2,9 @@
   "implemented": false,
   "nationalPokedexNumber": 2029,
   "name": "ghasthma",
-  "primaryType": "ghost",
-  "maleRatio": 0.7,
+  "primaryType": "normal",
+  "secondary": "ghost",
+  "maleRatio": 0.6,
   "height": 5,
   "weight": 400,
   "pokedex": [
@@ -15,19 +16,19 @@
   "aspects": [],
   "abilities": [
     "airlock",
-    "infiltrator",
+    "airlock",
     "h:windrider"
   ],
   "eggGroups": [
     "amorphous"
   ],
   "baseStats": {
-    "hp": 62,
+    "hp": 103,
     "attack": 136,
     "defence": 52,
-    "special_attack": 114,
-    "special_defence": 52,
-    "speed": 83
+    "special_attack": 73,
+    "special_defence": 62,
+    "speed": 114
   },
   "evYield": {
     "hp": 0,

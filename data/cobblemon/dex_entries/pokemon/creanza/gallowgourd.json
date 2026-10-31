@@ -1,0 +1,16 @@
+
+{
+  "id": "cobblemon:gallowgourd",
+  "speciesId": "cobblemon:gallowgourd",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -312,7 +312,7 @@
       "requirements": [
         {
           "variant": "party_member",
-          "minLevel": 40
+          "minLevel": 36
         },
         {
           "variant": "party_member",

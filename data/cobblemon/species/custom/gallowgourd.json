@@ -51,102 +51,6 @@
     "height": 2.8,
     "fixed": false
   },
-      "riding": {
-    "behaviours": {
-      "LAND": {
-        "key": "cobblemon:land/horse",
-        "rideSounds": [],
-        "stats": {
-          "ACCELERATION": "20-50",
-          "JUMP": "25-30",
-          "SKILL": "15-35",
-          "SPEED": "15-40",
-          "STAMINA": "50-80"
-        }
-      }
-    },
-    "seats": [
-      {
-        "offset": {
-          "x": 0.0,
-          "y": 0.0,
-          "z": 0.0
-        },
-        "poseOffsets": [
-          {
-            "offset": {
-              "x": 0.0,
-              "y": -1.7750001,
-              "z": 0.25
-            },
-            "poseTypes": [
-              "STAND"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.004908487,
-              "y": -1.7812071,
-              "z": 0.25
-            },
-            "poseTypes": [
-              "WALK"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0,
-              "y": -1.7750001,
-              "z": 0.25
-            },
-            "poseTypes": [
-              "HOVER"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0,
-              "y": -1.7750001,
-              "z": 0.25
-            },
-            "poseTypes": [
-              "FLY"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0,
-              "y": -1.7750001,
-              "z": 0.25
-            },
-            "poseTypes": [
-              "FLOAT"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.004908487,
-              "y": -1.7812071,
-              "z": 0.25
-            },
-            "poseTypes": [
-              "SWIM"
-            ]
-          },
-          {
-            "offset": {
-              "x": 0.0,
-              "y": -1.7750001,
-              "z": 0.25
-            },
-            "poseTypes": [
-              "GLIDE"
-            ]
-          }
-        ]
-      }
-    ]
-  },  
   "behaviour": {
     "resting": {
       "canSleep": true,
@@ -298,8 +202,6 @@
     "tm:irondefense",
     "tm:bodypress",
     "tm:gunkshot",
-    "tm:",
-    "tm:",
     "egg:fakeout",
     "egg:sandattack",
     "egg:spite",

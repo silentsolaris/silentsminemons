@@ -5,6 +5,9 @@
     "spawns": [
 		{
             "id": "ocatalyst-1",
+            "presets": [
+                "natural"
+                ],
             "pokemon": "ocatalyst",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
@@ -24,6 +27,9 @@
         },
 		{
             "id": "ocatalyst-2",
+            "presets": [
+                "natural"
+                ],
             "pokemon": "ocatalyst",
             "type": "pokemon",
             "spawnablePositionType": "grounded",

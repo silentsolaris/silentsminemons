@@ -2,8 +2,9 @@
   "implemented": false,
   "nationalPokedexNumber": 2030,
   "name": "elatephyr",
-  "primaryType": "flying",
-  "maleRatio": 0.7,
+  "primaryType": "normal",
+  "secondary": "flying",
+  "maleRatio": 0.6,
   "height": 5,
   "weight": 400,
   "pokedex": [
@@ -15,8 +16,8 @@
   "aspects": [],
   "abilities": [
     "cloudnine",
-    "flareboost",
-    "h:climatechange"
+    "cloudnine",
+    "h:flareboost"
   ],
   "eggGroups": [
     "amorphous"
@@ -26,8 +27,8 @@
     "attack": 52,
     "defence": 62,
     "special_attack": 114,
-    "special_defence": 83,
-    "speed": 93
+    "special_defence": 73,
+    "speed": 103
   },
   "evYield": {
     "hp": 2,

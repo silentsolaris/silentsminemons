@@ -5,6 +5,9 @@
     "spawns": [
         {
             "id": "musheteer-1",
+            "presets": [
+                "natural"
+                ],
             "pokemon": "musheteer",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
@@ -42,6 +45,9 @@
         },
         {
             "id": "musheteer-2",
+            "presets": [
+                "natural"
+                ],
             "pokemon": "musheteer",
             "type": "pokemon",
             "spawnablePositionType": "grounded",

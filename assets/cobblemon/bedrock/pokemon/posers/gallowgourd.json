@@ -1,0 +1,49 @@
+{
+ "portraitScale": 2,
+ "portraitTranslation": [ -0.8, 3, 0 ],
+ "profileScale": 0.4,
+ "profileTranslation": [ 0, 1.2, 0 ],
+ "animations": {
+   "faint": "q.bedrock_primary('gallowgourd', 'faint', q.curve('one'))",
+   "cry": "q.bedrock_stateful('gallowgourd', 'cry')",
+   "recoil": "q.bedrock_stateful('gallowgourd', 'recoil')",
+   "physical": "q.bedrock_primary('gallowgourd', 'physical', q.curve('symmetrical_wide'))",
+   "special": "q.bedrock_primary('gallowgourd', 'special', q.curve('symmetrical_wide'))",
+   "status": "q.bedrock_primary('gallowgourd', 'status', q.curve('symmetrical_wide'))"
+ },
+  "poses": {
+   "battle-standing": {
+     "poseTypes": ["STAND"],
+     "isBattle": true,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('gallowgourd', 'battle_idle')"
+     ],
+     "quirks": ["q.bedrock_quirk('gallowgourd', 'blink')"]
+   },
+   "standing": {
+     "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
+     "isBattle": false,
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('gallowgourd', 'ground_idle')"
+     ],
+     "quirks": [
+       "q.bedrock_quirk('gallowgourd', 'blink')"
+     ]
+   },
+   "walking": {
+     "poseTypes": ["WALK"],
+     "condition": "!q.in_air && !q.is_sprinting",
+     "animations": [
+       "q.look('head')",
+       "q.bedrock('gallowgourd', 'ground_walk')"
+     ],
+     "quirks": ["q.bedrock_quirk('gallowgourd', 'blink')"]
+   },
+   "sleep": {
+     "poseTypes": ["SLEEP"],
+     "animations": ["q.bedrock('gallowgourd', 'sleep')"]
+   }
+	}
+}

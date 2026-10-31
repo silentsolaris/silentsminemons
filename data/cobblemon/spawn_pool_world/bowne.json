@@ -5,6 +5,9 @@
     "spawns": [
         {
             "id": "bowne-1",
+            "presets": [
+                "natural"
+                ],
             "pokemon": "bowne",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
@@ -43,8 +46,7 @@
             "id": "bowne-2",
             "pokemon": "bowne",
             "presets": [
-                "natural",
-                "wild"
+                "natural"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",

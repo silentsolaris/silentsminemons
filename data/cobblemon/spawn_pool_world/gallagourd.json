@@ -5,6 +5,9 @@
     "spawns": [
         {
             "id": "gallagourd-1",
+            "presets": [
+                "natural"
+                ],
             "pokemon": "gallagourd",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
@@ -26,6 +29,9 @@
         },
 		{
             "id": "gallagourd-2",
+            "presets": [
+                "natural"
+                ],
             "pokemon": "gallagourd",
             "type": "pokemon",
             "spawnablePositionType": "grounded",

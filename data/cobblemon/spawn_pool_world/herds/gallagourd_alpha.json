@@ -66,6 +66,15 @@
           "isFollower": true
         },
         {
+          "pokemon": "pumpkit",
+          "weight": 10.0,
+          "levelRange": "10-35",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
           "pokemon": "gallagourd",
           "weight": 40.0,
           "levelRange": "35-50",

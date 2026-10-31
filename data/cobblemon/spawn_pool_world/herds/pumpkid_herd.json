@@ -11,13 +11,13 @@
       "bucket": "common",
       "spawnablePositionType": "grounded",
       "maxHerdSize": 4,
-      "levelRange": "10-50",
+      "levelRange": "1-50",
       "weight": 28.5,
       "condition": {
 				"structures": [
                 "minecraft:village_taiga",
-				"minecraft:village_plains",
-				"minecraft:village_savanna",
+				        "minecraft:village_plains",
+				        "minecraft:village_savanna",
                 "explorify:farmstead",
                 "explorify:tavern",
                 "explorify:guide_post_cold",
@@ -51,7 +51,16 @@
         {
           "pokemon": "pumpkid",
           "weight": 60.0,
-          "levelRange": "10-35",
+          "levelRange": "1-35",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "pumpkit",
+          "weight": 10.0,
+          "levelRange": "1-35",
           "levelRangeOffset": "-3-3",
           "maxTimes": 5,
           "isLeader": false,

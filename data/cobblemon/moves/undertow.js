@@ -3,7 +3,7 @@
 		accuracy: 100,
 		basePower: 100,
 		category: "Physical",
-		name: "Riptide_Minemons",
+		name: "Undertow",
 		pp: 5,
 		priority: 0,
 		flags: {

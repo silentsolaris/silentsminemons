@@ -228,7 +228,7 @@
       "result": "gallowgourd",
       "consumeHeldItem": false,
       "learnableMoves": [
-        "treefell"
+        "cleave"
       ],
       "requirements": [],
       "requiredContext": "minecraft:iron_axe"
