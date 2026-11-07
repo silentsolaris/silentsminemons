@@ -15,6 +15,14 @@
             "bucket": "uncommon",
             "level": "35-45",
             "weight": 0.32,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:suspicious_sand"
+                    ]
+                }
+            },
             "condition": {
                 "biomes": [
                     "#cobblemon:is_desert",
@@ -30,7 +38,17 @@
             "bucket": "common",
             "level": "35-45",
             "weight": 0.6,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:suspicious_sand"
+                    ]
+                }
+            },
             "condition": {
+                "canSeeSky": true,
+                "timeRange": "day",
 				"structures": [
 				"minecraft:village_desert",
                 "minecraft:village_savanna",

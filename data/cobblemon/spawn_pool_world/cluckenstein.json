@@ -15,6 +15,15 @@
             "bucket": "uncommon",
             "level": "20-35",
             "weight": 7.12,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:coarse_dirt",
+                    "minecraft:podzol"
+                    ]
+                }
+            },
             "condition": {
                 "minSkyLight": 0,
                 "maxSkyLight": 10,

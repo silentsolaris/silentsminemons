@@ -58,7 +58,7 @@
       "willSleepOnBed": false,
       "light": "0-4",
       "times": [
-        "day"
+        "night"
       ],
       "drowsyChance": 0.0333,
       "rouseChance": 0.0042
@@ -224,18 +224,14 @@
   "evolutions": [
      {
       "id": "salvior-salsei",
-      "variant": "level_up",
+      "variant": "item_interact",
       "result": "salsei",
       "consumeHeldItem": false,
       "learnableMoves": [
 	    "amnesia"
 	    ],
-      "requirements": [
-        {
-          "variant": "friendship",
-          "amount": 160
-        }
-    ]
+      "requirements": [],
+      "requiredContext": "cobblemon:water_stone"
     }
   ]
 }

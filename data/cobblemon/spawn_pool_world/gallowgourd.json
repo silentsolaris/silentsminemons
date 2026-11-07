@@ -12,6 +12,7 @@
             "level": "35-50",
             "weight": 1.25,
             "condition": {
+                "timeRange": "night",
                 "neededNearbyBlocks": [
                     "minecraft:pumpkin",
 					"minecraft:carved_pumpkin"

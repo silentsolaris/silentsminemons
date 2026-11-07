@@ -55,7 +55,6 @@
     "resting": {
       "canSleep": true,
       "willSleepOnBed": false,
-      "light": "0-4",
       "times": [
         "day"
       ],
@@ -85,7 +84,7 @@
       "willDefendOwner": true,
       "willFlee": false
     },
-    "fireImmune": false
+    "fireImmune": true
   },
   "drops": {
     "amount": 5,

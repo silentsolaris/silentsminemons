@@ -14,7 +14,7 @@
       "levelRange": "15-56",
       "weight": 3.75,
       "weightMultiplier": {
-            "multiplier": 5.0,
+            "multiplier": 2.0,
             "condition": {
                 "neededNearbyBlocks": [
                 "minecraft:bone_block"

@@ -16,6 +16,7 @@
             "weight": 2.85,
             "condition": {
                 "canSeeSky": true,
+                "timeRange": "day",
                 "biomes": [
                     "#cobblemon:is_freshwater"
                 ]
@@ -39,6 +40,7 @@
             "weight": 3.56,
             "condition": {
                 "canSeeSky": true,
+                "timeRange": "day",
                 "biomes": [
                     "#cobblemon:ocean"
                 ]
@@ -53,6 +55,7 @@
             "level": "20-35",
             "weight": 9.5,
             "condition": {
+                "timeRange": "day",
                 "biomes": [
                     "#cobblemon:is_freshwater",
                     "#cobblemon:is_ocean"

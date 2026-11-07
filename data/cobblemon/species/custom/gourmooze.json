@@ -52,10 +52,10 @@
   "behaviour": {
     "resting": {
       "canSleep": true,
-      "willSleepOnBed": false,
+      "willSleepOnBed": true,
       "light": "0-4",
       "times": [
-        "any"
+        "night"
       ],
       "drowsyChance": 0.0155,
       "rouseChance": 0.0084
@@ -78,11 +78,11 @@
         },
 		{
           "pokemon": "sliggoo",
-          "tier": 1
+          "tier": 2
         },
 		{
           "pokemon": "goodra",
-          "tier": 2
+          "tier": 1
         },
 		{
           "pokemon": "gourmooze",
@@ -91,9 +91,9 @@
 		]
     },
     "combat": {
-      "willDefendSelf": true,
+      "willDefendSelf": false,
       "willDefendOwner": true,
-      "willFlee": false
+      "willFlee": true
     },
     "fireImmune": false
   },

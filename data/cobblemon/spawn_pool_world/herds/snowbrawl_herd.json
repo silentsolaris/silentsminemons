@@ -14,11 +14,12 @@
       "levelRange": "10-45",
       "weight": 4,
       "condition": {
+        "canSeeSky": true,
+        "timeRange": "day",
                 "biomes": [
                     "#cobblemon:is_freezing",
                     "twilightforest:snowy_forest",
-                    "twilightforest:glacier",
-                    "yungscavebiomes:frosted_caves"
+                    "twilightforest:glacier"
                 ]
             },
       "herdablePokemon": [

@@ -53,8 +53,7 @@
   "behaviour": {
     "resting": {
       "canSleep": true,
-      "willSleepOnBed": false,
-      "light": "0-4",
+      "willSleepOnBed": true,
       "times": [
         "day"
       ],

@@ -38,6 +38,7 @@
             "weight": 20,
             "condition": {
                 "canSeeSky": true,
+                "timeRange": "night",
 				"structures": [
                     "minecraft:swamp_hut",
                     "explorify:mangrove_hut",

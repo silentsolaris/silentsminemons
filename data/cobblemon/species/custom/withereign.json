@@ -54,14 +54,8 @@
   },
   "behaviour": {
     "resting": {
-      "canSleep": true,
-      "willSleepOnBed": false,
-      "light": "0-4",
-      "times": [
-        "any"
-      ],
-      "drowsyChance": 0.0155,
-      "rouseChance": 0.0084
+      "canSleep": false,
+      "willSleepOnBed": false
     },
     "moving": {
       "fly": {
@@ -102,6 +96,10 @@
       {
         "item": "minecraft:wither_skeleton_skull",
         "percentage": 75.0
+      },
+      {
+        "item": "cobblemon:malicious_armor",
+        "percentage": 5.0
       }
     ]
   },

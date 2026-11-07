@@ -17,6 +17,7 @@
             "weight": 27,
             "condition": {
                 "canSeeSky": true,
+                "timeRange": "day",
                 "biomes": [
                     "#cobblemon:is_grassland",
                     "#cobblemon:is_highlands",

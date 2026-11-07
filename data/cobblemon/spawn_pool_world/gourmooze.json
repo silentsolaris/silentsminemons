@@ -15,6 +15,14 @@
             "bucket": "rare",
             "level": "15-40",
             "weight": 60,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:slime_block"
+                    ]
+                }
+            },
             "condition": {
                 "biomes": [
                     "#cobblemon:is_swamp",
@@ -56,7 +64,17 @@
             "bucket": "uncommon",
             "level": "15-40",
             "weight": 20,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:slime_block"
+                    ]
+                }
+            },
             "condition": {
+                "canSeeSky": true,
+                "timeRange": "day",
                 "structures": [
                     "ribbits:ribbit_village",
                     "towns_and_towers:village_swamp",
@@ -84,7 +102,16 @@
             "bucket": "uncommon",
             "level": "15-40",
             "weight": 80,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:slime_block"
+                    ]
+                }
+            },
             "condition": {
+                "maxY": 0,
                 "minSkyLight": 8,
                 "maxSkyLight": 15,
                 "biomes": [
@@ -98,7 +125,8 @@
                     "#cobblemon:is_coast",
                     "#cobblemon:is_ocean",
                     "#cobblemon:is_freezing",
-                    "#cobblemon:is_swamp"
+                    "#cobblemon:is_swamp",
+                    "#cobblemon:is_desert"
                 ]
             }
         }

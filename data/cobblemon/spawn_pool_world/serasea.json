@@ -14,6 +14,14 @@
             "bucket": "rare",
             "level": "20-45",
             "weight": 16,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:sea_lantern"
+                    ]
+                }
+            },
             "condition": {
                 "minSkyLight": 0,
                 "maxSkyLight": 7,
@@ -43,9 +51,15 @@
             "bucket": "rare",
             "level": "20-45",
             "weight": 16,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:sea_lantern"
+                    ]
+                }
+            },
             "condition": {
-                "minSkyLight": 0,
-                "maxSkyLight": 7,
 				"timeRange": "night",
                 "biomes": [
                     "#cobblemon:is_cold_ocean",
@@ -84,6 +98,14 @@
             "bucket": "rare",
             "level": "20-45",
             "weight": 20,
+            "weightMultiplier": {
+                "multiplier": 2.0,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:sea_lantern"
+                    ]
+                }
+            },
             "condition": {
                 "biomes": [
                     "#cobblemon:is_overworld"

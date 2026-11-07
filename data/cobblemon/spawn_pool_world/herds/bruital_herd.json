@@ -14,7 +14,8 @@
       "levelRange": "15-66",
       "weight": 27,
       "condition": {
-        "canSeeSky": false,
+        "timeRange": "night",
+        "minY": -60,
         "biomes": [
             "#cobblemon:is_freezing",
             "#cobblemon:is_glacial",
@@ -57,6 +58,7 @@
       "weight": 25.2,
       "condition": {
         "canSeeSky": true,
+        "timeRange": "night",
         "biomes": [
             "minecraft:frozen_ocean",
             "twilightforest:glacier"

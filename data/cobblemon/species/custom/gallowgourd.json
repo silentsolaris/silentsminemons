@@ -55,7 +55,6 @@
     "resting": {
       "canSleep": true,
       "willSleepOnBed": false,
-      "light": "0-4",
       "times": [
         "day"
       ],
@@ -71,11 +70,14 @@
         "canSwimInLava": false
       }
     },
+    "entityInteract": {
+        "avoidedByCreeper": true
+    },
     "herd": {
       "maxSize": "1",
       "toleratedLeaders": [
 	  {
-          "pokemon": "gallagourd",
+          "pokemon": "gallowgourd",
           "tier": 1
         }
 		]

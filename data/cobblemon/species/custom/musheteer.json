@@ -56,9 +56,8 @@
     "resting": {
       "canSleep": true,
       "willSleepOnBed": false,
-      "light": "0-4",
       "times": [
-        "any"
+        "day"
       ],
       "drowsyChance": 0.0333,
       "rouseChance": 0.0042
@@ -76,7 +75,7 @@
       "maxSize": "10",
       "toleratedLeaders": [
         {
-          "pokemon": "bognmarrow",
+          "pokemon": "musheteer",
           "tier": 1
         },
 		{
@@ -90,9 +89,9 @@
 		]
     },
     "combat": {
-      "willDefendSelf": true,
+      "willDefendSelf": false,
       "willDefendOwner": true,
-      "willFlee": false
+      "willFlee": true
     },
     "fireImmune": false
   },

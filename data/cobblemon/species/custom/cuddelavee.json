@@ -58,7 +58,7 @@
       "willSleepOnBed": false,
       "light": "0-4",
       "times": [
-        "day"
+        "night"
       ],
       "drowsyChance": 0.0333,
       "rouseChance": 0.0042
@@ -128,6 +128,7 @@
     "1:stomp",
     "1:dig",
     "1:rockslide",
+    "1:highhorsepower",
     "50:playrough",
     "55:earthquake",
     "60:paddedblow",

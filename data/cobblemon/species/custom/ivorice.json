@@ -56,9 +56,8 @@
     "resting": {
       "canSleep": true,
       "willSleepOnBed": false,
-      "light": "0-4",
       "times": [
-        "any"
+        "day"
       ],
       "drowsyChance": 0.0155,
       "rouseChance": 0.0084

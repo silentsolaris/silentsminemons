@@ -53,14 +53,8 @@
   },
   "behaviour": {
     "resting": {
-      "canSleep": true,
-      "willSleepOnBed": false,
-      "light": "0-4",
-      "times": [
-        "any"
-      ],
-      "drowsyChance": 0.0155,
-      "rouseChance": 0.0084
+      "canSleep": false,
+      "willSleepOnBed": false
     },
     "moving": {
       "walk": {

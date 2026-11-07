@@ -8,7 +8,7 @@
   "interactions": [
     {
       "grouping": "cobblemon:brush",
-      "cooldown": "0",
+      "cooldown": "18000",
       "requirements": [
         {
           "variant": "owner_held_item",

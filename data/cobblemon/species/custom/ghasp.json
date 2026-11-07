@@ -74,15 +74,15 @@
       "maxSize": "9",
       "toleratedLeaders": [
         {
-          "pokemon": "exhaunt",
+          "pokemon": "ghasthma",
           "tier": 2
         }
 		]
     },
     "combat": {
-      "willDefendSelf": true,
+      "willDefendSelf": false,
       "willDefendOwner": true,
-      "willFlee": false
+      "willFlee": true
     },
     "fireImmune": false
   },
@@ -111,6 +111,7 @@
     "6:swift",
     "11:disable",
     "15:bubblebeam",
+    "25:frustration",
     "30:bounce",
     "egg:healblock",
     "egg:disable",
@@ -134,8 +135,8 @@
 	  ],
       "requirements": [
         {
-          "variant": "held_item",
-          "itemCondition": "cobblemon:air_balloon"
+          "variant": "friendship",
+          "amount": 160
         }
       ]
     },

@@ -15,8 +15,17 @@
             "bucket": "common",
             "level": "41-66",
             "weight": 5,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:hay_block"
+                    ]
+                }
+            },
             "condition": {
                 "canSeeSky": true,
+                "timeRange": "day",
                 "biomes": [
                     "#cobblemon:is_savanna",
                     "twilightforest:oak_savanna"
@@ -31,6 +40,14 @@
             "bucket": "common",
             "level": "41-66",
             "weight": 10,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:hay_block"
+                    ]
+                }
+            },
             "condition": {
                 "canSeeSky": true,
 				"structures": [
@@ -54,8 +71,17 @@
             "bucket": "uncommon",
             "level": "50-80",
             "weight": 4.8,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:hay_block"
+                    ]
+                }
+            },
             "condition": {
                 "canSeeSky": true,
+                "timeRange": "day",
                 "biomes": [
                     "#cobblemon:is_desert",
                     "#cobblemon:is_badlands"

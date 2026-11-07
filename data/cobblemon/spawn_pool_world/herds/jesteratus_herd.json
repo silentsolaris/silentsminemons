@@ -10,6 +10,14 @@
       "maxHerdSize": 4,
       "levelRange": "20-45",
       "weight": 4,
+      "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:lightning_rod"
+                    ]
+                }
+            },
       "condition": {
 				"structures": [
 				        "minecraft:trial_chamber",

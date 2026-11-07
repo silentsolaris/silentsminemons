@@ -15,6 +15,7 @@
       "weight": 100.0,
       "condition": {
         "canSeeSky": true,
+        "timeRange": "day",
                 "biomes": [
                     "#cobblemon:is_river",
                     "#cobblemon:is_ocean"

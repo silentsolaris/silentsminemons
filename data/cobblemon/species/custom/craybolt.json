@@ -57,7 +57,7 @@
       "willSleepOnBed": true,
       "light": "0-4",
       "times": [
-        "day"
+        "night"
       ],
       "drowsyChance": 0.0333,
       "rouseChance": 0.0042
@@ -197,7 +197,7 @@
       "result": "crustruct",
       "consumeHeldItem": false,
       "learnableMoves": [
-	  "earthquake"
+	  "landscape"
 	  ],
       "requirements": [],
       "requiredContext": "minecraft:diamond_pickaxe"

@@ -57,7 +57,7 @@
       "willSleepOnBed": true,
       "light": "0-4",
       "times": [
-        "day"
+        "night"
       ],
       "drowsyChance": 0.0333,
       "rouseChance": 0.0042
@@ -119,9 +119,10 @@
     "1:dig",
     "1:spikes",
     "1:highhorsepower",
-    "1:irondefense",
-    "1:bodypress",
-    "1:earthquake",
+    "1:landscape",
+    "50:irondefense",
+    "50:bodypress",
+    "60:earthquake",
     "tm:leechlife",
     "tm:xscissor",
     "tm:skittersmack",

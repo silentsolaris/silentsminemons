@@ -11,6 +11,14 @@
             "bucket": "rare",
             "level": "20-45",
             "weight": 60,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:lightning_rod"
+                    ]
+                }
+            },
             "condition": {
                 "neededNearbyBlocks": [
                     "minecraft:copper_block",
@@ -44,6 +52,14 @@
             "bucket": "uncommon",
             "level": "20-45",
             "weight": 16,
+            "weightMultiplier": {
+                "multiplier": 1.5,
+                "condition": {
+                    "neededNearbyBlocks": [
+                    "minecraft:lightning_rod"
+                    ]
+                }
+            },
             "condition": {
 				"structures": [
 				"minecraft:trial_chamber",

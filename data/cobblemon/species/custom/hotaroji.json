@@ -55,7 +55,6 @@
     "resting": {
       "canSleep": true,
       "willSleepOnBed": true,
-      "light": "0-4",
       "times": [
         "day"
       ],
@@ -81,7 +80,7 @@
 		]
     },
     "combat": {
-      "willDefendSelf": true,
+      "willDefendSelf": false,
       "willDefendOwner": true,
       "willFlee": false
     },

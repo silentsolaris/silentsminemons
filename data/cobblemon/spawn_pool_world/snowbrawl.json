@@ -16,6 +16,7 @@
             "weight": 16,
             "condition": {
                 "canSeeSky": true,
+                "timeRange": "day",
                 "biomes": [
                     "#cobblemon:is_freezing",
                     "twilightforest:snowy_forest",
@@ -34,6 +35,7 @@
             "weight": 16,
             "condition": {
                 "canSeeSky": true,
+                "timeRange": "day",
 				"structures": [
 				"minecraft:village_snowy",
                 "minecraft:igloo"

@@ -1,7 +1,7 @@
 {
 		onAfterHit(target, source, move) {
 			if (!source.hp) {
-				target.addVolatile('destinybond');
+				source.addVolatile('destinybond');
 			}
 		},
 		flags: {},

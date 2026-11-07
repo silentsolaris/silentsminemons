@@ -15,12 +15,12 @@
       "weight": 100.0,
       "condition": {
 				"structures": [
-				"minecraft:village_desert",
-                "minecraft:village_savanna",
-                "minecraft:pyramid",
-                "#cobblemon:is_desert",
-                "yungscavebiomes:lost_caves",
-                "betterdeserttemples:desert_temple"
+				  "minecraft:village_desert",
+          "minecraft:village_savanna",
+          "minecraft:pyramid",
+          "#cobblemon:is_desert",
+          "yungscavebiomes:lost_caves",
+          "betterdeserttemples:desert_temple"
 				],
                 "neededBaseBlocks": [
                     "minecraft:farmland",

@@ -40,6 +40,7 @@
             "weight": 1.5,
             "condition": {
                 "canSeeSky": true,
+                "timeRange": "day",
 				"structures": [
                 "minecraft:village_taiga",
 				"minecraft:village_plains",

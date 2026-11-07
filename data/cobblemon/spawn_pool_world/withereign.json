@@ -12,7 +12,7 @@
             "level": "31-56",
             "weight": 7.5,
             "weightMultiplier": {
-                "multiplier": 5.0,
+                "multiplier": 2.0,
                 "condition": {
                     "neededNearbyBlocks": [
                     "minecraft:wither_rose",
@@ -36,7 +36,7 @@
             "level": "31-56",
             "weight": 4.8,
             "weightMultiplier": {
-                "multiplier": 5.0,
+                "multiplier": 2.0,
                 "condition": {
                     "neededNearbyBlocks": [
                     "minecraft:wither_rose",

@@ -89,7 +89,7 @@
 		]
     },
     "combat": {
-      "willDefendSelf": true,
+      "willDefendSelf": false,
       "willDefendOwner": true,
       "willFlee": false
     },
@@ -231,8 +231,8 @@
 	  ],
       "requirements": [
         {
-          "variant": "level",
-          "minLevel": 25
+          "variant": "friendship",
+          "amount": 160
         }
       ]
     }

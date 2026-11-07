@@ -8,9 +8,9 @@
             "pokemon": "parropot",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "common",
+            "bucket": "uncommon",
             "level": "10-35",
-            "weight": 100,
+            "weight": 60,
             "condition": {
 				"structures": [
                 "minecraft:trail_ruins",
@@ -40,7 +40,7 @@
             "spawnablePositionType": "grounded",
             "bucket": "rare",
             "level": "10-35",
-            "weight": 60,
+            "weight": 20,
             "condition": {
 				"structures": [
                 "cobblemon:ruin",
@@ -54,7 +54,7 @@
             "pokemon": "parropot",
             "type": "pokemon",
             "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
+            "bucket": "rare",
             "level": "10-35",
             "weight": 60,
             "condition": {

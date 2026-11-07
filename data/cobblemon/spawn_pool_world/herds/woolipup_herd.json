@@ -16,6 +16,7 @@
       "weight": 27,
       "condition": {
                 "canSeeSky": true,
+                "timeRange": "day",
                 "biomes": [
                     "#cobblemon:is_grassland",
                     "#cobblemon:is_highlands",
@@ -58,11 +59,38 @@
           "isFollower": true
         },
         {
+          "pokemon": "wooloo",
+          "weight": 40.0,
+          "levelRange": "10-25",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "mareep",
+          "weight": 40.0,
+          "levelRange": "10-25",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "flaffy",
+          "weight": 20.0,
+          "levelRange": "20-30",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
           "pokemon": "lupelt",
           "weight": 20.0,
           "levelRange": "24-49",
           "levelRangeOffset": "-3-3",
-          "maxTimes": 2,
+          "maxTimes": 3,
           "isLeader": false,
           "isFollower": true
         }

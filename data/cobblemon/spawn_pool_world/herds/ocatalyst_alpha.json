@@ -66,7 +66,7 @@
         },
         {
           "pokemon": "mismagius",
-          "weight": 40.0,
+          "weight": 20.0,
           "levelRange": "39-50",
           "maxTimes": 1,
           "isLeader": false,

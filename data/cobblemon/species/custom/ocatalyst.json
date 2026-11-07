@@ -55,7 +55,6 @@
     "resting": {
       "canSleep": true,
       "willSleepOnBed": true,
-      "light": "0-4",
       "times": [
         "day"
       ],
@@ -104,8 +103,8 @@
         "percentage": 40
       },
       {
-        "item": "minecraft:fermented_spider_eye",
-        "percentage": 20
+        "item": "cobblemon:bright_powder",
+        "percentage": 5
       }
     ]
   },

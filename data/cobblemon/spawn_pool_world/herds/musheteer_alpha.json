@@ -17,7 +17,7 @@
         "timeRange": "night",
         "biomes": [
             "#cobblemon:is_swamp",
-			"#cobblemon:is_mushroom",
+			      "#cobblemon:is_mushroom",
             "twilightforest:dense_mushroom_forest",
             "twilightforest:mushroom_forest",
             "twilightforest:swamp"

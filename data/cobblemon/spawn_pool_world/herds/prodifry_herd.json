@@ -15,6 +15,7 @@
       "weight": 27,
       "condition": {
                 "canSeeSky": true,
+                "timeRange": "day",
                 "biomes": [
                     "#cobblemon:is_freshwater"
                 ],

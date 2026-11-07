@@ -7,18 +7,6 @@
 		pp: 10,
 		priority: 0,
 		flags: { protect: 1, mirror: 1, distance: 1, metronome: 1, wind: 1 },
-		onModifyMove(move, pokemon, target) {
-			switch (target?.effectiveWeather()) {
-			case 'sunnyday':
-			case 'desolateland':
-				move.accuracy = true;
-				break;
-			case 'sandstorm':
-			case 'snow':
-				move.accuracy = 50;
-				break;
-			}
-		},
 		onHit(target, source, move) {
 			const item = target.getItem();
 			if (source.hp && item.isBerry && target.takeItem(source)) {

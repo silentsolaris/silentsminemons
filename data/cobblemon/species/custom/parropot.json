@@ -53,10 +53,9 @@
   "behaviour": {
     "resting": {
       "canSleep": true,
-      "willSleepOnBed": false,
-      "light": "0-4",
+      "willSleepOnBed": true,
       "times": [
-        "day"
+        "any"
       ],
       "drowsyChance": 0.0333,
       "rouseChance": 0.0042
@@ -94,7 +93,7 @@
     "combat": {
       "willDefendSelf": false,
       "willDefendOwner": true,
-      "willFlee": false
+      "willFlee": true
     },
     "fireImmune": false
   },

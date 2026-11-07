@@ -14,10 +14,12 @@
       "levelRange": "31-100",
       "weight": 100.0,
       "condition": {
+        "canSeeSky": true,
+        "timeRange": "day",
 				"structures": [
                 "minecraft:village_taiga",
-				"minecraft:village_plains",
-				"minecraft:village_savanna",
+				        "minecraft:village_plains",
+				        "minecraft:village_savanna",
                 "explorify:farmstead",
                 "explorify:tavern",
                 "explorify:guide_post_cold",

@@ -53,8 +53,7 @@
   "behaviour": {
     "resting": {
       "canSleep": true,
-      "willSleepOnBed": false,
-      "light": "0-4",
+      "willSleepOnBed": true,
       "times": [
         "day"
       ],
@@ -69,6 +68,9 @@
         "avoidsWater": true,
         "canSwimInLava": false
       }
+    },
+    "entityInteract": {
+        "avoidedByCreeper": true
     },
     "herd": {
       "maxSize": "3",
@@ -112,7 +114,7 @@
 		]
     },
     "combat": {
-      "willDefendSelf": false,
+      "willDefendSelf": true,
       "willDefendOwner": true,
       "willFlee": false
     },

@@ -15,7 +15,7 @@
             "level": "31-56",
             "weight": 3.75,
             "weightMultiplier": {
-                "multiplier": 5.0,
+                "multiplier": 2.0,
                 "condition": {
                     "neededNearbyBlocks": [
                     "minecraft:bone_block"
@@ -23,7 +23,8 @@
                 }
             },
             "condition": {
-                "canSeeSky": false,
+                "timeRange": "night",
+                "canSeeSky": true,
                 "biomes": [
                     "#cobblemon:is_swamp",
 					"#cobblemon:is_mushroom",
@@ -55,7 +56,7 @@
             "level": "31-56",
             "weight": 4.8,
             "weightMultiplier": {
-                "multiplier": 5.0,
+                "multiplier": 2.0,
                 "condition": {
                     "neededNearbyBlocks": [
                     "minecraft:bone_block"
