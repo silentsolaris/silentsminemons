@@ -1,7 +1,7 @@
 {
 	num: 42005,
     	accuracy: 95,
-		basePower: 90,
+		basePower: 85,
 		category: "Physical",
 		name: "Fester",
 		pp: 10,
