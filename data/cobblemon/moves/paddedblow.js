@@ -1,6 +1,6 @@
 {
         num: 420300,
-		accuracy: 80,
+		accuracy: 85,
 		basePower: 120,
 		category: "Physical",
 		name: "Padded Blow",

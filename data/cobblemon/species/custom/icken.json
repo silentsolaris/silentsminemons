@@ -23,10 +23,10 @@
     "flying"
   ],
   "baseStats": {
-    "hp": 40,
-    "attack": 40,
+    "hp": 70,
+    "attack": 60,
     "defence": 40,
-    "special_attack": 40,
+    "special_attack": 60,
     "special_defence": 40,
     "speed": 40
   },
@@ -39,12 +39,12 @@
     "speed": 0
   },
   "baseExperienceYield": 50,
-  "experienceGroup": "medium_fast",
+  "experienceGroup": "medium_slow",
   "catchRate": 240,
   "eggCycles": 25,
   "baseFriendship": 50,
   "shoulderMountable": true,
-  "baseScale": 1,
+  "baseScale": 0.9,
   "standingEyeHeight": 1,
   "hitbox": {
     "width": 0.5,

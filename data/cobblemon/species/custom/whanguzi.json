@@ -185,6 +185,7 @@
     "egg:ingrain",
     "egg:grasswhistle"
   ],
+  "preEvolution": "zhuzu",
  "evolutions": [
      {
       "id": "whanguzi-chirowufu",

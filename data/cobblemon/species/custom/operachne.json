@@ -190,5 +190,6 @@
     "egg:rototiller",
     "egg:spiderweb"
   ],
+  "preEvolution": "weavisan",
  "evolutions": []
 }

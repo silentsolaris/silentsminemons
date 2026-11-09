@@ -214,24 +214,5 @@
     "tm:zenheadbutt"
     
   ],
- "evolutions": [],
-  "forms": [
-    {
-      "name": "Gmax",
-      "pokedex": [
-        "cobblemon.species.plangiant-gmax.desc"
-      ],
-      "labels": [
-        "minemons",
-        "legendary",
-        "restricted",
-        "gmax"
-      ],
-      "aspects": [
-        "gmax"
-      ],
-      "battleOnly": true,
-      "dynamaxBlocked": true
-    }
-  ]
+ "evolutions": []
 }

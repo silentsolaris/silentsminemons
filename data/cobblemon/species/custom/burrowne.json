@@ -1,0 +1,231 @@
+{
+  "implemented": false,
+  "nationalPokedexNumber": 2023,
+  "name": "burrowne",
+  "primaryType": "bug",
+  "secondaryType": "rock",
+  "maleRatio": 0.5,
+  "height": 6,
+  "weight": 25,
+  "pokedex": [
+    "cobblemon.species.burrowne.desc"
+  ],
+  "labels": [
+    "minemons"
+  ],
+  "aspects": [],
+  "abilities": [
+    "swarm",
+    "hustle",
+    "h:tunnelvision"
+  ],
+  "eggGroups": [
+    "bug"
+  ],
+  "baseStats": {
+    "hp": 50,
+    "attack": 60,
+    "defence": 25,
+    "special_attack": 25,
+    "special_defence": 50,
+    "speed": 38
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 1,
+    "defence": 0,
+    "special_attack": 0,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 60,
+  "experienceGroup": "slow",
+  "catchRate": 180,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "shoulderMountable": true,
+  "standingEyeHeight": 0.67,
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.5,
+    "height": 1,
+    "fixed": false
+  },
+  "behaviour": {
+    "resting": {
+      "canSleep": true,
+      "willSleepOnBed": true,
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    },
+    "moving": {
+      "walk": {
+        "walkSpeed": 0.4
+      },
+      "swim": {
+        "avoidsWater": true,
+        "canSwimInLava": false
+      }
+    },
+    "herd": {
+      "maxSize": "9",
+      "toleratedLeaders": [
+        {
+          "pokemon": "burrowne",
+          "tier": 2
+        },
+		{
+          "pokemon": "Isoptereign",
+          "tier": 1
+        }
+		]
+    },
+    "combat": {
+      "willDefendSelf": false,
+      "willDefendOwner": true,
+      "willFlee": true
+    },
+    "fireImmune": false
+  },
+  "drops": {
+    "amount": 4,
+    "entries": [
+      {
+        "item": "minecraft:cobblestone",
+        "quantityRange": "0-2",
+        "percentage": 25.0
+      },
+      {
+        "item": "minecraft:coarse_dirt",
+        "quantityRange": "0-2",
+        "percentage": 25.0
+      },
+      {
+        "item": "cobblemon:oran_berry",
+        "percentage": 2.5
+      }
+    ]
+  },
+  "moves": [
+    "tm:protect",
+    "tm:rest",
+    "tm:sleeptalk",
+    "tm:substitute",
+    "tm:helpinghand",
+    "tm:endure",
+    "tm:hiddenpower",
+    "tm:attract",
+    "tm:terablast",
+    "special:celebrate",
+    "1:sandattack",
+    "1:furycutter",
+    "8:smackdown",
+    "14:skittersmack",
+    "20:slash",
+    "24:rockslide",
+    "28:stealthrock",
+    "33:honeclaws",
+    "37:nightslash",
+    "40:xscissor",
+    "tm:leechlife",
+    "tm:signalbeam",
+    "tm:uturn",
+    "tm:xscissor",
+    "tm:bugbuzz",
+    "tm:bugbite",
+    "tm:strugglebug",
+    "tm:infestation",
+    "tm:lunge",
+    "tm:skittersmack",
+    "tm:thief",
+    "tm:torment",
+    "tm:taunt",
+    "tm:beatup",
+    "tm:knockoff",
+    "tm:payback",
+    "tm:assurance",
+    "tm:suckerpunch",
+    "tm:nastyplot",
+    "tm:honeclaws",
+    "tm:foulplay",
+    "tm:throatchop",
+    "tm:lashout",
+    "tm:charm",
+    "tm:rocksmash",
+    "tm:superpower",
+    "tm:revenge",
+    "tm:brickbreak",
+    "tm:lowsweep",
+    "tm:bodypress",
+    "tm:sunnyday",
+    "tm:curse",
+    "tm:seedbomb",
+    "tm:bulletseed",
+    "tm:trailblaze",
+    "tm:earthquake",
+    "tm:dig",
+    "tm:spikes",
+    "tm:sandtomb",
+    "tm:earthpower",
+    "tm:bulldoze",
+    "tm:stompingtantrum",
+    "tm:cut",
+    "tm:strength",
+    "tm:rockclimb",
+    "tm:swordsdance",
+    "tm:takedown",
+    "tm:doubleedge",
+    "tm:hyperbeam",
+    "tm:screech",
+    "tm:doubleteam",
+    "tm:focusenergy",
+    "tm:safeguard",
+    "tm:facade",
+    "tm:naturepower",
+    "tm:endeavor",
+    "tm:hypervoice",
+    "tm:lastresort",
+    "tm:gigaimpact",
+    "tm:echoedvoice",
+    "tm:workup",
+    "tm:confide",
+    "tm:poisonjab",
+    "tm:gunkshot",
+    "tm:rockslide",
+    "tm:sandstorm",
+    "tm:rocktomb",
+    "tm:rockblast",
+    "tm:rockpolish",
+    "tm:stoneedge",
+    "tm:stealthrock",
+    "tm:smackdown",
+    "tm:metalclaw",
+    "tm:ironhead",
+    "tm:irondefense",
+    "egg:firstimpression",
+    "egg:healorder",
+    "egg:defendorder",
+    "egg:attackorder",
+    "egg:rockwrecker"
+  ],
+ "evolutions": [
+	{
+      "id": "burrowne_isoptereign",
+      "variant": "trade",
+      "result": "isoptereign",
+      "consumeHeldItem": true,
+      "learnableMoves": [
+        "firstimpression"
+      ],
+      "requirements": [
+        {
+          "variant": "held_item",
+          "itemCondition": "cobblemon:kings_rock"
+        }
+      ]
+	}
+	]
+}

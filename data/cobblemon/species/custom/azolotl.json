@@ -165,6 +165,7 @@
     "egg:healingwish",
     "egg:wish"
   ],
+  "preEvolution": "xomet",
  "evolutions": [
   ]
 }

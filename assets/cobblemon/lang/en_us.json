@@ -216,14 +216,11 @@
     "cobblemon.move.splinteredaxe": "Splintered Axe",
     "cobblemon.move.splinteredaxe.desc": "The user slashes the target with a splintered axe. If the target is knocked out by this move, it lays two layers of spikes.",
 
-    "cobblemon.move.gmaxbizarre": "G-Max Bizarre",
-    "cobblemon.move.gmaxbizarre.desc": "A Psychic-type attack that Gigantamax Cephcery use. This move makes opponents only able to use attacking moves for a short time.",
+    "cobblemon.move.gmaxmadness": "G-Max Madness",
+    "cobblemon.move.gmaxmadness.desc": "A Psychic-type attack that Gigantamax Cephcery use. This move makes opponents only able to use attacking moves for a short time.",
 
     "cobblemon.move.gmaxcountdown": "G-Max Countdown",
     "cobblemon.move.gmaxcountdown.desc": "A Fairy-type attack that Gigantamax Jesteratus use. This move twists the dimensions, in which slower Pokémon get to move first for five turns.",
-
-    "cobblemon.move.gmaxlament": "G-Max Lament",
-    "cobblemon.move.gmaxlament.desc": "A Ghost-type attack that Gigantamax Bellhemoth use. This moves prevents opponents from restoring HP.",
 
     "cobblemon.move.venombinding": "Venom Binding",
     "cobblemon.move.venombinding.desc": "The target is badly poisoned, and cannot flee or switch out.",

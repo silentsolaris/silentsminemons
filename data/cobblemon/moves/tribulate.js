@@ -1,6 +1,6 @@
 {
 		num: 906,
-		accuracy: 80,
+		accuracy: 90,
 		basePower: 100,
 		category: "Physical",
 		name: "Tribulate",

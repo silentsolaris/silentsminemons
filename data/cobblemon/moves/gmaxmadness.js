@@ -1,22 +1,22 @@
 {
-    num: 42030,
+    num: 42020,
 		accuracy: true,
 		basePower: 10,
 		category: "Physical",
 		isNonstandard: "Past",
-		name: "G-Max Lament",
+		name: "G-Max Madness",
 		pp: 5,
 		priority: 0,
 		flags: {},
-		isMax: "Plangiant",
+		isMax: "Cephcery",
 		self: {
 			onHit(source, target, effect) {
 				for (const pokemon of source.foes()) {
-					if (!pokemon.volatiles['dynamax']) target.addVolatile('healblock', source, effect);
+					if (!pokemon.volatiles['dynamax']) pokemon.addVolatile('taunt', source, effect);
 				}
 			},
 		},
 		target: "adjacentFoe",
-		type: "Ghost",
-		contestType: "Beautiful",
+		type: "Psychic",
+		contestType: "Cool",
 }

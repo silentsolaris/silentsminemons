@@ -185,6 +185,7 @@
     "egg:ingrain",
     "egg:grasswhistle"
   ],
+  "preEvolution": "whanguzi",
  "evolutions": [
   ]
 }

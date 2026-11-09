@@ -185,6 +185,7 @@
     "egg:soak",
     "egg:wavecrash"
   ],
+  "preEvolution": "bulbull",
  "evolutions": [
   ]
 }

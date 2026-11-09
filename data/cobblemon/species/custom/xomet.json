@@ -165,6 +165,7 @@
     "egg:healingwish",
     "egg:wish"
   ],
+  "preEvolution": "salastar",
  "evolutions": [
      {
       "id": "xomet-azolotl",

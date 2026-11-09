@@ -196,6 +196,7 @@
     "egg:rototiller",
     "egg:spiderweb"
   ],
+  "preEvolution": "artiweb",
  "evolutions": [
      {
       "id": "weavisan-operachne",

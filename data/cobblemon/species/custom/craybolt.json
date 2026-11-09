@@ -190,6 +190,7 @@
     "egg:guillotine",
     "egg:crabhammer"
   ],
+  "preEvolution": "crablet",
  "evolutions": [
      {
       "id": "craybolt-crustruct",
