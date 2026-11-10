@@ -6,7 +6,7 @@
   "secondaryType": "fairy",
   "maleRatio": 0.5,
   "height": 5,
-  "weight": 150,
+  "weight": 1320,
   "pokedex": [
     "cobblemon.species.sewsand.desc"
   ],
@@ -192,6 +192,8 @@
     "tm:mistyterrain",
     "tm:poweruppunch",
     "tm:superpower",
+    "tm:heavyslam",
+    "tm:heatcrash",
     "egg:shoreup",
     "egg:destinybond"
   ],

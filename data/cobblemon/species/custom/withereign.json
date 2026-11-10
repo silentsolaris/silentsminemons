@@ -6,7 +6,7 @@
   "secondaryType": "poison",
   "maleRatio": 0.5,
   "height": 16,
-  "weight": 1400,
+  "weight": 1480,
   "pokedex": [
     "cobblemon.species.withereign.desc"
   ],
@@ -265,7 +265,7 @@
     "primaryType": "ghost",
     "secondaryType": "poison",
 	  "height": 25,
-    "weight": 2800,
+    "weight": 2840,
       "pokedex": [
         "cobblemon.species.withereign-mega.desc"
       ],

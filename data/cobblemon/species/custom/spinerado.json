@@ -6,7 +6,7 @@
   "secondaryType": "ground",
   "maleRatio": 0.5,
   "height": 13,
-  "weight": 300,
+  "weight": 470,
   "pokedex": [
     "cobblemon.species.spinerado.desc"
   ],
@@ -276,9 +276,9 @@
           "mega"
         ],
         "abilities": [
-        "brutality",
-        "brutality",
-        "h:brutality"
+        "technician",
+        "technician",
+        "h:technician"
       ],
       "baseStats": {
       "hp": 80,

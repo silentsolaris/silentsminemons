@@ -6,7 +6,7 @@
   "secondaryType": "rock",
   "maleRatio": 0.5,
   "height": 6,
-  "weight": 25,
+  "weight": 95,
   "pokedex": [
     "cobblemon.species.burrowne.desc"
   ],
@@ -17,7 +17,7 @@
   "abilities": [
     "swarm",
     "hustle",
-    "h:tunnelvision"
+    "h:solidrock"
   ],
   "eggGroups": [
     "bug"
@@ -218,7 +218,7 @@
       "result": "isoptereign",
       "consumeHeldItem": true,
       "learnableMoves": [
-        "firstimpression"
+        "concretion"
       ],
       "requirements": [
         {

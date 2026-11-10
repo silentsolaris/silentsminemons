@@ -5,7 +5,7 @@
   "primaryType": "rock",
   "maleRatio": 0.5,
   "height": 2,
-  "weight": 80,
+  "weight": 180,
   "pokedex": [
     "cobblemon.species.parropot.desc"
   ],
@@ -204,7 +204,7 @@
     "secondaryType": "bug",
     "maleRatio": 0.5,
 	  "height": 2,
-	  "weight": 30,
+	  "weight": 230,
     "pokedex": [
       "cobblemon.species.parropot-honey-pot.desc"
     ],
@@ -341,7 +341,7 @@
     "secondaryType": "grass",
     "maleRatio": 0.5,
 	  "height": 2,
-	  "weight": 30,
+	  "weight": 185,
     "pokedex": [
         "cobblemon.species.parropot-flower-pot.desc"
     ],
@@ -475,7 +475,7 @@
     "secondaryType": "fire",
     "maleRatio": 0.5,
 	  "height": 2,
-	  "weight": 30,
+	  "weight": 190,
     "pokedex": [
       "cobblemon.species.parropot-candle-pot.desc"
     ],
@@ -611,7 +611,7 @@
     "secondaryType": "flying",
     "maleRatio": 0.5,
 	  "height": 2,
-	  "weight": 30,
+	  "weight": 191,
     "pokedex": [
       "cobblemon.species.parropot-quill-pot.desc"
     ],

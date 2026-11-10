@@ -6,7 +6,7 @@
   "secondaryType": "fighting",
   "maleRatio": 0.7,
   "height": 35,
-  "weight": 1400,
+  "weight": 1432,
   "pokedex": [
     "cobblemon.species.salsei.desc"
   ],
@@ -224,7 +224,7 @@
     "primaryType": "water",
     "secondaryType": "fighting",
 	  "height": 25,
-	  "weight": 500,
+	  "weight": 1754,
       "pokedex": [
         "cobblemon.species.salsei-mega.desc"
       ],

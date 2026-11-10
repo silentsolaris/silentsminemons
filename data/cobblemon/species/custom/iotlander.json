@@ -6,7 +6,7 @@
   "secondaryType": "psychic",
   "maleRatio": 0.3,
   "height": 1,
-  "weight": 15,
+  "weight": 1537,
   "pokedex": [
     "cobblemon.species.iotlander.desc"
   ],
@@ -264,7 +264,7 @@
     "primaryType": "bug",
     "secondaryType": "psychic",
 	  "height": 25,
-	  "weight": 500,
+	  "weight": 2537,
       "pokedex": [
         "cobblemon.species.iotlander-mega.desc"
       ],
@@ -282,11 +282,11 @@
       ],
       "baseStats": {
       "hp": 70,
-      "attack": 150,
-      "defence": 80,
-      "special_attack": 120,
-      "special_defence": 130,
-      "speed": 150
+      "attack": 160,
+      "defence": 120,
+      "special_attack": 150,
+      "special_defence": 140,
+      "speed": 60
       },
       "evolutions": [],
       "battleOnly": true,

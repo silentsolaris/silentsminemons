@@ -7,6 +7,6 @@
 		}
 	},
 	flags: {},
-	name: "Relentless",
+	name: "Hallowed Emperor",
 	rating: 4
 }

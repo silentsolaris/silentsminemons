@@ -216,12 +216,6 @@
     "cobblemon.move.splinteredaxe": "Splintered Axe",
     "cobblemon.move.splinteredaxe.desc": "The user slashes the target with a splintered axe. If the target is knocked out by this move, it lays two layers of spikes.",
 
-    "cobblemon.move.gmaxmadness": "G-Max Madness",
-    "cobblemon.move.gmaxmadness.desc": "A Psychic-type attack that Gigantamax Cephcery use. This move makes opponents only able to use attacking moves for a short time.",
-
-    "cobblemon.move.gmaxcountdown": "G-Max Countdown",
-    "cobblemon.move.gmaxcountdown.desc": "A Fairy-type attack that Gigantamax Jesteratus use. This move twists the dimensions, in which slower Pokémon get to move first for five turns.",
-
     "cobblemon.move.venombinding": "Venom Binding",
     "cobblemon.move.venombinding.desc": "The target is badly poisoned, and cannot flee or switch out.",
 
@@ -236,6 +230,24 @@
 
     "cobblemon.move.wispwisk": "Wisp Wisk",
     "cobblemon.move.wispwisk.desc": "The user fires a bullet of spectral energy. This may lower the target's attack.",
+
+    "cobblemon.move.tribulate": "Tribulate",
+    "cobblemon.move.tribulate.desc": "The user suspiciously attacks in order to confuse the target. If the user is Haddoster, it does Dark-Type damage.",
+
+    "cobblemon.move.concretion": "Concretion",
+    "cobblemon.move.concretion.desc": "The user compresses nearby earth onto itself, recovering half of its max hp and increasing its weight.",
+
+    "cobblemon.move.landscape": "Landscape",
+    "cobblemon.move.landscape.desc": "The plows the earth into the target. This move does both Ground-Type damage and corresponding Type damage of any active terrain.",
+
+    "cobblemon.move.gmaxmadness": "G-Max Madness",
+    "cobblemon.move.gmaxmadness.desc": "A Psychic-type attack that Gigantamax Cephcery use. This move makes opponents only able to use attacking moves for a short time.",
+
+    "cobblemon.move.gmaxcountdown": "G-Max Countdown",
+    "cobblemon.move.gmaxcountdown.desc": "A Fairy-type attack that Gigantamax Jesteratus use. This move twists the dimensions, in which slower Pokémon get to move first for five turns.",
+
+    "cobblemon.move.gmaxcolony": "G-Max Colony",
+    "cobblemon.move.gmaxcolony.desc": "A Bug-type attack that Gigantamax Isoptereign use. This move removes opponents items.",
 
     "cobblemon.ability.anarchist": "Anarchist",
     "cobblemon.ability.anarchist.desc": "This Pokémon's Sp. Def is raised but prevents the use of status moves",
@@ -286,8 +298,8 @@
     "cobblemon.ability.neurotoxin": "Neurotoxin",
     "cobblemon.ability.neurotoxin.desc": "Pokémon poisoned by the user's moves will also have their Speed stat lowered.",
 
-    "cobblemon.ability.savagery": "Savagery",
-    "cobblemon.ability.savagery.desc": "Instead of being confused, a random stat is raised.",
+    "cobblemon.ability.enlightenment": "Enlightenment",
+    "cobblemon.ability.enlightenment.desc": "Instead of being confused, a random stat is raised.",
 
     "cobblemon.ability.silvertongue": "Silver Tongue",
     "cobblemon.ability.silvertongue.desc": "This Pokémon's Steel-type moves may lower the target's speed.",
@@ -323,7 +335,7 @@
     "cobblemon.ability.timewarp.desc": "Once per battle, if Trick Room is active when this Pokémon enters the field, its Speed is harshly lowered and renews the Trick Room's timer.",
 
     "cobblemon.ability.houserules": "House Rules",
-    "cobblemon.ability.houserules.desc": "The Pokémon creates a bizarre area in which Pokémon’s held items lose their effects on switch in.",
+    "cobblemon.ability.houserules.desc": "On switch in, the Pokémon creates a bizarre area in which Pokémon’s held items lose their effects.",
 
     "cobblemon.ability.woundlicker": "Wound Licker",
     "cobblemon.ability.woundlicker.desc": "At the end of every turn this Pokémon licks the wounds of its partner, which slowly and steadily recovers its HP.",
@@ -334,6 +346,12 @@
     "cobblemon.ability.withering": "Withering",
     "cobblemon.ability.withering.desc": "The Pokémon's damaging Poison-type moves ignore immunities.",
 
-    "cobblemon.ability.brutality": "Brutality",
-    "cobblemon.ability.brutality.desc": "This Pokémon's destiny is bonded after knocking out another Pokémon."
+    "cobblemon.ability.angst": "Angst",
+    "cobblemon.ability.angst.desc": "Lowers the power of Fairy-Type moves of all Pokémon on the field.",
+
+    "cobblemon.ability.grimwalker": "Grim Walker",
+    "cobblemon.ability.grimwalker.desc": "Heals the Pokémon every time another Pokémon faints.",
+
+    "cobblemon.ability.hallowedemperor": "Hallowed Emperor",
+    "cobblemon.ability.hallowedemperor.desc": "The Pokémon ignores the move side effects of recharging, if said move caused another Pokémon to faint."
 }

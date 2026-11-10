@@ -6,7 +6,7 @@
   "secondaryType": "fairy",
   "maleRatio": 0.5,
   "height": 3,
-  "weight": 200,
+  "weight": 250,
   "pokedex": [
     "cobblemon.species.xomet.desc"
   ],
@@ -17,7 +17,7 @@
   "abilities": [
     "blaze",
     "blaze",
-    "h:levitate"
+    "h:fogflux"
   ],
   "eggGroups": [
     "field"

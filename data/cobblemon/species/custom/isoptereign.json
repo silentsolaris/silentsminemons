@@ -6,7 +6,7 @@
   "secondaryType": "rock",
   "maleRatio": 0.5,
   "height": 16,
-  "weight": 1400,
+  "weight": 1135,
   "pokedex": [
     "cobblemon.species.isoptereign.desc"
   ],
@@ -17,7 +17,7 @@
   "abilities": [
     "swarm",
     "supremeoverlord",
-    "h:tunnelvision"
+    "h:solidrock"
   ],
   "eggGroups": [
   "human_like",
@@ -124,6 +124,7 @@
     "1:honeclaws",
     "1:nightslash",
     "1:xscissor",
+    "1:concretion",
     "45:rockpolish",
     "54:rockwrecker",
     "tm:leechlife",
@@ -201,6 +202,7 @@
     "tm:metalclaw",
     "tm:ironhead",
     "tm:irondefense",
+    "tm:heavyslam",
     "egg:firstimpression",
     "egg:healorder",
     "egg:defendorder",
