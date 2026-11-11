@@ -1,11 +1,11 @@
 {
     onStart(pokemon) {
-		let activated = false;
+		if (pokemon.timeWarped) return;
 			if (this.field.getPseudoWeather('trickroom')) {
 				this.boost({ spe: -2 }, pokemon);
-				this.field.setPseudoWeather('trickroom');
-				this.field.setPseudoWeather('trickroom');
-				activated = true;
+				this.field.removePseudoWeather('trickroom');
+				this.field.addPseudoWeather('trickroom');
+				pokemon.timeWarped = true;
 			}
 		},
 		flags: {},
