@@ -76,7 +76,7 @@
     "cobblemon.species.ghasthma.desc": "It has taken its last breath, and it now wanders taking the air from the lungs of others. It seems to be in a constant state of discomfort.",
 
     "cobblemon.species.elatephyr.name": "Elatephyr",
-    "cobblemon.species.elatephyr.desc": "While it still has breathing problems, they have diminished, allowing it to live normally. It is acutely aware of weather patterns, and warns other Pokémon of upcoming meteorological disasters.",
+    "cobblemon.species.elatephyr.desc": "While it still has breathing problems, they have diminished, allowing it to live normally. It protects other Pokémon from strong winds.",
 
     "cobblemon.species.icken.name": "Icken",
     "cobblemon.species.icken.desc": "It is repulsive to most Pokémon, leaving it with no predators. It is surprisingly intelligent.",
@@ -155,6 +155,88 @@
 
     "cobblemon.species.cuddelavee.name": "Cuddelavee",
     "cobblemon.species.cuddelavee.desc": "It has become its true self, flaws and all. It has realized to accept itself, while still moving forward toward what it strives to be. It hates getting wet.",
+
+    "cobblemon.species.artiweb.name": "Artiweb",
+    "cobblemon.species.artiweb.desc": "It spends most of its time experimenting with different traps. Sometimes it overworks itself to unconsciousness.",
+
+    "cobblemon.species.weavisan.name": "Weavisan",
+    "cobblemon.species.weavisan.desc": "It's much more proficient in it's webs. This Pokémon's webbing could hold down even a Corviknight.",
+
+    "cobblemon.species.Operachne.name": "Operachne",
+    "cobblemon.species.Operachne.desc": "Legends tell of a walking mountain who could only be slain by finding the heart buried within. Historians theorize this Pokémon is what ancient people saw.",
+    
+    "cobblemon.species.haddester.name": "Haddester",
+    "cobblemon.species.haddester.desc": "Naive in nature, it travels in large schools. The movements a school of this Pokémon operate confuse its predators.",
+
+    "cobblemon.species.haddoster.name": "Haddoster",
+    "cobblemon.species.haddoster.desc": "Deceptive in nature, it hides in large schools. It slowly absorbs the life force of those nearby.",
+
+    "cobblemon.species.bagumisu.name": "Bagumisu",
+    "cobblemon.species.bagumisu.desc": "Tales of a blacksmith who threw out a shattered blade, only to find not only repaired, but enhanced, are commonly attributed to this Pokémon.",
+
+    "cobblemon.species.hotaroji.name": "Hotaroji",
+    "cobblemon.species.hotaroji.desc": "It has a fascination with metals of all kinds. Steel-Type Pokémon seek it out to mend the cracks in their armor.",
+
+    "cobblemon.species.zhuzu.name": "Zhuzu",
+    "cobblemon.species.zhuzu.desc": "A forebearer of good fortune. It is said that owning a Zhuzu leads to a long life.",
+
+    "cobblemon.species.whanguzi.name": "Whanguzi",
+    "cobblemon.species.whanguzi.desc": "It trains in mystical arts every day in preparation for it's destiny. The berries that it grows are said to make one younger.",
+
+    "cobblemon.species.chirowufu.name": "Chirowufu",
+    "cobblemon.species.chirowufu.desc": "A guardian of the spirit world. It protects souls passing on to the afterlife from malicious Ghost-Type Pokémon like Gourgeist.",
+
+    "cobblemon.species.salastar.name": "Salastar",
+    "cobblemon.species.salastar.desc": "Always watching the night sky, it waits patiently for the next meteor shower.",
+
+    "cobblemon.species.xomet.name": "Xomet",
+    "cobblemon.species.xomet.desc": "It is said to be born from an asteroid. It derives it's power from the night sky.",
+
+    "cobblemon.species.azolotl.name": "Azolotl",
+    "cobblemon.species.azolotl.desc": "In ancient times it was feared as a god of destruction. It's celestial power is said to be unstoppable.",
+
+    "cobblemon.species.bachi.name": "Bachi",
+    "cobblemon.species.bachi.desc": "Rash and strong-willed. The bubbles on it's body seem to irritate it, and can't seem to be ever washed off.",
+
+    "cobblemon.species.bulbull.name": "Bulbull",
+    "cobblemon.species.bulbull.desc": "It has learned something of great importance, patience. It meditates under waterfalls contemplating something unknown. The bubbles begin to wash away.",
+
+    "cobblemon.species.bhaima.name": "Bhaima",
+    "cobblemon.species.bhaima.desc": "It harnesses the power of the underworld. It brought ruin to those who dared defy its rule, or so it's said.",
+
+    "cobblemon.species.crablet.name": "Crablet",
+    "cobblemon.species.crablet.desc": "It's shell protects it well from falling debris. It fights other Crablet for territory, the one with the biggest claw usually wins.",
+
+    "cobblemon.species.craybolt.name": "Craybolt",
+    "cobblemon.species.craybolt.desc": "It fires shrapnel from its large claw to bolt material together. It spends most of it's time constructing elaborate structures only to destroy them and begin again.",
+
+    "cobblemon.species.crustruct.name": "Crustruct",
+    "cobblemon.species.crustruct.desc": "In prehistoric times this Pokémon lived in the ocean. It has become an issue in populated areas, as it sees homes as prime material to plow through.",
+
+    "cobblemon.species.foalae.name": "Foalae",
+    "cobblemon.species.foalae.desc": "It consumes all vegetation it comes across, no matter how spoiled it may be. It is considered a pest.",
+
+    "cobblemon.species.cleggary.name": "Cleggary",
+    "cobblemon.species.cleggary.desc": "Considered an embodiment of Gluttony, it has led to the fall of many civilizations by the destruction of their food supplies.",
+
+    "cobblemon.species.illecolt.name": "Illecolt",
+    "cobblemon.species.illecolt.desc": "Not typically found in the wild, it wanders dejected, unaccepted and unwanted by most. It has a kinship with Icken & Cluckenstein.",
+
+    "cobblemon.species.hypaquest.name": "Hypaquest",
+    "cobblemon.species.hypaquest.desc": "Both powerful and ruthless. It is said that an ancient king's victories across the land can be attributed to the Hypaquest always by his side.",
+
+    "cobblemon.species.skelute.name": "Skelute",
+    "cobblemon.species.skelute.desc": "A shy Pokémon, the rattling of it's bones can be heard clearly even underwater.",
+
+    "cobblemon.species.vessilage.name": "Vessilage",
+    "cobblemon.species.vessilage.desc": "It walkes across the water dragging vegetation like kelp with it. Pokémon caught in it's wake are dragged with it and meet a gruesome fate.",
+
+    "cobblemon.species.burrowne.name": "Burrowne",
+    "cobblemon.species.burrowne.desc": "Using a shard of bone, it excavates tunnels for it's colony. It has a striking resemblance to Bowne.",
+
+    "cobblemon.species.isoptereign.name": "Isoptereign",
+    "cobblemon.species.isoptereign.desc": "It commands legions of Burrowne to do it's bidding, while lounging about. It has a terrifyingly close resemblance to Withereign.",
+    "cobblemon.species.isoptereign-gmax.desc": "It behaves like a walking fortress. One of these Pokémon once layed seige to a city. The Burrowne within defended it with all their might.",
 
     "cobblemon.move.badinput": "Bad Input",
     "cobblemon.move.badinput.desc": "This move inflicts physical or special damage, whichever will be more effective. The user distorts the fabric of reality, randomizing its type in the process.",
@@ -353,5 +435,8 @@
     "cobblemon.ability.grimwalker.desc": "Heals the Pokémon every time another Pokémon faints.",
 
     "cobblemon.ability.hallowedemperor": "Hallowed Emperor",
-    "cobblemon.ability.hallowedemperor.desc": "The Pokémon ignores the move side effects of recharging, if said move caused another Pokémon to faint."
+    "cobblemon.ability.hallowedemperor.desc": "The Pokémon ignores the move side effects of recharging, if said move caused another Pokémon to faint.",
+
+    "cobblemon.ability.faker": "Faker",
+    "cobblemon.ability.faker.desc": "If hit by an attack, transforms into it's Revealed Forme."
 }

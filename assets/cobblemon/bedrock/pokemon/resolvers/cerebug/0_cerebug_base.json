@@ -25,7 +25,7 @@
                 {
                       "name": "emissive",
                       "emissive": true,
-                      "texture": "cobblemon:textures/pokemon/cerebug/cerebug_shiny_emissive.png",
+                      "texture": "cobblemon:textures/pokemon/cerebug/cerebug_emissive_shiny.png",
                       "translucent": true
                 }
               ]
