@@ -6,11 +6,11 @@
 		name: "Venom Binding",
 		pp: 5,
 		priority: 0,
-		flags: { reflectable: 1, mirror: 1, metronome: 1 },
+		flags: { protect: 1, reflectable: 1, mirror: 1, metronome: 1 },
 		volatileStatus: 'partiallytrapped',
         status: 'tox',
 		target: "normal",
-		type: "Normal",
+		type: "Poison",
 		zMove: { boost: { spd: 1 } },
 		contestType: "Tough",
 }
