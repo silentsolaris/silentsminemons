@@ -139,7 +139,6 @@
     "45:gunkshot",
     "tm:pursuit",
     "tm:haze",
-    "tm:mist",
     "tm:snowscape",
     "tm:icefang",
     "tm:thunderfang",
@@ -149,16 +148,12 @@
     "tm:raindance",
     "tm:poisonjab",
     "tm:gunkshot",
-    "tm:aquajet",
-    "tm:aquacutter",
     "tm:dive",
     "tm:surf",
     "tm:iciclespear",
     "tm:icespinner",
-    "tm:iciclecrash",
     "tm:avalanche",
     "tm:nightslash",
-    "tm:slash",
     "tm:blizzard",
     "tm:icebeam",
     "tm:sludgebomb",
@@ -167,7 +162,6 @@
     "tm:icywind",
     "tm:toxicspikes",
     "tm:stealthrock",
-    "tm:wideguard",
     "tm:curse",
     "tm:venoshock",
     "tm:clearsmog",
@@ -250,6 +244,9 @@
     "tm:snatch",
     "tm:snarl",
     "tm:charm",
+    "egg:slash",
+    "egg:aquacutter",
+    "egg:aquajet",
     "egg:pursuit",
     "egg:slackoff",
     "egg:obstruct",
@@ -271,7 +268,7 @@
       "result": "shivor",
       "consumeHeldItem": false,
       "learnableMoves": [
-	  "pursuit"
+	  "slash"
 	  ],
       "requirements": [
         {

@@ -119,7 +119,6 @@
     "tm:sleeptalk",
     "tm:substitute",
     "tm:endure",
-    "tm:hiddenpower",
     "tm:attract",
     "tm:terablast",
     "special:celebrate",
@@ -149,7 +148,6 @@
     "tm:bodyslam",
     "tm:doubleedge",
     "tm:snarl",
-    "tm:flatter",
     "tm:swagger",
     "tm:headbutt",
     "tm:roar",
@@ -166,7 +164,6 @@
     "tm:bodypress",
     "tm:stoneedge",
     "tm:lashout",
-    "tm:thrash",
     "tm:taunt",
     "tm:swift",
     "tm:hypervoice",
@@ -186,7 +183,6 @@
     "tm:ironhead",
     "tm:lastresort",
     "tm:magiccoat",
-    "tm:counter",
     "tm:metronome",
     "tm:payback",
     "tm:pursuit",
@@ -217,7 +213,9 @@
     "tm:vacuumwave",
     "tm:workup",
     "tm:waterpulse",
-    "tm:helpinghand"
+    "tm:helpinghand",
+    "egg:counter",
+    "egg:flatter"
   ],
  "evolutions": [
      {
